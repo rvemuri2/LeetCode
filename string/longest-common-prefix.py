@@ -5,8 +5,9 @@ class Solution:
 
         for i in range(len(strs[0])):
 
-            for k in strs:
+            for k in strs[1:]:
 
+                print(k)
                 if(i == len(k) or strs[0][i] != k[i]):
                     return res
             
