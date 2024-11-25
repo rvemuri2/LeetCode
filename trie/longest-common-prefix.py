@@ -5,9 +5,9 @@ class Solution:
 
         for i in range(len(strs[0])):
 
-            for j in strs:
+            for k in strs:
 
-                if(i == len(j) or strs[0][i] != j[i]):
+                if(i == len(k) or strs[0][i] != k[i]):
                     return res
             
             res += strs[0][i]
