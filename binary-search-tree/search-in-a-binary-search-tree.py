@@ -16,5 +16,3 @@ class Solution:
             return self.searchBST(root.left, val)
         else:
             return root
-        
-        return root
