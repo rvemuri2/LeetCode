@@ -21,7 +21,7 @@ class Solution:
             if left.val != right.val:
                 return False
             
-            return dfs(left.left, right.right)
+            return dfs(left.left, right.right) and dfs(left.right, right.left)
         
         return dfs(root.left, root.right)
 
