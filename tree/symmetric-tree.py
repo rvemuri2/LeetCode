@@ -25,19 +25,5 @@ class Solution:
         
         return dfs(root.left, root.right)
 
-        # if not root:
-        #     return True
-        
-        # if root.right != root.left:
-        #     return False
-        
-        # if root.right == root.left:
-        #     return True
-
-        # # left = self.isSymmetric(root.left)
-        # # right = self.isSymmetric(root.right)
-    
-        # return self.isSymmetric(root.left) and self.isSymmetric(root.right)
-
         
         
