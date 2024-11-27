@@ -13,7 +13,7 @@ class Solution:
         def dfs(root, leafArr):
 
             if not root:
-                return
+                return None
             if not root.left and not root.right:
                 leafArr.append(root.val)
                 return
