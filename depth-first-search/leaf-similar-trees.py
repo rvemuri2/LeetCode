@@ -7,26 +7,24 @@
 class Solution:
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
 
-        def dfs(left, right):
+        arr1 = []
+        arr2 = []
 
-            if not left and not right:
-                return True
-        
-            if not left and right:
-                return False
-        
-            if not right and left:
-                return False
+        def dfs(root, leafArr):
 
-            if not left.left and not left.right and not right.left and not right.right and left.val == right.val:
-                return True
+            if not root:
+                return
+            if not root.left and not root.right:
+                leafArr.append(root.val)
+                return
             
-            if not left.left and not left.right and not right.left and not right.right and left.val != right.val:
-                return False
-            
-            return dfs(left.left, right.left) or dfs(left.right, right.right)
+            dfs(root.left, leafArr)
+            dfs(root.right, leafArr)
         
-        return dfs(root1, root2)
+        dfs(root1, arr1)
+        dfs(root2, arr2)
+
+        return arr1 == arr2
        
         
 
