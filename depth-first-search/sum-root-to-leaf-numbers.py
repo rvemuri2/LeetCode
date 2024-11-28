@@ -13,19 +13,15 @@ class Solution:
             if not node:
                 return 0
 
-            # Calculate the new sum for the current node
             current_sum = current_sum * 10 + node.val
 
-            # If the node is a leaf, add the current sum to the total
             if not node.left and not node.right:
                 self.total_sum += current_sum
                 return self.total_sum
 
-            # Recur for the left and right subtrees
             dfs(node.left, current_sum)
             dfs(node.right, current_sum)
         
-        # Start DFS from the root
         dfs(root, 0)
         
         return self.total_sum
