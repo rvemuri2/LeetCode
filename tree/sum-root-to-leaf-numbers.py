@@ -7,15 +7,25 @@
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
 
-        def dfs(root, num):
-            if not root:
-                return 0
-            
-            num = num * 10 + root.val
-
-            if not root.left and not root.right:
-                return num
-            
-            return dfs(root.left, num) + dfs(root.right, num)
+        self.total_sum = 0
         
-        return dfs(root, 0)
+        def dfs(node, current_sum):
+            if not node:
+                return 0
+
+            # Calculate the new sum for the current node
+            current_sum = current_sum * 10 + node.val
+
+            # If the node is a leaf, add the current sum to the total
+            if not node.left and not node.right:
+                self.total_sum += current_sum
+                return self.total_sum
+
+            # Recur for the left and right subtrees
+            dfs(node.left, current_sum)
+            dfs(node.right, current_sum)
+        
+        # Start DFS from the root
+        dfs(root, 0)
+        
+        return self.total_sum
