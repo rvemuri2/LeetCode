@@ -3,7 +3,7 @@ class Solution:
 
         low = 1
         high = max(piles)
-        res = high
+        res = float('infinity')
 
         while(low <= high):
 
