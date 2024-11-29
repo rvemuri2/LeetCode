@@ -17,12 +17,7 @@ class Solution:
                 bottom = row - 1
             else:
                 break
-            
         
-        if not (top <= bottom):
-            return False
-        
-
         left = 0
         right = columns - 1
 
