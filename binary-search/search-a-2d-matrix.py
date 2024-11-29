@@ -7,7 +7,7 @@ class Solution:
         top = 0
         bottom = rows - 1
 
-        #Get the correct row to implement binary search
+        
         while(top <= bottom):
             mid = (top + bottom) // 2
 
@@ -24,7 +24,6 @@ class Solution:
         
         row = (top + bottom) // 2
         
-        #now do binary search on the exact row
 
         left = 0
         right = columns - 1
