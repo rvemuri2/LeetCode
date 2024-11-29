@@ -7,7 +7,7 @@ class Solution:
 
         while(l <= r):
             if(nums[l] < nums[r]):
-                res = min(res, nums[l])
+                res = nums[l]
                 break
 
             mid = (l + r) // 2
