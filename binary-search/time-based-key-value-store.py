@@ -5,8 +5,7 @@ class TimeMap:
         
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        if key not in self.hash:
-            self.hash[key] = []
+        self.hash[key] = self.hash.get(key, [])
         self.hash[key].append([value, timestamp])
 
     def get(self, key: str, timestamp: int) -> str:
