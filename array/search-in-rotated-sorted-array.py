@@ -7,6 +7,8 @@ class Solution:
         while(l <= r):
 
             mid = (r + l) // 2
+            if(target == nums[mid]):
+                return mid
 
             if(nums[l] <= nums[r]):
                 if(target == nums[mid]):
@@ -16,10 +18,7 @@ class Solution:
                 else:
                     r = mid - 1
             
-
-            if target == nums[mid]:
-                return mid
-            elif(nums[mid] >= nums[l]):
+            if(nums[mid] >= nums[l]):
                 if(target > nums[mid] or target < nums[l]):
                     l = mid + 1
                 else:
