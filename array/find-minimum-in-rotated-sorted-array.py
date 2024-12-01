@@ -11,15 +11,14 @@ class Solution(object):
         while(l <= r):
             mid = (l + r) // 2
             if(nums[l] < nums[r]):
-                mid = l
-                return nums[mid]
+                return nums[l]
 
             result = min(result, mid)
 
-            if(nums[l] >= mid):
+            if(nums[mid] >= nums[l]):
                 l = mid + 1
             else:
                 r = mid - 1
         
-        return nums[mid]
+        return nums[result]
         
