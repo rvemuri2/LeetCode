@@ -10,8 +10,7 @@ class Solution(object):
 
         while(l <= r):
             if(nums[l] < nums[r]):
-                result = min(result, nums[l])
-                break
+                return nums[l]
             
             mid = (l + r) // 2
 
