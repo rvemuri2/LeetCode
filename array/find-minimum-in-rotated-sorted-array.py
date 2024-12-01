@@ -9,9 +9,11 @@ class Solution(object):
         result = 100000000000000
 
         while(l <= r):
-            mid = (l + r) // 2
             if(nums[l] < nums[r]):
-                return nums[l]
+                result = min(result, nums[l])
+                break
+            
+            mid = (l + r) // 2
 
             result = min(result, nums[mid])
 
