@@ -13,7 +13,7 @@ class Solution(object):
             if(nums[l] < nums[r]):
                 return nums[l]
 
-            result = min(result, mid)
+            result = min(result, nums[mid])
 
             if(nums[mid] >= nums[l]):
                 l = mid + 1
