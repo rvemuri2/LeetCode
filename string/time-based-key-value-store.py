@@ -17,7 +17,7 @@ class TimeMap(object):
 
         while(l <= r):
             mid = (l + r) // 2
-            if(values[mid][1] <= timestamp):
+            if(values[mid][-1] <= timestamp):
                 res = values[mid][0]
                 l = mid + 1
             else:
