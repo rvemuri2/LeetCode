@@ -16,10 +16,10 @@ class Solution:
 
             maxVal = max(maxVal, root.val)
             
-            good += dfs(root.left, maxVal)
-            good += dfs(root.right, maxVal)
+            left = dfs(root.left, maxVal)
+            right = dfs(root.right, maxVal)
 
-            return good
+            return good + left + right
 
         return dfs(root, root.val)
 
