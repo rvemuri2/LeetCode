@@ -1,11 +1,15 @@
 # Definition for a binary tree node.
-# class TreeNode:
+# class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
-    def isSymmetric(self, root: Optional[TreeNode]) -> bool:
+class Solution(object):
+    def isSymmetric(self, root):
+        """
+        :type root: Optional[TreeNode]
+        :rtype: bool
+        """
 
         def dfs(left, right):
 
@@ -24,6 +28,4 @@ class Solution:
             return dfs(left.left, right.right) and dfs(left.right, right.left)
         
         return dfs(root.left, root.right)
-
-        
         
