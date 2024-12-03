@@ -14,19 +14,3 @@ class Solution:
             res += s[count:]
         
         return res
-
-        
-
-        # while(s_index < len(spaces)):     
-
-        #     if(count == spaces[s_index]):
-        #         res += " "
-        #         s_index += 1
-
-        #     res += s[count]
-            
-        #     count += 1
-        
-        # if count < len(s):
-        #     res += s[count:]
-        # return res
