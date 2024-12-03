@@ -4,10 +4,9 @@ class Solution:
 
         for i in range(len(strs[0])):
 
-            for k in range(1, len(strs)):
-                if(i == len(strs) or strs[0][i] != strs[k][i]):
+            for k in strs[1:]:
+                if(i == len(k) or strs[0][i] != k[i]):              
                     return strs[0][:i]
-            
         return strs[0]
         
 
