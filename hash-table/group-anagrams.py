@@ -1,4 +1,4 @@
-import collections from defaultdict
+from collections import defaultdict
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         map = defaultdict(list)
@@ -10,8 +10,8 @@ class Solution:
                 arr[ord(j) - ord("a")] += 1
 
             map[tuple(arr)].append(i)
-
-        return map.values()
+        
+        return list(map.values())
             
             
 
