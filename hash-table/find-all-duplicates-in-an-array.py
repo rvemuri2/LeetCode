@@ -5,10 +5,10 @@ class Solution:
 
         for i in range(len(nums)):
 
-            if(-1 * nums[i] in nums):
+            if(-nums[i] in nums):
                 arr.append(nums[i])
             
-            nums[i] = -1 * nums[i]
+            nums[i] = -nums[i]
         
         return arr
         
