@@ -3,12 +3,14 @@ class Solution:
 
         arr = []
 
-        for i in range(len(nums)):
+        for i in nums:
 
-            if(-nums[i] in nums):
-                arr.append(nums[i])
+            i = abs(i)
+
+            if (nums[i - 1] < 0):
+                arr.append(i)
             
-            nums[i] = -nums[i]
+            nums[i-1] = -nums[i-1]
         
         return arr
         
