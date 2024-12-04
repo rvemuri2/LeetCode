@@ -11,14 +11,18 @@ class Solution:
         while(l < len(str1) and r < len(str2)):
 
             if(ord(str1[l]) - ord(str2[r]) == -1 or ord(str1[l]) - ord(str2[r]) == 25):
-                return True
+                l += 1
+                r += 1
             elif(str1[l] == str2[r]):
                 l += 1
                 r += 1
             else:
                 l += 1
 
-        return False
+        if r > len(str2) - 1:
+            return True
+        else:
+            return False
 
 
 
