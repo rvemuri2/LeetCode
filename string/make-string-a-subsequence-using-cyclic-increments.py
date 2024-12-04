@@ -5,6 +5,9 @@ class Solution:
         r = 0
         count = 0
 
+        if(str1 == str2):
+            return True
+
         while(l < len(str1) and r < len(str2)):
 
             if(ord(str1[l]) - ord(str2[r]) == -1 or ord(str1[l]) - ord(str2[r]) == 25):
