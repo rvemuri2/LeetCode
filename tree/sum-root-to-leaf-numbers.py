@@ -17,7 +17,6 @@ class Solution:
 
             if not node.left and not node.right:
                 self.total_sum += current_sum
-                return self.total_sum
 
             dfs(node.left, current_sum)
             dfs(node.right, current_sum)
