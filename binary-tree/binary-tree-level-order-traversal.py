@@ -9,14 +9,15 @@ class Solution:
         queue = deque()
         res = []
 
-        if root:
-            queue.append(root)
+        
+        queue.append(root)
 
         while len(queue) > 0:
             level = []
             for i in range(len(queue)):
                 curr = queue.popleft()
-                level.append(curr.val)
+                if root:
+                    level.append(curr.val)
                 if curr.left:
                     queue.append(curr.left)
                 if curr.right:
