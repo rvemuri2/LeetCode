@@ -16,11 +16,9 @@ class Solution:
             level = []
             for i in range(len(queue)):
                 curr = queue.popleft()
-                if root:
+                if curr:
                     level.append(curr.val)
-                if curr.left:
                     queue.append(curr.left)
-                if curr.right:
                     queue.append(curr.right)
             if(level):
                 res.append(level)
