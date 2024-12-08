@@ -7,6 +7,9 @@
 class Solution:
     def minDepth(self, root: Optional[TreeNode]) -> int:
 
+        if not root:
+            return 0
+
         self.min = float('inf')
 
         def dfs(root, num):
