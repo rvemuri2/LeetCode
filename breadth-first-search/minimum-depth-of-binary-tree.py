@@ -9,6 +9,9 @@ class Solution:
 
         q = deque([root])
 
+        if not root:
+            return 0
+
         level = 0
         while(q):
             level += 1
