@@ -14,11 +14,16 @@ class Solution:
 
             if(R - L + 1 == len(s1)):
 
-                if(count_s1 == count_s2):
+                if(count_s2 == count_s1):
                     return True
                 else:
-                    del count_s2[s2[L]]
+                    count_s2[s2[L]] -= 1
+                    if(count_s2[s2[L]] == 0):
+                        del count_s2[s2[L]]
                     L += 1
+
+        print(count_s2)
+        print(count_s1)
         
         return False
 
