@@ -7,9 +7,7 @@
 class Solution:
     def isCompleteTree(self, root: Optional[TreeNode]) -> bool:
 
-        q = deque()
-
-        q.append(root)
+        q = deque([root])
 
         while(len(q) > 0):
             curr = q.popleft()
@@ -20,7 +18,6 @@ class Solution:
                 while q:
                     if q.popleft():
                         return False
-            
         return True
             
 
