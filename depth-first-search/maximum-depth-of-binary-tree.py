@@ -7,13 +7,15 @@
 class Solution(object):
     def maxDepth(self, root):
         
-        def dfs(root):
-            if not root:
-                return 0
-            
-            left = dfs(root.left)
-            right = dfs(root.right)
+        q = deque([root])
 
-            return (1 + max(left, right))
+        level = 0
+        while(q):
+            for i in range(len(q)):
+                curr = q.popleft()
+                if(curr):
+                    q.append(curr.left)
+                    q.append(curr.right)
+            level += 1
         
-        return dfs(root)
+        return level - 1
