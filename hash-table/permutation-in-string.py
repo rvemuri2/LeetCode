@@ -21,9 +21,6 @@ class Solution:
                     if(count_s2[s2[L]] == 0):
                         del count_s2[s2[L]]
                     L += 1
-
-        print(count_s2)
-        print(count_s1)
         
         return False
 
