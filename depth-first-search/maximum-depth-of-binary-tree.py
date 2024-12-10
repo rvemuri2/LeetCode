@@ -11,11 +11,11 @@ class Solution(object):
 
         level = 0
         while(q):
+            level += 1
             for i in range(len(q)):
                 curr = q.popleft()
                 if(curr):
                     q.append(curr.left)
                     q.append(curr.right)
-            level += 1
         
         return level - 1
