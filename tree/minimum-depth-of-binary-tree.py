@@ -17,11 +17,11 @@ class Solution:
             level += 1
             for i in range(len(q)):
                 curr = q.popleft()
+                if not curr:
+                    continue
                 if(not curr.right and not curr.left):
                     return level
-                if(curr.left):
-                    q.append(curr.left)
-                if(curr.right):
-                    q.append(curr.right)
+                q.append(curr.left)
+                q.append(curr.right)
         
         return level
