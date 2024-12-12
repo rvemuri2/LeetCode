@@ -7,9 +7,11 @@ class Solution:
 
         for key, val in freq.items():
             if(len(heap) < k):
-                heapq.heappush(heap, (key))
+                heapq.heappush(heap, (val, key))
+            else:
+                heapq.heappushpop(heap, (val, key))
         
-        return heap[:k+1]
+        return [h[1] for h in heap]
 
                 
 
