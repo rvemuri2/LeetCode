@@ -1,15 +1,11 @@
 class Solution:
     def kthLargestNumber(self, nums: List[str], k: int) -> str:
 
-        nums_2 = []
 
         heap = []
-
-        for i in nums:
-            nums_2.append(int(i))
         
-        for num in nums_2:
-            heapq.heappush(heap, -num)
+        for num in nums:
+            heapq.heappush(heap, -int(num))
         
         while(k > 0):
             val = heapq.heappop(heap)
