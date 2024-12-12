@@ -19,9 +19,8 @@ class Solution:
 
         while queue:
             prev = None  # Track the previous node in the same level
-            level_size = len(queue)
 
-            for _ in range(level_size):  # Process all nodes in the current level
+            for _ in range(len(queue)):  # Process all nodes in the current level
                 curr = queue.popleft()
                 if prev:
                     prev.next = curr  # Connect the previous node's next pointer to current node
