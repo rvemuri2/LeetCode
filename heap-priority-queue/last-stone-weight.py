@@ -5,8 +5,6 @@ class Solution:
         for num in stones:
             heapq.heappush(max_heap, -num)
         
-        print(max_heap)
-        
         while(len(max_heap) > 1):
             stone1 = -heapq.heappop(max_heap)
             stone2 = -heapq.heappop(max_heap)
