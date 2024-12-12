@@ -13,7 +13,7 @@ class Solution:
 
             val = math.sqrt(calc)
 
-            graph[tuple(i)] = val
+            graph[tuple(i)] = graph.get(tuple(i), 0) + val
         
         for key, val in graph.items():
             if(len(heap) < k):
