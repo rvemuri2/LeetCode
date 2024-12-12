@@ -10,8 +10,14 @@ class Solution:
                 heapq.heappush(heap, (val, key))
             else:
                 heapq.heappushpop(heap, (val, key))
+
+        res = []
+        while(heap):
+            frequency, element = heapq.heappop(heap)
+            res.append(element)
         
-        return [h[1] for h in heap]
+        return res
+
 
                 
 
