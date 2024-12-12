@@ -16,6 +16,8 @@ class Solution:
             elif(stone2 > stone1):
                 heapq.heappush(max_heap, -(stone2 - stone1))
 
-        
-        return abs(max_heap[0])
+        if(max_heap):
+            return abs(max_heap[0])
+        else:
+            return 0
         
