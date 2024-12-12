@@ -1,34 +1,20 @@
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
 
-        graph = defaultdict(float)
+        minHeap = []
 
-        heap = []
+        for x, y in points:
+            calc = (x ** 2) + (y ** 2)
+            minHeap.append([calc, x, y])
 
+        heapq.heapify(minHeap)
         res = []
 
-        for i in points:
-
-            calc = math.pow(i[0], 2) + math.pow(i[1], 2)
-
-            val = math.sqrt(calc)
-
-            graph[tuple(i)] = graph.get(tuple(i), 0) + val
+        while(k > 0):
+            val = heapq.heappop(minHeap)
+            res.append([val[1], val[2]])
+            k -= 1
         
-        for key, val in graph.items():
-            if(len(heap) < k):
-                heapq.heappush(heap, (-val, key))
-            else:
-                heapq.heappushpop(heap, (-val, key))
-        
-        print(heap)
-        while(heap):
-            freq, element = heapq.heappop(heap)
-            res.append(element)
-
-        
-
-        print(graph)
         return res
         
         
