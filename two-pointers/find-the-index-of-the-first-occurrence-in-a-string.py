@@ -6,7 +6,7 @@ class Solution:
         for i in range(len(haystack)):
             
             if(haystack[i:l] == needle):
-                return r
+                return i
 
             l += 1
         
