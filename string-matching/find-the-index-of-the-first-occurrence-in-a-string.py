@@ -3,6 +3,9 @@ class Solution:
 
         l = len(needle)
         r = 0
+        if(len(haystack) == 1):
+            if(haystack == needle):
+                return 0
         while(r < len(haystack) and l < len(haystack)):
 
             if(haystack[r:l] == needle):
