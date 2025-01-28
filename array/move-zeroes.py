@@ -13,11 +13,6 @@ class Solution:
                 nums[l], nums[r] = nums[r], nums[l]
                 r += 1
                 l += 1
-            
-            if(nums[l] != 0 and nums[r] == 0):
-                nums[l], nums[r] = nums[r], nums[l]
-                r += 1
-                l += 1
         
         return nums
         
