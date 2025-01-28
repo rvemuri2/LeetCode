@@ -3,7 +3,7 @@ class Solution:
         l = 0
         r = 1
 
-        while(r < len(nums)):
+        while(r < len(nums) and l < len(nums)):
             if(nums[l] == 0 and nums[r] == 0):
                 r += 1
             
