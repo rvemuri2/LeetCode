@@ -9,6 +9,10 @@ class Solution:
                 nums[l], nums[r] = nums[r], nums[l]
                 l += 1
             
+            if(nums[l] != 0 and nums[r] == 0):
+                l += 1
+            
+            
             r+=1
         
         return nums
