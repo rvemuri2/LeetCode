@@ -10,7 +10,7 @@ class Solution:
             r -= 1
             count += 1
 
-            if(l <= r and remain >= people[r]):
+            if(l <= r and remain >= people[l]):
                 l += 1
 
         return count
