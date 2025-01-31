@@ -5,14 +5,13 @@ class Solution:
         l, r = 0, len(people) - 1
 
         while r >= l:
-            # Always count the boat
+
             count += 1
 
-            # If the lightest and heaviest can share a boat
             if people[r] + people[l] <= limit:
-                l += 1  # Move left pointer
+                l += 1
 
-            r -= 1  # Move right pointer (heaviest person always leaves)
+            r -= 1 
 
         return count
 
