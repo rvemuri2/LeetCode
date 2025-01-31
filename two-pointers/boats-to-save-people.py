@@ -6,12 +6,12 @@ class Solution:
 
         while r >= l:
 
+            remain = limit - people[r]
+            r -= 1
             count += 1
 
-            if people[r] + people[l] <= limit:
+            if(l <= r and remain >= people[r]):
                 l += 1
-
-            r -= 1 
 
         return count
 
