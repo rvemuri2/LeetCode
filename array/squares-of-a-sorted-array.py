@@ -9,12 +9,12 @@ class Solution:
 
             if(abs(nums[r]) > abs(nums[l])):
 
-                arr.insert(0, nums[r] * nums[r])
+                arr.append(nums[r] * nums[r])
                 r -= 1
             
             else:
-                arr.insert(0, nums[l] * nums[l])
+                arr.append(nums[l] * nums[l])
                 l += 1
             
-        return arr
+        return arr[::-1]
         
