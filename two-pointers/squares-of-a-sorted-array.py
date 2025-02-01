@@ -12,11 +12,7 @@ class Solution:
                 arr.insert(0, nums[r] * nums[r])
                 r -= 1
             
-            if(abs(nums[l]) > abs(nums[r])):
-                arr.insert(0, nums[l] * nums[l])
-                l += 1
-            
-            if(abs(nums[l]) == abs(nums[r])):
+            else:
                 arr.insert(0, nums[l] * nums[l])
                 l += 1
             
