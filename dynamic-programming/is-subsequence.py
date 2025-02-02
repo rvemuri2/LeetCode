@@ -3,6 +3,7 @@ class Solution:
 
         l = 0
         r = 0
+        count = 0
 
         if(len(s) == 0 and len(t) > 0):
             return True
@@ -10,15 +11,16 @@ class Solution:
         if(len(s) == 0 and len(t) == 0):
             return True
 
-        while(l < len(s) - 1 and r < len(t) - 1):
+        while(l < len(s) and r < len(t)):
 
             if(s[l] == t[r]):
                 l += 1
+                count += 1
             
             r += 1
         
-        if(l != len(s) - 1):
-            return False
-        else:
+        if(count == len(s)):
             return True
+        else:
+            return False
         
