@@ -1,17 +1,17 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
 
-        c = Counter(nums)
-        val = 0
-        k = 0
-        for key, value in c.items():
+        count = 0
+        res = 0
 
-            if(value > val):
-                val = value
-                k = key
+        for i in nums:
 
-
-        return k
+            if(count == 0):
+                res = i
+            
+            count += (1 if i == res else -1)
+        
+        return res
 
         
         
