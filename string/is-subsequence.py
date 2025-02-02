@@ -4,6 +4,9 @@ class Solution:
         l = 0
         r = 0
 
+        if(len(s) == 0 and len(t) > 0):
+            return False
+
         while(l < len(s) - 1 and r < len(t) - 1):
 
             if(s[l] == t[r]):
