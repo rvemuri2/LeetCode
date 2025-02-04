@@ -1,12 +1,11 @@
 class Solution:
     def removeDuplicates(self, s: str) -> str:
 
-        str1 = ""
         arr = []
 
         for i in s:
 
-            if i in arr:
+            if arr and arr[-1] == i:
 
                 arr.pop()
             
