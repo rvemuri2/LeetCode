@@ -12,6 +12,8 @@ class MinStack:
         else:
             if(self.min[-1] > val):
                 self.min.append(val)
+            else:
+                self.min.append(self.min[-1])
 
     def pop(self) -> None:
         self.arr.pop()
