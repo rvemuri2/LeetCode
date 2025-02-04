@@ -15,9 +15,6 @@ class Solution:
                 arr.append(i)
             
             if(i in h):
-
-                if(len(arr) == 0):
-                    return False
                 
                 if(arr[-1] != h[i] and len(arr) > 0):
                     return False
