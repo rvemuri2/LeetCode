@@ -8,7 +8,7 @@ class Solution:
 
             if i in arr:
 
-                arr.remove(i)
+                arr.pop()
             
             else:
                 arr.append(i)
