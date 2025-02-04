@@ -1,11 +1,12 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        
-        h = set()
-        for i in range(len(nums)):
-            if(nums[i] in h):
+
+        c = Counter(nums)
+
+        for i in c.values():
+
+            if i > 1:
                 return True
-            h.add(nums[i])
+        
         return False
-    
         
