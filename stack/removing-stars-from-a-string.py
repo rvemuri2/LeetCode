@@ -3,10 +3,8 @@ class Solution:
 
         s.split()
         arr = []
-        print(s)
+        
         for i in s:
-
-            print(i)
 
             if(i == "*"):
 
@@ -15,6 +13,5 @@ class Solution:
             else:
                 arr.append(i)
         
-        print(arr)
         return "".join(arr)
         
