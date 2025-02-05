@@ -10,14 +10,13 @@ class Solution:
         seen = set()
 
         for i in range(len(s)):
-            if s[i] in seen:
-                continue
-            while(arr and arr[-1]>s[i] and h[arr[-1]] > i):
-                seen.remove(arr[-1])
-                arr.pop()
+            if s[i] not in seen:
+                while(arr and arr[-1]>s[i] and h[arr[-1]] > i):
+                    seen.remove(arr[-1])
+                    arr.pop()
 
-            arr.append(s[i])
-            seen.add(s[i])
+                arr.append(s[i])
+                seen.add(s[i])
         
         return "".join(arr)
             
