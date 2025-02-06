@@ -19,8 +19,6 @@ class Solution:
                 num = arr[-1]
                 num2 = arr[-2]
                 arr.append(num + num2)
-            
-            print(arr)
         
         return sum(arr)
         
