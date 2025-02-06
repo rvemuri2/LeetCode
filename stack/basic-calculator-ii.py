@@ -10,12 +10,10 @@ class Solution:
 
         for i in range(len(s)):
 
-            curr_ch = s[i] 
-
-            if (curr_ch.isdigit()):
-                curr = curr * 10 + int(curr_ch)
+            if (s[i].isdigit()):
+                curr = curr * 10 + int(s[i])
             
-            if (not curr_ch.isdigit() and curr_ch != ' ') or i == len(s) - 1:
+            if (not s[i].isdigit() and s[i] != ' ') or i == len(s) - 1:
 
                 if(op == "+"):
                     arr.append(curr)      
@@ -31,7 +29,7 @@ class Solution:
 
         
                 curr = 0
-                op = curr_ch
+                op = s[i]
         
         return sum(arr)
 
