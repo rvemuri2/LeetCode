@@ -4,49 +4,36 @@ class Solution:
         i = 0
 
         curr = 0
-        res = 0
-        prev = 0
+        arr = []
 
         op = "+"
 
-        while(i < len(s)):
-            cur_char = s[i]
+        for i in range(len(s)):
 
-            if(cur_char.isdigit()):
-                while(i < len(s) and s[i].isdigit()):
-                    curr = curr * 10 + int(s[i]) 
-                    i+=1
-                
-                i-=1
+            curr_ch = s[i] 
+
+            if (curr_ch.isdigit()):
+                curr = curr * 10 + int(curr_ch)
+            
+            if (not curr_ch.isdigit() and curr_ch != ' ') or i == len(s) - 1:
+
                 if(op == "+"):
-                    res += curr
-
-                    prev = curr
-                
+                    arr.append(curr)      
+            
                 elif(op == "-"):
-                    res -= curr
-
-                    prev = -curr
+                    arr.append(-curr)
+            
                 elif(op == "*"):
-                    res -= prev
-                    res += prev * curr
+                    arr[-1] *= curr
 
-                    prev = curr * prev
-                
                 elif(op == "/"):
-                    res -= prev
-                    res += int(prev / curr)
+                    arr[-1] = int(arr[-1] / curr)
 
-                    prev = int(prev / curr)
-            
-                curr = 0
-            
-            elif(cur_char != " "):
-                op = cur_char
-            
-            i+=1
         
-        return res
+                curr = 0
+                op = curr_ch
+        
+        return sum(arr)
 
 
             
