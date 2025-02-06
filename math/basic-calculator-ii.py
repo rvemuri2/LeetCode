@@ -37,7 +37,7 @@ class Solution:
                     res -= prev
                     res += int(prev / curr)
 
-                    prev = int(curr / prev)
+                    prev = int(prev / curr)
             
                 curr = 0
             
