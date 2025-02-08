@@ -9,15 +9,15 @@ class Solution:
 
                 arr[1] += 1
             
-            elif(i == "D"):
+            if(i == "D"):
 
                 arr[1] -= 1
             
-            elif(i == "R"):
+            if(i == "R"):
 
                 arr[0] += 1
             
-            else:
+            if(i == "L"):
                 arr[0] -= 1
         
         return arr == [0, 0]
