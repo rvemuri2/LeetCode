@@ -1,8 +1,7 @@
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
 
-        l = 1
-        r = num
+        l, r = 1, num
 
         while(l <= r):
 
