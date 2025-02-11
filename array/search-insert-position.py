@@ -21,5 +21,5 @@ class Solution:
             return mid + 1
         
         else:
-            return mid - 1
+            return mid
         
