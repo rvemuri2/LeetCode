@@ -4,8 +4,7 @@
 class Solution:
     def firstBadVersion(self, n: int) -> int:
 
-        l = 1
-        r = n
+        l, r = 1, n
 
         num = 1
 
