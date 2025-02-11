@@ -8,21 +8,21 @@ class ParkingSystem:
     def addCar(self, carType: int) -> bool:
 
         self.carType = carType
-        if(carType == 1 and self.arr[0] == 1):
+        if(carType == 1 and self.arr[0] >= 1):
             self.arr[0] -= 1
             return True
         
         if(carType == 1 and self.arr[0] < 1):
             return False
         
-        if(carType == 2 and self.arr[1] == 1):
+        if(carType == 2 and self.arr[1] >= 1):
             self.arr[1] -= 1
             return True
         
         if(carType == 2 and self.arr[1] < 1):
             return False
         
-        if(carType == 3 and self.arr[2] == 1):
+        if(carType == 3 and self.arr[2] >= 1):
             self.arr[2] -= 1
             return True
         
