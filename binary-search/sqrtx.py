@@ -1,8 +1,7 @@
 class Solution:
     def mySqrt(self, x: int) -> int:
 
-        l = 1
-        r = x
+        l, r = 1, x
 
         while(l <= r):
 
