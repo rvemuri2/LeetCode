@@ -24,7 +24,7 @@ class Solution:
                 right = mid - 1
             else:
                 left = mid + 1
-        return (first_pos, last_pos)
+        return [first_pos, last_pos]
                 
                 
                 
