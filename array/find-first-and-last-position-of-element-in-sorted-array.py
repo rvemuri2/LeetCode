@@ -3,7 +3,8 @@ class Solution:
 
         left = 0
         right = len(nums)-1
-        first_pos, last_pos = -1, -1
+        first_pos = -1
+        last_pos = -1
  
         while left <= right:
             mid = (left + right) // 2
