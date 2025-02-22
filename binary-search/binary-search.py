@@ -7,7 +7,6 @@ class Solution(object):
         """
         l = 0
         r = len(nums) - 1
-        bool1 = False
 
         while(l <= r):
 
@@ -20,8 +19,7 @@ class Solution(object):
                 l = mid + 1
             
             else:
-                bool1 = True
                 return mid
         
-        return mid if bool1 else -1 
+        return -1
         
