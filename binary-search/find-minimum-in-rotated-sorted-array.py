@@ -8,7 +8,7 @@ class Solution:
     
         while(l <= r):
             mid = (l + r) // 2
-            if(nums[mid] <= nums[r]):
+            if(nums[mid] <= nums[-1]):
                 idx = mid
                 r = mid - 1
             else:
