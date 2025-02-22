@@ -1,20 +1,26 @@
-class Solution:
-    def nextGreatestLetter(self, letters: List[str], target: str) -> str:
+class Solution(object):
+    def nextGreatestLetter(self, letters, target):
+        """
+        :type letters: List[str]
+        :type target: str
+        :rtype: str
+        """
 
-        l, r = 0, len(letters) - 1
-        idx = letters[0]
+        l = 0
+        r = len(letters) - 1
+        val = float('infinity')
 
         while(l <= r):
 
             mid = (l + r) // 2
 
             if(ord(letters[mid]) > ord(target)):
-                idx = letters[mid]
+                val = min(val, mid)
                 r = mid - 1
-            
-            else:
+
+            elif(ord(letters[mid]) <= ord(target)):
+
                 l = mid + 1
         
-        return idx
-
+        return letters[0] if val == float('infinity') else letters[val] 
         
