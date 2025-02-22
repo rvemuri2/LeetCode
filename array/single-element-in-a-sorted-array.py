@@ -11,7 +11,7 @@ class Solution:
                 return nums[mid]
             
             left = mid - 1 if nums[mid - 1] == nums[mid] else mid
-            if(left % 2):
+            if(left % 2 == 1):
                 r = mid - 1
             else:
                 l = mid + 1
