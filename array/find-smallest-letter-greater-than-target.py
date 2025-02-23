@@ -18,7 +18,7 @@ class Solution(object):
                 val = letters[mid]
                 r = mid - 1
 
-            elif(ord(letters[mid]) <= ord(target)):
+            else:
 
                 l = mid + 1
         
