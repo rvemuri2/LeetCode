@@ -9,8 +9,7 @@ class Solution:
         while(l <= r):
             mid = (l + r) // 2
             if(nums[l] < nums[r]):
-                idx = min(idx, nums[l])
-                break
+                return nums[l]
             
             idx = min(idx, nums[mid])
             if(nums[mid] >= nums[l]):
