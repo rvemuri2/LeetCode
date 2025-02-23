@@ -8,12 +8,15 @@ class Solution:
     
         while(l <= r):
             mid = (l + r) // 2
-            if(nums[mid] >= nums[0]):
+            if(nums[l] < nums[r]):
+                idx = min(idx, nums[l])
+                break
+            
+            idx = min(idx, nums[mid])
+            if(nums[mid] >= nums[l]):
                 l = mid + 1
-                idx = min(idx, nums[0])
             else:
                 r = mid - 1
-                idx = min(idx, nums[mid])
         
         return idx
  
