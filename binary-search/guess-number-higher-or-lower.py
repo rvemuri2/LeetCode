@@ -16,11 +16,11 @@ class Solution:
             if(guess(mid) == 0):
                 return mid
             
-            elif(guess(mid) < 0):
-                r = mid - 1
+            elif(guess(mid) == 1):
+                l = mid + 1
             
             else:
-                l = mid + 1
+                r = mid - 1
         
         return -1
         
