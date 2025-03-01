@@ -6,9 +6,8 @@
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        dummy = ListNode() 
-        cur = dummy
-        carry = 0
+        dummy = ListNode()
+        cur, carry = dummy, 0
         while l1 or l2 or carry:
             sum = carry
             if l1:
