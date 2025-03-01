@@ -1,8 +1,7 @@
 class Solution:
   def addBinary(self, a: str, b: str) -> str:
     s, carry = [], 0
-    i = len(a) - 1
-    j = len(b) - 1
+    i, j = len(a) - 1, len(b) - 1
 
     while i >= 0 or j >= 0 or carry:
       if i >= 0:
