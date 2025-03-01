@@ -1,7 +1,6 @@
 class Solution:
   def addBinary(self, a: str, b: str) -> str:
-    s = []
-    carry = 0
+    s, carry = [], 0
     i = len(a) - 1
     j = len(b) - 1
 
