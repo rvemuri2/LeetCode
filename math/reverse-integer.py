@@ -11,7 +11,6 @@ class Solution:
 
         sum *= sign
         
-        # Check for overflow based on 32-bit integer limits
         if sum > 2**31 - 1 or sum < -2**31:
             return 0
 
