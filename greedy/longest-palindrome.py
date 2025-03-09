@@ -11,9 +11,7 @@ class Solution:
                 res += 2
             else:
                 l.add(i)
-        
-        if(l):
-            res += 1
-            
-        return res
+
+
+        return res + 1 if l else res
         
