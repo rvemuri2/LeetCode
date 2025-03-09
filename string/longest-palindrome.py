@@ -1,18 +1,19 @@
 class Solution:
     def longestPalindrome(self, s: str) -> int:
 
-        l = defaultdict(int)
+        l = set()
         res = 0
-
+        
         for i in s:
-            l[i] += 1
-            if(l[i] % 2 == 0):
+
+            if(i in l):
+                l.remove(i)
                 res += 2
+            else:
+                l.add(i)
         
-        for i in l.values():
-            if(i % 2):
-                res += 1
-                break
-        
+        if(l):
+            res += 1
+            
         return res
         
