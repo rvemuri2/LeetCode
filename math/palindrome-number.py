@@ -4,6 +4,6 @@ class Solution:
         if x < 0:
             return False
         
-        x_str = str(x)
-        return x_str == x_str[::-1]
+        x_s = str(x)
+        return x_s == x_s[::-1]
         
