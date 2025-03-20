@@ -10,12 +10,12 @@ class Solution:
             if openBal > 0:
                 sb.append('(')
                 helper(openBal - 1, closeBal, sb)
-                sb.pop()  # Backtrack
+                sb.pop()
             
             if closeBal > openBal:
                 sb.append(')')
                 helper(openBal, closeBal - 1, sb)
-                sb.pop()  # Backtrack
+                sb.pop()
         
         helper(n, n, [])
         return res
