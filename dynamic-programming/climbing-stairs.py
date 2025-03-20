@@ -1,14 +1,9 @@
 class Solution:
+
+    def __init__(self):
+        self.ns = {1: 1, 2: 2}
+
     def climbStairs(self, n: int) -> int:
-        if n <= 3: return n
-
-        prev1 = 3
-        prev2 = 2
-        cur = 0
-
-        for _ in range(3, n):
-            cur = prev1 + prev2
-            prev2 = prev1
-            prev1 = cur
-        
-        return cur
+        if n not in self.ns:
+            self.ns[n] = self.climbStairs(n-1) + self.climbStairs(n-2)
+        return self.ns[n]
