@@ -10,4 +10,6 @@ class Solution:
             n = ord(num2[i]) - 48
             n2 = n2*10 + n
         
-        return str(n1 * n2)
+        str1 = str(n1 * n2)
+        
+        return str1
