@@ -1,6 +1,6 @@
 class Solution:
-    def subsetXORSum(self, nums):
-        total = 0
-        for num in nums:
-            total |= num
-        return total * (1 << (len(nums) - 1))
+    def subsetXORSum(self, nums: List[int]) -> int:
+        t=0
+        for i in nums:
+            t|=i
+        return t*(2**(len(nums)-1))
