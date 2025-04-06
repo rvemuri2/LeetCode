@@ -1,4 +1,3 @@
-
 select 
       c.name AS Customers 
 from Customers c
