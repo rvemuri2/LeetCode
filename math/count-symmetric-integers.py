@@ -3,7 +3,7 @@ class Solution:
         count = 0
         for num in range(low, high+1):
             s_num = str(num)
-            if len(s_num) & 1 == 0:         # or you can use % operator to 
+            if len(s_num) & 1 == 0:         # or you can use % operator 
                 mid = len(s_num) // 2
                 if sum(map(int, s_num[:mid])) == sum(map(int, s_num[mid:])):
                     count += 1
