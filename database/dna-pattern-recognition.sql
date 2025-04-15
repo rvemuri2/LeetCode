@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT *,
 CASE WHEN dna_sequence LIKE 'ATG%' THEN 1 ELSE 0 END  has_start ,
 CASE WHEN dna_sequence LIKE '%TGA' OR dna_sequence LIKE '%TAG' OR dna_sequence LIKE '%TAA'THEN 1 ELSE 0 END  has_stop,
