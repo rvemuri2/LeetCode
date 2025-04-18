@@ -10,7 +10,8 @@ class Solution:
         
         sign = -1 if (dividend < 0) ^ (divisor < 0) else 1
         
-        n, d = abs(dividend), abs(divisor)
+        n= abs(dividend)
+        d = abs(divisor)
         ans = 0
 
         while n >= d:
