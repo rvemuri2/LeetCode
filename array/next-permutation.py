@@ -9,7 +9,7 @@ class Solution:
             if nums[i]<nums[i+1]:
                 pivot=i
                 break
-        if pivot==-1: #if given permutation is lexi last, return
+        if pivot==-1: #if given permutation is lexi last
             nums.reverse()
             return
         for j in range(n-1,pivot,-1):
