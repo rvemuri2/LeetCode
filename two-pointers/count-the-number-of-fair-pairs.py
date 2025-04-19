@@ -37,5 +37,4 @@ class Solution:
                 # If the sum exceeds or equals the lower bound, move the right pointer left to reduce the sum.
                 right -= 1
 
-        # Step 4: Return the difference between pairs within the upper bound and those below the lower bound.
         return count_within_upper - count_below_lower
