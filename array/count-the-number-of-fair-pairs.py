@@ -8,10 +8,7 @@ class Solution:
         left = 0
         right = len(nums) - 1
         count_within_upper = 0
-        
-        # Step 2: Count pairs where the sum is less than or equal to the upper bound.
-        # The two-pointer approach works by checking if the sum of `nums[left] + nums[right]` is within the upper bound.
-        # If the sum is within bounds, all pairs (nums[left], nums[i]) where left < i < right are valid, so we count them.
+
         while left < right:
             if nums[left] + nums[right] <= upper:
                 count_within_upper += (right - left)
