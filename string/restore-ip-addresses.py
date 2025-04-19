@@ -10,6 +10,9 @@ class Solution:
             return False
         return True
 
+    
+    #algorithmic function
+
     def solve(self, ans, output, ind, s, dots):
         if dots == 3:
             if self.valid(s[ind:]):
