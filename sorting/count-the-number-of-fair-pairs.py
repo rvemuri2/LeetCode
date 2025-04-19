@@ -17,7 +17,7 @@ class Solution:
                 # If the current pair is valid, then all the pairs from left to right-1 are also valid.
                 # We count the number of such pairs: (nums[left], nums[left+1]...), (nums[left], nums[right])
                 count_within_upper += (right - left)
-                left += 1  # Move left pointer to the right since we've counted all valid pairs with `nums[left]`.
+                left += 1
             else:
                 right -= 1
 
