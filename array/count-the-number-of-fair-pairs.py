@@ -1,9 +1,8 @@
 class Solution:
     def countFairPairs(self, nums, lower, upper):
-        # Step 1: Sort the input array in ascending order.
-        # Sorting is crucial because it allows us to efficiently count valid pairs using the two-pointer technique.
+   
         nums.sort()
-        
+
         left = 0
         right = len(nums) - 1
         count_within_upper = 0
