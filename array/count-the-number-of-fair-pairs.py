@@ -34,7 +34,6 @@ class Solution:
                 count_below_lower += (right - left)
                 left += 1  # Move left pointer to the right since we've counted all valid pairs with `nums[left]`.
             else:
-                # If the sum exceeds or equals the lower bound, move the right pointer left to reduce the sum.
                 right -= 1
-
+                
         return count_within_upper - count_below_lower
