@@ -1,4 +1,6 @@
 class Solution:
+
+    #helper function
     def valid(self, temp: str) -> bool:
         if len(temp) > 3 or len(temp) == 0:
             return False
