@@ -3,8 +3,7 @@ class Solution:
         # Step 1: Sort the input array in ascending order.
         # Sorting is crucial because it allows us to efficiently count valid pairs using the two-pointer technique.
         nums.sort()
-
-        # Initialize two pointers for counting pairs where the sum is less than or equal to `upper`.
+        
         left = 0
         right = len(nums) - 1
         count_within_upper = 0
