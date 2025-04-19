@@ -3,8 +3,7 @@ class Solution:
    
         nums.sort()
 
-        left = 0
-        right = len(nums) - 1
+        left, right = 0, len(nums) - 1
         count_within_upper = 0
 
         while left < right:
