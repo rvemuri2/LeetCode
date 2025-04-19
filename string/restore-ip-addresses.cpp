@@ -10,7 +10,7 @@ public:
 
     // Backtracking function to generate all possible IP addresses
     void solve(vector<string>& ans, string output, int ind, string s, int dots){
-        if(dots == 3){ // if we have already added 3 dots, check if the remaining segment is valid
+        if(dots == 3){
             if(valid(s.substr(ind)))
                 ans.push_back(output+s.substr(ind));
             return;
