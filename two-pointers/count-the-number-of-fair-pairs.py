@@ -30,7 +30,6 @@ class Solution:
         # Step 3: Count pairs where the sum is strictly less than the lower bound.
         while left < right:
             if nums[left] + nums[right] < lower:
-                # If the sum is below the lower bound, then all pairs from left to right-1 are valid.
                 count_below_lower += (right - left)
                 left += 1
             else:
