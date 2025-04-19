@@ -19,7 +19,6 @@ class Solution:
                 count_within_upper += (right - left)
                 left += 1  # Move left pointer to the right since we've counted all valid pairs with `nums[left]`.
             else:
-                # If the sum exceeds the upper bound, we move the right pointer left to reduce the sum.
                 right -= 1
 
         left = 0
