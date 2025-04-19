@@ -38,5 +38,4 @@ class Solution:
                 right -= 1
 
         # Step 4: Return the difference between pairs within the upper bound and those below the lower bound.
-        # This gives us the number of pairs whose sum is within the [lower, upper] range.
         return count_within_upper - count_below_lower
