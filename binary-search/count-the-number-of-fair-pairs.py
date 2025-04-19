@@ -22,7 +22,6 @@ class Solution:
                 # If the sum exceeds the upper bound, we move the right pointer left to reduce the sum.
                 right -= 1
 
-        # Re-initialize pointers for counting pairs where the sum is strictly less than `lower`.
         left = 0
         right = len(nums) - 1
         count_below_lower = 0
