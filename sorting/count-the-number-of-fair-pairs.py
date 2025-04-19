@@ -27,7 +27,6 @@ class Solution:
         right = len(nums) - 1
         count_below_lower = 0
         
-        # Step 3: Count pairs where the sum is strictly less than the lower bound.
         while left < right:
             if nums[left] + nums[right] < lower:
                 count_below_lower += (right - left)
