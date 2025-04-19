@@ -32,7 +32,7 @@ class Solution:
             if nums[left] + nums[right] < lower:
                 # If the sum is below the lower bound, then all pairs from left to right-1 are valid.
                 count_below_lower += (right - left)
-                left += 1  # Move left pointer to the right since we've counted all valid pairs with `nums[left]`.
+                left += 1
             else:
                 right -= 1
                 
