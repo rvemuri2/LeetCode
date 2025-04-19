@@ -8,7 +8,6 @@ public:
         return true;
     }
 
-    // Backtracking function to generate all possible IP addresses
     void solve(vector<string>& ans, string output, int ind, string s, int dots){
         if(dots == 3){
             if(valid(s.substr(ind)))
