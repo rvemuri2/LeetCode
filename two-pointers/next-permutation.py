@@ -16,7 +16,8 @@ class Solution:
             if nums[j]>nums[pivot]:
                 nums[j], nums[pivot]=nums[pivot], nums[j]
                 break
-        l, r = pivot+1, n-1
+        l = pivot + 1
+        r = n-1
         while l<r:
             nums[l],nums[r]=nums[r],nums[l]
             l+=1
