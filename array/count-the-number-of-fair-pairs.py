@@ -14,8 +14,6 @@ class Solution:
         # If the sum is within bounds, all pairs (nums[left], nums[i]) where left < i < right are valid, so we count them.
         while left < right:
             if nums[left] + nums[right] <= upper:
-                # If the current pair is valid, then all the pairs from left to right-1 are also valid.
-                # We count the number of such pairs: (nums[left], nums[left+1]...), (nums[left], nums[right])
                 count_within_upper += (right - left)
                 left += 1
             else:
