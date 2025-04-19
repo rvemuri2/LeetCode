@@ -21,7 +21,7 @@ public:
                 output.push_back(s[i]);
                 output.push_back('.');
                 solve(ans, output, i+1, s, dots+1);
-                output.pop_back(); //backtrack
+                output.pop_back();
             }
         }
 
