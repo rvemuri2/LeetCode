@@ -3,7 +3,7 @@ public:
     // Helper function to check if a given string is a valid IP address segment
     bool valid(string temp){
         if(temp.size()>3 || temp.size()==0) return false; // segment length should be between 1 and 3
-        if(temp.size()>1 && temp[0]=='0')   return false; // segment should not start with 0, unless it is a single digit
+        if(temp.size()>1 && temp[0]=='0')   return false;
         if(temp.size() && stoi(temp)>255) return false;
         return true;
     }
