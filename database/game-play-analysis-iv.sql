@@ -1,9 +1,7 @@
 # Write your MySQL query statement below
 
-select 
-    round(count(loggedInAgain)/count(*),2) fraction 
-from 
-    #Get All unique Players
+select round(count(loggedInAgain)/count(*),2) fraction from 
+
     (
         select distinct player_id from activity
     ) r1 
