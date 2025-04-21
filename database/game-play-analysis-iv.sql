@@ -10,7 +10,6 @@ from
 
     left join
 
-    # Left join all unique players with those who logged in just the next day after their first day login
     (
         select player_id, 1 loggedInAgain from (
             select player_id, min(event_date) event_date from activity group by player_id
