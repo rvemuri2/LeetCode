@@ -9,8 +9,7 @@ class Solution:
             if cur > max_s:
                 max_s = cur
         
-        low_bound = lower - min_s
-        high_bound = upper - max_s
+        low_bound, high_bound = lower - min_s, upper - max_s
         
         if high_bound < low_bound:
             return 0
