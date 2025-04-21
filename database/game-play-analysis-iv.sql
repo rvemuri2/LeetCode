@@ -1,5 +1,3 @@
-# Write your MySQL query statement below
-
 select round(count(loggedInAgain)/count(*),2) fraction from 
 
     (
