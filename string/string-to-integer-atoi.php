@@ -9,7 +9,9 @@ class Solution {
         if ($a > 2**31 - 1) {
             return 2**31 - 1;
         } 
-        if ($a < -2**31) return -2**31;
+        if ($a < -2**31) {
+            return -2**31;
+        }
         return $a;
     }
 }
