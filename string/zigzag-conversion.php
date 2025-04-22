@@ -26,7 +26,6 @@ class Solution {
             } elseif ($curRow == $numRows - 1) {
                 $goingDown = false;
             }
-            // Move to the next row
             $curRow += $goingDown ? 1 : -1;
         }
         return implode('', $rows);
