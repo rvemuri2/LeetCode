@@ -7,7 +7,7 @@ class Solution {
      */
     function convert($s, $numRows)
     {
-        // If numRows is 1 or greater than or equal to the length of the string, return the string itself
+        // If numRows is 1 or greater than or equal to the length of the string
         if ($numRows <= 1 || $numRows >= strlen($s)) {
             return $s;
         }
