@@ -19,7 +19,7 @@ class Solution {
 
         // Iterate through each character in the string
         for ($i = 0; $i < strlen($s); $i++) {
-            $rows[$curRow] .= $s[$i]; // Append the character
+            $rows[$curRow] .= $s[$i];
             if ($curRow == 0) {
                 $goingDown = true;
             } elseif ($curRow == $numRows - 1) {
