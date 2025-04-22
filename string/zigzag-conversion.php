@@ -12,7 +12,7 @@ class Solution {
             return $s;
         }
 
-        // Create an array to hold the strings for each row
+        // Create an array
         $rows = array_fill(0, $numRows, '');
         $curRow = 0;
         $goingDown = false;
