@@ -2,7 +2,6 @@ class Solution {
 
     /**
      * @param String $s
-     * @return Integer
      */
     function myAtoi($s) {
         $a = (int)str_replace('e', 'a', $s);
