@@ -20,7 +20,7 @@ class Solution {
         // Iterate through each character in the string
         for ($i = 0; $i < strlen($s); $i++) {
             $rows[$curRow] .= $s[$i]; // Append the character to the current row
-            // Change direction if we hit the top or bottom row
+            // Change direction
             if ($curRow == 0) {
                 $goingDown = true;
             } elseif ($curRow == $numRows - 1) {
