@@ -1,8 +1,5 @@
 class Solution {
 
-    /**
-     * @param String $s
-     */
     function myAtoi($s) {
         $a = (int)str_replace('e', 'a', $s);
         if ($a > 2**31 - 1) {
