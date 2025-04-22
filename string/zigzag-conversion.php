@@ -1,10 +1,6 @@
 class Solution {
 
-    /**
-     * @param String $s
-     * @param Integer $numRows
-     * @return String
-     */
+    
     function convert($s, $numRows)
     {
         if ($numRows <= 1 || $numRows >= strlen($s)) {
