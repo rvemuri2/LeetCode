@@ -17,7 +17,6 @@ class Solution {
         $curRow = 0;
         $goingDown = false;
 
-        // Iterate through each character
         for ($i = 0; $i < strlen($s); $i++) {
             $rows[$curRow] .= $s[$i];
             if ($curRow == 0) {
