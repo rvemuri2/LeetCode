@@ -29,8 +29,6 @@ class Solution {
             // Move to the next row
             $curRow += $goingDown ? 1 : -1;
         }
-
-        // Combine all rows into a single string
         return implode('', $rows);
     }
 }
