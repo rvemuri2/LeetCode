@@ -9,7 +9,6 @@ class Solution:
                 right += 1
             # s[i, right - 1] inclusive are equal characters e.g. "aaa"
             
-            #s[left, right] inclusive is palindrome e.g. "baaab"
             left = i - 1
             while left >= 0 and right < n and s[left] == s[right]:
                 left -= 1
