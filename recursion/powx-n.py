@@ -1,6 +1,5 @@
 class Solution:
     def myPow(self, x: float, n: int) -> float:
-         # Handle the case when n is negative by converting it to positive
 
         if n < 0:
             x = 1 / x
