@@ -1,10 +1,4 @@
 class Solution:
     def countLargestGroup(self, n: int) -> int:
-        digit_sums = [0] * (n + 1)
-        for num in range(1, n + 1):
-            digit_sums[num] = digit_sums[num // 10] + (num % 10)
-
-        group_counts = Counter(digit_sums[1:])  
-        largest_group_size = max(group_counts.values())
-        return sum(1 for count in group_counts.values() 
-                   if count == largest_group_size)
+        # Solution 2: one-liner, for fun!
+        return list((c := Counter(sum(map(int, str(i))) for i in range(1, n+1))).values()).count(max(c.values()))
