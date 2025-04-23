@@ -15,7 +15,6 @@ class Solution:
                 left -= 1
                 right += 1
             
-            # s[left + 1, right - 1] inclusive is palindromic
             palindrome_len = right - left - 1
             if palindrome_len > longest_palindrome_len:
                 longest_palindrome_len = palindrome_len
