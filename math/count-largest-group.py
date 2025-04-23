@@ -9,4 +9,3 @@ class Solution:
         largest_group_size = max(group_counts.values())
         return sum(1 for count in group_counts.values() 
                    if count == largest_group_size)
-        # Time: O(n)
