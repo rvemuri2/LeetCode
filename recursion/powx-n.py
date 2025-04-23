@@ -9,7 +9,6 @@ class Solution:
         result = 1
         current_product = x
 
-    # Use exponentiation by squaring for efficiency (log(n) time)
         while n > 0:
 
             if n % 2 == 1:
