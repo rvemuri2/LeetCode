@@ -14,8 +14,7 @@ class Solution:
         # If the current bit is 1, multiply result by current_product
             if n % 2 == 1:
                 result *= current_product
-
-        # Square the base and shift exponent right
+                
             current_product *= current_product
             n //= 2
 
