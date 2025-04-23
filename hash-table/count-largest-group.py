@@ -10,4 +10,3 @@ class Solution:
         return sum(1 for count in group_counts.values() 
                    if count == largest_group_size)
         # Time: O(n)
-        # Space: O(n)
