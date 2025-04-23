@@ -11,10 +11,10 @@ class Solution:
 
     # Use exponentiation by squaring for efficiency (log(n) time)
         while n > 0:
-        # If the current bit is 1, multiply result by current_product
+
             if n % 2 == 1:
                 result *= current_product
-                
+
             current_product *= current_product
             n //= 2
 
