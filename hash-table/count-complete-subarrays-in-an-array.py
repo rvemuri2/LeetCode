@@ -23,5 +23,5 @@ class Solution:
 
             return res
 
-    # Complete subarrays = At most total_distinct - At most (total_distinct - 1)
+    # Complete subarrays
         return count_at_most_k(total_distinct) - count_at_most_k(total_distinct - 1)
