@@ -1,6 +1,6 @@
 class Solution:
     def countCompleteSubarrays(self, nums: List[int]) -> int:
-        # Step 1: Find the number of distinct elements in the full array
+        # Step 1
         total_distinct = len(set(nums))
         count = 0
         n = len(nums)
