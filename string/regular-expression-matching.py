@@ -17,7 +17,6 @@ class Solution:
                 if p[j-1] == '.' or p[j-1] == s[i-1]:
                     dp[i][j] = dp[i-1][j-1]
                 elif p[j-1] == '*':
-                    # Match zero of the char before '*'
                     dp[i][j] = dp[i][j-2]
                     if p[j-2] == s[i-1] or p[j-2] == '.':
                         dp[i][j] |= dp[i-1][j]
