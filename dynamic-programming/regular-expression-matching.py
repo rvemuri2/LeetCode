@@ -4,7 +4,7 @@ class Solution:
     
         # dp[i][j] is True if s[:i] matches p[:j]
         dp = [[False] * (n + 1) for _ in range(m + 1)]
-        dp[0][0] = True  # Empty string matches empty pattern
+        dp[0][0] = True
 
         for j in range(2, n + 1):
             if p[j-1] == '*':
