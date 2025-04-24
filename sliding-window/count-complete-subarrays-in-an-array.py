@@ -18,10 +18,8 @@ class Solution:
                         del freq[nums[left]]
                     left += 1
 
-            # number of subarrays ending at `right
                 res += right - left + 1
 
             return res
 
-    # Complete subarrays
         return count_at_most_k(total_distinct) - count_at_most_k(total_distinct - 1)
