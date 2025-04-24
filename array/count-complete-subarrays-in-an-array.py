@@ -16,7 +16,7 @@ class Solution:
                     distinct += 1
                 freq[nums[j]] += 1
 
-            # Step 3: Check if current subarray is complete
+            # Step 3
                 if distinct == total_distinct:
                     count += 1
 
