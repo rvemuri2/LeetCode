@@ -2,20 +2,26 @@ class Solution:
     def countCompleteSubarrays(self, nums: List[int]) -> int:
 
         total_distinct = len(set(nums))
-        count = 0
         n = len(nums)
 
-        for i in range(n):
+        def count_at_most_k(k):
             freq = defaultdict(int)
-            distinct = 0
+            left = 0
+            res = 0
 
-            for j in range(i, n):
-                if freq[nums[j]] == 0:
-                    distinct += 1
-                freq[nums[j]] += 1
+            for right in range(n):
+                freq[nums[right]] += 1
 
-                if distinct == total_distinct:
-                    count += 1
+                while len(freq) > k:
+                    freq[nums[left]] -= 1
+                    if freq[nums[left]] == 0:
+                        del freq[nums[left]]
+                    left += 1
 
-        return count
-        
+            # number of subarrays ending at `right` with ≤ k distinct elements
+                res += right - left + 1
+
+            return res
+
+    # Complete subarrays = At most total_distinct - At most (total_distinct - 1)
+        return count_at_most_k(total_distinct) - count_at_most_k(total_distinct - 1)
