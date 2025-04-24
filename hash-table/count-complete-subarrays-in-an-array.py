@@ -10,7 +10,7 @@ class Solution:
             freq = defaultdict(int)
             distinct = 0
 
-        # Expand the subarray from index i to the end
+        # Expand the subarray
             for j in range(i, n):
                 if freq[nums[j]] == 0:
                     distinct += 1
