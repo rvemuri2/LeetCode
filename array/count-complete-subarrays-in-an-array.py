@@ -18,7 +18,7 @@ class Solution:
                         del freq[nums[left]]
                     left += 1
 
-            # number of subarrays ending at `right` with ≤ k distinct elements
+            # number of subarrays ending at `right
                 res += right - left + 1
 
             return res
