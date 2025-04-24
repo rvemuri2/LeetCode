@@ -5,7 +5,7 @@ class Solution:
         count = 0
         n = len(nums)
 
-    # Step 2: Iterate through all possible subarrays
+    # Step 2
         for i in range(n):
             freq = defaultdict(int)
             distinct = 0
