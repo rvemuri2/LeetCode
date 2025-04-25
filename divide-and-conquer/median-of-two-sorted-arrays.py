@@ -11,7 +11,7 @@ class Solution:
             else:
                 merged.append(nums2[j])
                 j += 1
-                
+        #step2        
         while i < len(nums1):
             merged.append(nums1[i])
             i += 1
