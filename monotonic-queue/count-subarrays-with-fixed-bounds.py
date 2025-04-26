@@ -8,7 +8,6 @@ class Solution:
             if num < minK or num > maxK:
                 last_invalid = i
         
-        # Update last seen position
             if num == minK:
                 last_min = i
             if num == maxK:
