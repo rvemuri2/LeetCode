@@ -12,7 +12,6 @@ class Solution:
         for _ in range(n + 1):
             first = first.next
 
-    # Move first to the end
         while first:
             first = first.next
             second = second.next
