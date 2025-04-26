@@ -4,7 +4,7 @@ class Solution:
         last_min = last_max = last_invalid = -1
 
         for i, num in enumerate(nums):
-            # If number is out of [minK, maxK] range, it's invalid
+            # If number is out of [minK, maxK] range
             if num < minK or num > maxK:
                 last_invalid = i
         
