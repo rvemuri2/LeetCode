@@ -8,12 +8,12 @@ class Solution:
             if num < minK or num > maxK:
                 last_invalid = i
         
-        # Update last seen position of minK and maxK
+        # Update last seen position
             if num == minK:
                 last_min = i
             if num == maxK:
                 last_max = i
-                
+
             valid_start = min(last_min, last_max)
             if valid_start > last_invalid:
                 res += valid_start - last_invalid
