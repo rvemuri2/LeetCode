@@ -8,7 +8,7 @@ class Solution:
         dummy = ListNode(0, head)  # Dummy node simplifies edge cases
         first = second = dummy
 
-    # Move first pointer n+1 steps ahead (so second points to the node before the one to remove)
+    # Move first pointer n+1 steps ahead
         for _ in range(n + 1):
             first = first.next
 
