@@ -13,8 +13,7 @@ class Solution:
                 last_min = i
             if num == maxK:
                 last_max = i
-
-        # Number of valid subarrays
+                
             valid_start = min(last_min, last_max)
             if valid_start > last_invalid:
                 res += valid_start - last_invalid
