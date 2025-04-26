@@ -14,7 +14,7 @@ class Solution:
             if num == maxK:
                 last_max = i
 
-        # Number of valid subarrays ending at i
+        # Number of valid subarrays
             valid_start = min(last_min, last_max)
             if valid_start > last_invalid:
                 res += valid_start - last_invalid
