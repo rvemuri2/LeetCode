@@ -17,7 +17,6 @@ class Solution:
             first = first.next
             second = second.next
 
-    # Remove the nth node
         second.next = second.next.next
 
         return dummy.next
