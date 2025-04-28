@@ -1,7 +1,7 @@
 class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:
         n, left = len(nums), 0
-        total, current_sum = 0, 0
+        total = current_sum = 0
         count = 0
 
         for right in range(n):
