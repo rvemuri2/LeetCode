@@ -8,8 +8,7 @@ class Solution:
 
         for right in range(n):
             current_sum += nums[right]
-
-        # While score >= k
+            
             while left <= right and current_sum * (right - left + 1) >= k:
                 current_sum -= nums[left]
                 left += 1
