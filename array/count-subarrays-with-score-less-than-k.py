@@ -14,7 +14,7 @@ class Solution:
                 current_sum -= nums[left]
                 left += 1
 
-        # All subarrays ending at `right` and starting between [left, right] are valid
+        # All subarrays ending at `right`
             count += right - left + 1
 
         return count
