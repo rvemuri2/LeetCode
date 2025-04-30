@@ -18,6 +18,6 @@ class Solution:
             # - Duplicate numbers cancel each other (e.g., 2 ^ 2 = 0)
             # - Only the number that appears once will remain (since it has no pair to cancel it)
 
-        return result  # The result now contains the single number that doesn't repeat
+        return result
 
         
