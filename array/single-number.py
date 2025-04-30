@@ -5,7 +5,7 @@ class Solution:
 
         for num in nums:
             # XOR current number with result
-            result ^= num
+            result = result ^ num
 
             # Explanation:
             # XOR has the following key properties:
