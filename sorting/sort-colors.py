@@ -1,15 +1,19 @@
+from typing import List
+
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
-
-        red, white, blue = 0, 0, len(nums) - 1
-
-        while white <= blue:
-            if nums[white] == 0:
-                nums[white], nums[red] = nums[red], nums[white]
-                red += 1
-                white += 1
-            elif nums[white] == 1:
-                white += 1
-            else:
-                nums[white], nums[blue] = nums[blue], nums[white]
-                blue -= 1
+        low, mid, high = 0, 0, len(nums) - 1
+        
+        while mid <= high:
+            if nums[mid] == 0:
+                # Swap current element with low index
+                nums[low], nums[mid] = nums[mid], nums[low]
+                low += 1
+                mid += 1
+            elif nums[mid] == 1:
+                # Just move on if it's 1
+                mid += 1
+            else:  # nums[mid] == 2
+                # Swap current element with high index
+                nums[mid], nums[high] = nums[high], nums[mid]
+                high -= 1
