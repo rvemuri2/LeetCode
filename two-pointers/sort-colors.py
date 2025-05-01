@@ -6,7 +6,6 @@ class Solution:
         
         while mid <= high:
             if nums[mid] == 0:
-                # Swap current element with low index
                 nums[low], nums[mid] = nums[mid], nums[low]
                 low += 1
                 mid += 1
