@@ -3,7 +3,6 @@ class Solution:
         n = len(dominoes)
         forces = [0] * n
 
-        # Left to right pass
         force = 0
         for i in range(n):
             if dominoes[i] == 'R':
