@@ -17,7 +17,6 @@ class Solution:
             # Create a new node with the GCD value
             new_node = ListNode(g)
 
-            # Insert new_node between current and current.next
             new_node.next = current.next
             current.next = new_node
 
