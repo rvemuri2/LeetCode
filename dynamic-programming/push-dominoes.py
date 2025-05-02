@@ -1,7 +1,7 @@
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
         n = len(dominoes)
-        forces = [0] * n
+        forces = [0] * len(dominoes)
 
         force = 0
         for i in range(n):
