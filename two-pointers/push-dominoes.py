@@ -25,7 +25,6 @@ class Solution:
                 force = max(force - 1, 0)
             forces[i] -= force
 
-        # Build the result
         result = []
         for f in forces:
             if f > 0:
