@@ -11,7 +11,6 @@ class Solution:
             value = nums[nums[i]]  # First get the value at index nums[i]
             ans.append(value)      # Then append that value to the answer list
 
-        # Return the final result list
         return ans
 
         
