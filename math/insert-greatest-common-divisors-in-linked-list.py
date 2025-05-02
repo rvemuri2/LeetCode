@@ -11,7 +11,7 @@ class Solution:
         current = head
 
         while current and current.next:
-            # Calculate GCD of current and next node values
+
             g = gcd(current.val, current.next.val)
 
             new_node = ListNode(g)
