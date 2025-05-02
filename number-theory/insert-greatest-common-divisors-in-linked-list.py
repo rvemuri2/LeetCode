@@ -14,7 +14,6 @@ class Solution:
             # Calculate GCD of current and next node values
             g = gcd(current.val, current.next.val)
 
-            # Create a new node with the GCD value
             new_node = ListNode(g)
 
             new_node.next = current.next
