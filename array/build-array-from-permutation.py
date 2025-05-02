@@ -7,7 +7,6 @@ class Solution:
 
         # Iterate over each index in the input list
         for i in range(len(nums)):
-            # For each index i, append nums[nums[i]] to the result list
             value = nums[nums[i]]  
             ans.append(value)
 
