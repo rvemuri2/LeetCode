@@ -21,7 +21,6 @@ class Solution:
             new_node.next = current.next
             current.next = new_node
 
-            # Move to the node after the inserted one
             current = new_node.next
 
         return head
