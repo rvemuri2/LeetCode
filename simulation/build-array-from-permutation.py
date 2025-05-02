@@ -9,7 +9,7 @@ class Solution:
         for i in range(len(nums)):
             # For each index i, append nums[nums[i]] to the result list
             value = nums[nums[i]]  # First get the value at index nums[i]
-            ans.append(value)      # Then append that value to the answer list
+            ans.append(value)
 
         return ans
 
