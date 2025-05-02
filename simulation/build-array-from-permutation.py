@@ -5,7 +5,6 @@ class Solution:
         # Initialize an empty list to store the result
         ans = []
 
-        # Iterate over each index in the input list
         for i in range(len(nums)):
             value = nums[nums[i]]  
             ans.append(value)
