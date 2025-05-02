@@ -14,7 +14,6 @@ class Solution:
                 force = max(force - 1, 0)
             forces[i] += force
 
-        # Right to left pass
         force = 0
         for i in range(n - 1, -1, -1):
             if dominoes[i] == 'L':
