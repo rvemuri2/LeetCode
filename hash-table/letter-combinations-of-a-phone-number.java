@@ -5,7 +5,7 @@ public class Solution {
         Solution sol = new Solution();
 
         System.out.println(sol.letterCombinations("23"));   // ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
-        System.out.println(sol.letterCombinations(""));     // []
+        System.out.println(sol.letterCombinations(""));     
         System.out.println(sol.letterCombinations("2"));    
     }
 
