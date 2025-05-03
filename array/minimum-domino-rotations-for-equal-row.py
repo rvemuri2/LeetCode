@@ -4,10 +4,6 @@ class Solution:
     def minDominoRotations(self, tops: List[int], bottoms: List[int]) -> int:
         
         def check(x):
-            """
-            Check if we can make all tops or all bottoms equal to x.
-            Return the minimum rotations needed, or float('inf') if impossible.
-            """
             rotations_top = 0
             rotations_bottom = 0
 
