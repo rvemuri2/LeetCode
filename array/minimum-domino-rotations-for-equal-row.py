@@ -20,5 +20,8 @@ class Solution:
             return min(rotations_top, rotations_bottom)
         
         rotations = min(check(tops[0]), check(bottoms[0]))
-        
-        return -1 if rotations == float('inf') else rotations
+
+        if(rotations == float('inf')):
+            return -1
+        else:
+            return rotations
