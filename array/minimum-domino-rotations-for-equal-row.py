@@ -19,7 +19,7 @@ class Solution:
                     rotations_top += 1  # Must rotate to bring x to top
 
                 elif bottoms[i] != x:
-                    rotations_bottom += 1  # Must rotate to bring x to bottom
+                    rotations_bottom += 1
 
             return min(rotations_top, rotations_bottom)
         
