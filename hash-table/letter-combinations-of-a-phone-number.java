@@ -44,7 +44,7 @@ public class Solution {
         String letters = phoneMap[digits.charAt(index) - '0'];
 
         for (char c : letters.toCharArray()) {
-            current.append(c); // Choose
+            current.append(c);
             backtrack(digits, index + 1, current, result, phoneMap);
             current.deleteCharAt(current.length() - 1);
         }
