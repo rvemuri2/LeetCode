@@ -16,7 +16,7 @@ class Solution:
                     return float('inf')  # Can't make either top or bottom = x
 
                 elif tops[i] != x:
-                    rotations_top += 1  # Must rotate to bring x to top
+                    rotations_top += 1
 
                 elif bottoms[i] != x:
                     rotations_bottom += 1
