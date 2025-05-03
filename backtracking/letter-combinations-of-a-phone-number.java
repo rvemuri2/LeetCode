@@ -6,7 +6,7 @@ public class Solution {
 
         System.out.println(sol.letterCombinations("23"));   // ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
         System.out.println(sol.letterCombinations(""));     // []
-        System.out.println(sol.letterCombinations("2"));    // ["a", "b", "c"]
+        System.out.println(sol.letterCombinations("2"));    
     }
 
     public List<String> letterCombinations(String digits) {
