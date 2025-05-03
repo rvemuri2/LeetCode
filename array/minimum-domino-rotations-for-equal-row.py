@@ -8,7 +8,7 @@ class Solution:
             Check if we can make all tops or all bottoms equal to x.
             Return the minimum rotations needed, or float('inf') if impossible.
             """
-            rotations_top = 0     # Rotations to make all tops = x
+            rotations_top = 0
             rotations_bottom = 0
 
             for i in range(len(tops)):
