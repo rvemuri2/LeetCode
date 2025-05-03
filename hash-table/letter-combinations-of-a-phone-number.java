@@ -46,7 +46,7 @@ public class Solution {
         for (char c : letters.toCharArray()) {
             current.append(c); // Choose
             backtrack(digits, index + 1, current, result, phoneMap); // Explore
-            current.deleteCharAt(current.length() - 1); // Un-choose
+            current.deleteCharAt(current.length() - 1);
         }
     }
 }
