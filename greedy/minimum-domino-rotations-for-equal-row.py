@@ -13,7 +13,7 @@ class Solution:
 
             for i in range(len(tops)):
                 if tops[i] != x and bottoms[i] != x:
-                    return float('inf')  # Can't make either top or bottom = x
+                    return float('inf')
 
                 elif tops[i] != x:
                     rotations_top += 1
