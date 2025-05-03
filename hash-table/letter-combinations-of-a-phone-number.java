@@ -16,7 +16,6 @@ public class Solution {
             return result;
         }
 
-        // Digit-to-letter mapping based on a phone keypad
         String[] phoneMap = {
             "",     // 0
             "",     // 1
