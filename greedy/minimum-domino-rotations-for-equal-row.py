@@ -23,7 +23,6 @@ class Solution:
 
             return min(rotations_top, rotations_bottom)
         
-        # Try with tops[0] and bottoms[0] as potential targets
         rotations = min(check(tops[0]), check(bottoms[0]))
         
         return -1 if rotations == float('inf') else rotations
