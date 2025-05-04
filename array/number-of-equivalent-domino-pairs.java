@@ -16,7 +16,7 @@ public class Solution {
         int count = 0;
 
         for (int[] d : dominoes) {
-            // Normalize the domino so that [a,b] and [b,a] are treated the same
+           
             int a = Math.min(d[0], d[1]);
             int b = Math.max(d[0], d[1]);
             String key = a + ":" + b;
