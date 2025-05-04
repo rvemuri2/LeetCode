@@ -25,7 +25,6 @@ public class Solution {
             int freq = map.getOrDefault(key, 0);
             count += freq;
 
-            // Add this domino to the map
             map.put(key, freq + 1);
         }
 
