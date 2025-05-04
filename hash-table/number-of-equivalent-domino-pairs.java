@@ -8,7 +8,6 @@ public class Solution {
         int[][] input2 = {{1,2}, {1,2}, {1,1}, {1,2}, {2,2}};
 
         System.out.println(sol.numEquivDominoPairs(input1)); // Output: 1
-        System.out.println(sol.numEquivDominoPairs(input2)); // Output: 3
     }
 
     public int numEquivDominoPairs(int[][] dominoes) {
