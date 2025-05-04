@@ -21,7 +21,6 @@ public class Solution {
             int b = Math.max(d[0], d[1]);
             String key = a + ":" + b;
 
-            // Count how many times we've seen this normalized domino before
             int freq = map.getOrDefault(key, 0);
             count += freq;
 
