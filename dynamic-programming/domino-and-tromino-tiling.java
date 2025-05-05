@@ -28,7 +28,6 @@ public class Solution {
         // The 2*dp[i - 1] covers:
         //   - placing a vertical domino at the end
         //   - placing an L-shaped tromino ending at column i (considering mirrored positions)
-        // dp[i - 3] accounts for complex placements that involve 3-wide arrangements
 
         for (int i = 3; i <= n; i++) {
             dp[i] = (2 * dp[i - 1] + dp[i - 3]) % MOD;
