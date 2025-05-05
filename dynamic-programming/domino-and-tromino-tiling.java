@@ -18,7 +18,6 @@ public class Solution {
         // dp[i] = number of ways to tile a 2 x i board
         long[] dp = new long[n + 1];
 
-        // Initialize base cases
         dp[0] = 1;
         dp[1] = 1;
         dp[2] = 2; 
