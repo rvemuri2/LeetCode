@@ -1,15 +1,11 @@
 public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        // Test cases
-        System.out.println(sol.numTilings(3)); // Output: 5
-        System.out.println(sol.numTilings(1)); // Output: 1
     }
 
     public int numTilings(int n) {
         final int MOD = 1_000_000_007;
-        
+
         if (n == 0) return 1;
         if (n == 1) return 1;
         if (n == 2) return 2;
