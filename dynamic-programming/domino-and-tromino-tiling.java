@@ -24,7 +24,6 @@ public class Solution {
         dp[2] = 2; // Two ways: 2 vertical or 2 horizontal dominoes
 
         // Recurrence:
-        // dp[i] = 2 * dp[i - 1] + dp[i - 3]
 
         for (int i = 3; i <= n; i++) {
             dp[i] = (2 * dp[i - 1] + dp[i - 3]) % MOD;
