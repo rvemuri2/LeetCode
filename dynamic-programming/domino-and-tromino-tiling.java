@@ -8,9 +8,8 @@ public class Solution {
     }
 
     public int numTilings(int n) {
-        final int MOD = 1_000_000_007; // Use modulo to avoid integer overflow
-
-        // Base cases
+        final int MOD = 1_000_000_007;
+        
         if (n == 0) return 1;
         if (n == 1) return 1;
         if (n == 2) return 2;
