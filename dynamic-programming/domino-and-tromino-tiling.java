@@ -34,7 +34,6 @@ public class Solution {
             dp[i] = (2 * dp[i - 1] + dp[i - 3]) % MOD;
         }
 
-        // Return the total ways to tile a 2 x n board
         return (int) dp[n];
     }
 }
