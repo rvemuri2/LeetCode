@@ -13,7 +13,7 @@ public class Solution {
         // Base cases
         if (n == 0) return 1; // An empty board has 1 way (doing nothing)
         if (n == 1) return 1; // Only one vertical domino fits
-        if (n == 2) return 2; // Either two vertical dominoes or two horizontal ones
+        if (n == 2) return 2;
 
         long[] dp = new long[n + 1];
 
