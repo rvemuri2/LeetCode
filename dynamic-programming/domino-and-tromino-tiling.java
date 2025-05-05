@@ -20,7 +20,7 @@ public class Solution {
 
         // Initialize base cases
         dp[0] = 1; // Empty board
-        dp[1] = 1; // Only one way (one vertical domino)
+        dp[1] = 1;
         dp[2] = 2; 
 
         for (int i = 3; i <= n; i++) {
