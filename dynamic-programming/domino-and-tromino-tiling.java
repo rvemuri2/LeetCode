@@ -11,7 +11,7 @@ public class Solution {
         final int MOD = 1_000_000_007; // Use modulo to avoid integer overflow
 
         // Base cases
-        if (n == 0) return 1; // An empty board has 1 way (doing nothing)
+        if (n == 0) return 1;
         if (n == 1) return 1;
         if (n == 2) return 2;
 
