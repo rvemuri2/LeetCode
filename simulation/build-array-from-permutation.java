@@ -7,7 +7,6 @@ public class Solution {
         int[] nums1 = {0, 2, 1, 5, 3, 4};
         int[] nums2 = {5, 0, 1, 2, 3, 4};
 
-        System.out.println(Arrays.toString(sol.buildArray(nums1)));
     }
 
     public int[] buildArray(int[] nums) {
