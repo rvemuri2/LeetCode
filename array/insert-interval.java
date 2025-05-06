@@ -3,8 +3,6 @@ import java.util.*;
 public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        // Test case 1
         int[][] intervals1 = {{1, 3}, {6, 9}};
         int[] newInterval1 = {2, 5};
         System.out.println(Arrays.deepToString(sol.insert(intervals1, newInterval1)));
