@@ -15,7 +15,6 @@ public class Solution {
         int n = nums.length;
         int[] ans = new int[n]; // Result array
 
-        // Loop through each index i
         for (int i = 0; i < n; i++) {
             ans[i] = nums[nums[i]];
         }
