@@ -5,7 +5,6 @@ public class Solution {
         Solution sol = new Solution();
 
         int[] nums1 = {0, 2, 1, 5, 3, 4};
-        int[] nums2 = {5, 0, 1, 2, 3, 4};
 
     }
 
