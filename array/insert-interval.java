@@ -13,8 +13,6 @@ public class Solution {
         // Test case 2
         int[][] intervals2 = {{1,2}, {3,5}, {6,7}, {8,10}, {12,16}};
         int[] newInterval2 = {4,8};
-        System.out.println(Arrays.deepToString(sol.insert(intervals2, newInterval2)));
-        // Output: [[1,2], [3,10], [12,16]]
     }
 
     public int[][] insert(int[][] intervals, int[] newInterval) {
