@@ -8,7 +8,6 @@ public class Solution {
         int[] nums2 = {5, 0, 1, 2, 3, 4};
 
         System.out.println(Arrays.toString(sol.buildArray(nums1)));
-        System.out.println(Arrays.toString(sol.buildArray(nums2)));
     }
 
     public int[] buildArray(int[] nums) {
