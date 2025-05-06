@@ -17,7 +17,6 @@ public class Solution {
 
         // Loop through each index i
         for (int i = 0; i < n; i++) {
-            // Set ans[i] to nums[nums[i]]
             ans[i] = nums[nums[i]];
         }
 
