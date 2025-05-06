@@ -22,7 +22,6 @@ public class Solution {
         int i = 0;
         int n = intervals.length;
 
-        // Step 1: Add all intervals that end before the new interval starts
         while (i < n && intervals[i][1] < newInterval[0]) {
             result.add(intervals[i]);
             i++;
