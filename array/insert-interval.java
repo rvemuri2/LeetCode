@@ -38,7 +38,6 @@ public class Solution {
         // Add the merged newInterval
         result.add(newInterval);
 
-        // Step 3: Add all remaining intervals that come after the new interval
         while (i < n) {
             result.add(intervals[i]);
             i++;
