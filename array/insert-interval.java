@@ -1,9 +1,6 @@
 import java.util.*;
 
 public class Solution {
-    public static void main(String[] args) {
-       
-    }
 
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> result = new ArrayList<>();
