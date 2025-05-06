@@ -28,7 +28,6 @@ public class Solution {
             i++;
         }
 
-        // Step 2: Merge all overlapping intervals with the new interval
         while (i < n && intervals[i][0] <= newInterval[1]) {
             newInterval[0] = Math.min(newInterval[0], intervals[i][0]);
             newInterval[1] = Math.max(newInterval[1], intervals[i][1]);
