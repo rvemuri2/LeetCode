@@ -43,8 +43,6 @@ public class Solution {
             result.add(intervals[i]);
             i++;
         }
-
-        // Convert list to array and return
         return result.toArray(new int[result.size()][]);
     }
 }
