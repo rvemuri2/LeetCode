@@ -15,7 +15,6 @@ public class Solution {
         for (int row = 0; row < numRows; row++) {
             List<Integer> currentRow = new ArrayList<>();
 
-            // First and last elements of each row are always 1
             currentRow.add(1);
             for (int col = 1; col < row; col++) {
                 int prevRowLeft = triangle.get(row - 1).get(col - 1);
