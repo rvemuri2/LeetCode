@@ -6,7 +6,7 @@ public class Solution {
         System.out.println(sol.convertToTitle(28));   // Output: "AB"
         System.out.println(sol.convertToTitle(701));  // Output: "ZY"
         System.out.println(sol.convertToTitle(702));  // Output: "ZZ"
-        System.out.println(sol.convertToTitle(703));  // Output: "AAA"
+        System.out.println(sol.convertToTitle(703)); 
     }
 
     public String convertToTitle(int columnNumber) {
