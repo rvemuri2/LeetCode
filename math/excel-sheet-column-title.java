@@ -1,8 +1,6 @@
 public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        System.out.println(sol.convertToTitle(1));
     }
 
     public String convertToTitle(int columnNumber) {
