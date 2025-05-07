@@ -12,7 +12,6 @@ public class Solution {
     public String convertToTitle(int columnNumber) {
         StringBuilder result = new StringBuilder();
 
-        // Repeat until columnNumber is reduced to 0
         while (columnNumber > 0) {
             columnNumber--;
             int remainder = columnNumber % 26;
