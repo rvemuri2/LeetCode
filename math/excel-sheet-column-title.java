@@ -3,7 +3,6 @@ public class Solution {
         Solution sol = new Solution();
 
         System.out.println(sol.convertToTitle(1));
-        System.out.println(sol.convertToTitle(28));
     }
 
     public String convertToTitle(int columnNumber) {
