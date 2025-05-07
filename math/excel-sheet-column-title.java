@@ -4,7 +4,7 @@ public class Solution {
 
         System.out.println(sol.convertToTitle(1));    // Output: "A"
         System.out.println(sol.convertToTitle(28));   // Output: "AB"
-        System.out.println(sol.convertToTitle(701));  // Output: "ZY"
+        System.out.println(sol.convertToTitle(701));
         System.out.println(sol.convertToTitle(702));
         System.out.println(sol.convertToTitle(703)); 
     }
