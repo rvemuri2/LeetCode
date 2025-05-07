@@ -14,7 +14,7 @@ public class Solution {
 
         // Repeat until columnNumber is reduced to 0
         while (columnNumber > 0) {
-            columnNumber--; // Adjust to 0-based (A=0, ..., Z=25)
+            columnNumber--;
             int remainder = columnNumber % 26;
             char letter = (char) ('A' + remainder);
             result.append(letter);
