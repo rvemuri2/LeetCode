@@ -21,7 +21,6 @@ public class Solution {
             columnNumber /= 26; // Move to next digit
         }
 
-        // Since we built the string backwards, reverse it
         return result.reverse().toString();
     }
 }
