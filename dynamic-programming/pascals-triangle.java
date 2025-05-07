@@ -1,12 +1,6 @@
 import java.util.*;
 
 public class Solution {
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-
-        System.out.println(sol.generate(5));
-        System.out.println(sol.generate(1));
-    }
 
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> triangle = new ArrayList<>();
