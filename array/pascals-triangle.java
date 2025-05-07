@@ -17,8 +17,6 @@ public class Solution {
 
             // First and last elements of each row are always 1
             currentRow.add(1);
-
-            // Fill in the inner elements of the row (if row >= 2)
             for (int col = 1; col < row; col++) {
                 int prevRowLeft = triangle.get(row - 1).get(col - 1);
                 int prevRowRight = triangle.get(row - 1).get(col);
