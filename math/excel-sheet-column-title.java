@@ -4,7 +4,6 @@ public class Solution {
 
         System.out.println(sol.convertToTitle(1));
         System.out.println(sol.convertToTitle(28));
-        System.out.println(sol.convertToTitle(701));
     }
 
     public String convertToTitle(int columnNumber) {
