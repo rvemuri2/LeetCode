@@ -16,7 +16,7 @@ public class Solution {
         while (columnNumber > 0) {
             columnNumber--; // Adjust to 0-based (A=0, ..., Z=25)
             int remainder = columnNumber % 26;
-            char letter = (char) ('A' + remainder); // Convert to character
+            char letter = (char) ('A' + remainder);
             result.append(letter);
             columnNumber /= 26;
         }
