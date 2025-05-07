@@ -18,7 +18,7 @@ public class Solution {
             int remainder = columnNumber % 26;
             char letter = (char) ('A' + remainder); // Convert to character
             result.append(letter);
-            columnNumber /= 26; // Move to next digit
+            columnNumber /= 26;
         }
 
         return result.reverse().toString();
