@@ -30,7 +30,6 @@ public class Solution {
                 currentRow.add(1);
             }
 
-            // Add this row to the triangle
             triangle.add(currentRow);
         }
 
