@@ -11,7 +11,6 @@ public class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> triangle = new ArrayList<>();
 
-        // Build each row one by one
         for (int row = 0; row < numRows; row++) {
             List<Integer> currentRow = new ArrayList<>();
 
