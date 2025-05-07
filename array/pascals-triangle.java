@@ -25,7 +25,6 @@ public class Solution {
                 currentRow.add(prevRowLeft + prevRowRight);
             }
 
-            // Add the last 1 if this is not the first row
             if (row > 0) {
                 currentRow.add(1);
             }
