@@ -2,7 +2,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.isUgly(6));
-        System.out.println(sol.isUgly(1));
     }
     public boolean isUgly(int n) {
         if (n <= 0) return false;
