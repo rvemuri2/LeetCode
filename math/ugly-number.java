@@ -8,9 +8,7 @@ public class Solution {
         System.out.println(sol.isUgly(0));   // false
         System.out.println(sol.isUgly(30));  // true
     }
-
     public boolean isUgly(int n) {
-        // 0 or negative numbers are not ugly
         if (n <= 0) return false;
 
         for (int factor : new int[]{2, 3, 5}) {
