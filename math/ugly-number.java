@@ -20,7 +20,6 @@ public class Solution {
             }
         }
 
-        // If the number has been fully reduced to 1, it's ugly
         return n == 1;
     }
 }
