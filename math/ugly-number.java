@@ -1,5 +1,4 @@
 public class Solution {
-    public static void main(String[] args) {}
     public boolean isUgly(int n) {
         if (n <= 0) return false;
         for (int factor : new int[]{2, 3, 5}) {
