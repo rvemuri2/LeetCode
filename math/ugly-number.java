@@ -3,7 +3,7 @@ public class Solution {
         Solution sol = new Solution();
         System.out.println(sol.isUgly(6));   // true
         System.out.println(sol.isUgly(1));   // true
-        System.out.println(sol.isUgly(14));  // false
+        System.out.println(sol.isUgly(14));
         System.out.println(sol.isUgly(0));
         System.out.println(sol.isUgly(30));
     }
@@ -15,7 +15,6 @@ public class Solution {
                 n /= factor;
             }
         }
-
         return n == 1;
     }
 }
