@@ -6,7 +6,7 @@ public class Solution {
         System.out.println(sol.isUgly(1));   // true
         System.out.println(sol.isUgly(14));  // false
         System.out.println(sol.isUgly(0));   // false
-        System.out.println(sol.isUgly(30));  // true
+        System.out.println(sol.isUgly(30));
     }
     public boolean isUgly(int n) {
         if (n <= 0) return false;
