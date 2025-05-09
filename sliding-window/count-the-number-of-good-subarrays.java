@@ -3,7 +3,6 @@ import java.util.*;
 public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.countGood(new int[]{1, 1, 1, 1, 1}, 10)); 
     }
 
     public long countGood(int[] nums, int k) {
@@ -28,7 +27,6 @@ public class Solution {
                 left++;
             }
         }
-
         return count;
     }
 }
