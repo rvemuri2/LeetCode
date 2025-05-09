@@ -1,7 +1,6 @@
 public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.minDistance("horse", "ros"));
     }
 
     public int minDistance(String word1, String word2) {
