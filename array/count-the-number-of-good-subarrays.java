@@ -26,7 +26,7 @@ public class Solution {
                 count += (n - right); // All subarrays starting at left and ending >= right are good
                 int leftVal = nums[left];
                 int fLeft = freq.get(leftVal);
-                pairs -= fLeft - 1; // Remove (fLeft - 1) pairs involving nums[left]
+                pairs -= fLeft - 1;
                 freq.put(leftVal, fLeft - 1);
                 left++;
             }
