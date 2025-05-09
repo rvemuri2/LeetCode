@@ -24,7 +24,6 @@ public class Solution {
                 char c2 = word2.charAt(j - 1);
 
                 if (c1 == c2) {
-                    // Characters match, no operation needed
                     dp[i][j] = dp[i - 1][j - 1];
                 } else {
                     int insert = dp[i][j - 1];
