@@ -3,7 +3,7 @@ public class Solution {
         Solution sol = new Solution();
 
         System.out.println(sol.minDistance("horse", "ros"));        // Output: 3
-        System.out.println(sol.minDistance("intention", "execution")); // Output: 5
+        System.out.println(sol.minDistance("intention", "execution"));
     }
 
     public int minDistance(String word1, String word2) {
