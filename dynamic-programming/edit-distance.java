@@ -15,7 +15,7 @@ public class Solution {
 
         // Initialize base cases
         for (int i = 0; i <= m; i++) dp[i][0] = i; // Deleting all characters
-        for (int j = 0; j <= n; j++) dp[0][j] = j; // Inserting all characters
+        for (int j = 0; j <= n; j++) dp[0][j] = j;
 
         for (int i = 1; i <= m; i++) {
             char c1 = word1.charAt(i - 1);
