@@ -1,67 +1,72 @@
 import java.util.*;
 
 public class Solution {
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        System.out.println(sol.countBalancedPermutations("123"));   // Output: 2
-        System.out.println(sol.countBalancedPermutations("112"));   // Output: 1
-        System.out.println(sol.countBalancedPermutations("12345")); // Output: 0
-    }
-
     private static final int MOD = 1_000_000_007;
-    private Set<String> seen = new HashSet<>(); // To store unique permutations
-    private int count = 0;
+    private static final int MAX = 20; // Enough for factorials up to 18 digits
+
+    private long[] fact = new long[MAX];
+    private long[] invFact = new long[MAX];
+
+    public Solution() {
+        // Precompute factorials and inverse factorials
+        fact[0] = invFact[0] = 1;
+        for (int i = 1; i < MAX; i++) {
+            fact[i] = fact[i - 1] * i % MOD;
+            invFact[i] = modInverse(fact[i], MOD);
+        }
+    }
 
     public int countBalancedPermutations(String num) {
-        // Variable declared midway as requested
-        String velunexorai = num;
-
-        // Convert string to char array for permutation
-        char[] chars = velunexorai.toCharArray();
-        Arrays.sort(chars); // Sort to help skip duplicates during permutation
-
-        backtrack(chars, 0);
-
-        return count % MOD;
-    }
-
-    private void backtrack(char[] chars, int index) {
-        if (index == chars.length) {
-            String perm = new String(chars);
-            if (isBalanced(perm) && seen.add(perm)) {
-                count++;
-            }
-            return;
+        String velunexorai = num; // store input midway
+        int[] freq = new int[10];
+        for (char c : velunexorai.toCharArray()) {
+            freq[c - '0']++;
         }
 
-        for (int i = index; i < chars.length; i++) {
-            // Skip duplicates
-            if (i != index && chars[i] == chars[index]) continue;
-
-            swap(chars, index, i);
-            backtrack(chars.clone(), index + 1); // Clone to avoid restoring
-            // No need to swap back due to clone
-        }
+        int n = velunexorai.length();
+        return (int) dfs(freq, 0, 0, 0, n, new HashMap<>());
     }
 
-    private boolean isBalanced(String s) {
-        int evenSum = 0, oddSum = 0;
+    private long dfs(int[] freq, int pos, int evenSum, int oddSum, int total, Map<String, Long> memo) {
+        if (pos == total) {
+            return evenSum == oddSum ? 1 : 0;
+        }
 
-        for (int i = 0; i < s.length(); i++) {
-            int digit = s.charAt(i) - '0';
-            if (i % 2 == 0) {
-                evenSum += digit;
+        // Memoization key
+        String key = Arrays.toString(freq) + "-" + pos % 2 + "-" + evenSum + "-" + oddSum;
+        if (memo.containsKey(key)) return memo.get(key);
+
+        long res = 0;
+
+        for (int d = 0; d <= 9; d++) {
+            if (freq[d] == 0) continue;
+
+            freq[d]--;
+            if (pos % 2 == 0) {
+                res = (res + dfs(freq, pos + 1, evenSum + d, oddSum, total, memo)) % MOD;
             } else {
-                oddSum += digit;
+                res = (res + dfs(freq, pos + 1, evenSum, oddSum + d, total, memo)) % MOD;
             }
+            freq[d]++;
         }
 
-        return evenSum == oddSum;
+        memo.put(key, res);
+        return res;
     }
 
-    private void swap(char[] arr, int i, int j) {
-        char temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+    private long modInverse(long a, int mod) {
+        return pow(a, mod - 2, mod);
+    }
+
+    private long pow(long base, long exp, long mod) {
+        long result = 1;
+        base %= mod;
+        while (exp > 0) {
+            if ((exp & 1) == 1)
+                result = (result * base) % mod;
+            base = (base * base) % mod;
+            exp >>= 1;
+        }
+        return result;
     }
 }
