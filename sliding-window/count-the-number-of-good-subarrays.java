@@ -23,7 +23,7 @@ public class Solution {
 
             // Shrink window until we drop below k pairs
             while (pairs >= k) {
-                count += (n - right); // All subarrays starting at left and ending >= right are good
+                count += (n - right);
                 int leftVal = nums[left];
                 int fLeft = freq.get(leftVal);
                 pairs -= fLeft - 1;
