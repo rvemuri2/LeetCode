@@ -1,9 +1,7 @@
 public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         System.out.println(sol.minDistance("horse", "ros"));
-        System.out.println(sol.minDistance("intention", "execution"));
     }
 
     public int minDistance(String word1, String word2) {
