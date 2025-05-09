@@ -18,7 +18,7 @@ public class Solution {
         for (int right = 0; right < n; right++) {
             int val = nums[right];
             int f = freq.getOrDefault(val, 0);
-            pairs += f; // Add f new pairs (val, val) with current count
+            pairs += f;
             freq.put(val, f + 1);
 
             while (pairs >= k) {
