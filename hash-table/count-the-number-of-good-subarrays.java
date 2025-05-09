@@ -21,7 +21,6 @@ public class Solution {
             pairs += f; // Add f new pairs (val, val) with current count
             freq.put(val, f + 1);
 
-            // Shrink window until we drop below k pairs
             while (pairs >= k) {
                 count += (n - right);
                 int leftVal = nums[left];
