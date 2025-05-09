@@ -13,7 +13,6 @@ public class Solution {
         // dp[i][j] = min steps to convert first i chars of word1 to first j chars of word2
         int[][] dp = new int[m + 1][n + 1];
 
-        // Initialize base cases
         for (int i = 0; i <= m; i++) dp[i][0] = i;
         for (int j = 0; j <= n; j++) dp[0][j] = j;
 
