@@ -5,7 +5,7 @@ public class Solution {
         Solution sol = new Solution();
 
         System.out.println(sol.countGood(new int[]{1, 1, 1, 1, 1}, 10));       // Output: 1
-        System.out.println(sol.countGood(new int[]{3, 1, 4, 3, 2, 2, 4}, 2));  // Output: 4
+        System.out.println(sol.countGood(new int[]{3, 1, 4, 3, 2, 2, 4}, 2)); 
     }
 
     public long countGood(int[] nums, int k) {
