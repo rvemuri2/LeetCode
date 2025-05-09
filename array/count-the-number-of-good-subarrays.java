@@ -1,9 +1,6 @@
 import java.util.*;
 
 public class Solution {
-    public static void main(String[] args) {
-    }
-
     public long countGood(int[] nums, int k) {
         Map<Integer, Integer> freq = new HashMap<>();
         long count = 0;
