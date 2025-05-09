@@ -1,6 +1,5 @@
 public class Solution {
     public static void main(String[] args) {
-        Solution sol = new Solution();
     }
 
     public int minDistance(String word1, String word2) {
