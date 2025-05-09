@@ -4,7 +4,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println(sol.countGood(new int[]{1, 1, 1, 1, 1}, 10));       // Output: 1
+        System.out.println(sol.countGood(new int[]{1, 1, 1, 1, 1}, 10)); 
         System.out.println(sol.countGood(new int[]{3, 1, 4, 3, 2, 2, 4}, 2)); 
     }
 
