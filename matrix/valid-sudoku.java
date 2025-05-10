@@ -11,11 +11,9 @@ public class Solution {
             {'7','.','.','.','2','.','.','.','6'},
             {'.','6','.','.','.','.','2','8','.'},
             {'.','.','.','4','1','9','.','.','5'},
-            {'.','.','.','.','8','.','.','7','9'}
         };
 
         Solution sol = new Solution();
-        System.out.println(sol.isValidSudoku(board));
     }
 
     public boolean isValidSudoku(char[][] board) {
