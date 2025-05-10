@@ -15,7 +15,7 @@ public class Solution {
         };
 
         Solution sol = new Solution();
-        System.out.println(sol.isValidSudoku(board)); // Output: true
+        System.out.println(sol.isValidSudoku(board));
     }
 
     public boolean isValidSudoku(char[][] board) {
