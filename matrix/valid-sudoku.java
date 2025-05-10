@@ -19,7 +19,9 @@ public class Solution {
                     continue;
                 };
 
-                if (!rows[r].add(val)) return false;
+                if (!rows[r].add(val)) {
+                    return false;
+                }
 
                 if (!cols[c].add(val)) return false;
 
