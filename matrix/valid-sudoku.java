@@ -2,8 +2,6 @@ import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
-        char[][] board = {
-        };
 
         Solution sol = new Solution();
     }
