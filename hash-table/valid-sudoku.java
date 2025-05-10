@@ -36,7 +36,6 @@ public class Solution {
                 char val = board[r][c];
                 if (val == '.') continue;
 
-                // Check row
                 if (!rows[r].add(val)) return false;
 
                 if (!cols[c].add(val)) return false;
