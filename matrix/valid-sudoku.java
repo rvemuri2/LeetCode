@@ -42,7 +42,6 @@ public class Solution {
                 // Check column
                 if (!cols[c].add(val)) return false;
 
-                // Check 3x3 box index
                 int boxIndex = (r / 3) * 3 + (c / 3);
                 if (!boxes[boxIndex].add(val)) return false;
             }
