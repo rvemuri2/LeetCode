@@ -19,7 +19,6 @@ public class Solution {
     }
 
     public boolean isValidSudoku(char[][] board) {
-        // Create sets for rows, columns, and boxes
         HashSet<Character>[] rows = new HashSet[9];
         HashSet<Character>[] cols = new HashSet[9];
         HashSet<Character>[] boxes = new HashSet[9];
