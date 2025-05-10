@@ -1,9 +1,6 @@
 import java.util.*;
 
 public class Solution {
-    public static void main(String[] args) {
-    }
-
     public boolean isValidSudoku(char[][] board) {
         HashSet<Character>[] rows = new HashSet[9];
         HashSet<Character>[] cols = new HashSet[9];
