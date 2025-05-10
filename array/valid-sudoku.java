@@ -39,7 +39,6 @@ public class Solution {
                 // Check row
                 if (!rows[r].add(val)) return false;
 
-                // Check column
                 if (!cols[c].add(val)) return false;
 
                 int boxIndex = (r / 3) * 3 + (c / 3);
