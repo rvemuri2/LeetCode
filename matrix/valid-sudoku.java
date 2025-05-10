@@ -23,7 +23,9 @@ public class Solution {
                     return false;
                 }
 
-                if (!cols[c].add(val)) return false;
+                if (!cols[c].add(val)) {
+                    return false;
+                }
 
                 int boxIndex = (r / 3) * 3 + (c / 3);
                 if (!boxes[boxIndex].add(val)) return false;
