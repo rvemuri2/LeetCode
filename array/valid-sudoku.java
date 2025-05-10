@@ -28,7 +28,9 @@ public class Solution {
                 }
 
                 int boxIndex = (r / 3) * 3 + (c / 3);
-                if (!boxes[boxIndex].add(val)) return false;
+                if (!boxes[boxIndex].add(val)) {
+                    return false;
+                }
             }
         }
 
