@@ -3,7 +3,7 @@ public class Solution {
         if (s == null || s.length() == 0 || s.charAt(0) == '0') return 0;
 
         int n = s.length();
-        int[] dp = new int[n + 1]; // dp[i] = # of ways to decode up to i chars
+        int[] dp = new int[n + 1];
         dp[0] = 1;
         dp[1] = 1;
 
