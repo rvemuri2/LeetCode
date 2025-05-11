@@ -26,8 +26,4 @@ public class Solution {
         return result.length() > 0 ? result.toString() : "/";
     }
 
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-
-    }
 }
