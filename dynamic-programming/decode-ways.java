@@ -8,7 +8,6 @@ public class Solution {
         dp[1] = 1; // first char is guaranteed non-zero by the check above
 
         for (int i = 2; i <= n; i++) {
-            // Single digit
             if (s.charAt(i - 1) != '0') {
                 dp[i] += dp[i - 1];
             }
