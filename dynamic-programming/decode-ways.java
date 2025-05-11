@@ -13,7 +13,6 @@ public class Solution {
                 dp[i] += dp[i - 1];
             }
 
-            // Two digits
             int twoDigit = Integer.parseInt(s.substring(i - 2, i));
             if (twoDigit >= 10 && twoDigit <= 26) {
                 dp[i] += dp[i - 2];
