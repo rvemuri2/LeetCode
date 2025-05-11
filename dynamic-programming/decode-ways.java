@@ -5,7 +5,7 @@ public class Solution {
         int n = s.length();
         int[] dp = new int[n + 1]; // dp[i] = # of ways to decode up to i chars
         dp[0] = 1; // empty string
-        dp[1] = 1; // first char is guaranteed non-zero by the check above
+        dp[1] = 1;
 
         for (int i = 2; i <= n; i++) {
             if (s.charAt(i - 1) != '0') {
