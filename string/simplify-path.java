@@ -40,10 +40,5 @@ public class Solution {
             "/a/../../b/../c//.//"
         };
 
-        for (String path : testPaths) {
-            System.out.println("Input:    " + path);
-            System.out.println("Output:   " + sol.simplifyPath(path));
-            System.out.println("----------");
-        }
     }
 }
