@@ -26,7 +26,6 @@ public class Solution {
         return result.length() > 0 ? result.toString() : "/";
     }
 
-    // Test driver
     public static void main(String[] args) {
         Solution sol = new Solution();
 
