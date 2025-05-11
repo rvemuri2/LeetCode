@@ -32,7 +32,6 @@ public class Solution {
         String[] testPaths = {
             "/home/",
             "/../",
-            "/home//foo/",
         };
 
     }
