@@ -30,7 +30,6 @@ public class Solution {
         return true;
     }
 
-    // Test driver
     public static void main(String[] args) {
         Solution sol = new Solution();
 
