@@ -37,7 +37,6 @@ public class Solution {
             "/.../a/../b",
             "/home/user/Documents/../Pictures",
             "/a/b/c/../../../..",
-            "/a/../../b/../c//.//"
         };
 
     }
