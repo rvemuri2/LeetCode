@@ -13,6 +13,5 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.canJump(new int[]{2, 3, 1, 1, 4}));
     }
 }
