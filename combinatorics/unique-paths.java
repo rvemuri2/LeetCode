@@ -16,6 +16,5 @@ public class Solution {
         System.out.println(sol.uniquePaths(3, 7)); // 28
         System.out.println(sol.uniquePaths(3, 2)); // 3
         System.out.println(sol.uniquePaths(1, 1)); // 1
-        System.out.println(sol.uniquePaths(10, 10)); // 48620
     }
 }
