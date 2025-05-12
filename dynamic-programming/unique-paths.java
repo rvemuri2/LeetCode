@@ -12,7 +12,6 @@ public class Solution {
         return (int) res;
     }
 
-    // Test driver
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.uniquePaths(3, 7)); // 28
