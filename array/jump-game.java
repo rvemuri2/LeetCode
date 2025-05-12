@@ -1,6 +1,6 @@
 public class Solution {
     public boolean canJump(int[] nums) {
-        int reachable = 0;  // Furthest index we can currently reach
+        int reachable = 0;
         for (int i = 0; i < nums.length; i++) {
             if (i > reachable) {
                 return false;
