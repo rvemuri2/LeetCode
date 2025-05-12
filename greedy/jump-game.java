@@ -16,7 +16,7 @@ public class Solution {
     // Test driver
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.canJump(new int[]{2, 3, 1, 1, 4})); // true
+        System.out.println(sol.canJump(new int[]{2, 3, 1, 1, 4}));
         System.out.println(sol.canJump(new int[]{3, 2, 1, 0, 4}));
         System.out.println(sol.canJump(new int[]{0}));
         System.out.println(sol.canJump(new int[]{2, 0, 0}));
