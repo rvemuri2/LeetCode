@@ -10,7 +10,4 @@ public class Solution {
 
         return (int) res;
     }
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
 }
