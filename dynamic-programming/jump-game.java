@@ -19,6 +19,6 @@ public class Solution {
         System.out.println(sol.canJump(new int[]{2, 3, 1, 1, 4})); // true
         System.out.println(sol.canJump(new int[]{3, 2, 1, 0, 4})); // false
         System.out.println(sol.canJump(new int[]{0}));             // true
-        System.out.println(sol.canJump(new int[]{2, 0, 0}));       // true
+        System.out.println(sol.canJump(new int[]{2, 0, 0}));
     }
 }
