@@ -10,10 +10,8 @@ public class Solution {
 
         return (int) res;
     }
-
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.uniquePaths(3, 7)); // 28
-        System.out.println(sol.uniquePaths(3, 2)); // 3
     }
 }
