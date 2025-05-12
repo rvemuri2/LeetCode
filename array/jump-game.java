@@ -10,7 +10,7 @@ public class Solution {
             reachable = Math.max(reachable, i + nums[i]);
         }
 
-        return true; // We made it through the array
+        return true;
     }
 
     public static void main(String[] args) {
