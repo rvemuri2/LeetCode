@@ -2,7 +2,7 @@ public class Solution {
     public int uniquePaths(int m, int n) {
         // We calculate C(m + n - 2, m - 1) or C(m + n - 2, n - 1)
         int N = m + n - 2;
-        int k = Math.min(m - 1, n - 1); // Take the smaller to optimize
+        int k = Math.min(m - 1, n - 1);
         long res = 1;
 
         for (int i = 1; i <= k; i++) {
