@@ -21,7 +21,9 @@ public class Solution {
         if (row < 0 || col < 0 || row >= rows || col >= cols || board[row][col] != word.charAt(index)) {
             return false;
         }
-        if (index == word.length() - 1) return true;
+        if (index == word.length() - 1) {
+            return true;
+        }
         char temp = board[row][col];
         board[row][col] = '#';
         boolean found = dfs(row + 1, col, index + 1) ||
