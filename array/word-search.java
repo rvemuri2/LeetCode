@@ -11,7 +11,9 @@ public class Solution {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                if (dfs(i, j, 0)) return true;
+                if (dfs(i, j, 0)) {
+                    return true;
+                }
             }
         }
         return false;
