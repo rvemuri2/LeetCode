@@ -29,8 +29,6 @@ public class Solution {
         // Mark the cell as visited
         char temp = board[row][col];
         board[row][col] = '#';
-
-        // Explore in 4 directions
         boolean found = dfs(row + 1, col, index + 1) ||
                         dfs(row - 1, col, index + 1) ||
                         dfs(row, col + 1, index + 1) ||
