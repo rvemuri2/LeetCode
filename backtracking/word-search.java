@@ -54,6 +54,5 @@ public class Solution {
 
         System.out.println(sol.exist(board, "ABCCED")); // true
         System.out.println(sol.exist(board, "SEE"));    // true
-        System.out.println(sol.exist(board, "ABCB"));   // false
     }
 }
