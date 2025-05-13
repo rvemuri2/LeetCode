@@ -25,8 +25,6 @@ public class Solution {
 
         // Entire word matched
         if (index == word.length() - 1) return true;
-
-        // Mark the cell as visited
         char temp = board[row][col];
         board[row][col] = '#';
         boolean found = dfs(row + 1, col, index + 1) ||
