@@ -45,10 +45,5 @@ public class Solution {
     // Test driver
     public static void main(String[] args) {
         Solution sol = new Solution();
-        char[][] board = {
-            {'A','B','C','E'},
-            {'S','F','C','S'},
-            {'A','D','E','E'}
-        };
     }
 }
