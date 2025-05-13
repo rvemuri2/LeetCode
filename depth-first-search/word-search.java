@@ -38,12 +38,7 @@ public class Solution {
 
         // Restore the cell
         board[row][col] = temp;
-
         return found;
     }
 
-    // Test driver
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
 }
