@@ -35,8 +35,6 @@ public class Solution {
                         dfs(row - 1, col, index + 1) ||
                         dfs(row, col + 1, index + 1) ||
                         dfs(row, col - 1, index + 1);
-
-        // Restore the cell
         board[row][col] = temp;
         return found;
     }
