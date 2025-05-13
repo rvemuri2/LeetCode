@@ -18,7 +18,6 @@ public class Solution {
     }
 
     private boolean dfs(int row, int col, int index) {
-        // Out of bounds or character doesn't match
         if (row < 0 || col < 0 || row >= rows || col >= cols || board[row][col] != word.charAt(index)) {
             return false;
         }
