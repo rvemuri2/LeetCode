@@ -23,10 +23,5 @@ public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println(sol.canCompleteCircuit(
-            new int[]{1,2,3,4,5},
-            new int[]{3,4,5,1,2}
-        )); // Output: 3
-
     }
 }
