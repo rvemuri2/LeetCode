@@ -18,8 +18,5 @@ public class Solution {
         return totalGas >= 0 ? startIndex : -1;
     }
 
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-
-    }
+    public static void main(String[] args) {}
 }
