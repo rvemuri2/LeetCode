@@ -15,8 +15,6 @@ public class Solution {
                 currentGas = 0;
             }
         }
-
-        // If totalGas is negative, we can't complete the circuit
         return totalGas >= 0 ? startIndex : -1;
     }
 
