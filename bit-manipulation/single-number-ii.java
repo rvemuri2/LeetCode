@@ -12,8 +12,6 @@ public class Solution {
                     sum++;
                 }
             }
-
-            // If sum % 3 != 0, the unique number has a 1 in this bit position
             if (sum % 3 != 0) {
                 result |= mask;
             }
