@@ -28,8 +28,5 @@ public class Solution {
             new int[]{3,4,5,1,2}
         )); // Output: 3
 
-        System.out.println(sol.canCompleteCircuit(
-            new int[]{2,3,4}
-        ));
     }
 }
