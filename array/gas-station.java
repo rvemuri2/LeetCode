@@ -7,7 +7,6 @@ public class Solution {
             int gain = gas[i] - cost[i];
             totalGas += gain;
             currentGas += gain;
-            // If currentGas drops below 0, we cannot start from current segment
             if (currentGas < 0) {
                 startIndex = i + 1;
                 currentGas = 0;
