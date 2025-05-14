@@ -20,6 +20,5 @@ public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.singleNumber(new int[]{2, 2, 3, 2}));
-        System.out.println(sol.singleNumber(new int[]{0, 1, 0, 1, 0, 1, 99}));
     }
 }
