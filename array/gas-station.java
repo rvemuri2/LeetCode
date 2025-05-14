@@ -29,8 +29,7 @@ public class Solution {
         )); // Output: 3
 
         System.out.println(sol.canCompleteCircuit(
-            new int[]{2,3,4},
-            new int[]{3,4,3}
+            new int[]{2,3,4}
         ));
     }
 }
