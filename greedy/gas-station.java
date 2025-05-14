@@ -31,6 +31,6 @@ public class Solution {
         System.out.println(sol.canCompleteCircuit(
             new int[]{2,3,4},
             new int[]{3,4,3}
-        )); // Output: -1
+        ));
     }
 }
