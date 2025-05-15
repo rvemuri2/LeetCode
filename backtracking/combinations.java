@@ -25,6 +25,5 @@ public class Solution {
     // Test code
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.combine(4, 2)); // [[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]]
     }
 }
