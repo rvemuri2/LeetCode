@@ -17,7 +17,7 @@ public class Solution {
             String substr = s.substring(start, end);
             if (isPalindrome(substr)) {
                 path.add(substr);                     // Choose
-                backtrack(s, end, path, result);      // Explore
+                backtrack(s, end, path, result);
                 path.remove(path.size() - 1);
             }
         }
