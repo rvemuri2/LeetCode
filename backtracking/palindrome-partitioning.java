@@ -35,6 +35,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.partition("aab")); // Output: [["a","a","b"],["aa","b"]]
-        System.out.println(sol.partition("a"));   // Output: [["a"]]
+        System.out.println(sol.partition("a"));
     }
 }
