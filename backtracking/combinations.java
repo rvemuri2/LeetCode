@@ -21,9 +21,4 @@ public class Solution {
             path.remove(path.size() - 1);       // Un-choose (backtrack)
         }
     }
-
-    // Test code
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
 }
