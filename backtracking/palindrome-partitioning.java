@@ -31,7 +31,6 @@ public class Solution {
         return true;
     }
 
-    // For testing
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.partition("aab"));
