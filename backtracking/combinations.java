@@ -15,7 +15,7 @@ public class Solution {
         for (int i = start; i <= n; i++) {
             path.add(i);                        // Choose
             backtrack(i + 1, n, k, path, result); // Explore
-            path.remove(path.size() - 1);       // Un-choose (backtrack)
+            path.remove(path.size() - 1);
         }
     }
 }
