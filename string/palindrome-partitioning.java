@@ -18,7 +18,7 @@ public class Solution {
             if (isPalindrome(substr)) {
                 path.add(substr);                     // Choose
                 backtrack(s, end, path, result);      // Explore
-                path.remove(path.size() - 1);         // Un-choose
+                path.remove(path.size() - 1);
             }
         }
     }
