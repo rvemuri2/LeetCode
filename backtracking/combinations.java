@@ -8,7 +8,6 @@ public class Solution {
     }
 
     private void backtrack(int start, int n, int k, List<Integer> path, List<List<Integer>> result) {
-        // If the current combination is of size k, add it to the result
         if (path.size() == k) {
             result.add(new ArrayList<>(path));
             return;
