@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class LongestValidSubsequence {
+public class Solution {
 
     // Helper method to calculate Hamming distance
     private static int hammingDistance(String a, String b) {
@@ -35,7 +35,8 @@ public class LongestValidSubsequence {
         return bestPath;
     }
 
-    public static List<String> longestValidSubsequence(String[] words, int[] groups) {
+    // Required method for the problem runner
+    public List<String> getWordsInLongestSubsequence(String[] words, int[] groups) {
         int n = words.length;
 
         // Build the graph: edges[i] will contain a list of indices j that can follow i
@@ -72,17 +73,5 @@ public class LongestValidSubsequence {
             result.add(words[index]);
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        String[] words1 = {"bab", "dab", "cab"};
-        int[] groups1 = {1, 2, 2};
-        System.out.println(longestValidSubsequence(words1, groups1));
-        // Output: ["bab", "dab"] or ["bab", "cab"]
-
-        String[] words2 = {"a", "b", "c", "d"};
-        int[] groups2 = {1, 2, 3, 4};
-        System.out.println(longestValidSubsequence(words2, groups2));
-        // Output: ["a", "b", "c", "d"]
     }
 }
