@@ -37,9 +37,5 @@ public class Solution {
     // Main method for testing the function
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        int[] nums1 = {100, 4, 200, 1, 3, 2};
-        System.out.println("Longest sequence length: " + sol.longestConsecutive(nums1));
-
     }
 }
