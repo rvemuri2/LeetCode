@@ -20,12 +20,10 @@ public class Solution {
                 int currentNum = num;
                 int currentStreak = 1;
 
-                // Count upwards while consecutive numbers exist
                 while (numSet.contains(currentNum + 1)) {
                     currentNum++;
                     currentStreak++;
                 }
-
                 longestStreak = Math.max(longestStreak, currentStreak);
             }
         }
