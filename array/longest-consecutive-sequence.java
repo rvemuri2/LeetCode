@@ -33,9 +33,4 @@ public class Solution {
 
         return longestStreak;
     }
-
-    // Main method for testing the function
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
 }
