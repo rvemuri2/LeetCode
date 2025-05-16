@@ -11,11 +11,9 @@ public class Solution {
         }
 
         int longestStreak = 0;
-
         // Iterate through the set
         for (int num : numSet) {
             // Only start a new sequence if num - 1 is not in the set
-            // This ensures we only start from the beginning of a sequence
             if (!numSet.contains(num - 1)) {
                 int currentNum = num;
                 int currentStreak = 1;
