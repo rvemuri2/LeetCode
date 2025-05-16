@@ -26,7 +26,6 @@ public class Solution {
                     currentStreak++;
                 }
 
-                // Update the longest streak found
                 longestStreak = Math.max(longestStreak, currentStreak);
             }
         }
