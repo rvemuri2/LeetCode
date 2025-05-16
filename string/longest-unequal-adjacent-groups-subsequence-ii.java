@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Solution {
 
-    // Helper method to calculate Hamming distance
     private static int hammingDistance(String a, String b) {
         int dist = 0;
         for (int i = 0; i < a.length(); i++) {
@@ -13,61 +12,57 @@ public class Solution {
         return dist;
     }
 
-    // DFS with memoization to get the longest valid path starting from node i
-    private static List<Integer> dfs(int i, List<List<Integer>> graph, Map<Integer, List<Integer>> memo) {
-        if (memo.containsKey(i)) {
-            return memo.get(i);
-        }
+    // DFS with visited set for cycle protection
+    private static List<Integer> dfs(int i, List<List<Integer>> graph, Map<Integer, List<Integer>> memo, Set<Integer> visiting) {
+        if (memo.containsKey(i)) return memo.get(i);
+        if (visiting.contains(i)) return new ArrayList<>(); // prevent infinite loop
 
+        visiting.add(i);
         List<Integer> bestPath = new ArrayList<>();
-        bestPath.add(i); // Include current node
+        bestPath.add(i);
 
         for (int neighbor : graph.get(i)) {
-            List<Integer> pathFromNeighbor = dfs(neighbor, graph, memo);
-            if (pathFromNeighbor.size() + 1 > bestPath.size()) {
+            List<Integer> neighborPath = dfs(neighbor, graph, memo, visiting);
+            if (neighborPath.size() + 1 > bestPath.size()) {
                 bestPath = new ArrayList<>();
                 bestPath.add(i);
-                bestPath.addAll(pathFromNeighbor);
+                bestPath.addAll(neighborPath);
             }
         }
 
+        visiting.remove(i);
         memo.put(i, bestPath);
         return bestPath;
     }
 
-    // Required method for the problem runner
     public List<String> getWordsInLongestSubsequence(String[] words, int[] groups) {
         int n = words.length;
 
-        // Build the graph: edges[i] will contain a list of indices j that can follow i
-        List<List<Integer>> edges = new ArrayList<>();
-        for (int i = 0; i < n; i++) edges.add(new ArrayList<>());
+        List<List<Integer>> graph = new ArrayList<>();
+        for (int i = 0; i < n; i++) graph.add(new ArrayList<>());
 
         for (int i = 0; i < n; i++) {
             String w1 = words[i];
             for (int j = 0; j < n; j++) {
                 if (i == j) continue;
                 String w2 = words[j];
-                if (groups[i] != groups[j] && w1.length() == w2.length()
-                        && hammingDistance(w1, w2) == 1) {
-                    edges.get(i).add(j);
+                if (groups[i] != groups[j] && w1.length() == w2.length() && hammingDistance(w1, w2) == 1) {
+                    graph.get(i).add(j);
                 }
             }
         }
 
-        // Memoization map
         Map<Integer, List<Integer>> memo = new HashMap<>();
         List<Integer> longestPath = new ArrayList<>();
 
-        // Try DFS from each node
         for (int i = 0; i < n; i++) {
-            List<Integer> path = dfs(i, edges, memo);
+            Set<Integer> visiting = new HashSet<>();
+            List<Integer> path = dfs(i, graph, memo, visiting);
             if (path.size() > longestPath.size()) {
                 longestPath = path;
             }
         }
 
-        // Convert index path to word path
         List<String> result = new ArrayList<>();
         for (int index : longestPath) {
             result.add(words[index]);
