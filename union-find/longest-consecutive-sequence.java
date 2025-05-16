@@ -49,6 +49,6 @@ public class Solution {
         System.out.println("Longest sequence length: " + sol.longestConsecutive(nums3)); // Output: 3
 
         int[] nums4 = {};
-        System.out.println("Longest sequence length: " + sol.longestConsecutive(nums4)); // Output: 0
+        System.out.println("Longest sequence length: " + sol.longestConsecutive(nums4));
     }
 }
