@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class LongestValidSubsequence {
+
     // Helper method to calculate Hamming distance
     private static int hammingDistance(String a, String b) {
         int dist = 0;
@@ -10,6 +11,28 @@ public class LongestValidSubsequence {
             }
         }
         return dist;
+    }
+
+    // DFS with memoization to get the longest valid path starting from node i
+    private static List<Integer> dfs(int i, List<List<Integer>> graph, Map<Integer, List<Integer>> memo) {
+        if (memo.containsKey(i)) {
+            return memo.get(i);
+        }
+
+        List<Integer> bestPath = new ArrayList<>();
+        bestPath.add(i); // Include current node
+
+        for (int neighbor : graph.get(i)) {
+            List<Integer> pathFromNeighbor = dfs(neighbor, graph, memo);
+            if (pathFromNeighbor.size() + 1 > bestPath.size()) {
+                bestPath = new ArrayList<>();
+                bestPath.add(i);
+                bestPath.addAll(pathFromNeighbor);
+            }
+        }
+
+        memo.put(i, bestPath);
+        return bestPath;
     }
 
     public static List<String> longestValidSubsequence(String[] words, int[] groups) {
@@ -25,39 +48,17 @@ public class LongestValidSubsequence {
                 if (i == j) continue;
                 String w2 = words[j];
                 if (groups[i] != groups[j] && w1.length() == w2.length()
-                    && hammingDistance(w1, w2) == 1) {
+                        && hammingDistance(w1, w2) == 1) {
                     edges.get(i).add(j);
                 }
             }
         }
 
-        // Memoization map to store the longest path from each node
+        // Memoization map
         Map<Integer, List<Integer>> memo = new HashMap<>();
-
-        // DFS to find longest path starting from node i
-        List<Integer> dfs(int i, List<List<Integer>> graph, Map<Integer, List<Integer>> memo) {
-            if (memo.containsKey(i)) {
-                return memo.get(i);
-            }
-
-            List<Integer> bestPath = new ArrayList<>();
-            bestPath.add(i);  // Include current node
-
-            for (int neighbor : graph.get(i)) {
-                List<Integer> pathFromNeighbor = dfs(neighbor, graph, memo);
-                if (pathFromNeighbor.size() + 1 > bestPath.size()) {
-                    bestPath = new ArrayList<>();
-                    bestPath.add(i);
-                    bestPath.addAll(pathFromNeighbor);
-                }
-            }
-
-            memo.put(i, bestPath);
-            return bestPath;
-        }
-
-        // Main logic to find the longest path
         List<Integer> longestPath = new ArrayList<>();
+
+        // Try DFS from each node
         for (int i = 0; i < n; i++) {
             List<Integer> path = dfs(i, edges, memo);
             if (path.size() > longestPath.size()) {
@@ -65,7 +66,7 @@ public class LongestValidSubsequence {
             }
         }
 
-        // Convert the longest path of indices into words
+        // Convert index path to word path
         List<String> result = new ArrayList<>();
         for (int index : longestPath) {
             result.add(words[index]);
@@ -73,7 +74,6 @@ public class LongestValidSubsequence {
         return result;
     }
 
-    // Entry point to test the function
     public static void main(String[] args) {
         String[] words1 = {"bab", "dab", "cab"};
         int[] groups1 = {1, 2, 2};
