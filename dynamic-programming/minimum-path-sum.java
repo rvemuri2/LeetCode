@@ -5,8 +5,6 @@ public class Solution {
 
         // DP table to store minimum path sums
         int[][] dp = new int[m][n];
-
-        // Initialize the start point
         dp[0][0] = grid[0][0];
         for (int j = 1; j < n; j++) {
             dp[0][j] = dp[0][j - 1] + grid[0][j];
