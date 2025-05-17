@@ -40,10 +40,5 @@ public class Solution {
             {4, 2, 1}
         };
         System.out.println("Minimum Path Sum: " + sol.minPathSum(grid1)); // Output: 7
-
-        int[][] grid2 = {
-            {1, 2, 3},
-            {4, 5, 6}
-        };
     }
 }
