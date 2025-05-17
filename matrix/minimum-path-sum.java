@@ -8,8 +8,6 @@ public class Solution {
 
         // Initialize the start point
         dp[0][0] = grid[0][0];
-
-        // Fill the first row (only right moves allowed)
         for (int j = 1; j < n; j++) {
             dp[0][j] = dp[0][j - 1] + grid[0][j];
         }
