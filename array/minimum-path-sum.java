@@ -29,7 +29,4 @@ public class Solution {
         // Return the value at the bottom-right cell
         return dp[m - 1][n - 1];
     }
-
-    // Test the solution
-    public static void main(String[] args) {}
 }
