@@ -45,6 +45,6 @@ public class Solution {
             {1, 2, 3},
             {4, 5, 6}
         };
-        System.out.println("Minimum Path Sum: " + sol.minPathSum(grid2)); // Output: 12
+        System.out.println("Minimum Path Sum: " + sol.minPathSum(grid2));
     }
 }
