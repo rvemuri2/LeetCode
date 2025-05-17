@@ -33,11 +33,5 @@ public class Solution {
     // Test the solution
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        int[][] grid1 = {
-            {1, 3, 1},
-            {1, 5, 1},
-            {4, 2, 1}
-        };
     }
 }
