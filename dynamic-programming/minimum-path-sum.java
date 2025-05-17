@@ -25,8 +25,6 @@ public class Solution {
                 dp[i][j] = grid[i][j] + Math.min(dp[i - 1][j], dp[i][j - 1]);
             }
         }
-
-        // Return the value at the bottom-right cell
         return dp[m - 1][n - 1];
     }
 }
