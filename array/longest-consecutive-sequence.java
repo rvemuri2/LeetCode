@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Solution {
 
-    // Method to find the length of the longest consecutive sequence
     public int longestConsecutive(int[] nums) {
         Set<Integer> numSet = new HashSet<>();
         for (int num : nums) {
