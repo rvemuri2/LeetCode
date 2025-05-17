@@ -7,9 +7,8 @@ public class Solution {
         // Use a HashSet for O(1) lookup time
         Set<Integer> numSet = new HashSet<>();
         for (int num : nums) {
-            numSet.add(num); // Duplicates are automatically handled
+            numSet.add(num);
         }
-
         int longestStreak = 0;
         for (int num : numSet) {
             if (!numSet.contains(num - 1)) {
