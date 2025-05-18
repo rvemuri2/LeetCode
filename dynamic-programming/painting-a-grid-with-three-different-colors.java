@@ -73,6 +73,5 @@ public class Solution {
     // For testing
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.colorTheGrid(1, 1));
     }
 }
