@@ -76,6 +76,6 @@ public class Solution {
         Solution sol = new Solution();
         System.out.println(sol.colorTheGrid(1, 1)); // Output: 3
         System.out.println(sol.colorTheGrid(1, 2)); // Output: 6
-        System.out.println(sol.colorTheGrid(5, 5)); // Output: 580986
+        System.out.println(sol.colorTheGrid(5, 5));
     }
 }
