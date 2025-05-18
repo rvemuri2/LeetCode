@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Solution {
-    static final int MOD = 1_000_000_007;
+    static final int MOD = 1000000007;
     static final int COLORS = 3;
     private void generateStates(int m, int pos, int[] curr, List<int[]> states) {
         if (pos == m) {
