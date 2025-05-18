@@ -49,8 +49,7 @@ public class Solution {
 
         // DP array: dp[c][s] = number of ways to reach column c with state s
         int[] dp = new int[S];
-        Arrays.fill(dp, 1); // base case: 1 way to start with any valid column coloring
-
+        Arrays.fill(dp, 1);
         for (int col = 1; col < n; col++) {
             int[] newDp = new int[S];
             for (int i = 0; i < S; i++) {
