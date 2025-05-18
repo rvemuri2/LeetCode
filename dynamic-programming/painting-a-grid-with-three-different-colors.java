@@ -1,0 +1,81 @@
+import java.util.*;
+
+public class Solution {
+    static final int MOD = 1_000_000_007;
+    static final int COLORS = 3;
+
+    // Generate all valid colorings for one column of height m
+    private void generateStates(int m, int pos, int[] curr, List<int[]> states) {
+        if (pos == m) {
+            states.add(Arrays.copyOf(curr, m));
+            return;
+        }
+
+        for (int color = 0; color < COLORS; color++) {
+            if (pos > 0 && curr[pos - 1] == color) continue; // avoid vertical match
+            curr[pos] = color;
+            generateStates(m, pos + 1, curr, states);
+        }
+    }
+
+    public int colorTheGrid(int m, int n) {
+        List<int[]> states = new ArrayList<>();
+        generateStates(m, 0, new int[m], states);
+        int S = states.size();
+
+        // Map each state to an index
+        Map<String, Integer> stateIndex = new HashMap<>();
+        for (int i = 0; i < S; i++) {
+            stateIndex.put(Arrays.toString(states.get(i)), i);
+        }
+
+        // Precompute valid transitions
+        List<Integer>[] transitions = new ArrayList[S];
+        for (int i = 0; i < S; i++) {
+            transitions[i] = new ArrayList<>();
+            for (int j = 0; j < S; j++) {
+                boolean compatible = true;
+                for (int k = 0; k < m; k++) {
+                    if (states.get(i)[k] == states.get(j)[k]) {
+                        compatible = false;
+                        break;
+                    }
+                }
+                if (compatible) {
+                    transitions[i].add(j);
+                }
+            }
+        }
+
+        // DP array: dp[c][s] = number of ways to reach column c with state s
+        int[] dp = new int[S];
+        Arrays.fill(dp, 1); // base case: 1 way to start with any valid column coloring
+
+        // DP over columns
+        for (int col = 1; col < n; col++) {
+            int[] newDp = new int[S];
+            for (int i = 0; i < S; i++) {
+                for (int prev : transitions[i]) {
+                    newDp[i] = (newDp[i] + dp[prev]) % MOD;
+                }
+            }
+            dp = newDp;
+        }
+
+        // Sum up ways to reach final column with any state
+        int total = 0;
+        for (int val : dp) {
+            total = (total + val) % MOD;
+        }
+
+        return total;
+    }
+
+    // For testing
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        System.out.println(sol.colorTheGrid(1, 1)); // Output: 3
+        System.out.println(sol.colorTheGrid(1, 2)); // Output: 6
+        System.out.println(sol.colorTheGrid(5, 5)); // Output: 580986
+    }
+}
