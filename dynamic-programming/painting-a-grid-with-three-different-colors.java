@@ -70,11 +70,9 @@ public class Solution {
 
         return total;
     }
-
     // For testing
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.colorTheGrid(1, 1));
-        System.out.println(sol.colorTheGrid(1, 2));
     }
 }
