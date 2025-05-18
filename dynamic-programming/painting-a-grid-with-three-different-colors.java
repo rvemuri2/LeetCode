@@ -76,6 +76,5 @@ public class Solution {
         Solution sol = new Solution();
         System.out.println(sol.colorTheGrid(1, 1));
         System.out.println(sol.colorTheGrid(1, 2));
-        System.out.println(sol.colorTheGrid(5, 5));
     }
 }
