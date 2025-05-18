@@ -3,8 +3,6 @@ import java.util.*;
 public class Solution {
     static final int MOD = 1_000_000_007;
     static final int COLORS = 3;
-
-    // Generate all valid colorings for one column of height m
     private void generateStates(int m, int pos, int[] curr, List<int[]> states) {
         if (pos == m) {
             states.add(Arrays.copyOf(curr, m));
