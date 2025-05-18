@@ -29,7 +29,6 @@ public class Solution {
             stateIndex.put(Arrays.toString(states.get(i)), i);
         }
 
-        // Precompute valid transitions
         List<Integer>[] transitions = new ArrayList[S];
         for (int i = 0; i < S; i++) {
             transitions[i] = new ArrayList<>();
