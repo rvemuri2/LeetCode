@@ -23,7 +23,6 @@ public class Solution {
         generateStates(m, 0, new int[m], states);
         int S = states.size();
 
-        // Map each state to an index
         Map<String, Integer> stateIndex = new HashMap<>();
         for (int i = 0; i < S; i++) {
             stateIndex.put(Arrays.toString(states.get(i)), i);
