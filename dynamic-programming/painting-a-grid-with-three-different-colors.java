@@ -61,8 +61,6 @@ public class Solution {
             }
             dp = newDp;
         }
-
-        // Sum up ways to reach final column with any state
         int total = 0;
         for (int val : dp) {
             total = (total + val) % MOD;
