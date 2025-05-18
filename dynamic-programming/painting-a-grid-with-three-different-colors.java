@@ -12,7 +12,7 @@ public class Solution {
         }
 
         for (int color = 0; color < COLORS; color++) {
-            if (pos > 0 && curr[pos - 1] == color) continue; // avoid vertical match
+            if (pos > 0 && curr[pos - 1] == color) continue;
             curr[pos] = color;
             generateStates(m, pos + 1, curr, states);
         }
