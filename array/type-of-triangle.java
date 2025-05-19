@@ -19,10 +19,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         System.out.println(sol.triangleType(new int[]{3, 3, 3})); // equilateral
         System.out.println(sol.triangleType(new int[]{3, 4, 5})); // scalene
         System.out.println(sol.triangleType(new int[]{3, 3, 5})); // isosceles
-        System.out.println(sol.triangleType(new int[]{1, 2, 3})); // none
+        System.out.println(sol.triangleType(new int[]{1, 2, 3}));
     }
 }
