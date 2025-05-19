@@ -11,7 +11,7 @@ public class Solution {
         } else if (a == b || b == c || a == c) {
             return "isosceles"; //2 equal, but not all
         } else {
-            return "scalene";
+            return "scalene"; //only 1 is equal
         }
     }
 }
