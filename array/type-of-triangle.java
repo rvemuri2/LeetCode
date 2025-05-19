@@ -4,7 +4,7 @@ public class Solution {
         int b = nums[1]; //2
         int c = nums[2]; //3
         if (a + b <= c || a + c <= b || b + c <= a) {
-            return "none";
+            return "none"; //None returned
         }
         if (a == b && b == c) {
             return "equilateral";
