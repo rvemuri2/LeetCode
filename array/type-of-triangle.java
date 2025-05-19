@@ -16,6 +16,4 @@ public class Solution {
             return "scalene";
         }
     }
-
-    public static void main(String[] args) {}
 }
