@@ -7,7 +7,7 @@ public class Solution {
             return "none"; //None returned
         }
         if (a == b && b == c) {
-            return "equilateral";
+            return "equilateral"; //all equal
         } else if (a == b || b == c || a == c) {
             return "isosceles";
         } else {
