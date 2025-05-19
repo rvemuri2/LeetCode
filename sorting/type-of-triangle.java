@@ -6,8 +6,6 @@ public class Solution {
         if (a + b <= c || a + c <= b || b + c <= a) {
             return "none";
         }
-
-        // Check triangle type
         if (a == b && b == c) {
             return "equilateral";
         } else if (a == b || b == c || a == c) {
