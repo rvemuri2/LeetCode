@@ -9,7 +9,7 @@ public class Solution {
         if (a == b && b == c) {
             return "equilateral"; //all equal
         } else if (a == b || b == c || a == c) {
-            return "isosceles";
+            return "isosceles"; //2 equal, but not all
         } else {
             return "scalene";
         }
