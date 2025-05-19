@@ -1,17 +1,20 @@
 public class Solution {
     public String triangleType(int[] nums) {
-        int a = nums[0]; //1
-        int b = nums[1]; //2
-        int c = nums[2]; //3
+        int a = nums[0];
+        int b = nums[1];
+        int c = nums[2];
         if (a + b <= c || a + c <= b || b + c <= a) {
-            return "none"; //None returned
+            return "none";
         }
         if (a == b && b == c) {
-            return "equilateral"; //all equal
+            return "equilateral";
         } else if (a == b || b == c || a == c) {
-            return "isosceles"; //2 equal, but not all
+            return "isosceles";
         } else {
-            return "scalene"; //only 1 is equal
+            return "scalene";
         }
     }
 }
+
+//Time: O(1)
+//Space: O(1)
