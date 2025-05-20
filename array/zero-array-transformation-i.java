@@ -1,7 +1,4 @@
 public class Solution {
-
-    /**
-     */
     public boolean isZeroArray(int[] nums, int[][] queries) {
         int n = nums.length;
         int[] diff = new int[n + 1];
