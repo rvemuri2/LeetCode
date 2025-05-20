@@ -23,8 +23,6 @@ public class Solution {
                 diff[r + 1] -= 1;
             }
         }
-
-        // Calculate how many times each index is covered using prefix sum
         int[] coverage = new int[n];
         int curr = 0;
         for (int i = 0; i < n; i++) {
