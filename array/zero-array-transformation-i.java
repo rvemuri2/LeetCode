@@ -46,6 +46,5 @@ public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] nums1 = {1, 0, 1};
-        int[][] queries1 = {{0, 2}};
     }
 }
