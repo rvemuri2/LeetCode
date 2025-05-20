@@ -13,7 +13,6 @@ public class Solution {
         int n = nums.length;
         int[] diff = new int[n + 1]; // difference array to efficiently mark ranges
 
-        // Apply the range increment logic using the difference array
         for (int[] query : queries) {
             int l = query[0];
             int r = query[1];
