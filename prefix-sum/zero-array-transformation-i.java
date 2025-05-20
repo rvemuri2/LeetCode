@@ -52,6 +52,6 @@ public class Solution {
 
         int[] nums2 = {4, 3, 2, 1};
         int[][] queries2 = {{1, 3}, {0, 2}};
-        System.out.println(sol.isZeroArray(nums2, queries2)); // false
+        System.out.println(sol.isZeroArray(nums2, queries2));
     }
 }
