@@ -1,26 +1,38 @@
 public class Solution {
-    public boolean canTransformToZeroArray(int[] nums, int[][] queries) {
-        int n = nums.length;
-        int[] diff = new int[n + 1]; // difference array for range update
 
-        // Apply each query as a +1 in diff[li] and -1 in diff[ri+1]
+    /**
+     * Determines if it is possible to transform the given nums array into a zero array
+     * using the provided range queries. Each query allows decrementing any subset of
+     * values within the specified range by 1.
+     *
+     * @param nums    The initial array of non-negative integers.
+     * @param queries The list of queries, each representing a [li, ri] range.
+     * @return True if nums can be transformed into a zero array, false otherwise.
+     */
+    public boolean isZeroArray(int[] nums, int[][] queries) {
+        int n = nums.length;
+        int[] diff = new int[n + 1]; // difference array to efficiently mark ranges
+
+        // Apply the range increment logic using the difference array
         for (int[] query : queries) {
-            int l = query[0], r = query[1];
+            int l = query[0];
+            int r = query[1];
+
             diff[l] += 1;
             if (r + 1 < n) {
                 diff[r + 1] -= 1;
             }
         }
 
-        // Compute prefix sum to get the number of times each index is covered
+        // Calculate how many times each index is covered using prefix sum
         int[] coverage = new int[n];
-        int current = 0;
+        int curr = 0;
         for (int i = 0; i < n; i++) {
-            current += diff[i];
-            coverage[i] = current;
+            curr += diff[i];
+            coverage[i] = curr;
         }
 
-        // Validate: nums[i] must be <= number of times it was covered
+        // Check if each value in nums can be reduced to zero using the coverage
         for (int i = 0; i < n; i++) {
             if (nums[i] > coverage[i]) {
                 return false;
@@ -30,16 +42,16 @@ public class Solution {
         return true;
     }
 
-    // Test the solution
+    // Optional: Test the function manually
     public static void main(String[] args) {
         Solution sol = new Solution();
 
         int[] nums1 = {1, 0, 1};
         int[][] queries1 = {{0, 2}};
-        System.out.println(sol.canTransformToZeroArray(nums1, queries1)); // true
+        System.out.println(sol.isZeroArray(nums1, queries1)); // true
 
         int[] nums2 = {4, 3, 2, 1};
         int[][] queries2 = {{1, 3}, {0, 2}};
-        System.out.println(sol.canTransformToZeroArray(nums2, queries2)); // false
+        System.out.println(sol.isZeroArray(nums2, queries2)); // false
     }
 }
