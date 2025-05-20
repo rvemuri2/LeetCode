@@ -42,5 +42,4 @@ public class Solution {
         return true;
     }
     // Optional: Test the function manually
-    public static void main(String[] args) {}
 }
