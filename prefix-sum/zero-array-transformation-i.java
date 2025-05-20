@@ -31,8 +31,6 @@ public class Solution {
             curr += diff[i];
             coverage[i] = curr;
         }
-
-        // Check if each value in nums can be reduced to zero using the coverage
         for (int i = 0; i < n; i++) {
             if (nums[i] > coverage[i]) {
                 return false;
