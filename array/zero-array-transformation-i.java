@@ -6,7 +6,6 @@ public class Solution {
      * values within the specified range by 1.
      *
      * @param nums    The initial array of non-negative integers.
-     * @param queries The list of queries, each representing a [li, ri] range.
      */
     public boolean isZeroArray(int[] nums, int[][] queries) {
         int n = nums.length;
