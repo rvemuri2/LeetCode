@@ -11,7 +11,7 @@ public class Solution {
      */
     public boolean isZeroArray(int[] nums, int[][] queries) {
         int n = nums.length;
-        int[] diff = new int[n + 1]; // difference array to efficiently mark ranges
+        int[] diff = new int[n + 1];
 
         for (int[] query : queries) {
             int l = query[0];
