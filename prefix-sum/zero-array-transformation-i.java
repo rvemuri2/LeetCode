@@ -47,6 +47,5 @@ public class Solution {
         Solution sol = new Solution();
         int[] nums1 = {1, 0, 1};
         int[][] queries1 = {{0, 2}};
-        System.out.println(sol.isZeroArray(nums1, queries1));
     }
 }
