@@ -1,7 +1,6 @@
 public class Solution {
 
     /**
-     * Determines if it is possible to transform the given nums array into a zero array
      */
     public boolean isZeroArray(int[] nums, int[][] queries) {
         int n = nums.length;
