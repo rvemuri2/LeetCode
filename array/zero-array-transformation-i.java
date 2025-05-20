@@ -7,7 +7,6 @@ public class Solution {
      *
      * @param nums    The initial array of non-negative integers.
      * @param queries The list of queries, each representing a [li, ri] range.
-     * @return True if nums can be transformed into a zero array, false otherwise.
      */
     public boolean isZeroArray(int[] nums, int[][] queries) {
         int n = nums.length;
