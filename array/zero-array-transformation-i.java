@@ -2,7 +2,6 @@ public class Solution {
 
     /**
      * Determines if it is possible to transform the given nums array into a zero array
-     * using the provided range queries. Each query allows decrementing any subset of
      */
     public boolean isZeroArray(int[] nums, int[][] queries) {
         int n = nums.length;
