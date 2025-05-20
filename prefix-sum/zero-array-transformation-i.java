@@ -45,6 +45,5 @@ public class Solution {
     // Optional: Test the function manually
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] nums1 = {1, 0, 1};
     }
 }
