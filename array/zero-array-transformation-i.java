@@ -49,9 +49,7 @@ public class Solution {
         int[] nums1 = {1, 0, 1};
         int[][] queries1 = {{0, 2}};
         System.out.println(sol.isZeroArray(nums1, queries1)); // true
-
         int[] nums2 = {4, 3, 2, 1};
         int[][] queries2 = {{1, 3}, {0, 2}};
-        System.out.println(sol.isZeroArray(nums2, queries2));
     }
 }
