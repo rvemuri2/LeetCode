@@ -69,7 +69,7 @@ public class Solution {
             {1, 3, 1, 5}
         };
         sol.setZeroes(matrix2);
-        printMatrix(matrix2); // Expected: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
+        printMatrix(matrix2);
     }
 
     private static void printMatrix(int[][] matrix) {
