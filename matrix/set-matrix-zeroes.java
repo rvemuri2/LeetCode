@@ -58,7 +58,6 @@ public class Solution {
         int[][] matrix1 = {
             {1, 1, 1},
             {1, 0, 1},
-            {1, 1, 1}
         };
     }
 
