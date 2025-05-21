@@ -53,8 +53,5 @@ public class Solution {
     }
 
     private static void printMatrix(int[][] matrix) {
-        for (int[] row : matrix) {
-            System.out.println(java.util.Arrays.toString(row));
-        }
     }
 }
