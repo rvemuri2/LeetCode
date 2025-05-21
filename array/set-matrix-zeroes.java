@@ -52,9 +52,6 @@ public class Solution {
         }
     }
 
-    // Optional: for testing
-    public static void main(String[] args) {}
-
     private static void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
             System.out.println(java.util.Arrays.toString(row));
