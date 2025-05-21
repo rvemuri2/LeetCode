@@ -29,8 +29,6 @@ public class Solution {
                 }
             }
         }
-
-        // Step 3: Set matrix cells to 0 based on markers
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
                 if (matrix[i][0] == 0 || matrix[0][j] == 0) {
