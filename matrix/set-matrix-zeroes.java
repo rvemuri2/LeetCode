@@ -5,8 +5,6 @@ public class Solution {
 
         boolean firstRowZero = false;
         boolean firstColZero = false;
-
-        // Step 1: Check if first row or column has any zeros
         for (int i = 0; i < m; i++) {
             if (matrix[i][0] == 0) {
                 firstColZero = true;
