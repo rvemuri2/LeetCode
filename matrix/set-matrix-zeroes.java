@@ -64,7 +64,6 @@ public class Solution {
         printMatrix(matrix1); // Expected: [[1,0,1],[0,0,0],[1,0,1]]
         int[][] matrix2 = {
             {0, 1, 2, 0},
-            {3, 4, 5, 2},
         };
     }
 
