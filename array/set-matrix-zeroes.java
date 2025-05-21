@@ -62,13 +62,11 @@ public class Solution {
         };
         sol.setZeroes(matrix1);
         printMatrix(matrix1); // Expected: [[1,0,1],[0,0,0],[1,0,1]]
-
         int[][] matrix2 = {
             {0, 1, 2, 0},
             {3, 4, 5, 2},
             {1, 3, 1, 5}
         };
-        sol.setZeroes(matrix2);
     }
 
     private static void printMatrix(int[][] matrix) {
