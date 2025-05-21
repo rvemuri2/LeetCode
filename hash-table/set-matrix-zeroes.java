@@ -55,9 +55,6 @@ public class Solution {
     // Optional: for testing
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[][] matrix1 = {
-            {1, 1, 1},
-        };
     }
 
     private static void printMatrix(int[][] matrix) {
