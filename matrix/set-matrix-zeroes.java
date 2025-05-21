@@ -51,7 +51,4 @@ public class Solution {
             }
         }
     }
-
-    private static void printMatrix(int[][] matrix) {
-    }
 }
