@@ -38,8 +38,6 @@ public class Solution {
                 }
             }
         }
-
-        // Step 4: Zero first row and column if needed
         if (firstRowZero) {
             for (int j = 0; j < n; j++) {
                 matrix[0][j] = 0;
