@@ -69,7 +69,6 @@ public class Solution {
             {1, 3, 1, 5}
         };
         sol.setZeroes(matrix2);
-        printMatrix(matrix2);
     }
 
     private static void printMatrix(int[][] matrix) {
