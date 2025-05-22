@@ -9,8 +9,6 @@ public class Solution {
         for (char c : s.toCharArray()) {
             count[c - 'a']++;
         }
-
-        // Perform t transformations
         for (int step = 0; step < t; step++) {
             long[] next = new long[26];
             for (int i = 0; i < 26; i++) {
