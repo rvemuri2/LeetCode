@@ -28,8 +28,6 @@ public class Solution {
             // Update current state
             count = next;
         }
-
-        // Compute total length after t transformations
         long result = 0;
         for (long c : count) {
             result = (result + c) % MOD;
