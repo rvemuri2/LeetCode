@@ -34,8 +34,6 @@ public class Solution {
         for (long c : count) {
             result = (result + c) % MOD;
         }
-
         return (int) result;
     }
-    public static void main(String[] args) {}
 }
