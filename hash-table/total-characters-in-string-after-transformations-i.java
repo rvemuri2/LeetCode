@@ -24,8 +24,6 @@ public class Solution {
                     next[i + 1] = (next[i + 1] + count[i]) % MOD;
                 }
             }
-
-            // Update current state
             count = next;
         }
         long result = 0;
