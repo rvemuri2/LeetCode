@@ -37,7 +37,5 @@ public class Solution {
 
         return (int) result;
     }
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
+    public static void main(String[] args) {}
 }
