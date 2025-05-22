@@ -44,6 +44,6 @@ public class Solution {
 
         // Example test cases
         System.out.println(sol.lengthAfterTransformations("abcyy", 2)); // Expected: 7
-        System.out.println(sol.lengthAfterTransformations("azbk", 1));  // Expected: 5
+        System.out.println(sol.lengthAfterTransformations("azbk", 1)); 
     }
 }
