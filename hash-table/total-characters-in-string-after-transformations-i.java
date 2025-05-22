@@ -1,7 +1,5 @@
 public class Solution {
     static final int MOD = 1_000_000_007;
-
-    // Method to compute the length of the string after t transformations
     public int lengthAfterTransformations(String s, int t) {
         long[] count = new long[26];
         for (char c : s.toCharArray()) {
