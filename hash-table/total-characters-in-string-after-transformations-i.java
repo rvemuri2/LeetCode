@@ -3,7 +3,7 @@ public class Solution {
 
     // Method to compute the length of the string after t transformations
     public int lengthAfterTransformations(String s, int t) {
-        long[] count = new long[26]; // Frequency count for characters 'a' to 'z'
+        long[] count = new long[26];
         for (char c : s.toCharArray()) {
             count[c - 'a']++;
         }
