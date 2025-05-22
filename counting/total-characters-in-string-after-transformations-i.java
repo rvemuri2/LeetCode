@@ -41,9 +41,8 @@ public class Solution {
     // Optional: main method for testing
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         // Example test cases
-        System.out.println(sol.lengthAfterTransformations("abcyy", 2)); // Expected: 7
+        System.out.println(sol.lengthAfterTransformations("abcyy", 2));
         System.out.println(sol.lengthAfterTransformations("azbk", 1)); 
     }
 }
