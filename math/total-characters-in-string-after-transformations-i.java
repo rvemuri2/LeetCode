@@ -17,7 +17,7 @@ public class Solution {
             for (int i = 0; i < 26; i++) {
                 if (i == 25) {
                     // 'z' becomes "ab" → increases length by 1
-                    next[0] = (next[0] + count[25]) % MOD; // 'a'
+                    next[0] = (next[0] + count[25]) % MOD;
                     next[1] = (next[1] + count[25]) % MOD;
                 } else {
                     next[i + 1] = (next[i + 1] + count[i]) % MOD;
