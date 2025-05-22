@@ -20,7 +20,6 @@ public class Solution {
                     next[0] = (next[0] + count[25]) % MOD; // 'a'
                     next[1] = (next[1] + count[25]) % MOD; // 'b'
                 } else {
-                    // All other characters move one forward in alphabet
                     next[i + 1] = (next[i + 1] + count[i]) % MOD;
                 }
             }
