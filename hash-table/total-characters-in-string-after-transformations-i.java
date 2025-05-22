@@ -12,8 +12,7 @@ public class Solution {
 
         // Perform t transformations
         for (int step = 0; step < t; step++) {
-            long[] next = new long[26]; // New frequency count for this transformation
-
+            long[] next = new long[26];
             for (int i = 0; i < 26; i++) {
                 if (i == 25) {
                     next[0] = (next[0] + count[25]) % MOD;
