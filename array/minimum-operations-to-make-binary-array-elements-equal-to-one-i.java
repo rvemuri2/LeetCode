@@ -17,3 +17,5 @@ class Solution {
         return ops;
     }
 }
+
+//Test 1 Result: 3
