@@ -27,6 +27,5 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] test1 = {0, 1, 1, 1, 0, 0};
-        int[] test2 = {0, 1, 1, 1};
     }
 }
