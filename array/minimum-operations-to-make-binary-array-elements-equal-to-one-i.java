@@ -14,8 +14,6 @@ class Solution {
                 ops++;
             }
         }
-
-        // Check if last 2 elements are all 1s (otherwise we can't flip anymore)
         if (nums[n - 2] == 0 || nums[n - 1] == 0) {
             return -1;
         }
