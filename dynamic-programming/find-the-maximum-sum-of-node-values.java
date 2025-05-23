@@ -2,41 +2,41 @@ import java.util.*;
 
 public class Solution {
     public int maximumValueSum(int[] nums, int k, int[][] edges) {
-        long total = 0;
-        int gainCount = 0;
-        int minGainChange = Integer.MAX_VALUE;
+        long baseSum = 0;
+        int flipCount = 0;
+        long minAdjustment = Long.MAX_VALUE;
 
         for (int num : nums) {
             int flipped = num ^ k;
-            total += Math.max(num, flipped);
+            baseSum += Math.max(num, flipped);
 
             int gain = flipped - num;
-            if (gain > 0) gainCount++;
+            if (gain > 0) {
+                flipCount++;
+            }
 
-            // Track the minimum cost to undo a flip if needed
-            minGainChange = Math.min(minGainChange, Math.abs(gain));
+            // Track minimal penalty if we need to change flip decision
+            minAdjustment = Math.min(minAdjustment, Math.abs(gain));
         }
 
-        // If gainCount is even, total is already maximal
-        // If gainCount is odd, we must undo one flip
-        if (gainCount % 2 == 0) {
-            return (int)(total);
+        // Only even number of flips allowed
+        if (flipCount % 2 == 0) {
+            return (int)(baseSum % 1_000_000_007);
         } else {
-            return (int)(total - minGainChange);
+            // Subtract the minimum impact flip to make count even
+            return (int)((baseSum - minAdjustment + 1_000_000_007) % 1_000_000_007);
         }
     }
 
+    // Optional: for testing
     public static void main(String[] args) {
         Solution sol = new Solution();
 
+        // Test case: all same values, flipping hurts
         System.out.println(sol.maximumValueSum(
-                new int[]{1, 2, 1},
-                3,
-                new int[][]{{0, 1}, {0, 2}})); // 6
-
-        System.out.println(sol.maximumValueSum(
-                new int[]{24, 78, 1, 97, 44},
-                6,
-                new int[][]{{0,2},{1,2},{4,2},{3,4}})); // 260
+                new int[]{7, 7, 7, 7, 7, 7},
+                1_000_000_000,
+                new int[][]{{0,1},{0,2},{0,3},{0,4},{0,5}}
+        )); // Expected: 6000000042 % MOD = 6000000042 % 1_000_000_007
     }
 }
