@@ -32,6 +32,5 @@ class Solution {
         int[] test3 = {1, 1, 1, 1};
 
         System.out.println("Test 1 Result: " + sol.minOperations(test1));
-        System.out.println("Test 2 Result: " + sol.minOperations(test2)); 
     }
 }
