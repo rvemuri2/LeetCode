@@ -7,7 +7,6 @@ class Solution {
         // Traverse left to right
         for (int i = 0; i <= n - 3; i++) {
             if (nums[i] == 0) {
-                // Flip the 3 consecutive bits
                 nums[i] ^= 1;
                 nums[i + 1] ^= 1;
                 nums[i + 2] ^= 1;
