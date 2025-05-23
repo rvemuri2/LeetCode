@@ -33,6 +33,5 @@ class Solution {
 
         System.out.println("Test 1 Result: " + sol.minOperations(test1));
         System.out.println("Test 2 Result: " + sol.minOperations(test2)); 
-        System.out.println("Test 3 Result: " + sol.minOperations(test3));
     }
 }
