@@ -1,31 +1,38 @@
-public class Solution {
-    public int minFlipsToAllOnes(int[] nums) {
+class Solution {
+    // Core method to return the minimum operations or -1 if impossible
+    public int minOperations(int[] nums) {
         int n = nums.length;
-        int flips = 0;
+        int ops = 0;
 
+        // Traverse left to right
         for (int i = 0; i <= n - 3; i++) {
             if (nums[i] == 0) {
-                // Flip nums[i], nums[i+1], nums[i+2]
+                // Flip the 3 consecutive bits
                 nums[i] ^= 1;
-                nums[i+1] ^= 1;
-                nums[i+2] ^= 1;
-                flips++;
+                nums[i + 1] ^= 1;
+                nums[i + 2] ^= 1;
+                ops++;
             }
         }
 
-        // Check if last two elements are 1
-        for (int i = n - 2; i < n; i++) {
-            if (i >= 0 && nums[i] == 0) return -1;
+        // Check if last 2 elements are all 1s (otherwise we can't flip anymore)
+        if (nums[n - 2] == 0 || nums[n - 1] == 0) {
+            return -1;
         }
 
-        return flips;
+        return ops;
     }
 
+    // Main method to test the function
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println(sol.minFlipsToAllOnes(new int[]{0,1,1,1,0,0})); // Output: 3
-        System.out.println(sol.minFlipsToAllOnes(new int[]{0,1,1,1}));     // Output: -1
-        System.out.println(sol.minFlipsToAllOnes(new int[]{1,1,1,1,1}));   // Output: 0
+        int[] test1 = {0, 1, 1, 1, 0, 0};
+        int[] test2 = {0, 1, 1, 1};
+        int[] test3 = {1, 1, 1, 1};
+
+        System.out.println("Test 1 Result: " + sol.minOperations(test1)); // Expected: 3
+        System.out.println("Test 2 Result: " + sol.minOperations(test2)); // Expected: -1
+        System.out.println("Test 3 Result: " + sol.minOperations(test3)); // Expected: 0
     }
 }
