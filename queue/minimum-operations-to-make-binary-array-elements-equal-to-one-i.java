@@ -19,3 +19,4 @@ class Solution {
 }
 
 //Test 1 Result: 3
+//Test 2 Result: -1
