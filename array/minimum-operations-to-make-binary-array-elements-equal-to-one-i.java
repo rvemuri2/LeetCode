@@ -26,10 +26,7 @@ class Solution {
     // Main method to test the function
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         int[] test1 = {0, 1, 1, 1, 0, 0};
         int[] test2 = {0, 1, 1, 1};
-        int[] test3 = {1, 1, 1, 1};
-
     }
 }
