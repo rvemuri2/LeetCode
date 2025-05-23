@@ -1,5 +1,4 @@
 class Solution {
-    // Core method to return the minimum operations or -1 if impossible
     public int minOperations(int[] nums) {
         int n = nums.length;
         int ops = 0;
