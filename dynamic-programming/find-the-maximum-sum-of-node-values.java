@@ -2,57 +2,41 @@ import java.util.*;
 
 public class Solution {
     public int maximumValueSum(int[] nums, int k, int[][] edges) {
-        int n = nums.length;
-        List<Integer>[] tree = new ArrayList[n];
-        for (int i = 0; i < n; i++) tree[i] = new ArrayList<>();
+        long total = 0;
+        int gainCount = 0;
+        int minGainChange = Integer.MAX_VALUE;
 
-        // Build adjacency list
-        for (int[] e : edges) {
-            tree[e[0]].add(e[1]);
-            tree[e[1]].add(e[0]);
+        for (int num : nums) {
+            int flipped = num ^ k;
+            total += Math.max(num, flipped);
+
+            int gain = flipped - num;
+            if (gain > 0) gainCount++;
+
+            // Track the minimum cost to undo a flip if needed
+            minGainChange = Math.min(minGainChange, Math.abs(gain));
         }
 
-        long[] result = dfs(0, -1, nums, k, tree);
-        return (int) Math.max(result[0], result[1]);
-    }
-
-    // Returns: [dp0, dp1] → max sum when this node is not flipped / is flipped
-    private long[] dfs(int node, int parent, int[] nums, int k, List<Integer>[] tree) {
-        long dp0 = nums[node];        // this node is not flipped
-        long dp1 = nums[node] ^ k;    // this node is flipped
-
-        for (int child : tree[node]) {
-            if (child == parent) continue;
-
-            long[] childDP = dfs(child, node, nums, k, tree);
-
-            long newDp0 = Math.max(dp0 + childDP[0], dp1 + childDP[1]);
-            long newDp1 = Math.max(dp0 + childDP[1], dp1 + childDP[0]);
-
-            dp0 = newDp0;
-            dp1 = newDp1;
+        // If gainCount is even, total is already maximal
+        // If gainCount is odd, we must undo one flip
+        if (gainCount % 2 == 0) {
+            return (int)(total);
+        } else {
+            return (int)(total - minGainChange);
         }
-
-        return new long[]{dp0, dp1};
     }
 
-    // Test the solution
     public static void main(String[] args) {
         Solution sol = new Solution();
 
         System.out.println(sol.maximumValueSum(
                 new int[]{1, 2, 1},
                 3,
-                new int[][]{{0, 1}, {0, 2}})); // Output: 6
+                new int[][]{{0, 1}, {0, 2}})); // 6
 
         System.out.println(sol.maximumValueSum(
-                new int[]{2, 3},
-                7,
-                new int[][]{{0, 1}})); // Output: 9
-
-        System.out.println(sol.maximumValueSum(
-                new int[]{7, 7, 7, 7, 7, 7},
-                3,
-                new int[][]{{0, 1}, {0, 2}, {0, 3}, {0, 4}, {0, 5}})); // Output: 42
+                new int[]{24, 78, 1, 97, 44},
+                6,
+                new int[][]{{0,2},{1,2},{4,2},{3,4}})); // 260
     }
 }
