@@ -3,8 +3,6 @@ class Solution {
     public int minOperations(int[] nums) {
         int n = nums.length;
         int ops = 0;
-
-        // Traverse left to right
         for (int i = 0; i <= n - 3; i++) {
             if (nums[i] == 0) {
                 nums[i] ^= 1;
