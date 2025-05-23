@@ -22,6 +22,4 @@ class Solution {
 
         return ops;
     }
-
-    // Main method to test the function
 }
