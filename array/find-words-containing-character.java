@@ -8,7 +8,6 @@ class Solution {
      * @return A list of indices where the word contains the character x
      */
     public List<Integer> findWordsContaining(String[] words, char x) {
-        // Create a list to store the indices of words that contain the character x
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < words.length; i++) {
             if (words[i].indexOf(x) != -1) {
