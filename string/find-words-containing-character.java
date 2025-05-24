@@ -15,7 +15,6 @@ class Solution {
         for (int i = 0; i < words.length; i++) {
             // Check if the current word contains the character x
             if (words[i].indexOf(x) != -1) {
-                // If it does, add the index to the result list
                 result.add(i);
             }
         }
