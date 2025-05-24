@@ -36,6 +36,6 @@ class Solution {
         System.out.println(sol.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'a')); // Output: [0, 2]
 
         // Test case 3: 'z' is in none of the words
-        System.out.println(sol.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'z')); // Output: []
+        System.out.println(sol.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'z'));
     }
 }
