@@ -19,8 +19,6 @@ class Solution {
                 result.add(i);
             }
         }
-
-        // Return the list of matching indices
         return result;
     }
 }
