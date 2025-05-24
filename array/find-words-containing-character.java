@@ -32,7 +32,5 @@ class Solution {
         System.out.println(sol.findWordsContaining(new String[]{"leet", "code"}, 'e'));
 
         System.out.println(sol.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'a'));
-
-        System.out.println(sol.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'z'));
     }
 }
