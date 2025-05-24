@@ -5,7 +5,6 @@ class Solution {
      * 
      * @param words An array of lowercase strings
      * @param x A lowercase character to search for in the words
-     * @return A list of indices where the word contains the character x
      */
     public List<Integer> findWordsContaining(String[] words, char x) {
         List<Integer> result = new ArrayList<>();
