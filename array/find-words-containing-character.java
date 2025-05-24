@@ -28,10 +28,9 @@ class Solution {
     // Main method to test the functionality with example inputs
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         // Test case 1: both words contain 'e'
         System.out.println(sol.findWordsContaining(new String[]{"leet", "code"}, 'e')); // Output: [0, 1]
-        // Test case 2: 'a' is in "abc" and "aaaa"
+
         System.out.println(sol.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'a'));
 
         System.out.println(sol.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'z'));
