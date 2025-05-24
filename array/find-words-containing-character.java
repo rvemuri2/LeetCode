@@ -2,9 +2,7 @@ import java.util.*;
 class Solution {
     /**
      * This method returns a list of indices of words that contain the given character x.
-     * 
      * @param words An array of lowercase strings
-     * @param x A lowercase character to search for in the words
      */
     public List<Integer> findWordsContaining(String[] words, char x) {
         List<Integer> result = new ArrayList<>();
