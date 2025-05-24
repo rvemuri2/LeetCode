@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Solution {
     /**
      * This method returns a list of indices of words that contain the given character x.
@@ -24,5 +23,4 @@ class Solution {
         // Return the list of matching indices
         return result;
     }
-    public static void main(String[] args) {}
 }
