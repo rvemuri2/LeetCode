@@ -24,9 +24,5 @@ class Solution {
         // Return the list of matching indices
         return result;
     }
-
-    // Main method to test the functionality with example inputs
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
+    public static void main(String[] args) {}
 }
