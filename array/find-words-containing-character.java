@@ -1,4 +1,3 @@
-import java.util.*;
 class Solution {
     public List<Integer> findWordsContaining(String[] words, char x) {
         List<Integer> result = new ArrayList<>();
