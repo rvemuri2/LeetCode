@@ -11,7 +11,6 @@ class Solution {
         // DP array to store max money robbed up to each house
         int[] dp = new int[n];
         
-        // Base cases
         dp[0] = nums[0];
         dp[1] = Math.max(nums[0], nums[1]);
 
