@@ -17,7 +17,6 @@ class Solution {
 
         // Build the dp array
         for (int i = 2; i < n; i++) {
-            // Either rob current + dp[i-2], or skip and take dp[i-1]
             dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i]);
         }
 
