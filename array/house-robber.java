@@ -21,7 +21,6 @@ class Solution {
             dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i]);
         }
 
-        // Final result is max money up to last house
         return dp[n - 1];
     }
 }
