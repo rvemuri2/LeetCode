@@ -26,7 +26,5 @@ class Solution {
     }
 
     // Example test
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
+    public static void main(String[] args) {}
 }
