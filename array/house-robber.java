@@ -2,7 +2,6 @@ class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
 
-        // Edge case: only 1 house
         if (n == 1) return nums[0];
 
         if (n == 2) return Math.max(nums[0], nums[1]);
