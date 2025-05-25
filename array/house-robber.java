@@ -24,7 +24,4 @@ class Solution {
         // Final result is max money up to last house
         return dp[n - 1];
     }
-
-    // Example test
-    public static void main(String[] args) {}
 }
