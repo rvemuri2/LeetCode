@@ -5,7 +5,6 @@ class Solution {
         // Edge case: only 1 house
         if (n == 1) return nums[0];
 
-        // Edge case: only 2 houses, pick the one with more money
         if (n == 2) return Math.max(nums[0], nums[1]);
 
         int[] dp = new int[n];
