@@ -8,7 +8,6 @@ class Solution {
         // Edge case: only 2 houses, pick the one with more money
         if (n == 2) return Math.max(nums[0], nums[1]);
 
-        // DP array to store max money robbed up to each house
         int[] dp = new int[n];
         
         dp[0] = nums[0];
