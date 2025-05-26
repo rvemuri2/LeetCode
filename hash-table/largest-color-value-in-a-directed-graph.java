@@ -18,14 +18,13 @@ public class Solution {
         Queue<Integer> queue = new LinkedList<>();
         int[][] dp = new int[n][26];
 
-        // Initialize: each node starts with its own color count as 1
         for (int i = 0; i < n; i++) {
             if (indegree[i] == 0) queue.offer(i);
             dp[i][colors.charAt(i) - 'a'] = 1;
         }
         int visited = 0;
         int maxColorValue = 0;
-        
+
         while (!queue.isEmpty()) {
             int u = queue.poll();
             visited++;
