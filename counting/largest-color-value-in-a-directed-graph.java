@@ -5,8 +5,6 @@ public class Solution {
         int n = colors.length();
         List<List<Integer>> graph = new ArrayList<>();
         int[] indegree = new int[n];
-
-        // Build graph
         for (int i = 0; i < n; i++) graph.add(new ArrayList<>());
 
         for (int[] edge : edges) {
