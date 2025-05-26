@@ -14,7 +14,6 @@ public class Solution {
             indegree[edge[1]]++;
         }
 
-        // Queue for Kahn's algorithm
         Queue<Integer> queue = new LinkedList<>();
         int[][] dp = new int[n][26];
 
