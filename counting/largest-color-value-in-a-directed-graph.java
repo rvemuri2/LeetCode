@@ -37,7 +37,6 @@ public class Solution {
                     int val = dp[u][c] + (colors.charAt(v) - 'a' == c ? 1 : 0);
                     dp[v][c] = Math.max(dp[v][c], val);
                 }
-                // Decrease indegree and add to queue if ready
                 indegree[v]--;
                 if (indegree[v] == 0) queue.offer(v);
             }
