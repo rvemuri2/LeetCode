@@ -23,11 +23,9 @@ public class Solution {
             if (indegree[i] == 0) queue.offer(i);
             dp[i][colors.charAt(i) - 'a'] = 1;
         }
-
         int visited = 0;
         int maxColorValue = 0;
-
-        // BFS Topological Sort
+        
         while (!queue.isEmpty()) {
             int u = queue.poll();
             visited++;
