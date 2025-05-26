@@ -49,13 +49,10 @@ public class Solution {
         // If not all nodes were visited, there's a cycle
         return visited == n ? maxColorValue : -1;
     }
-
     // Test example
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         String colors1 = "abaca";
         int[][] edges1 = {{0, 1}, {0, 2}, {2, 3}, {3, 4}};
-        System.out.println(sol.largestPathValue(colors1, edges1));
     }
 }
