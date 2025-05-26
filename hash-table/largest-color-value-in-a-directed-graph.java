@@ -50,7 +50,5 @@ public class Solution {
         return visited == n ? maxColorValue : -1;
     }
     // Test example
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
+    public static void main(String[] args) {}
 }
