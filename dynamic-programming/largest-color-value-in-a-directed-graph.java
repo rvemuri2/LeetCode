@@ -41,11 +41,9 @@ public class Solution {
                 indegree[v]--;
                 if (indegree[v] == 0) queue.offer(v);
             }
-
             // Update global max
             maxColorValue = Math.max(maxColorValue, Arrays.stream(dp[u]).max().getAsInt());
         }
-        // If not all nodes were visited, there's a cycle
         return visited == n ? maxColorValue : -1;
     }
 }
