@@ -59,6 +59,5 @@ public class Solution {
         System.out.println(sol.largestPathValue(colors1, edges1));
 
         String colors2 = "a";
-        int[][] edges2 = {{0, 0}};
     }
 }
