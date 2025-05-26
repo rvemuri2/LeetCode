@@ -45,10 +45,7 @@ public class Solution {
             // Update global max
             maxColorValue = Math.max(maxColorValue, Arrays.stream(dp[u]).max().getAsInt());
         }
-
         // If not all nodes were visited, there's a cycle
         return visited == n ? maxColorValue : -1;
     }
-    // Test example
-    public static void main(String[] args) {}
 }
