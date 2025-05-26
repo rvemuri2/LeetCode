@@ -53,6 +53,5 @@ public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         String colors1 = "abaca";
-        int[][] edges1 = {{0, 1}, {0, 2}, {2, 3}, {3, 4}};
     }
 }
