@@ -56,7 +56,7 @@ public class Solution {
 
         String colors1 = "abaca";
         int[][] edges1 = {{0, 1}, {0, 2}, {2, 3}, {3, 4}};
-        System.out.println(sol.largestPathValue(colors1, edges1)); // Output: 3
+        System.out.println(sol.largestPathValue(colors1, edges1));
 
         String colors2 = "a";
         int[][] edges2 = {{0, 0}};
