@@ -32,7 +32,6 @@ public class Solution {
             int u = queue.poll();
             visited++;
             for (int v : graph.get(u)) {
-                // Update color frequency for node v based on node u
                 for (int c = 0; c < 26; c++) {
                     int val = dp[u][c] + (colors.charAt(v) - 'a' == c ? 1 : 0);
                     dp[v][c] = Math.max(dp[v][c], val);
