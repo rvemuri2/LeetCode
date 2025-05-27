@@ -16,9 +16,7 @@ class Solution {
     // Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         System.out.println(sol.differenceOfSums(10, 3));
         System.out.println(sol.differenceOfSums(5, 6));
-        System.out.println(sol.differenceOfSums(5, 1));
     }
 }
