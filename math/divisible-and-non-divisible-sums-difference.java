@@ -8,8 +8,6 @@ class Solution {
 
         // Sum of multiples of m
         long divisibleSum = m * countDiv * (countDiv + 1) / 2;
-
-        // Subtract divisibleSum twice: once from total, once again for the difference
         return (int)(totalSum - 2 * divisibleSum);
     }
 }
