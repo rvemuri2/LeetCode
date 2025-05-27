@@ -5,8 +5,6 @@ class Solution {
 
         // Count of multiples of m in [1, n]
         long countDiv = n / m;
-
-        // Sum of multiples of m
         long divisibleSum = m * countDiv * (countDiv + 1) / 2;
         return (int)(totalSum - 2 * divisibleSum);
     }
