@@ -12,7 +12,4 @@ class Solution {
         // Subtract divisibleSum twice: once from total, once again for the difference
         return (int)(totalSum - 2 * divisibleSum);
     }
-
-    // Test cases
-    public static void main(String[] args) {}
 }
