@@ -19,6 +19,6 @@ class Solution {
 
         System.out.println(sol.differenceOfSums(10, 3)); // Output: 19
         System.out.println(sol.differenceOfSums(5, 6));  // Output: 15
-        System.out.println(sol.differenceOfSums(5, 1));  // Output: -15
+        System.out.println(sol.differenceOfSums(5, 1));
     }
 }
