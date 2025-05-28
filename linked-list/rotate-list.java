@@ -13,14 +13,13 @@ class Solution {
         if (head == null || head.next == null || k == 0)
             return head;
 
-        // Step 1: Find the length of the list
         int length = 1;
         ListNode tail = head;
         while (tail.next != null) {
             tail = tail.next;
             length++;
         }
-        
+
         k = k % length;
         if (k == 0) return head;
 
