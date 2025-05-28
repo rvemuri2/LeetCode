@@ -24,8 +24,7 @@ class Solution {
         // Step 2: Compute effective rotation
         k = k % length;
         if (k == 0) return head;
-
-        // Step 3: Make it circular temporarily
+        
         tail.next = head;
 
         ListNode newTail = head;
