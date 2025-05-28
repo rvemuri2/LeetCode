@@ -20,11 +20,10 @@ class Solution {
             tail = tail.next;
             length++;
         }
-
-        // Step 2: Compute effective rotation
+        
         k = k % length;
         if (k == 0) return head;
-        
+
         tail.next = head;
 
         ListNode newTail = head;
