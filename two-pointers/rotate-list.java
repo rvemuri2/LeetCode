@@ -3,7 +3,6 @@
  * public class ListNode {
  *     int val;
  *     ListNode next;
- *     ListNode() {}
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
