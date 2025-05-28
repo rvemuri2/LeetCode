@@ -28,7 +28,6 @@ class Solution {
         // Step 3: Make it circular temporarily
         tail.next = head;
 
-        // Step 4: Find the new tail: length - k - 1 steps from head
         ListNode newTail = head;
         for (int i = 0; i < length - k - 1; i++) {
             newTail = newTail.next;
