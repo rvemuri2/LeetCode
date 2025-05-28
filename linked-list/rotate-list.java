@@ -34,7 +34,6 @@ class Solution {
             newTail = newTail.next;
         }
 
-        // Step 5: New head is next of newTail, break the link
         ListNode newHead = newTail.next;
         newTail.next = null;
 
