@@ -26,7 +26,6 @@ public class Solution {
         for (int d : depth2) if ((d & 1) == 0) countEven2++;
         int countOdd2  = m - countEven2;
 
-        // When connecting i to some j, a node x in tree1 is at even distance from i
         int maxOdd2 = Math.max(countEven2, countOdd2);
 
         int[] answer = new int[n];
