@@ -19,8 +19,6 @@ public class Solution {
         int countEven1 = 0;
         for (int d : depth1) if ((d & 1) == 0) countEven1++;
         int countOdd1  = n - countEven1;
-
-        // BFS from node 0 to determine depth parity partitions in tree2
         int[] depth2 = bfsDepth(tree2, 0);
         int countEven2 = 0;
         for (int d : depth2) if ((d & 1) == 0) countEven2++;
