@@ -71,7 +71,4 @@ public class Solution {
         }
         return depth;
     }
-
-    // Optional test
-    public static void main(String[] args) {}
 }
