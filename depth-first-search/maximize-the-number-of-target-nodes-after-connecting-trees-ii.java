@@ -1,9 +1,6 @@
 import java.util.*;
 
 public class Solution {
-    /**
-     * For each node i in the first tree, we connect i to one optimal node in the second tree to
-     */
     public int[] maxTargetNodes(int[][] edges1, int[][] edges2) {
         int n = edges1.length + 1;
         int m = edges2.length + 1;
