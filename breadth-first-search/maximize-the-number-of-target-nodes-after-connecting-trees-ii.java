@@ -51,8 +51,6 @@ public class Solution {
         }
         return g;
     }
-
-    // Standard BFS to compute depth from root
     private int[] bfsDepth(List<List<Integer>> graph, int root) {
         int n = graph.size();
         int[] depth = new int[n];
