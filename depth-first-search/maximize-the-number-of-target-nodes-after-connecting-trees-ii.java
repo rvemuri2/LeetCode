@@ -75,6 +75,5 @@ public class Solution {
     // Optional test
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[][] edges1 = {{0,1},{0,2},{2,3},{2,4}};
     }
 }
