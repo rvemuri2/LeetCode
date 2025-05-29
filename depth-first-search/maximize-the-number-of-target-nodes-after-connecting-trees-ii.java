@@ -41,7 +41,6 @@ public class Solution {
         return answer;
     }
 
-    // Build undirected graph
     private List<List<Integer>> buildGraph(int size, int[][] edges) {
         List<List<Integer>> g = new ArrayList<>();
         for (int i = 0; i < size; i++) g.add(new ArrayList<>());
