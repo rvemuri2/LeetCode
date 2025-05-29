@@ -4,7 +4,6 @@ public class Solution {
     /**
      * For each node i in the first tree, we connect i to one optimal node in the second tree to
      * maximize the number of "target" nodes (even-distance) from i in the combined tree.
-     * In a tree, distance parity from i to x depends only on the parity of depths in a fixed root BFS.
      */
     public int[] maxTargetNodes(int[][] edges1, int[][] edges2) {
         int n = edges1.length + 1;
