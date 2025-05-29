@@ -32,7 +32,6 @@ public class Solution {
         // Among all j, the maximum odd-distance node count equals max(countEven2, countOdd2).
         int maxOdd2 = Math.max(countEven2, countOdd2);
 
-        // Build answer: for each i, its even-count in tree1 + max odd-count in tree2
         int[] answer = new int[n];
         for (int i = 0; i < n; i++) {
             int evenCountFromI = ((depth1[i] & 1) == 0) ? countEven1 : countOdd1;
