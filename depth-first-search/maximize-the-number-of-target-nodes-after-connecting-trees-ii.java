@@ -29,7 +29,6 @@ public class Solution {
         // When connecting i to some j, a node x in tree1 is at even distance from i
         // iff depth1[x] % 2 == depth1[i] % 2 → countEven1 or countOdd1 accordingly.
         // A node y in tree2 is at even total distance from i when 1 + dist2(j,y) is even → dist2(j,y) odd.
-        // Among all j, the maximum odd-distance node count equals max(countEven2, countOdd2).
         int maxOdd2 = Math.max(countEven2, countOdd2);
 
         int[] answer = new int[n];
