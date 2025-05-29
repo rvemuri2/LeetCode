@@ -10,7 +10,6 @@ public class Solution {
         int n = edges1.length + 1;
         int m = edges2.length + 1;
 
-        // Build adjacency lists
         List<List<Integer>> tree1 = buildGraph(n, edges1);
         List<List<Integer>> tree2 = buildGraph(m, edges2);
 
