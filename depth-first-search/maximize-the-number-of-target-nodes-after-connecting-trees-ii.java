@@ -14,7 +14,6 @@ public class Solution {
         List<List<Integer>> tree1 = buildGraph(n, edges1);
         List<List<Integer>> tree2 = buildGraph(m, edges2);
 
-        // BFS from node 0 to determine depth parity partitions in tree1
         int[] depth1 = bfsDepth(tree1, 0);
         int countEven1 = 0;
         for (int d : depth1) if ((d & 1) == 0) countEven1++;
