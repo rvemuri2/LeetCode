@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Solution {
     public int[] maxTargetNodes(int[][] edges1, int[][] edges2) {
         int n = edges1.length + 1;
