@@ -1,73 +1,83 @@
 import java.util.*;
 
 public class Solution {
+    /**
+     * For each node i in the first tree, we connect i to one optimal node in the second tree to
+     * maximize the number of "target" nodes (even-distance) from i in the combined tree.
+     * In a tree, distance parity from i to x depends only on the parity of depths in a fixed root BFS.
+     */
     public int[] maxTargetNodes(int[][] edges1, int[][] edges2) {
         int n = edges1.length + 1;
         int m = edges2.length + 1;
 
-        // Build adjacency lists for both trees
-        List<List<Integer>> graph1 = buildGraph(n, edges1);
-        List<List<Integer>> graph2 = buildGraph(m, edges2);
+        // Build adjacency lists
+        List<List<Integer>> tree1 = buildGraph(n, edges1);
+        List<List<Integer>> tree2 = buildGraph(m, edges2);
 
-        // Get depths of all nodes in the second tree starting from node 0
-        int[] depth2 = getDepths(graph2);
+        // BFS from node 0 to determine depth parity partitions in tree1
+        int[] depth1 = bfsDepth(tree1, 0);
+        int countEven1 = 0;
+        for (int d : depth1) if ((d & 1) == 0) countEven1++;
+        int countOdd1  = n - countEven1;
 
-        // Count the number of nodes at even depths and odd depths in the second tree
-        int evenCount2 = 0;
-        for (int d : depth2) {
-            if (d % 2 == 0) evenCount2++;
-        }
-        int oddCount2 = m - evenCount2;
+        // BFS from node 0 to determine depth parity partitions in tree2
+        int[] depth2 = bfsDepth(tree2, 0);
+        int countEven2 = 0;
+        for (int d : depth2) if ((d & 1) == 0) countEven2++;
+        int countOdd2  = m - countEven2;
 
-        // Get depths of all nodes in the first tree starting from node 0
-        int[] depth1 = getDepths(graph1);
-        int[] result = new int[n];
+        // When connecting i to some j, a node x in tree1 is at even distance from i
+        // iff depth1[x] % 2 == depth1[i] % 2 → countEven1 or countOdd1 accordingly.
+        // A node y in tree2 is at even total distance from i when 1 + dist2(j,y) is even → dist2(j,y) odd.
+        // Among all j, the maximum odd-distance node count equals max(countEven2, countOdd2).
+        int maxOdd2 = Math.max(countEven2, countOdd2);
 
-        // For each node in the first tree, compute how many nodes in the second tree
-        // would be at even distance when connected, based on parity of depth
+        // Build answer: for each i, its even-count in tree1 + max odd-count in tree2
+        int[] answer = new int[n];
         for (int i = 0; i < n; i++) {
-            result[i] = (depth1[i] % 2 == 0) ? evenCount2 : oddCount2;
+            int evenCountFromI = ((depth1[i] & 1) == 0) ? countEven1 : countOdd1;
+            answer[i] = evenCountFromI + maxOdd2;
         }
-
-        return result;
+        return answer;
     }
 
-    // Utility function to build the graph from edge list
+    // Build undirected graph
     private List<List<Integer>> buildGraph(int size, int[][] edges) {
-        List<List<Integer>> graph = new ArrayList<>();
-        for (int i = 0; i < size; i++) graph.add(new ArrayList<>());
-        for (int[] edge : edges) {
-            graph.get(edge[0]).add(edge[1]);
-            graph.get(edge[1]).add(edge[0]);
+        List<List<Integer>> g = new ArrayList<>();
+        for (int i = 0; i < size; i++) g.add(new ArrayList<>());
+        for (int[] e : edges) {
+            g.get(e[0]).add(e[1]);
+            g.get(e[1]).add(e[0]);
         }
-        return graph;
+        return g;
     }
 
-    // BFS to compute depths of all nodes from root (node 0)
-    private int[] getDepths(List<List<Integer>> graph) {
-        int[] depth = new int[graph.size()];
-        Arrays.fill(depth, -1); // Mark all nodes as unvisited
-        Queue<Integer> queue = new LinkedList<>();
-        depth[0] = 0; // Starting from node 0
-        queue.offer(0);
-
-        while (!queue.isEmpty()) {
-            int node = queue.poll();
-            for (int neighbor : graph.get(node)) {
-                if (depth[neighbor] == -1) {
-                    depth[neighbor] = depth[node] + 1;
-                    queue.offer(neighbor);
+    // Standard BFS to compute depth from root
+    private int[] bfsDepth(List<List<Integer>> graph, int root) {
+        int n = graph.size();
+        int[] depth = new int[n];
+        Arrays.fill(depth, -1);
+        Queue<Integer> q = new LinkedList<>();
+        depth[root] = 0;
+        q.offer(root);
+        while (!q.isEmpty()) {
+            int u = q.poll();
+            for (int v : graph.get(u)) {
+                if (depth[v] == -1) {
+                    depth[v] = depth[u] + 1;
+                    q.offer(v);
                 }
             }
         }
         return depth;
     }
 
-    // Optional: for testing
+    // Optional test
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[][] edges1 = {{0,1},{0,2},{2,3},{2,4}};
         int[][] edges2 = {{0,1},{0,2},{0,3},{2,7},{1,4},{4,5},{4,6}};
-        System.out.println(Arrays.toString(sol.maxTargetNodes(edges1, edges2))); // Output: [8, 7, 7, 8, 8]
+        System.out.println(Arrays.toString(sol.maxTargetNodes(edges1, edges2)));
+        // Expected: [8,7,7,8,8]
     }
 }
