@@ -27,7 +27,9 @@ public class Solution {
 
     private List<List<Integer>> buildGraph(int size, int[][] edges) {
         List<List<Integer>> g = new ArrayList<>();
-        for (int i = 0; i < size; i++) g.add(new ArrayList<>());
+        for (int i = 0; i < size; i++) {
+            g.add(new ArrayList<>());
+        }
         for (int[] e : edges) {
             g.get(e[0]).add(e[1]);
             g.get(e[1]).add(e[0]);
