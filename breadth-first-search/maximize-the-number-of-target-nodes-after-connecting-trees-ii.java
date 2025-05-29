@@ -78,6 +78,5 @@ public class Solution {
         int[][] edges1 = {{0,1},{0,2},{2,3},{2,4}};
         int[][] edges2 = {{0,1},{0,2},{0,3},{2,7},{1,4},{4,5},{4,6}};
         System.out.println(Arrays.toString(sol.maxTargetNodes(edges1, edges2)));
-        // Expected: [8,7,7,8,8]
     }
 }
