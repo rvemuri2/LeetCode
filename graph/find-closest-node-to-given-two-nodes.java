@@ -70,6 +70,6 @@ public class Solution {
 
         int[] edges3 = {4, 4, 4, 5, 2, 3, 1};
         // no meeting node reachable by both
-        System.out.println(sol.closestMeetingNode(edges3, 0, 6)); // Example
+        System.out.println(sol.closestMeetingNode(edges3, 0, 6));
     }
 }
