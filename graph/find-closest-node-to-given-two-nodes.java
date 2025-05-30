@@ -61,9 +61,6 @@ public class Solution {
     // Optional: test runner
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         int[] edges1 = {2, 2, 3, -1};
-        System.out.println(sol.closestMeetingNode(edges1, 0, 1));
-
     }
 }
