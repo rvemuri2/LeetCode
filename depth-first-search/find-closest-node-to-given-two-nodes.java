@@ -49,7 +49,7 @@ public class Solution {
         Arrays.fill(dist, -1);
         int node = start;
         int d = 0;
-        // Traverse until end or cycle
+
         while (node != -1 && dist[node] == -1) {
             dist[node] = d;
             d++;
