@@ -59,7 +59,5 @@ public class Solution {
     }
 
     // Optional: test runner
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
+    public static void main(String[] args) {}
 }
