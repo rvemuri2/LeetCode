@@ -68,7 +68,5 @@ public class Solution {
         int[] edges2 = {1, 2, -1};
         System.out.println(sol.closestMeetingNode(edges2, 0, 2)); // Expected 2
 
-        int[] edges3 = {4, 4, 4, 5, 2, 3, 1};
-
     }
 }
