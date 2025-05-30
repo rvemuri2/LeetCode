@@ -41,7 +41,6 @@ public class Solution {
      *
      * @param edges Graph edges
      * @param start Starting node
-     * @param n Number of nodes
      */
     private int[] computeDistances(int[] edges, int start, int n) {
         int[] dist = new int[n];
