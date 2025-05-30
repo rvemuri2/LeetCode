@@ -61,6 +61,5 @@ public class Solution {
     // Optional: test runner
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] edges1 = {2, 2, 3, -1};
     }
 }
