@@ -40,7 +40,6 @@ public class Solution {
      * Uses simple traversal since outdegree ≤ 1.
      *
      * @param edges Graph edges
-     * @param start Starting node
      */
     private int[] computeDistances(int[] edges, int start, int n) {
         int[] dist = new int[n];
