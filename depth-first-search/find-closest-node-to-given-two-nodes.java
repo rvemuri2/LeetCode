@@ -69,7 +69,7 @@ public class Solution {
         System.out.println(sol.closestMeetingNode(edges2, 0, 2)); // Expected 2
 
         int[] edges3 = {4, 4, 4, 5, 2, 3, 1};
-        // no meeting node reachable by both
+
         System.out.println(sol.closestMeetingNode(edges3, 0, 6));
     }
 }
