@@ -42,7 +42,6 @@ public class Solution {
      * @param edges Graph edges
      * @param start Starting node
      * @param n Number of nodes
-     * @return dist array where dist[i] is distance from start to i, or -1 if unreachable
      */
     private int[] computeDistances(int[] edges, int start, int n) {
         int[] dist = new int[n];
