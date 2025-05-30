@@ -57,7 +57,4 @@ public class Solution {
         }
         return dist;
     }
-
-    // Optional: test runner
-    public static void main(String[] args) {}
 }
