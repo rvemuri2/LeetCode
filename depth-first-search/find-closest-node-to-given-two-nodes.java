@@ -23,7 +23,6 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             if (dist1[i] != -1 && dist2[i] != -1) {
                 int maxDist = Math.max(dist1[i], dist2[i]);
-                // select smaller maxDist or smaller index on tie
                 if (maxDist < bestMaxDist || (maxDist == bestMaxDist && i < answer)) {
                     bestMaxDist = maxDist;
                     answer = i;
