@@ -9,7 +9,6 @@ public class Solution {
      *
      * @param edges Directed edges representation; edges[i] = next node or -1 if none
      * @param node1 Starting node for first distance
-     * @param node2 Starting node for second distance
      */
     public int closestMeetingNode(int[] edges, int node1, int node2) {
         int n = edges.length;
