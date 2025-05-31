@@ -3,7 +3,6 @@ public class Solution {
     /**
      * Finds the closest meeting node reachable from both node1 and node2 in a directed graph
      * where each node has at most one outgoing edge.
-     * We compute distances from node1 and node2 separately, then choose the node minimizing
      */
     public int closestMeetingNode(int[] edges, int node1, int node2) {
         int n = edges.length;
