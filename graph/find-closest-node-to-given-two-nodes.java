@@ -1,7 +1,6 @@
 import java.util.*;
 public class Solution {
     /**
-     * Finds the closest meeting node reachable from both node1 and node2 in a directed graph
      */
     public int closestMeetingNode(int[] edges, int node1, int node2) {
         int n = edges.length;
