@@ -36,7 +36,6 @@ public class Solution {
 
     /**
      * Computes shortest distance from start to every node in the functional graph
-     * where each node has at most one outgoing edge.
      */
     private int[] computeDistances(int[] edges, int start, int n) {
         int[] dist = new int[n];
