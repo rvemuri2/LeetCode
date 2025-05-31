@@ -1,7 +1,6 @@
 import java.util.*;
 public class Solution {
-    /**
-     */
+    
     public int closestMeetingNode(int[] edges, int node1, int node2) {
         int n = edges.length;
         int[] dist1 = computeDistances(edges, node1, n);
