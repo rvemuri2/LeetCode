@@ -6,8 +6,6 @@ public class Solution {
      * where each node has at most one outgoing edge.
      * We compute distances from node1 and node2 separately, then choose the node minimizing
      * the maximum of the two distances, breaking ties by smaller node index.
-     *
-     * @param edges Directed edges representation; edges[i] = next node or -1 if none
      */
     public int closestMeetingNode(int[] edges, int node1, int node2) {
         int n = edges.length;
