@@ -8,7 +8,6 @@ public class Solution {
      * the maximum of the two distances, breaking ties by smaller node index.
      *
      * @param edges Directed edges representation; edges[i] = next node or -1 if none
-     * @param node1 Starting node for first distance
      */
     public int closestMeetingNode(int[] edges, int node1, int node2) {
         int n = edges.length;
