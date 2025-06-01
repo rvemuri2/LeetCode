@@ -57,9 +57,6 @@ public class Solution {
     // Optional testing
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        int[][] board1 = {
-            {-1, -1, -1, -1, -1, -1},
-        };
+        int[][] board1 = {};
     }
 }
