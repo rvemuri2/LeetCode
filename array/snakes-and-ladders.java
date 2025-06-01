@@ -23,7 +23,6 @@ public class Solution {
                     if (nxt > target) break;
                     int[] rc = getRC(nxt, n);
                     int r = rc[0], c = rc[1];
-                    // If there's a snake or ladder, jump to that destination
                     if (board[r][c] != -1) {
                         nxt = board[r][c];
                     }
