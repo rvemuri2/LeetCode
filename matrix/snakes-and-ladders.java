@@ -67,9 +67,5 @@ public class Solution {
             {-1, 15, -1, -1, -1, -1}
         };
         System.out.println(sol.snakesAndLadders(board1)); // 4
-
-        int[][] board2 = {
-            {-1, -1}
-        };
     }
 }
