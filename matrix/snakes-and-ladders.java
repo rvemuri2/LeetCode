@@ -38,7 +38,6 @@ public class Solution {
         return -1;
     }
 
-    // Map square s (1..n^2) to (row, col) in the 0-based board
     private int[] getRC(int s, int n) {
         int idx = s - 1;
         int row = n - 1 - (idx / n);
