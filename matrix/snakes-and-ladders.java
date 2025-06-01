@@ -48,7 +48,6 @@ public class Solution {
             // left-to-right
             col = idx % n;
         } else {
-            // right-to-left
             col = n - 1 - (idx % n);
         }
         return new int[]{row, col};
