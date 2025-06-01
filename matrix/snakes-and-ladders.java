@@ -72,6 +72,5 @@ public class Solution {
             {-1, -1},
             {-1, 3}
         };
-        System.out.println(sol.snakesAndLadders(board2));
     }
 }
