@@ -66,6 +66,6 @@ public class Solution {
             {-1, -1, -1, -1, -1, -1},
             {-1, 15, -1, -1, -1, -1}
         };
-        System.out.println(sol.snakesAndLadders(board1)); // 4
+        System.out.println(sol.snakesAndLadders(board1));
     }
 }
