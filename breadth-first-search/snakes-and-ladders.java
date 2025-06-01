@@ -17,7 +17,6 @@ public class Solution {
             for (int i = 0; i < size; i++) {
                 int curr = queue.poll();
                 if (curr == target) return moves;
-                // Try all die rolls 1..6
                 for (int step = 1; step <= 6; step++) {
                     int nxt = curr + step;
                     if (nxt > target) break;
