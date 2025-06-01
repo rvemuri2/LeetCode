@@ -13,7 +13,6 @@ public class Solution {
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            // Process all squares reachable in 'moves' rolls
             for (int i = 0; i < size; i++) {
                 int curr = queue.poll();
                 if (curr == target) return moves;
