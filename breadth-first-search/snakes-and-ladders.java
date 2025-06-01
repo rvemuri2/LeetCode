@@ -4,7 +4,6 @@ public class Solution {
     public int snakesAndLadders(int[][] board) {
         int n = board.length;
         int target = n * n;
-        // visited[i] = true if we have already enqueued square i
         boolean[] visited = new boolean[target + 1];
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(1);
