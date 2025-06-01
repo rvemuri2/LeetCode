@@ -53,8 +53,4 @@ public class Solution {
         }
         return new int[]{row, col};
     }
-
-    // Optional testing
-    public static void main(String[] args) {
-    }
 }
