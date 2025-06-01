@@ -45,7 +45,6 @@ public class Solution {
         int col;
         int baseRowFromBottom = (n - 1) - row;
         if (baseRowFromBottom % 2 == 0) {
-            // left-to-right
             col = idx % n;
         } else {
             col = n - 1 - (idx % n);
