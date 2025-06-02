@@ -11,7 +11,6 @@ class Solution {
         long sub3 = f(n - 3 * L);        // all three > limit
         
         // Inclusion–exclusion formula for three variables:
-        // ans = total 
         return total - 3 * sub1 + 3 * sub2 - sub3;
     }
     private long f(int t) {
