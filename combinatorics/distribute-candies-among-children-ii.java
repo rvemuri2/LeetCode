@@ -17,8 +17,6 @@ class Solution {
         //       – sub3
         return total - 3 * sub1 + 3 * sub2 - sub3;
     }
-
-    // Helper to compute C(t+2, 2) = (t+2)*(t+1)/2 for t >= 0, else 0
     private long f(int t) {
         if (t < 0) return 0;
         long x = t + 2L;
