@@ -30,6 +30,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.distributeCandies(5, 2)); // 3
-        System.out.println(sol.distributeCandies(3, 3)); // 10
+        System.out.println(sol.distributeCandies(3, 3));
     }
 }
