@@ -5,7 +5,6 @@ class Solution {
         long sub1 = f(n - L);
         long sub2 = f(n - 2 * L);
         long sub3 = f(n - 3 * L);
-        
         return total - 3 * sub1 + 3 * sub2 - sub3;
     }
     private long f(int t) {
