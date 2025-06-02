@@ -12,7 +12,6 @@ class Solution {
         
         // Inclusion–exclusion formula for three variables:
         // ans = total 
-        //       – 3·sub1 
         return total - 3 * sub1 + 3 * sub2 - sub3;
     }
     private long f(int t) {
