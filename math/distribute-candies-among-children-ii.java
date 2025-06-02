@@ -14,7 +14,6 @@ class Solution {
         // ans = total 
         //       – 3·sub1 
         //       + 3·sub2 
-        //       – sub3
         return total - 3 * sub1 + 3 * sub2 - sub3;
     }
     private long f(int t) {
