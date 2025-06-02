@@ -1,10 +1,8 @@
 class Solution {
     public long distributeCandies(int n, int limit) {
         // Total without any upper bound: C(n+2, 2)
-        long total = f(n);
-        
+        long total = f(n);    
         // Using inclusion–exclusion to subtract distributions
-        // where at least one child exceeds 'limit'
         int L = limit + 1;
         long sub1 = f(n - L);
         long sub2 = f(n - 2 * L);
