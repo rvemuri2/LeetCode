@@ -10,7 +10,6 @@ class Solution {
         long sub2 = f(n - 2 * L);        // two children > limit
         long sub3 = f(n - 3 * L);        // all three > limit
         
-        // Inclusion–exclusion formula for three variables:
         return total - 3 * sub1 + 3 * sub2 - sub3;
     }
     private long f(int t) {
