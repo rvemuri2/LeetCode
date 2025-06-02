@@ -7,7 +7,7 @@ class Solution {
         // where at least one child exceeds 'limit'
         int L = limit + 1;
         long sub1 = f(n - L);            // one child > limit
-        long sub2 = f(n - 2 * L);        // two children > limit
+        long sub2 = f(n - 2 * L);
         long sub3 = f(n - 3 * L);
         
         return total - 3 * sub1 + 3 * sub2 - sub3;
