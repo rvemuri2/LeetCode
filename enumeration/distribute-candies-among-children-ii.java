@@ -9,7 +9,9 @@ class Solution {
         return total - 3 * sub1 + 3 * sub2 - sub3;
     }
     private long f(int t) {
-        if (t < 0) return 0;
+        if (t < 0) {
+            return 0;
+        }
         long x = t + 2L;
         long y = t + 1L;
         return (x * y) / 2;
