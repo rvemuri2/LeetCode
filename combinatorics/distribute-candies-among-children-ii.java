@@ -25,7 +25,4 @@ class Solution {
         long y = t + 1L;
         return (x * y) / 2;
     }
-
-    // Optional main for quick testing
-    public static void main(String[] args) {}
 }
