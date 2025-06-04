@@ -23,10 +23,6 @@ class Solution {
         int end = Math.min(n, bestStart + M);
         return word.substring(bestStart, end);
     }
-
-    /**
-     * Compare two candidate substrings lexicographically:
-     */
     private int compareCandidate(String word, int i, int j, int M) {
         int n = word.length();
         int endA = Math.min(n, i + M);
