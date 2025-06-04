@@ -3,7 +3,6 @@ class Solution {
         int n = word.length();
         int k = numFriends;
 
-        // Special case: when k == 1, the only valid split is the entire word.
         if (k == 1) {
             return word;
         }
