@@ -28,7 +28,6 @@ class Solution {
      * Compare two candidate substrings lexicographically:
      *   A = word[i .. i+M-1] (or up to end)
      *   B = word[j .. j+M-1] (or up to end)
-     * Returns >0 if A > B, <0 if A < B, else 0.
      */
     private int compareCandidate(String word, int i, int j, int M) {
         int n = word.length();
