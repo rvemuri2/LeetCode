@@ -11,8 +11,7 @@ class Solution {
         // Otherwise, any piece can have length ≤ M = n - k + 1.
         int M = n - k + 1;
         int bestStart = 0;
-
-        // Compare each candidate substring starting at i against current best
+        
         for (int i = 1; i < n; i++) {
             if (compareCandidate(word, i, bestStart, M) > 0) {
                 bestStart = i;
