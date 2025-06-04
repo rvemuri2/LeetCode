@@ -55,6 +55,5 @@ class Solution {
         System.out.println(sol.answerString("gggg", 4)); // "g"
         // Special case k=1:
         System.out.println(sol.answerString("gh", 1));   // "gh"
-        System.out.println(sol.answerString("abcde", 1));
     }
 }
