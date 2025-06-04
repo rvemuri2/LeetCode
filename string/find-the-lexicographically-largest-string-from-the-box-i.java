@@ -18,8 +18,6 @@ class Solution {
                 bestStart = i;
             }
         }
-
-        // Return substring of length up to M
         int end = Math.min(n, bestStart + M);
         return word.substring(bestStart, end);
     }
