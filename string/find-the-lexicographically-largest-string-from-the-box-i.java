@@ -52,6 +52,5 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.answerString("dbca", 2)); // "dbc"
-        System.out.println(sol.answerString("gggg", 4));
     }
 }
