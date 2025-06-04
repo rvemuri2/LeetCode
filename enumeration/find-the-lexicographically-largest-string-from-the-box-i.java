@@ -43,7 +43,6 @@ class Solution {
                 return cA - cB;
             }
         }
-        // If one is a strict prefix of the other, the longer is lex-larger
         int lenA = endA - i, lenB = endB - j;
         return lenA - lenB;
     }
