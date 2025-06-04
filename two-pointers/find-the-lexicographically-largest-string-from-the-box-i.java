@@ -26,7 +26,6 @@ class Solution {
 
     /**
      * Compare two candidate substrings lexicographically:
-     *   A = word[i .. i+M-1] (or up to end)
      */
     private int compareCandidate(String word, int i, int j, int M) {
         int n = word.length();
