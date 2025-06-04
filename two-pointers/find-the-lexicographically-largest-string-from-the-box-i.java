@@ -47,7 +47,4 @@ class Solution {
         int lenA = endA - i, lenB = endB - j;
         return lenA - lenB;
     }
-
-    // Optional main for testing
-    public static void main(String[] args) {}
 }
