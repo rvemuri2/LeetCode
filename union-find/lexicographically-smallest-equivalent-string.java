@@ -42,5 +42,4 @@ class Solution {
 
         return sb.toString();
     }
-    // Optional main for quick testing
 }
