@@ -57,6 +57,6 @@ class Solution {
 
         System.out.println(sol.smallestEquivalentString(
             "leetcode", "programs", "sourcecode"
-        )); // Expected "aauaaaaada"
+        ));
     }
 }
