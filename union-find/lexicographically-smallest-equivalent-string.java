@@ -26,9 +26,7 @@ class Solution {
         for (int i = 0; i < 26; i++) {
             parent[i] = i;
         }
-
         int len = s1.length();
-        // Union each pair of equivalent characters
         for (int i = 0; i < len; i++) {
             union(s1.charAt(i) - 'a', s2.charAt(i) - 'a');
         }
