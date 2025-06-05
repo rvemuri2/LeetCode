@@ -54,9 +54,5 @@ class Solution {
         System.out.println(sol.smallestEquivalentString(
             "hello", "world", "hold"
         )); // Expected "hdld"
-
-        System.out.println(sol.smallestEquivalentString(
-            "", "", ""
-        ));
     }
 }
