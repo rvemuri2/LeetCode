@@ -43,5 +43,4 @@ class Solution {
         return sb.toString();
     }
     // Optional main for quick testing
-    public static void main(String[] args) {}
 }
