@@ -53,6 +53,6 @@ class Solution {
 
         System.out.println(sol.smallestEquivalentString(
             "hello", "world", "hold"
-        )); // Expected "hdld"
+        ));
     }
 }
