@@ -56,7 +56,7 @@ class Solution {
         )); // Expected "hdld"
 
         System.out.println(sol.smallestEquivalentString(
-            "leetcode", "programs"
+            "leetcode", "programs", ""
         ));
     }
 }
