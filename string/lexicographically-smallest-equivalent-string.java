@@ -48,6 +48,6 @@ class Solution {
         Solution sol = new Solution();
         System.out.println(sol.smallestEquivalentString(
             "parker", "morris", "parser"
-        )); // Expected "makkek"
+        ));
     }
 }
