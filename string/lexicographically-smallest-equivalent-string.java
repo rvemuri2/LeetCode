@@ -32,8 +32,6 @@ class Solution {
         for (int i = 0; i < len; i++) {
             union(s1.charAt(i) - 'a', s2.charAt(i) - 'a');
         }
-
-        // Build the result by mapping each char in baseStr to its smallest equivalent
         StringBuilder sb = new StringBuilder();
         for (char c : baseStr.toCharArray()) {
             int root = find(c - 'a');
