@@ -46,13 +46,8 @@ class Solution {
     // Optional main for quick testing
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         System.out.println(sol.smallestEquivalentString(
             "parker", "morris", "parser"
         )); // Expected "makkek"
-
-        System.out.println(sol.smallestEquivalentString(
-            "", "", ""
-        ));
     }
 }
