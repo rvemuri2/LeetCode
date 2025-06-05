@@ -52,7 +52,7 @@ class Solution {
         )); // Expected "makkek"
 
         System.out.println(sol.smallestEquivalentString(
-            "hello", "world", ""
+            "hello", "", ""
         ));
     }
 }
