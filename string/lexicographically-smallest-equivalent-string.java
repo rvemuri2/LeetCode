@@ -8,8 +8,6 @@ class Solution {
         }
         return parent[x];
     }
-
-    // Union two sets by making the lexicographically smaller root the parent
     private void union(int x, int y) {
         int rx = find(x);
         int ry = find(y);
