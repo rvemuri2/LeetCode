@@ -22,7 +22,6 @@ class Solution {
     }
 
     public String smallestEquivalentString(String s1, String s2, String baseStr) {
-        // Initialize DSU parent pointers
         for (int i = 0; i < 26; i++) {
             parent[i] = i;
         }
