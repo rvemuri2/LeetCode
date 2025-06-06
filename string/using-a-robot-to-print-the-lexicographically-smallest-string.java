@@ -30,7 +30,5 @@ class Solution {
 
         return output.toString();
     }
-
     // Optional testing
-    public static void main(String[] args) {}
 }
