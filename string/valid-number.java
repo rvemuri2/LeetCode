@@ -84,6 +84,6 @@ class Solution {
         System.out.println(sol.isNumber("3."));        // true
         System.out.println(sol.isNumber("+.8"));       // true
         System.out.println(sol.isNumber(" 1 "));       // false (spaces not allowed)
-        System.out.println(sol.isNumber(""));          // false
+        System.out.println(sol.isNumber(""));
     }
 }
