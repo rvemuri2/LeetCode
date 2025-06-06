@@ -1,7 +1,6 @@
 class Solution {
     public String robotWithString(String s) {
         int n = s.length();
-        // minSuffix[i] = smallest character in s[i..n-1]; minSuffix[n] = '{' (beyond 'z')
         char[] minSuffix = new char[n + 1];
         minSuffix[n] = '{';
         for (int i = n - 1; i >= 0; i--) {
