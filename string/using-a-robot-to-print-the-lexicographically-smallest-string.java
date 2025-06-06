@@ -34,6 +34,5 @@ class Solution {
     // Optional testing
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.robotWithString("zza"));
     }
 }
