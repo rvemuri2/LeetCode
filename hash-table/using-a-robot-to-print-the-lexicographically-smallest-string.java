@@ -9,7 +9,6 @@ class Solution {
         }
 
         StringBuilder output = new StringBuilder();
-        // Use StringBuilder as stack t: append = push, deleteCharAt(len-1) = pop
         StringBuilder stack = new StringBuilder();
 
         for (int i = 0; i < n; i++) {
