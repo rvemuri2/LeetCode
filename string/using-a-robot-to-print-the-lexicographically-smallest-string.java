@@ -30,5 +30,4 @@ class Solution {
 
         return output.toString();
     }
-    // Optional testing
 }
