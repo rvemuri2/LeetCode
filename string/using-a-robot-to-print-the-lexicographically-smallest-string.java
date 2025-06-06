@@ -36,6 +36,5 @@ class Solution {
         Solution sol = new Solution();
         System.out.println(sol.robotWithString("zza"));   // "azz"
         System.out.println(sol.robotWithString("bac"));   // "abc"
-        System.out.println(sol.robotWithString("bdda"));
     }
 }
