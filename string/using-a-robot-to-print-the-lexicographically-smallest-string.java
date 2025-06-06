@@ -22,7 +22,6 @@ class Solution {
             }
         }
 
-        // After consuming all of s, pop remainder of t
         while (stack.length() > 0) {
             output.append(stack.charAt(stack.length() - 1));
             stack.deleteCharAt(stack.length() - 1);
