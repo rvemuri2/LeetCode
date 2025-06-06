@@ -13,7 +13,6 @@ class Solution {
         StringBuilder stack = new StringBuilder();
 
         for (int i = 0; i < n; i++) {
-            // Push s[i] onto t
             stack.append(s.charAt(i));
             while (stack.length() > 0 && stack.charAt(stack.length() - 1) <= minSuffix[i + 1]) {
                 output.append(stack.charAt(stack.length() - 1));
