@@ -15,7 +15,6 @@ class Solution {
         for (int i = 0; i < n; i++) {
             // Push s[i] onto t
             stack.append(s.charAt(i));
-            // While t not empty and its top ≤ minSuffix[i+1], pop to output
             while (stack.length() > 0 && stack.charAt(stack.length() - 1) <= minSuffix[i + 1]) {
                 output.append(stack.charAt(stack.length() - 1));
                 stack.deleteCharAt(stack.length() - 1);
