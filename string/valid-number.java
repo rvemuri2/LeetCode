@@ -63,7 +63,6 @@ class Solution {
         System.out.println(sol.isNumber("-.9"));       // true
         System.out.println(sol.isNumber("2e10"));      // true
         System.out.println(sol.isNumber("-90E3"));     // true
-        System.out.println(sol.isNumber("3e+7"));      // true
-        System.out.println(sol.isNumber("+6e-1"));
+        System.out.println(sol.isNumber("3e+7"));
     }
 }
