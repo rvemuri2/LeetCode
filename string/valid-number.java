@@ -71,6 +71,6 @@ class Solution {
         // Invalid numbers
         System.out.println(sol.isNumber("abc"));       // false
         System.out.println(sol.isNumber("1a"));        // false
-        System.out.println(sol.isNumber("1e"));        // false
+        System.out.println(sol.isNumber("1e"));
     }
 }
