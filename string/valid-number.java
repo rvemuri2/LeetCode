@@ -67,8 +67,5 @@ class Solution {
         System.out.println(sol.isNumber("+6e-1"));     // true
         System.out.println(sol.isNumber("53.5e93"));   // true
         System.out.println(sol.isNumber("-123.456e789")); // true
-
-        // Invalid numbers
-        System.out.println(sol.isNumber("abc"));
     }
 }
