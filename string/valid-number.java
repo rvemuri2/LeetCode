@@ -80,6 +80,6 @@ class Solution {
 
         // Edge cases
         System.out.println(sol.isNumber("."));         // false
-        System.out.println(sol.isNumber(".1"));        // true
+        System.out.println(sol.isNumber(".1"));
     }
 }
