@@ -79,6 +79,6 @@ class Solution {
         System.out.println(sol.isNumber("95a54e53"));  // false
 
         // Edge cases
-        System.out.println(sol.isNumber("."));         // false
+        System.out.println(sol.isNumber("."));
     }
 }
