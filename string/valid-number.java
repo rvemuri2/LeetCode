@@ -69,6 +69,6 @@ class Solution {
         System.out.println(sol.isNumber("-123.456e789")); // true
 
         // Invalid numbers
-        System.out.println(sol.isNumber("abc"));       // false
+        System.out.println(sol.isNumber("abc"));
     }
 }
