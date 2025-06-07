@@ -76,6 +76,6 @@ class Solution {
         System.out.println(sol.isNumber("99e2.5"));    // false
         System.out.println(sol.isNumber("--6"));       // false
         System.out.println(sol.isNumber("-+3"));       // false
-        System.out.println(sol.isNumber("95a54e53"));  // false
+        System.out.println(sol.isNumber("95a54e53"));
     }
 }
