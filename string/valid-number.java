@@ -34,7 +34,6 @@ class Solution {
         // 4) Exponent part
         if (i < n && (s.charAt(i) == 'e' || s.charAt(i) == 'E')) {
             i++;
-            // After 'e' or 'E', there may be an optional sign
             if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
                 i++;
             }
