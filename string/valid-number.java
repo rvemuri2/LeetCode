@@ -29,7 +29,9 @@ class Solution {
         }
 
         // If we have no digits at all in integer or fraction, it's invalid
-        if (!isNumeric) return false;
+        if (!isNumeric) {
+            return false;
+        }
 
         if (i < n && (s.charAt(i) == 'e' || s.charAt(i) == 'E')) {
             i++;
