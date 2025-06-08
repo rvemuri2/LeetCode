@@ -53,6 +53,5 @@ class Solution {
     // Optional main for quick tests
     public static void main(String[] args) {
         Solution sol = new Solution();
-        // Valid numbers
     }
 }
