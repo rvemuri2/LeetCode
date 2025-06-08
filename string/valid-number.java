@@ -46,10 +46,7 @@ class Solution {
             }
             if (!hasExpDigits) return false;
         }
-
         // 5) We must have consumed the entire string
         return i == n;
     }
-    // Optional main for quick tests
-    public static void main(String[] args) {}
 }
