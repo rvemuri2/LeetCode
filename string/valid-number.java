@@ -44,7 +44,9 @@ class Solution {
                 i++;
                 hasExpDigits = true;
             }
-            if (!hasExpDigits) return false;
+            if (!hasExpDigits) {
+                return false;
+            }
         }
         return i == n;
     }
