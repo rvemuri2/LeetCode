@@ -57,6 +57,6 @@ class Solution {
         System.out.println(sol.isNumber("2"));         // true
         System.out.println(sol.isNumber("0089"));      // true
         System.out.println(sol.isNumber("-0.1"));      // true
-        System.out.println(sol.isNumber("+3.14"));     // true
+        System.out.println(sol.isNumber("+3.14"));
     }
 }
