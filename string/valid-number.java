@@ -50,7 +50,6 @@ class Solution {
         // 5) We must have consumed the entire string
         return i == n;
     }
-
     // Optional main for quick tests
     public static void main(String[] args) {
         Solution sol = new Solution();
@@ -61,6 +60,5 @@ class Solution {
         System.out.println(sol.isNumber("+3.14"));     // true
         System.out.println(sol.isNumber("4."));        // true
         System.out.println(sol.isNumber("-.9"));       // true
-        System.out.println(sol.isNumber("2e10"));
     }
 }
