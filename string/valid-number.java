@@ -55,6 +55,6 @@ class Solution {
         Solution sol = new Solution();
         // Valid numbers
         System.out.println(sol.isNumber("2"));         // true
-        System.out.println(sol.isNumber("0089"));      // true
+        System.out.println(sol.isNumber("0089"));
     }
 }
