@@ -31,7 +31,6 @@ class Solution {
         // If we have no digits at all in integer or fraction, it's invalid
         if (!isNumeric) return false;
 
-        // 4) Exponent part
         if (i < n && (s.charAt(i) == 'e' || s.charAt(i) == 'E')) {
             i++;
             if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
