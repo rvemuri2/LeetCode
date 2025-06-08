@@ -38,7 +38,6 @@ class Solution {
             if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
                 i++;
             }
-            // Must have at least one digit in exponent
             boolean hasExpDigits = false;
             while (i < n && Character.isDigit(s.charAt(i))) {
                 i++;
