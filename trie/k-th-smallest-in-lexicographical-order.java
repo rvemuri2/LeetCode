@@ -1,6 +1,5 @@
 class Solution {
     /**
-     * Returns the k-th smallest number in lexicographical order among [1..n].
      */
     public int findKthNumber(int n, int k) {
         int curr = 1;
