@@ -13,7 +13,6 @@ class Solution {
                 k -= steps;
                 curr++;
             } else {
-                // descend into this subtree: the prefix itself is the next
                 k--;
                 curr *= 10;
             }
