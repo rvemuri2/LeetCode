@@ -4,7 +4,7 @@ class Solution {
      * Uses a prefix‐tree (trie) counting approach in O(log n * 10) time.
      */
     public int findKthNumber(int n, int k) {
-        int curr = 1;       // current prefix (first in lex order is "1")
+        int curr = 1;
         k--;              
         while (k > 0) {
             long steps = countSteps(n, curr, curr + 1);
