@@ -1,7 +1,10 @@
 class Solution {
     public boolean isNumber(String s) {
         int n = s.length();
-        if (n == 0) return false;
+        
+        if (n == 0) {
+            return false;
+        }
 
         int i = 0;
 
