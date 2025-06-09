@@ -5,7 +5,6 @@ class Solution {
 
         int i = 0;
 
-        // 1) Optional sign
         if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
             i++;
         }
