@@ -28,7 +28,6 @@ class Solution {
     private long countSteps(int n, long first, long next) {
         long steps = 0;
         while (first <= n) {
-            // at current level, all numbers in [first..min(n, next-1)] count
             steps += Math.min(n + 1, next) - first;
             first *= 10;
             next *= 10;
