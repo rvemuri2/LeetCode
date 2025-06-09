@@ -40,6 +40,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.findKthNumber(13, 2)); // 10
-        System.out.println(sol.findKthNumber(1, 1));  // 1
+        System.out.println(sol.findKthNumber(1, 1));
     }
 }
