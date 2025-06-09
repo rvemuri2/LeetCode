@@ -12,7 +12,6 @@ class Solution {
 
         boolean isNumeric = false;
 
-        // 2) Integer part (digits before decimal)
         while (i < n && Character.isDigit(s.charAt(i))) {
             i++;
             isNumeric = true;
