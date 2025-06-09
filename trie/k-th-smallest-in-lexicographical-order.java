@@ -9,7 +9,6 @@ class Solution {
         while (k > 0) {
             long steps = countSteps(n, curr, curr + 1);
             if (steps <= k) {
-                // skip this entire subtree and move to next sibling
                 k -= steps;
                 curr++;
             } else {
