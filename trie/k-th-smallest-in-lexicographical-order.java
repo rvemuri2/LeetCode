@@ -35,6 +35,4 @@ class Solution {
         }
         return steps;
     }
-    // Optional main for testing
-    public static void main(String[] args) {}
 }
