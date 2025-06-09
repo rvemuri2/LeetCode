@@ -38,6 +38,5 @@ class Solution {
     // Optional main for testing
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.findKthNumber(13, 2));
     }
 }
