@@ -21,7 +21,6 @@ class Solution {
         // 3) Decimal part
         if (i < n && s.charAt(i) == '.') {
             i++;
-            // digits after decimal
             while (i < n && Character.isDigit(s.charAt(i))) {
                 i++;
                 isNumeric = true;
