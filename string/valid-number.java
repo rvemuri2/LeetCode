@@ -18,7 +18,6 @@ class Solution {
             isNumeric = true;
         }
 
-        // 3) Decimal part
         if (i < n && s.charAt(i) == '.') {
             i++;
             while (i < n && Character.isDigit(s.charAt(i))) {
