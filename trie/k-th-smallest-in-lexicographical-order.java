@@ -21,10 +21,6 @@ class Solution {
         return curr;
     }
 
-    /**
-     * Count how many numbers x in [1..n] have a prefix between first (inclusive)
-     * and next (exclusive). We sum over all levels by multiplying first/next by 10.
-     */
     private long countSteps(int n, long first, long next) {
         long steps = 0;
         while (first <= n) {
