@@ -5,7 +5,7 @@ class Solution {
      */
     public int findKthNumber(int n, int k) {
         int curr = 1;       // current prefix (first in lex order is "1")
-        k--;                // we've "used up" the 1st position
+        k--;              
         while (k > 0) {
             long steps = countSteps(n, curr, curr + 1);
             if (steps <= k) {
