@@ -1,7 +1,6 @@
 class Solution {
     /**
      * Returns the k-th smallest number in lexicographical order among [1..n].
-     * Uses a prefix‐tree (trie) counting approach in O(log n * 10) time.
      */
     public int findKthNumber(int n, int k) {
         int curr = 1;
@@ -18,7 +17,6 @@ class Solution {
         }
         return curr;
     }
-
     private long countSteps(int n, long first, long next) {
         long steps = 0;
         while (first <= n) {
