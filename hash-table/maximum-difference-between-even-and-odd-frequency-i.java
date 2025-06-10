@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public int maxDifference(String s) {
         int[] freq = new int[26];
