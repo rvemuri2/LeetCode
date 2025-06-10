@@ -8,7 +8,7 @@ class Solution {
      * - a2 has even frequency
      */
     public int maxDifference(String s) {
-        int[] freq = new int[26]; // To store frequencies of all lowercase letters
+        int[] freq = new int[26];
 
         for (char c : s.toCharArray()) {
             freq[c - 'a']++;
