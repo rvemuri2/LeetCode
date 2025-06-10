@@ -10,7 +10,6 @@ class Solution {
     public int maxDifference(String s) {
         int[] freq = new int[26]; // To store frequencies of all lowercase letters
 
-        // Count frequency of each character
         for (char c : s.toCharArray()) {
             freq[c - 'a']++;
         }
