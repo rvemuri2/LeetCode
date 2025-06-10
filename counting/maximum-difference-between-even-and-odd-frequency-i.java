@@ -19,7 +19,6 @@ class Solution {
         int minEven = Integer.MAX_VALUE;
 
         // Loop through frequencies and track:
-        // - max frequency among characters with odd count
         for (int f : freq) {
             if (f == 0) {
                 continue;
