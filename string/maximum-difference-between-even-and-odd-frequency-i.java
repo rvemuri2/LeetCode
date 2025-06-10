@@ -1,0 +1,44 @@
+import java.util.*;
+
+class Solution {
+    /**
+     * Calculates the maximum difference between frequencies of characters a1 - a2
+     * such that:
+     * - a1 has odd frequency
+     * - a2 has even frequency
+     */
+    public int maxDifference(String s) {
+        int[] freq = new int[26]; // To store frequencies of all lowercase letters
+
+        // Count frequency of each character
+        for (char c : s.toCharArray()) {
+            freq[c - 'a']++;
+        }
+
+        int maxOdd = Integer.MIN_VALUE;
+        int minEven = Integer.MAX_VALUE;
+
+        // Loop through frequencies and track:
+        // - max frequency among characters with odd count
+        // - min frequency among characters with even count
+        for (int f : freq) {
+            if (f == 0) continue; // skip unused letters
+
+            if (f % 2 == 1) {
+                maxOdd = Math.max(maxOdd, f);
+            } else {
+                minEven = Math.min(minEven, f);
+            }
+        }
+
+        // Final result: max odd frequency - min even frequency
+        return maxOdd - minEven;
+    }
+
+    // Optional main for testing
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        System.out.println(sol.maxDifference("aaaaabbc"));  // 3
+        System.out.println(sol.maxDifference("abcabcab"));  // 1
+    }
+}
