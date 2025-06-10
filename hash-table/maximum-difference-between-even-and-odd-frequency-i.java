@@ -18,7 +18,6 @@ class Solution {
         int maxOdd = Integer.MIN_VALUE;
         int minEven = Integer.MAX_VALUE;
 
-        // Loop through frequencies and track:
         for (int f : freq) {
             if (f == 0) {
                 continue;
