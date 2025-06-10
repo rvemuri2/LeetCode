@@ -39,6 +39,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.maxDifference("aaaaabbc"));  // 3
-        System.out.println(sol.maxDifference("abcabcab"));  // 1
+        System.out.println(sol.maxDifference("abcabcab"));
     }
 }
