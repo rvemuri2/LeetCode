@@ -1,9 +1,6 @@
 import java.util.*;
 
 class Solution {
-    /**
-     * Calculates the maximum difference between frequencies of characters a1 - a2
-     */
     public int maxDifference(String s) {
         int[] freq = new int[26];
 
