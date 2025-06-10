@@ -34,9 +34,6 @@ class Solution {
         // Final result: max odd frequency - min even frequency
         return maxOdd - minEven;
     }
-
     // Optional main for testing
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
+    public static void main(String[] args) {}
 }
