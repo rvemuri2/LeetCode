@@ -22,8 +22,9 @@ class Solution {
         // - max frequency among characters with odd count
         // - min frequency among characters with even count
         for (int f : freq) {
-            if (f == 0) continue;
-
+            if (f == 0) {
+                continue;
+            }
             if (f % 2 == 1) {
                 maxOdd = Math.max(maxOdd, f);
             } else {
