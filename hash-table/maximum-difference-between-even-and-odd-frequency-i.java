@@ -30,10 +30,7 @@ class Solution {
                 minEven = Math.min(minEven, f);
             }
         }
-
         // Final result: max odd frequency - min even frequency
         return maxOdd - minEven;
     }
-    // Optional main for testing
-    public static void main(String[] args) {}
 }
