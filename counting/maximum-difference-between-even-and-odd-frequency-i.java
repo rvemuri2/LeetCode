@@ -1,24 +1,18 @@
 class Solution {
     public int maxDifference(String s) {
-        int[] freq = new int[26];
-
+        int[] mpp = new int[26];
+        int maxi = 0, mini = s.length();
         for (char c : s.toCharArray()) {
-            freq[c - 'a']++;
+            mpp[c - 'a']++;
         }
-
-        int maxOdd = Integer.MIN_VALUE;
-        int minEven = Integer.MAX_VALUE;
-
-        for (int f : freq) {
-            if (f == 0) {
-                continue;
+        for (int i = 0; i < 26; i++) {
+            if (mpp[i] % 2 != 0) {
+                maxi = Math.max(maxi, mpp[i]);
             }
-            if (f % 2 == 1) {
-                maxOdd = Math.max(maxOdd, f);
-            } else {
-                minEven = Math.min(minEven, f);
+            if (mpp[i] % 2 == 0 && mpp[i] > 0) {
+                mini = Math.min(mini, mpp[i]);
             }
         }
-        return maxOdd - minEven;
+        return maxi - mini;
     }
 }
