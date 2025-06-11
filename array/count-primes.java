@@ -42,7 +42,5 @@ public class Solution {
 
         // Test case 2: n = 0 → no primes
         System.out.println("countPrimes(0) = " + sol.countPrimes(0)); // Expected: 0
-
-        // Test case 3: n = 1 → no primes
     }
 }
