@@ -1,9 +1,6 @@
 import java.util.Arrays;
 
 public class Solution {
-    /**
-     * Counts the number of prime numbers less than a given integer n.
-     */
     public int countPrimes(int n) {
         if (n <= 2) return 0;
         boolean[] isPrime = new boolean[n];
