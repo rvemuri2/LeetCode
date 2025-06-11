@@ -48,7 +48,5 @@ public class Solution {
 
         // Test case 4: n = 100 → test with larger input
         System.out.println("countPrimes(100) = " + sol.countPrimes(100)); // Expected: 25
-
-        // Test case 5: Edge case with a large number
     }
 }
