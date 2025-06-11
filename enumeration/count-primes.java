@@ -50,6 +50,6 @@ public class Solution {
         System.out.println("countPrimes(100) = " + sol.countPrimes(100)); // Expected: 25
 
         // Test case 5: Edge case with a large number
-        System.out.println("countPrimes(1000000) = " + sol.countPrimes(1000000)); // Should complete in reasonable time
+        System.out.println("countPrimes(1000000) = " + sol.countPrimes(1000000));
     }
 }
