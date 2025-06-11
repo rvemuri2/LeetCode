@@ -6,7 +6,7 @@ public class Solution {
      * Uses the Sieve of Eratosthenes algorithm for efficient computation.
      */
     public int countPrimes(int n) {
-        if (n <= 2) return 0; // No primes less than 2
+        if (n <= 2) return 0;
         boolean[] isPrime = new boolean[n];
         Arrays.fill(isPrime, true);
         isPrime[0] = false;
