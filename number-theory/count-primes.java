@@ -7,8 +7,6 @@ public class Solution {
      */
     public int countPrimes(int n) {
         if (n <= 2) return 0; // No primes less than 2
-
-        // Boolean array to mark whether numbers are prime
         boolean[] isPrime = new boolean[n];
         Arrays.fill(isPrime, true);
         isPrime[0] = false;
