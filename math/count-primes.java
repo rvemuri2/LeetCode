@@ -37,6 +37,5 @@ public class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         // Test case 1: n = 10 → primes: 2, 3, 5, 7 → count = 4
-        System.out.println("countPrimes(10) = " + sol.countPrimes(10));
     }
 }
