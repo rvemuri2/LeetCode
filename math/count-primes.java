@@ -36,10 +36,7 @@ public class Solution {
     // Main method for running sample tests
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         // Test case 1: n = 10 → primes: 2, 3, 5, 7 → count = 4
         System.out.println("countPrimes(10) = " + sol.countPrimes(10)); // Expected: 4
-
-        // Test case 2: n = 0 → no primes
     }
 }
