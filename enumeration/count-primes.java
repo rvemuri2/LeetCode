@@ -47,6 +47,6 @@ public class Solution {
         System.out.println("countPrimes(1) = " + sol.countPrimes(1)); // Expected: 0
 
         // Test case 4: n = 100 → test with larger input
-        System.out.println("countPrimes(100) = " + sol.countPrimes(100)); // Expected: 25
+        System.out.println("countPrimes(100) = " + sol.countPrimes(100));
     }
 }
