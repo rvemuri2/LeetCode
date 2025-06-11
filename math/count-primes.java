@@ -10,7 +10,7 @@ public class Solution {
 
         // Boolean array to mark whether numbers are prime
         boolean[] isPrime = new boolean[n];
-        Arrays.fill(isPrime, true); // Assume all numbers are prime initially
+        Arrays.fill(isPrime, true);
         isPrime[0] = false;
         isPrime[1] = false;
 
