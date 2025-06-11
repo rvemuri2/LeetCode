@@ -44,6 +44,6 @@ public class Solution {
         System.out.println("countPrimes(0) = " + sol.countPrimes(0)); // Expected: 0
 
         // Test case 3: n = 1 → no primes
-        System.out.println("countPrimes(1) = " + sol.countPrimes(1)); // Expected: 0
+        System.out.println("countPrimes(1) = " + sol.countPrimes(1));
     }
 }
