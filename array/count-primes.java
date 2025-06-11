@@ -23,8 +23,6 @@ public class Solution {
                 }
             }
         }
-
-        // Count how many numbers are still marked as prime
         int count = 0;
         for (int i = 2; i < n; i++) {
             if (isPrime[i]) count++;
