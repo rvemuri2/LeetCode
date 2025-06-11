@@ -32,9 +32,4 @@ public class Solution {
 
         return count;
     }
-
-    // Main method for running sample tests
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
 }
