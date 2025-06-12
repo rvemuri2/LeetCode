@@ -32,7 +32,5 @@ class Solution {
 
         int[] test3 = {100, -100, 50};
         System.out.println("Expected: 200, Got: " + sol.maxAdjacentDistance(test3));
-
-        int[] test4 = {0, 0};
     }
 }
