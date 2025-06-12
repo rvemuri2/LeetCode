@@ -10,7 +10,7 @@ class Solution {
         int[] answer = new int[n];
 
         // Left pass: count operations and balls from the left
-        int balls = 0;     // Number of balls to the left (including current)
+        int balls = 0;
         int ops = 0; 
 
         for (int i = 0; i < n; i++) {
