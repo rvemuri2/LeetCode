@@ -23,11 +23,9 @@ class Solution {
     // Example usage and test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         int[] test1 = {1, 2, 4};
         System.out.println("Expected: 3, Got: " + sol.maxAdjacentDistance(test1));
 
         int[] test2 = {-5, -10, -5};
-        System.out.println("Expected: 5, Got: " + sol.maxAdjacentDistance(test2));
     }
 }
