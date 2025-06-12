@@ -42,7 +42,5 @@ class Solution {
 
         String test1 = "110";
         System.out.println("Expected: [1,1,3], Got: " + java.util.Arrays.toString(sol.minOperations(test1)));
-
-        String test2 = "001011";
     }
 }
