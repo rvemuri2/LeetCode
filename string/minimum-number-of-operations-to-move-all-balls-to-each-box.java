@@ -44,6 +44,5 @@ class Solution {
         System.out.println("Expected: [1,1,3], Got: " + java.util.Arrays.toString(sol.minOperations(test1)));
 
         String test2 = "001011";
-        System.out.println("Expected: [11,8,5,4,3,4], Got: " + java.util.Arrays.toString(sol.minOperations(test2)));
     }
 }
