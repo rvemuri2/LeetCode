@@ -16,8 +16,6 @@ class Solution {
             int diff = Math.abs(nums[i] - nums[nextIndex]);
             maxDiff = Math.max(maxDiff, diff);
         }
-
         return maxDiff;
     }
-    // Example usage and test cases
 }
