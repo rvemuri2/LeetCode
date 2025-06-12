@@ -1,6 +1,5 @@
 class Solution {
     /**
-     * Returns the maximum absolute difference between adjacent elements
      */
     public int maxAdjacentDistance(int[] nums) {
         int maxDiff = 0;
