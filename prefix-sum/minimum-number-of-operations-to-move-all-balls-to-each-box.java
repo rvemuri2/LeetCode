@@ -9,7 +9,6 @@ class Solution {
         int n = boxes.length();
         int[] answer = new int[n];
 
-        // Left pass: count operations and balls from the left
         int balls = 0;
         int ops = 0; 
 
