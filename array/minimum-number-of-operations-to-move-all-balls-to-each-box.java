@@ -18,7 +18,7 @@ class Solution {
             if (boxes.charAt(i) == '1') {
                 balls++;
             }
-            ops += balls; // Next position will need one more move for each ball
+            ops += balls;
         }
 
         balls = 0;
