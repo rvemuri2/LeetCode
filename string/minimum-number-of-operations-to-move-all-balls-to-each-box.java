@@ -50,6 +50,5 @@ class Solution {
         System.out.println("Expected: [0], Got: " + java.util.Arrays.toString(sol.minOperations(test3)));
 
         String test4 = "0000";
-        System.out.println("Expected: [0,0,0,0], Got: " + java.util.Arrays.toString(sol.minOperations(test4)));
     }
 }
