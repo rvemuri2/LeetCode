@@ -21,7 +21,6 @@ class Solution {
             ops += balls; // Next position will need one more move for each ball
         }
 
-        // Right pass: count operations and balls from the right
         balls = 0;
         ops = 0;
 
