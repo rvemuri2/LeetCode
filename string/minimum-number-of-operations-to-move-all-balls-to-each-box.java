@@ -35,6 +35,4 @@ class Solution {
 
         return answer;
     }
-
-    // Example usage and test cases
 }
