@@ -11,7 +11,7 @@ class Solution {
 
         // Left pass: count operations and balls from the left
         int balls = 0;     // Number of balls to the left (including current)
-        int ops = 0;       // Accumulated operations from the left
+        int ops = 0; 
 
         for (int i = 0; i < n; i++) {
             answer[i] += ops;
