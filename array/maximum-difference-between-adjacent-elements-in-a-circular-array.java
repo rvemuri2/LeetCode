@@ -1,6 +1,4 @@
 class Solution {
-    /**
-     */
     public int maxAdjacentDistance(int[] nums) {
         int maxDiff = 0;
         int n = nums.length;
