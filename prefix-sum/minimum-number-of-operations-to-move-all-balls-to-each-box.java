@@ -38,7 +38,5 @@ class Solution {
 
     // Example usage and test cases
     public static void main(String[] args) {
-        Solution sol = new Solution();
-        String test1 = "110";
     }
 }
