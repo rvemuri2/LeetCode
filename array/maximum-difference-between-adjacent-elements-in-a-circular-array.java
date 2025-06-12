@@ -11,7 +11,6 @@ class Solution {
         int n = nums.length;
 
         for (int i = 0; i < n; i++) {
-            // Get the next index in a circular way
             int nextIndex = (i + 1) % n;
             int diff = Math.abs(nums[i] - nums[nextIndex]);
             maxDiff = Math.max(maxDiff, diff);
