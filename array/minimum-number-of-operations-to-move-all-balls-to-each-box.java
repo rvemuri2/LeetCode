@@ -1,7 +1,6 @@
 class Solution {
     /**
      * Calculates the minimum number of operations to move all balls to each box.
-     *
     */
     public int[] minOperations(String boxes) {
         int n = boxes.length();
