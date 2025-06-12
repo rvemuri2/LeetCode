@@ -37,5 +37,4 @@ class Solution {
     }
 
     // Example usage and test cases
-    public static void main(String[] args) {}
 }
