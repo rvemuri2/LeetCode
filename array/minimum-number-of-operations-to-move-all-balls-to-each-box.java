@@ -39,8 +39,6 @@ class Solution {
     // Example usage and test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         String test1 = "110";
-        System.out.println("Expected: [1,1,3], Got: " + java.util.Arrays.toString(sol.minOperations(test1)));
     }
 }
