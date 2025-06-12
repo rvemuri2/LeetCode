@@ -3,7 +3,6 @@ class Solution {
      * Calculates the minimum number of operations to move all balls to each box.
      *
      * @param boxes A binary string where '1' means the box contains a ball and '0' means it's empty.
-     * @return An array where each element is the minimum operations to gather all balls to that box.
      */
     public int[] minOperations(String boxes) {
         int n = boxes.length();
