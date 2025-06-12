@@ -3,7 +3,6 @@ class Solution {
      * Returns the maximum absolute difference between adjacent elements
      * in a circular array. The first and last elements are also considered adjacent.
      *
-     * @param nums the input circular array
      */
     public int maxAdjacentDistance(int[] nums) {
         int maxDiff = 0;
