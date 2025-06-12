@@ -24,6 +24,5 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] test1 = {1, 2, 4};
-        System.out.println("Expected: 3, Got: " + sol.maxAdjacentDistance(test1));
     }
 }
