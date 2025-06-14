@@ -31,7 +31,5 @@ class Solution {
     }
 
     // Example usage with test cases
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
+    public static void main(String[] args) {}
 }
