@@ -34,6 +34,5 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println("Test 1: " + sol.minMaxDifference(11891)); // Expected: 99009
-        System.out.println("Test 2: " + sol.minMaxDifference(90));
     }
 }
