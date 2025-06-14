@@ -34,6 +34,6 @@ class Solution {
         triangle.add(Arrays.asList(6, 5, 7));
         triangle.add(Arrays.asList(4, 1, 8, 3));
 
-        System.out.println("Minimum Total: " + sol.minimumTotal(triangle)); // Output: 11
+        System.out.println("Minimum Total: " + sol.minimumTotal(triangle));
     }
 }
