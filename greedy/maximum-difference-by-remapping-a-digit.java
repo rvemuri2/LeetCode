@@ -26,8 +26,6 @@ class Solution {
         // Convert back to int and compute difference
         int maxVal = Integer.parseInt(maxStr);
         int minVal = Integer.parseInt(minStr);
-
         return maxVal - minVal;
     }
-    // Example usage with test cases
 }
