@@ -8,6 +8,6 @@ class Solution {
             }
             numMap.put(nums[i], i);
         }
-        return new int[]{}; // Fallback (problem guarantees a solution)
+        return new int[]{};
     }
 }
