@@ -4,8 +4,6 @@ class Solution {
 
         // dp will hold the minimum path sum starting from the bottom row
         int[] dp = new int[n];
-
-        // Initialize dp with the last row of the triangle
         for (int i = 0; i < n; i++) {
             dp[i] = triangle.get(n - 1).get(i);
         }
