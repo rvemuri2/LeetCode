@@ -42,6 +42,5 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] nums1 = {-1, 2, 1, -4};
-        int target1 = 1;
     }
 }
