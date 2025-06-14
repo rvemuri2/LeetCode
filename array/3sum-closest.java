@@ -48,6 +48,6 @@ class Solution {
 
         int[] nums2 = {0, 0, 0};
         int target2 = 1;
-        System.out.println("Closest Sum: " + sol.threeSumClosest(nums2, target2)); // Output: 0
+        System.out.println("Closest Sum: " + sol.threeSumClosest(nums2, target2));
     }
 }
