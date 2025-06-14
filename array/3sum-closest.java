@@ -1,0 +1,53 @@
+import java.util.Arrays;
+
+class Solution {
+    public int threeSumClosest(int[] nums, int target) {
+        // Sort the array to use two pointers
+        Arrays.sort(nums);
+        int n = nums.length;
+
+        // Initialize result with a very large value
+        int closestSum = nums[0] + nums[1] + nums[2];
+
+        // Iterate through the array
+        for (int i = 0; i < n - 2; i++) {
+            int left = i + 1;
+            int right = n - 1;
+
+            // Use two pointers to find the best pair
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+
+                // Update closestSum if this sum is closer to target
+                if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                    closestSum = sum;
+                }
+
+                // Move the pointers based on the comparison
+                if (sum < target) {
+                    left++;
+                } else if (sum > target) {
+                    right--;
+                } else {
+                    // Exact match found
+                    return sum;
+                }
+            }
+        }
+
+        return closestSum;
+    }
+
+    // Example usage with test cases
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+
+        int[] nums1 = {-1, 2, 1, -4};
+        int target1 = 1;
+        System.out.println("Closest Sum: " + sol.threeSumClosest(nums1, target1)); // Output: 2
+
+        int[] nums2 = {0, 0, 0};
+        int target2 = 1;
+        System.out.println("Closest Sum: " + sol.threeSumClosest(nums2, target2)); // Output: 0
+    }
+}
