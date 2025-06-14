@@ -19,7 +19,6 @@ class Solution {
             maxStr = s.replace(toReplaceMax, '9');
         }
 
-        // Get minimum by changing the first digit that is not 0 to 0
         char toReplaceMin = s.charAt(0);
         String minStr = s.replace(toReplaceMin, '0');
 
