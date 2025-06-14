@@ -30,6 +30,5 @@ class Solution {
 
         List<List<Integer>> triangle = new ArrayList<>();
         triangle.add(Arrays.asList(2));
-        triangle.add(Arrays.asList(3, 4));
     }
 }
