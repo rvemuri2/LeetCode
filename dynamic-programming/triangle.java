@@ -23,6 +23,4 @@ class Solution {
         // The top element now contains the result
         return dp[0];
     }
-
-    // Example usage with test case
 }
