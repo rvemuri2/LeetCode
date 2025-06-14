@@ -1,11 +1,10 @@
 class Solution {
     /**
      * Returns the difference between the maximum and minimum values Bob can make
-     * by remapping exactly one digit in the number.
      */
     public int minMaxDifference(int num) {
         String s = String.valueOf(num);
-        
+
         char toReplaceMax = ' ';
         for (char c : s.toCharArray()) {
             if (c != '9') {
