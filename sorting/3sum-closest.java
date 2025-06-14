@@ -44,6 +44,5 @@ class Solution {
         int[] nums1 = {-1, 2, 1, -4};
         int target1 = 1;
         System.out.println("Closest Sum: " + sol.threeSumClosest(nums1, target1)); // Output: 2
-        int[] nums2 = {0, 0, 0};
     }
 }
