@@ -29,6 +29,5 @@ class Solution {
         Solution sol = new Solution();
 
         List<List<Integer>> triangle = new ArrayList<>();
-        triangle.add(Arrays.asList(2));
     }
 }
