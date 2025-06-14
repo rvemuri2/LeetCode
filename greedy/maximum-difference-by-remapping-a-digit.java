@@ -5,8 +5,7 @@ class Solution {
      */
     public int minMaxDifference(int num) {
         String s = String.valueOf(num);
-
-        // Get maximum by changing the first non-9 digit to 9
+        
         char toReplaceMax = ' ';
         for (char c : s.toCharArray()) {
             if (c != '9') {
