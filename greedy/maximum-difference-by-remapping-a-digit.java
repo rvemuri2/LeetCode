@@ -23,7 +23,6 @@ class Solution {
         char toReplaceMin = s.charAt(0); // Always can replace the first digit
         String minStr = s.replace(toReplaceMin, '0');
 
-        // Convert back to int and compute difference
         int maxVal = Integer.parseInt(maxStr);
         int minVal = Integer.parseInt(minStr);
         return maxVal - minVal;
