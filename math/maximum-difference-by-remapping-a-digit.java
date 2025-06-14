@@ -1,6 +1,4 @@
 class Solution {
-    /**
-     */
     public int minMaxDifference(int num) {
         String s = String.valueOf(num);
 
