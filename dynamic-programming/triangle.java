@@ -1,0 +1,39 @@
+class Solution {
+    public int minimumTotal(List<List<Integer>> triangle) {
+        int n = triangle.size();
+
+        // dp will hold the minimum path sum starting from the bottom row
+        int[] dp = new int[n];
+
+        // Initialize dp with the last row of the triangle
+        for (int i = 0; i < n; i++) {
+            dp[i] = triangle.get(n - 1).get(i);
+        }
+
+        // Start from the second-last row and move upward
+        for (int row = n - 2; row >= 0; row--) {
+            for (int col = 0; col <= row; col++) {
+                // For each element, choose the minimum path sum from the next row's adjacent elements
+                int down = dp[col];
+                int downRight = dp[col + 1];
+                dp[col] = triangle.get(row).get(col) + Math.min(down, downRight);
+            }
+        }
+
+        // The top element now contains the result
+        return dp[0];
+    }
+
+    // Example usage with test case
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+
+        List<List<Integer>> triangle = new ArrayList<>();
+        triangle.add(Arrays.asList(2));
+        triangle.add(Arrays.asList(3, 4));
+        triangle.add(Arrays.asList(6, 5, 7));
+        triangle.add(Arrays.asList(4, 1, 8, 3));
+
+        System.out.println("Minimum Total: " + sol.minimumTotal(triangle)); // Output: 11
+    }
+}
