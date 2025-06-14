@@ -19,8 +19,6 @@ class Solution {
                 dp[col] = triangle.get(row).get(col) + Math.min(down, downRight);
             }
         }
-
-        // The top element now contains the result
         return dp[0];
     }
 }
