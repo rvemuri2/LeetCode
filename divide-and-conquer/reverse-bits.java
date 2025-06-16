@@ -21,9 +21,7 @@ public class Solution {
     // Example usage with test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         // Test case 1
         int input1 = 0b00000010100101000001111010011100;
-        System.out.println(sol.reverseBits(input1));
     }
 }
