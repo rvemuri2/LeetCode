@@ -37,5 +37,4 @@ class Solution {
 
         return closestSum;
     }
-    // Example usage with test cases
 }
