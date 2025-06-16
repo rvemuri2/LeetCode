@@ -29,7 +29,6 @@ class Solution {
                 } else if (sum > target) {
                     right--;
                 } else {
-                    // Exact match found
                     return sum;
                 }
             }
