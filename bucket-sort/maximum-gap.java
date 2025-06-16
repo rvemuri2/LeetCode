@@ -46,6 +46,4 @@ class Solution {
 
         return maxGap;
     }
-    // Test cases
-    public static void main(String[] args) {}
 }
