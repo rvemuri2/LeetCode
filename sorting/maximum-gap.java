@@ -11,7 +11,6 @@ class Solution {
             max = Math.max(max, num);
         }
 
-        // Edge case: all elements are the same
         if (min == max) {
             return 0;
         }
