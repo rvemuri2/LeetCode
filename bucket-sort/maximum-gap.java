@@ -26,14 +26,13 @@ class Solution {
         Arrays.fill(bucketMin, Integer.MAX_VALUE);
         Arrays.fill(bucketMax, Integer.MIN_VALUE);
 
-        // Place each number in a bucket
         for (int num : nums) {
             int idx = (num - min) / bucketSize;
             bucketMin[idx] = Math.min(bucketMin[idx], num);
             bucketMax[idx] = Math.max(bucketMax[idx], num);
             bucketUsed[idx] = true;
         }
-        
+
         int maxGap = 0;
         int prevBucketMax = min;
 
