@@ -15,7 +15,7 @@ class Solution {
         if (min == max) return 0;
 
         int n = nums.length;
-        int bucketSize = Math.max(1, (max - min) / (n - 1)); // Size of each bucket
+        int bucketSize = Math.max(1, (max - min) / (n - 1));
         int bucketCount = (max - min) / bucketSize + 1;
 
         int[] bucketMin = new int[bucketCount];
