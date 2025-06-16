@@ -51,6 +51,5 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.maximumGap(new int[]{3, 6, 9, 1})); // Expected: 3
-        System.out.println(sol.maximumGap(new int[]{10}));
     }
 }
