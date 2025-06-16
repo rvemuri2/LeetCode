@@ -18,7 +18,6 @@ class Solution {
         int bucketSize = Math.max(1, (max - min) / (n - 1)); // Size of each bucket
         int bucketCount = (max - min) / bucketSize + 1;
 
-        // Initialize buckets
         int[] bucketMin = new int[bucketCount];
         int[] bucketMax = new int[bucketCount];
         boolean[] bucketUsed = new boolean[bucketCount];
