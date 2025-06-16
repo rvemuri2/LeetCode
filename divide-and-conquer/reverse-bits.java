@@ -17,6 +17,4 @@ public class Solution {
 
         return result;
     }
-
-    // Example usage with test cases
 }
