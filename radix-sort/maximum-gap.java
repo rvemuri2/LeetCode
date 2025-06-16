@@ -5,7 +5,6 @@ class Solution {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
-        // Find min and max of the array
         for (int num : nums) {
             min = Math.min(min, num);
             max = Math.max(max, num);
