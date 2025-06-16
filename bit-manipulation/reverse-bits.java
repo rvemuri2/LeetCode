@@ -19,8 +19,5 @@ public class Solution {
     }
 
     // Example usage with test cases
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        // Test case 1
-    }
+    public static void main(String[] args) {}
 }
