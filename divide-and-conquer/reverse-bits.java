@@ -11,7 +11,6 @@ public class Solution {
             // Add the least significant bit of n to result
             result |= (n & 1);
 
-            // Shift n to the right to process the next bit
             n >>= 1;
         }
 
