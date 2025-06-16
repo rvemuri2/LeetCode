@@ -23,7 +23,6 @@ class Solution {
                     closestSum = sum;
                 }
 
-                // Move the pointers based on the comparison
                 if (sum < target) {
                     left++;
                 } else if (sum > target) {
