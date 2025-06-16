@@ -28,6 +28,6 @@ public class Solution {
 
         // Test case 2
         int input2 = 0b11111111111111111111111111111101;
-        System.out.println(sol.reverseBits(input2)); // Expected: 3221225471
+        System.out.println(sol.reverseBits(input2));
     }
 }
