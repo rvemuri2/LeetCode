@@ -14,10 +14,9 @@ class Solution {
             int left = i + 1;
             int right = n - 1;
 
-            // Use two pointers to find the best pair
             while (left < right) {
                 int sum = nums[i] + nums[left] + nums[right];
-                
+
                 if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
                     closestSum = sum;
                 }
