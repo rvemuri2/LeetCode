@@ -41,6 +41,5 @@ class Solution {
     // Example usage with test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] nums1 = {-1, 2, 1, -4};
     }
 }
