@@ -8,7 +8,6 @@ public class Solution {
             // Shift result to the left to make room for the next bit
             result <<= 1;
 
-            // Add the least significant bit of n to result
             result |= (n & 1);
 
             n >>= 1;
