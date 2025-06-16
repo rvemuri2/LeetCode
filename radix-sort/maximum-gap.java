@@ -12,7 +12,9 @@ class Solution {
         }
 
         // Edge case: all elements are the same
-        if (min == max) return 0;
+        if (min == max) {
+            return 0;
+        }
 
         int n = nums.length;
         int bucketSize = Math.max(1, (max - min) / (n - 1));
