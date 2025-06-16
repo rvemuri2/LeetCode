@@ -37,7 +37,5 @@ class Solution {
 
         return closestSum;
     }
-
     // Example usage with test cases
-    public static void main(String[] args) {}
 }
