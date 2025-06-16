@@ -27,6 +27,5 @@ public class Solution {
         System.out.println(sol.reverseBits(input1)); // Expected: 964176192
 
         // Test case 2
-        int input2 = 0b11111111111111111111111111111101;
     }
 }
