@@ -33,8 +33,7 @@ class Solution {
             bucketMax[idx] = Math.max(bucketMax[idx], num);
             bucketUsed[idx] = true;
         }
-
-        // Calculate max gap between buckets
+        
         int maxGap = 0;
         int prevBucketMax = min;
 
