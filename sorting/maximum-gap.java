@@ -1,6 +1,8 @@
 class Solution {
     public int maximumGap(int[] nums) {
-        if (nums.length < 2) return 0;
+        if (nums.length < 2) {
+            return 0;
+        }
 
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
