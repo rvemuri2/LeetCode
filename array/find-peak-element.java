@@ -20,10 +20,9 @@ class Solution {
         // At the end, left == right, which will be the index of a peak element
         return left;
     }
-
     // Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.findPeakElement(new int[]{1, 2, 3, 1}));        // Output: 2
+        System.out.println(sol.findPeakElement(new int[]{1, 2, 3, 1}));
     }
 }
