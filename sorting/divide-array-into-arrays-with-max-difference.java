@@ -31,6 +31,6 @@ class Solution {
 
         int[] nums1 = {1,3,4,8,7,9,3,5,1};
         int k1 = 2;
-        System.out.println(Arrays.deepToString(sol.divideArray(nums1, k1))); // Expected: Valid triplets
+        System.out.println(Arrays.deepToString(sol.divideArray(nums1, k1)));
     }
 }
