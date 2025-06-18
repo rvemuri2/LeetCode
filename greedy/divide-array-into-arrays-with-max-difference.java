@@ -20,6 +20,6 @@ class Solution {
 
             result.add(new int[]{a, b, c});
         }
-        // Convert List<int[]> to int[][]
+        return result.toArray(new int[result.size()][]);
     }
 }
