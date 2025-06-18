@@ -13,7 +13,6 @@ class Solution {
             int b = nums[i + 1];
             int c = nums[i + 2];
 
-            // Check if the difference between max and min in this group is within k
             if (c - a > k) {
                 return new int[0][0];
             }
