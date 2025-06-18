@@ -6,7 +6,6 @@ class Solution {
         // Binary search for a peak
         while (left < right) {
             int mid = left + (right - left) / 2;
-
             // If the current mid element is less than its right neighbor,
             if (nums[mid] < nums[mid + 1]) {
                 left = mid + 1;
