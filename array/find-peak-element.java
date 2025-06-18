@@ -28,6 +28,5 @@ class Solution {
         System.out.println(sol.findPeakElement(new int[]{1, 2, 1, 3, 5, 6, 4})); // Output: 5 or 1
         System.out.println(sol.findPeakElement(new int[]{3}));                 // Output: 0
         System.out.println(sol.findPeakElement(new int[]{1, 2}));              // Output: 1
-        System.out.println(sol.findPeakElement(new int[]{2, 1}));
     }
 }
