@@ -34,6 +34,5 @@ class Solution {
         System.out.println(Arrays.deepToString(sol.divideArray(nums1, k1))); // Expected: Valid triplets
 
         int[] nums2 = {2,4,2,2,5,2};
-        int k2 = 2;
     }
 }
