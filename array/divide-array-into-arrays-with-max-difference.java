@@ -24,6 +24,4 @@ class Solution {
         // Convert List<int[]> to int[][]
         return result.toArray(new int[result.size()][]);
     }
-
-    // Test cases
 }
