@@ -16,8 +16,6 @@ class Solution {
                 right = mid;
             }
         }
-
-        // At the end, left == right, which will be the index of a peak element
         return left;
     }
 }
