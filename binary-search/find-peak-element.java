@@ -12,7 +12,6 @@ class Solution {
             if (nums[mid] < nums[mid + 1]) {
                 left = mid + 1;
             } else {
-                // Else, the peak is at mid or to the left of mid
                 right = mid;
             }
         }
