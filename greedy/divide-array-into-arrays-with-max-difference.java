@@ -15,7 +15,7 @@ class Solution {
 
             // Check if the difference between max and min in this group is within k
             if (c - a > k) {
-                return new int[0][0]; // Cannot group, return empty array
+                return new int[0][0];
             }
 
             result.add(new int[]{a, b, c});
