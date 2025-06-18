@@ -28,7 +28,5 @@ class Solution {
     // Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        int[] nums1 = {1,3,4,8,7,9,3,5,1};
     }
 }
