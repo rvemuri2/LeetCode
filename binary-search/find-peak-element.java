@@ -21,5 +21,4 @@ class Solution {
         return left;
     }
     // Test cases
-    public static void main(String[] args) {}
 }
