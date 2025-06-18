@@ -5,7 +5,7 @@ class Solution {
         int n = nums.length;
         if (n % 3 != 0) return new int[0][0];
 
-        Arrays.sort(nums); // Sort to ensure we can group closest numbers together
+        Arrays.sort(nums);
         List<int[]> result = new ArrayList<>();
 
         for (int i = 0; i < n; i += 3) {
