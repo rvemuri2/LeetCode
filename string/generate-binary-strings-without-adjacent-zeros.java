@@ -18,7 +18,6 @@ class Solution {
             dfs(n, current + "0", result);
         }
 
-        // Always allowed to add '1'
         dfs(n, current + "1", result);
     }
 
