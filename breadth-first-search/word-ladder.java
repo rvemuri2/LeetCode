@@ -52,8 +52,6 @@ class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         List<String> wordList1 = Arrays.asList("hot", "dot", "dog", "lot", "log", "cog");
-        System.out.println("Test Case 1: " + sol.ladderLength("hit", "cog", wordList1)); // Output: 5
     }
 }
