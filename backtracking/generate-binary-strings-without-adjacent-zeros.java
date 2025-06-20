@@ -24,9 +24,7 @@ class Solution {
 
      public static void main(String[] args) {
         Solution sol = new Solution();
-
         System.out.println("n = 1: " + sol.validStrings(1));
         System.out.println("n = 2: " + sol.validStrings(2));
-        System.out.println("n = 3: " + sol.validStrings(3));
     }
 }
