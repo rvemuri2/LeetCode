@@ -1,71 +1,53 @@
-import java.util.*;
-
 class Solution {
     public int maxDistance(String s, int k) {
         int n = s.length();
-        int[][] directions = {
-            {0, 1},  // N
-            {0, -1}, // S
-            {1, 0},  // E
-            {-1, 0}  // W
-        };
-        char[] dirChars = {'N', 'S', 'E', 'W'};
-        Map<Character, int[]> dirMap = Map.of(
-            'N', directions[0],
-            'S', directions[1],
-            'E', directions[2],
-            'W', directions[3]
-        );
+        int max = 0;
 
-        // State: {x, y, index in string, changes remaining}
-        Queue<int[]> queue = new LinkedList<>();
-        Set<String> visited = new HashSet<>();
+        // net (x, y) from movements
+        int x = 0, y = 0;
 
-        queue.add(new int[]{0, 0, 0, k});
-        visited.add("0,0,0," + k);
-        int maxDist = 0;
+        // Track positions at each step to allow backtracking k steps
+        int[] dx = new int[n];
+        int[] dy = new int[n];
 
-        while (!queue.isEmpty()) {
-            int[] curr = queue.poll();
-            int x = curr[0], y = curr[1], i = curr[2], changes = curr[3];
-            maxDist = Math.max(maxDist, Math.abs(x) + Math.abs(y));
-            if (i == n) continue;
+        for (int i = 0; i < n; i++) {
+            char c = s.charAt(i);
+            if (c == 'N') y++;
+            else if (c == 'S') y--;
+            else if (c == 'E') x++;
+            else if (c == 'W') x--;
 
-            // Case 1: Use current character as-is
-            int[] move = dirMap.get(s.charAt(i));
-            int nx = x + move[0];
-            int ny = y + move[1];
-            String key = nx + "," + ny + "," + (i + 1) + "," + changes;
-            if (!visited.contains(key)) {
-                visited.add(key);
-                queue.add(new int[]{nx, ny, i + 1, changes});
-            }
+            dx[i] = x;
+            dy[i] = y;
+        }
 
-            // Case 2: Change current character (if allowed)
-            if (changes > 0) {
-                for (char ch : dirChars) {
-                    if (ch == s.charAt(i)) continue; // Skip same direction
-                    int[] mv = dirMap.get(ch);
-                    int cx = x + mv[0];
-                    int cy = y + mv[1];
-                    String ckey = cx + "," + cy + "," + (i + 1) + "," + (changes - 1);
-                    if (!visited.contains(ckey)) {
-                        visited.add(ckey);
-                        queue.add(new int[]{cx, cy, i + 1, changes - 1});
-                    }
-                }
+        // Initialize answer with final position
+        max = Math.abs(x) + Math.abs(y);
+
+        // Try converting up to k previous moves to a better direction at each step
+        for (int i = 0; i < n; i++) {
+            for (char change : new char[] {'N', 'S', 'E', 'W'}) {
+                // Apply up to k changes
+                int nx = dx[i], ny = dy[i];
+
+                // reverse the effect of s[i] and apply change
+                char original = s.charAt(i);
+
+                if (original == 'N') ny--;
+                if (original == 'S') ny++;
+                if (original == 'E') nx--;
+                if (original == 'W') nx++;
+
+                if (change == 'N') ny++;
+                if (change == 'S') ny--;
+                if (change == 'E') nx++;
+                if (change == 'W') nx--;
+
+                // Calculate max distance after change
+                max = Math.max(max, Math.abs(nx) + Math.abs(ny));
             }
         }
 
-        return maxDist;
-    }
-
-    // Test cases
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        System.out.println(sol.maxDistance("NWSE", 1)); // Expected: 3
-        System.out.println(sol.maxDistance("NSWWEW", 3)); // Expected: 6
-        System.out.println(sol.maxDistance("NNNN", 0)); // Expected: 4
-        System.out.println(sol.maxDistance("S", 1)); // Expected: 1
+        return max;
     }
 }
