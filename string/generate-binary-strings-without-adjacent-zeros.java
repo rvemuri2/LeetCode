@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public List<String> validStrings(int n) {
         List<String> result = new ArrayList<>();
@@ -19,5 +17,4 @@ class Solution {
 
         dfs(n, current + "1", result);
     }
-
 }
