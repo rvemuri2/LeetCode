@@ -13,7 +13,6 @@ class Solution {
             return;
         }
 
-        // If empty or last char is '1', we can add both '0' and '1'
         if (current.isEmpty() || current.charAt(current.length() - 1) == '1') {
             dfs(n, current + "0", result);
         }
