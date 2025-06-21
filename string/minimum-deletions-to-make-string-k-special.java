@@ -40,5 +40,4 @@ class Solution {
 
         return minDeletions;
     }
-    // Sample test cases
 }
