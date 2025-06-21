@@ -47,6 +47,5 @@ class Solution {
 
         System.out.println(sol.minimumDeletions("aabcaba", 0));     // Output: 3
         System.out.println(sol.minimumDeletions("dabdcbdcdcd", 2)); // Output: 2
-        System.out.println(sol.minimumDeletions("aaabaaa", 2));
     }
 }
