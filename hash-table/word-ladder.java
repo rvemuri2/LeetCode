@@ -8,7 +8,6 @@ class Solution {
      * @param beginWord the starting word
      * @param endWord the target word
      * @param wordList list of allowed words for transformation
-     * @return the number of words in the shortest transformation sequence, or 0 if no such sequence exists
      */
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> wordSet = new HashSet<>(wordList);
