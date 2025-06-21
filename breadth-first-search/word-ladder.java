@@ -47,6 +47,6 @@ class Solution {
             level++;
         }
 
-        return 0; // endWord not reachable
+        return 0;
     }
 }
