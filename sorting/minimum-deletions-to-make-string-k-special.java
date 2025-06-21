@@ -44,6 +44,5 @@ class Solution {
     // Sample test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.minimumDeletions("aabcaba", 0));
     }
 }
