@@ -6,7 +6,6 @@ class Solution {
      * Uses Breadth-First Search (BFS) to explore all possible one-letter transformations level by level.
      *
      * @param beginWord the starting word
-     * @param endWord the target word
      */
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> wordSet = new HashSet<>(wordList);
