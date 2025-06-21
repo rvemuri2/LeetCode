@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     /**
      * Returns the number of words in the shortest transformation sequence from beginWord to endWord.
-     * Uses Breadth-First Search (BFS) to explore all possible one-letter transformations level by level.
      */
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> wordSet = new HashSet<>(wordList);
