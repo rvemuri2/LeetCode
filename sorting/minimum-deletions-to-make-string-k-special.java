@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     public int minimumDeletions(String word, int k) {
         int[] freq = new int[26];
-        // Count frequency of each character
         for (char ch : word.toCharArray()) {
             freq[ch - 'a']++;
         }
