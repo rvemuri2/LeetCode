@@ -31,7 +31,7 @@ class Solution {
                 if (f < targetFreq) {
                     deletions += f; // Remove all
                 } else if (f > maxAllowed) {
-                    deletions += f - maxAllowed; // Reduce to maxAllowed
+                    deletions += f - maxAllowed;
                 }
             }
 
