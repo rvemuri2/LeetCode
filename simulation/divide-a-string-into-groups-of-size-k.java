@@ -17,7 +17,7 @@ class Solution {
                 if (j < n) {
                     group.append(s.charAt(j));
                 } else {
-                    group.append(fill); // Add fill character if string ends
+                    group.append(fill);
                 }
             }
 
