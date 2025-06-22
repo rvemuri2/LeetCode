@@ -11,8 +11,6 @@ class Solution {
 
         for (int i = 0; i < n; i += k) {
             StringBuilder group = new StringBuilder();
-
-            // Collect up to k characters starting at i
             for (int j = i; j < i + k; j++) {
                 if (j < n) {
                     group.append(s.charAt(j));
