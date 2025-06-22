@@ -20,7 +20,6 @@ class Solution {
         int n = freqs.size();
         int minDeletions = Integer.MAX_VALUE;
 
-        // Try keeping each frequency as upper bound and delete others to make all freqs <= f and >= f - k
         for (int i = 0; i < n; i++) {
             int targetFreq = freqs.get(i);
             int maxAllowed = targetFreq + k;
