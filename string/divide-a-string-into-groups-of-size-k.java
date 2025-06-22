@@ -38,6 +38,5 @@ class Solution {
         // Output: [abc, def, ghi, jxx]
 
         System.out.println(Arrays.toString(sol.divideString("a", 2, 'z')));
-        // Output: [az]
     }
 }
