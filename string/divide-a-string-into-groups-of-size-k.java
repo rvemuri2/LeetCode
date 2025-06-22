@@ -35,6 +35,5 @@ class Solution {
         // Output: [abc, def, ghi]
 
         System.out.println(Arrays.toString(sol.divideString("abcdefghij", 3, 'x')));
-        // Output: [abc, def, ghi, jxx]
     }
 }
