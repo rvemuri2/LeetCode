@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public String[] divideString(String s, int k, char fill) {
         int n = s.length();
