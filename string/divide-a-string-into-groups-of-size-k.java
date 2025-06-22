@@ -2,7 +2,6 @@ import java.util.*;
 
 class Solution {
     public String[] divideString(String s, int k, char fill) {
-        // Calculate number of groups needed
         int n = s.length();
         int groups = (n + k - 1) / k;
 
