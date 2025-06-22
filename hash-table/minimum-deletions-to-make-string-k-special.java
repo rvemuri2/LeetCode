@@ -14,7 +14,6 @@ class Solution {
             if (f > 0) freqs.add(f);
         }
 
-        // Sort frequencies
         Collections.sort(freqs);
 
         int n = freqs.size();
