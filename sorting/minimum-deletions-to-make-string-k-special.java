@@ -11,7 +11,9 @@ class Solution {
         // Store only non-zero frequencies
         List<Integer> freqs = new ArrayList<>();
         for (int f : freq) {
-            if (f > 0) freqs.add(f);
+            if (f > 0) {
+                freqs.add(f);
+            }
         }
 
         Collections.sort(freqs);
