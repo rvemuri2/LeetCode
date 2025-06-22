@@ -29,7 +29,7 @@ class Solution {
             for (int j = 0; j < n; j++) {
                 int f = freqs.get(j);
                 if (f < targetFreq) {
-                    deletions += f; // Remove all
+                    deletions += f;
                 } else if (f > maxAllowed) {
                     deletions += f - maxAllowed;
                 }
