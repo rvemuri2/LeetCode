@@ -41,6 +41,4 @@ class Solution {
 
         return sum;
     }
-
-    // Test cases
 }
