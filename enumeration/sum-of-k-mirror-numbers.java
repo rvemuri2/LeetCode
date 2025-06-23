@@ -47,6 +47,6 @@ class Solution {
         Solution sol = new Solution();
         System.out.println(sol.kMirror(2, 5)); // Output: 25
         System.out.println(sol.kMirror(3, 7)); // Output: 499
-        System.out.println(sol.kMirror(7, 17)); // Output: 20379000
+        System.out.println(sol.kMirror(7, 17));
     }
 }
