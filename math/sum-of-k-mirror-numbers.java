@@ -8,7 +8,6 @@ class Solution {
         return true;
     }
 
-    // Convert a number to a string in base-k
     private String toBaseK(long num, int k) {
         StringBuilder sb = new StringBuilder();
         while (num > 0) {
