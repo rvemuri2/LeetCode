@@ -34,6 +34,5 @@ class Solution {
         Solution sol = new Solution();
         System.out.println(sol.longestValidParentheses("(()"));       // Output: 2
         System.out.println(sol.longestValidParentheses(")()())"));    // Output: 4
-        System.out.println(sol.longestValidParentheses(""));
     }
 }
