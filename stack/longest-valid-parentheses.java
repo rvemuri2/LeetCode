@@ -28,5 +28,4 @@ class Solution {
 
         return maxLength;
     }
-    // Test cases
 }
