@@ -61,8 +61,6 @@ class Solution {
         solver.solveSudoku(board);
 
         // Print solved board
-        for (char[] row : board) {
-            for (char ch : row) {}
-        }
+        for (char[] row : board) {}
     }
 }
