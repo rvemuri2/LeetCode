@@ -18,7 +18,6 @@ class Solution {
         return sb.reverse().toString();
     }
 
-    // Generate palindromes in base-10 and check base-k validity
     public long kMirror(int k, int n) {
         long sum = 0;
         int count = 0;
