@@ -56,8 +56,6 @@ class Solution {
             {'.','.','.','4','1','9','.','.','5'},
             {'.','.','.','.','8','.','.','7','9'}
         };
-
         Solution solver = new Solution();
-        solver.solveSudoku(board);
     }
 }
