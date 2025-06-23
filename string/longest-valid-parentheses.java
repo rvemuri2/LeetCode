@@ -17,7 +17,6 @@ class Solution {
                 stack.pop();
                 
                 if (stack.isEmpty()) {
-                    // If the stack is empty, push current index as base for future matches
                     stack.push(i);
                 } else {
                     maxLength = Math.max(maxLength, i - stack.peek());
