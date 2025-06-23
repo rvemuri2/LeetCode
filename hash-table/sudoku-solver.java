@@ -62,9 +62,7 @@ class Solution {
 
         // Print solved board
         for (char[] row : board) {
-            for (char ch : row) {
-                System.out.print(ch + " ");
-            }
+            for (char ch : row) {}
         }
     }
 }
