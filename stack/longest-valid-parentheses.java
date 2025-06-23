@@ -13,7 +13,6 @@ class Solution {
                 // Push index of '(' onto the stack
                 stack.push(i);
             } else {
-                // Pop the last open bracket's index
                 stack.pop();
                 if (stack.isEmpty()) {
                     stack.push(i);
