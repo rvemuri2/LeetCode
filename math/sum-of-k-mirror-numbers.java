@@ -26,7 +26,6 @@ class Solution {
 
         while (count < n) {
             for (int half = (int) Math.pow(10, (len - 1) / 2); count < n && half < (int) Math.pow(10, (len + 1) / 2); half++) {
-                // Generate palindromes from the half number
                 String firstHalf = String.valueOf(half);
                 String palindromeStr = firstHalf + new StringBuilder(firstHalf.substring(0, len % 2 == 0 ? firstHalf.length() : firstHalf.length() - 1)).reverse();
                 long palindromeNum = Long.parseLong(palindromeStr);
