@@ -28,7 +28,5 @@ class Solution {
 
         return maxLength;
     }
-
     // Test cases
-    public static void main(String[] args) {}
 }
