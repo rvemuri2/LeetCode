@@ -65,7 +65,6 @@ class Solution {
             for (char ch : row) {
                 System.out.print(ch + " ");
             }
-            System.out.println();
         }
     }
 }
