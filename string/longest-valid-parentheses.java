@@ -15,7 +15,6 @@ class Solution {
             } else {
                 // Pop the last open bracket's index
                 stack.pop();
-                
                 if (stack.isEmpty()) {
                     stack.push(i);
                 } else {
