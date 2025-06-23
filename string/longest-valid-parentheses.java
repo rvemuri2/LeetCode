@@ -10,7 +10,6 @@ class Solution {
             char c = s.charAt(i);
 
             if (c == '(') {
-                // Push index of '(' onto the stack
                 stack.push(i);
             } else {
                 stack.pop();
