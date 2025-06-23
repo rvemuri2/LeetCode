@@ -20,12 +20,10 @@ class Solution {
                     // If the stack is empty, push current index as base for future matches
                     stack.push(i);
                 } else {
-                    // Current valid substring length = i - index at stack top
                     maxLength = Math.max(maxLength, i - stack.peek());
                 }
             }
         }
-
         return maxLength;
     }
 }
