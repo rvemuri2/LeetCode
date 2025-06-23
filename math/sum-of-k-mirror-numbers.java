@@ -45,6 +45,6 @@ class Solution {
     // Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.kMirror(2, 5)); // Output: 25
+        System.out.println(sol.kMirror(2, 5));
     }
 }
