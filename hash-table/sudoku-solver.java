@@ -59,6 +59,5 @@ class Solution {
 
         Solution solver = new Solution();
         solver.solveSudoku(board);
-        // Print solved board
     }
 }
