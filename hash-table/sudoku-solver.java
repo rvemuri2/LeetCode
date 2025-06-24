@@ -17,7 +17,6 @@ class Solution {
                             if (solve(board)) {
                                 return true;
                             }
-                            // Backtrack
                             board[row][col] = '.';
                         }
                     }
