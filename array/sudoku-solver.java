@@ -42,7 +42,5 @@ class Solution {
         }
         return true;
     }
-
     // For demonstration
-    public static void main(String[] args) {}
 }
