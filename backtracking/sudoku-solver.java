@@ -13,7 +13,6 @@ class Solution {
                     for (char ch = '1'; ch <= '9'; ch++) {
                         if (isValid(board, row, col, ch)) {
                             board[row][col] = ch;
-                            // Recur for the next cell
                             if (solve(board)) {
                                 return true;
                             }
