@@ -42,5 +42,4 @@ class Solution {
         }
         return true;
     }
-    // For demonstration
 }
