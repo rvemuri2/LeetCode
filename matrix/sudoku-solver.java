@@ -7,7 +7,6 @@ class Solution {
     private boolean solve(char[][] board) {
         for (int row = 0; row < 9; row++) {
             for (int col = 0; col < 9; col++) {
-                // If the current cell is empty
                 if (board[row][col] == '.') {
                     for (char ch = '1'; ch <= '9'; ch++) {
                         if (isValid(board, row, col, ch)) {
