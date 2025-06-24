@@ -47,7 +47,6 @@ class Solution {
     public static void main(String[] args) {
         char[][] board = {
             {'5','3','.','.','7','.','.','.','.'},
-            {'6','.','.','1','9','5','.','.','.'},
         };
     }
 }
