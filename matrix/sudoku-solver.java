@@ -33,7 +33,7 @@ class Solution {
         for (int i = 0; i < 9; i++) {
             // Check row
             if (board[row][i] == ch) return false;
-            // Check column
+            
             if (board[i][col] == ch) {
                 return false;
             }
