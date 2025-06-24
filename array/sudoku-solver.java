@@ -38,7 +38,9 @@ class Solution {
             // Check 3x3 sub-box
             int boxRow = 3 * (row / 3) + i / 3;
             int boxCol = 3 * (col / 3) + i % 3;
-            if (board[boxRow][boxCol] == ch) return false;
+            if (board[boxRow][boxCol] == ch) {
+                return false;
+            }
         }
         return true;
     }
