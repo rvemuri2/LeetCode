@@ -44,6 +44,5 @@ class Solution {
     }
 
     // For demonstration
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) {}
 }
