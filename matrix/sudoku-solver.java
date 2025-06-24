@@ -9,7 +9,6 @@ class Solution {
             for (int col = 0; col < 9; col++) {
                 // If the current cell is empty
                 if (board[row][col] == '.') {
-                    // Try digits 1 to 9
                     for (char ch = '1'; ch <= '9'; ch++) {
                         if (isValid(board, row, col, ch)) {
                             board[row][col] = ch;
