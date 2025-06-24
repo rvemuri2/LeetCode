@@ -21,7 +21,7 @@ class Solution {
                             board[row][col] = '.';
                         }
                     }
-                    return false; // No valid digit found
+                    return false;
                 }
             }
         }
