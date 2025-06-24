@@ -25,7 +25,7 @@ class Solution {
                 }
             }
         }
-        return true; // All cells filled
+        return true;
     }
 
     private boolean isValid(char[][] board, int row, int col, char ch) {
