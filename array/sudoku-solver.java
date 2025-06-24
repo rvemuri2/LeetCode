@@ -34,7 +34,9 @@ class Solution {
             // Check row
             if (board[row][i] == ch) return false;
             // Check column
-            if (board[i][col] == ch) return false;
+            if (board[i][col] == ch) {
+                return false;
+            }
             int boxRow = 3 * (row / 3) + i / 3;
             int boxCol = 3 * (col / 3) + i % 3;
             if (board[boxRow][boxCol] == ch) {
