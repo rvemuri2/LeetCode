@@ -31,7 +31,7 @@ class Solution {
     // Check if placing 'ch' at board[row][col] is valid
     private boolean isValid(char[][] board, int row, int col, char ch) {
         for (int i = 0; i < 9; i++) {
-            // Check row
+
             if (board[row][i] == ch) {
                 return false;
             }
