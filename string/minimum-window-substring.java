@@ -4,7 +4,6 @@ class Solution {
     public String minWindow(String s, String t) {
         if (s.length() < t.length()) return "";
 
-        // Frequency map of characters in t
         Map<Character, Integer> tFreq = new HashMap<>();
         for (char c : t.toCharArray()) {
             tFreq.put(c, tFreq.getOrDefault(c, 0) + 1);
