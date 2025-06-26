@@ -2,7 +2,9 @@ import java.util.*;
 
 class Solution {
     public String minWindow(String s, String t) {
-        if (s.length() < t.length()) return "";
+        if (s.length() < t.length()) {
+            return "";
+        }
 
         Map<Character, Integer> tFreq = new HashMap<>();
         for (char c : t.toCharArray()) {
