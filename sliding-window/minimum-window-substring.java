@@ -44,7 +44,7 @@ class Solution {
                 left++; // Shrink the window
             }
 
-            right++; // Expand the window
+            right++;
         }
 
         return res[0] == -1 ? "" : s.substring(res[1], res[2] + 1);
