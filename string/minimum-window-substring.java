@@ -26,8 +26,7 @@ class Solution {
             if (tFreq.containsKey(c) && windowFreq.get(c).intValue() == tFreq.get(c).intValue()) {
                 formed++;
             }
-
-            // Try to contract the window
+            
             while (left <= right && formed == required) {
                 if (res[0] == -1 || right - left + 1 < res[0]) {
                     res[0] = right - left + 1;
