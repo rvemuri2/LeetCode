@@ -49,8 +49,6 @@ class Solution {
 
         return res[0] == -1 ? "" : s.substring(res[1], res[2] + 1);
     }
-
     // Optional: main method for testing
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) {}
 }
