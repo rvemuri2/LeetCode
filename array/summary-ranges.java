@@ -33,6 +33,5 @@ class Solution {
         System.out.println(sol.summaryRanges(new int[]{0, 2, 3, 4, 6, 8, 9}));
         System.out.println(sol.summaryRanges(new int[]{}));
         System.out.println(sol.summaryRanges(new int[]{1}));
-        System.out.println(sol.summaryRanges(new int[]{-1, 0, 1}));
     }
 }
