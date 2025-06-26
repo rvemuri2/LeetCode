@@ -41,7 +41,7 @@ class Solution {
                     formed--;
                 }
 
-                left++; // Shrink the window
+                left++;
             }
 
             right++;
