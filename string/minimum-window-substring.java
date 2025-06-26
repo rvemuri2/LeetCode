@@ -16,7 +16,6 @@ class Solution {
         int formed = 0;
         Map<Character, Integer> windowFreq = new HashMap<>();
 
-        // Result: [window length, left, right]
         int[] res = {-1, 0, 0};
 
         while (right < s.length()) {
@@ -26,7 +25,7 @@ class Solution {
             if (tFreq.containsKey(c) && windowFreq.get(c).intValue() == tFreq.get(c).intValue()) {
                 formed++;
             }
-            
+
             while (left <= right && formed == required) {
                 if (res[0] == -1 || right - left + 1 < res[0]) {
                     res[0] = right - left + 1;
