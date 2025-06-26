@@ -54,6 +54,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.minWindow("ADOBECODEBANC", "ABC")); // "BANC"
-        System.out.println(sol.minWindow("a", "a"));               // "a"
+        System.out.println(sol.minWindow("a", "a"));
     }
 }
