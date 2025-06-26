@@ -10,7 +10,6 @@ class Solution {
             tFreq.put(c, tFreq.getOrDefault(c, 0) + 1);
         }
 
-        // Sliding window variables
         int left = 0, right = 0;
         int required = tFreq.size();
         int formed = 0;
