@@ -29,14 +29,13 @@ class MyQueue {
     /** Get the front element. */
     public int peek() {
         if (stack2.isEmpty()) {
-            // Transfer elements from stack1 to stack2 to reverse order
             while (!stack1.isEmpty()) {
                 stack2.push(stack1.pop());
             }
         }
         return stack2.peek();
     }
-    
+
     public boolean empty() {
         return stack1.isEmpty() && stack2.isEmpty();
     }
