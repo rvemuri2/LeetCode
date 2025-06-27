@@ -1,4 +1,3 @@
-import java.util.*;
 class Solution {
     public List<String> summaryRanges(int[] nums) {
         List<String> result = new ArrayList<>();
