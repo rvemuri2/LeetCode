@@ -18,7 +18,7 @@ class Solution {
                 }
 
                 if (i < n) {
-                    start = nums[i]; // start next range
+                    start = nums[i];
                 }
             }
         }
