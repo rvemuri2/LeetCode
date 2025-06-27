@@ -4,7 +4,9 @@ class Solution {
     public List<String> summaryRanges(int[] nums) {
         List<String> result = new ArrayList<>();
         int n = nums.length;
-        if (n == 0) return result;
+        if (n == 0) {
+            return result;
+        }
 
         int start = nums[0];
 
