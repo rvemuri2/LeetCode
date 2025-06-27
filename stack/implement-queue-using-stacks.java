@@ -41,8 +41,6 @@ class MyQueue {
     public boolean empty() {
         return stack1.isEmpty() && stack2.isEmpty();
     }
-
-    /** Optional: Quick test example */
 }
 
 /**
