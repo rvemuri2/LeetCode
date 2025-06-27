@@ -25,6 +25,4 @@ class Solution {
 
         return result;
     }
-
-    // Optional main method for quick testing
 }
