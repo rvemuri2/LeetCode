@@ -46,6 +46,7 @@ class MyQueue {
     public static void main(String[] args) {
         MyQueue myQueue = new MyQueue();
         myQueue.push(1);
+    }
 }
 
 /**
