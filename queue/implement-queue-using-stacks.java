@@ -36,8 +36,7 @@ class MyQueue {
         }
         return stack2.peek();
     }
-
-    /** Returns whether the queue is empty. */
+    
     public boolean empty() {
         return stack1.isEmpty() && stack2.isEmpty();
     }
