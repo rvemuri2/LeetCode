@@ -9,7 +9,6 @@ class Solution {
         int start = nums[0];
 
         for (int i = 1; i <= n; i++) {
-            // Either end of array or non-consecutive number
             if (i == n || nums[i] != nums[i - 1] + 1) {
                 if (start == nums[i - 1]) {
                     result.add(String.valueOf(start));
