@@ -47,7 +47,7 @@ class MyQueue {
         MyQueue myQueue = new MyQueue();
         myQueue.push(1); // queue: [1]
         myQueue.push(2); // queue: [1, 2]
-        System.out.println(myQueue.peek()); // return 1
+        System.out.println(myQueue.peek());
     }
 }
 
