@@ -46,5 +46,4 @@ class MyQueue {
  * MyQueue obj = new MyQueue();
  * obj.push(x);
  * int param_2 = obj.pop();
- * int param_3 = obj.peek();
  */
