@@ -15,7 +15,6 @@ class MyQueue {
         stack1.push(x);
     }
 
-    /** Removes the element from in front of queue and returns that element. */
     public int pop() {
         if (stack2.isEmpty()) {
             while (!stack1.isEmpty()) {
