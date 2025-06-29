@@ -33,6 +33,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.numSubseq(new int[]{3,5,6,7}, 9)); // 4
-        System.out.println(sol.numSubseq(new int[]{3,3,6,8}, 10)); // 6
+        System.out.println(sol.numSubseq(new int[]{3,3,6,8}, 10));
     }
 }
