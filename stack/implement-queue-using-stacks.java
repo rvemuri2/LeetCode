@@ -25,8 +25,7 @@ class MyQueue {
         }
         return stack2.pop();
     }
-
-    /** Get the front element. */
+    
     public int peek() {
         if (stack2.isEmpty()) {
             while (!stack1.isEmpty()) {
