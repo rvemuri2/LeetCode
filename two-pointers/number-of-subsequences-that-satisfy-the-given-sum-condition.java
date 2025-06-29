@@ -34,6 +34,6 @@ class Solution {
         Solution sol = new Solution();
         System.out.println(sol.numSubseq(new int[]{3,5,6,7}, 9)); // 4
         System.out.println(sol.numSubseq(new int[]{3,3,6,8}, 10)); // 6
-        System.out.println(sol.numSubseq(new int[]{2,3,3,4,6,7}, 12)); // 61
+        System.out.println(sol.numSubseq(new int[]{2,3,3,4,6,7}, 12));
     }
 }
