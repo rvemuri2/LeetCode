@@ -2,7 +2,7 @@ import java.util.Stack;
 
 class MyQueue {
     Stack<Integer> stack1; // to handle push operations
-    Stack<Integer> stack2; // to handle pop and peek operations
+    Stack<Integer> stack2;
 
     public MyQueue() {
         stack1 = new Stack<>();
