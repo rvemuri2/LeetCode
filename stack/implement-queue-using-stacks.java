@@ -18,14 +18,13 @@ class MyQueue {
     /** Removes the element from in front of queue and returns that element. */
     public int pop() {
         if (stack2.isEmpty()) {
-            // Transfer elements from stack1 to stack2 to reverse order
             while (!stack1.isEmpty()) {
                 stack2.push(stack1.pop());
             }
         }
         return stack2.pop();
     }
-    
+
     public int peek() {
         if (stack2.isEmpty()) {
             while (!stack1.isEmpty()) {
