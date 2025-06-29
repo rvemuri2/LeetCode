@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 class MyQueue {
-    Stack<Integer> stack1; // to handle push operations
+    Stack<Integer> stack1;
     Stack<Integer> stack2;
 
     public MyQueue() {
