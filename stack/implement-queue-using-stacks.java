@@ -10,7 +10,6 @@ class MyQueue {
         stack2 = new Stack<>();
     }
 
-    /** Push element x to the back of queue. */
     public void push(int x) {
         stack1.push(x);
     }
