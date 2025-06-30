@@ -23,6 +23,6 @@ class Solution {
     /** Quick test */
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.findLHS(new int[]{1,3,2,2,5,2,3,7})); // Output: 5
+        System.out.println(sol.findLHS(new int[]{1,3,2,2,5,2,3,7}));
     }
 }
