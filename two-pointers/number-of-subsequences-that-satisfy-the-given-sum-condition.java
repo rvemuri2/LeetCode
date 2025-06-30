@@ -13,7 +13,8 @@ class Solution {
             pow2[i] = (pow2[i - 1] * 2) % MOD;
         }
 
-        int left = 0, right = n - 1;
+        int left = 0;
+        int right = n - 1;
         int res = 0;
 
         while (left <= right) {
