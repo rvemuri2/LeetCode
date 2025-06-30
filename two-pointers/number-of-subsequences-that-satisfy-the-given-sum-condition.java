@@ -2,10 +2,11 @@ import java.util.Arrays;
 
 class Solution {
     public int numSubseq(int[] nums, int target) {
-        int MOD = 1_000_000_007;
+
+        int MOD = 1000000007;
         int n = nums.length;
         Arrays.sort(nums);
-        
+
         int[] pow2 = new int[n];
         pow2[0] = 1;
         for (int i = 1; i < n; i++) {
