@@ -28,7 +28,5 @@ class Solution {
 
         return res;
     }
-
     /** Optional: Quick test */
-    public static void main(String[] args) {}
 }
