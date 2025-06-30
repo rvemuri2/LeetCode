@@ -19,7 +19,5 @@ class Solution {
 
         return maxLen;
     }
-
     /** Quick test */
-    public static void main(String[] args) {}
 }
