@@ -5,8 +5,7 @@ class Solution {
         int MOD = 1_000_000_007;
         int n = nums.length;
         Arrays.sort(nums);
-
-        // Precompute powers of 2 up to n
+        
         int[] pow2 = new int[n];
         pow2[0] = 1;
         for (int i = 1; i < n; i++) {
