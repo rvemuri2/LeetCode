@@ -18,7 +18,6 @@ class Solution {
 
         while (left <= right) {
             if (nums[left] + nums[right] <= target) {
-                // Number of subsequences is 2^(right-left)
                 res = (res + pow2[right - left]) % MOD;
                 left++;
             } else {
