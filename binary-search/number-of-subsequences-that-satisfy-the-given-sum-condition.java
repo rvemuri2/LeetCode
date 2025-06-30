@@ -28,5 +28,4 @@ class Solution {
 
         return res;
     }
-    /** Optional: Quick test */
 }
