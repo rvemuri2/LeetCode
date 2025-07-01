@@ -36,8 +36,6 @@ class Solution {
         } else {
             path += "->" + node.val;
         }
-
-        // If it's a leaf, add the current path to the result list
         if (node.left == null && node.right == null) {
             paths.add(path);
         } else {
