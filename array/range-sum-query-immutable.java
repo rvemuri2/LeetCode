@@ -16,5 +16,4 @@ class NumArray {
 }
 
 /**
- * Your NumArray object will be instantiated and called as such:
  */
