@@ -28,8 +28,10 @@ class Solution {
 
     // Helper DFS method
     private void dfs(TreeNode node, String path, List<String> paths) {
-        if (node == null) return;
-        
+        if (node == null) {
+            return;
+        }
+
         if (path.length() == 0) {
             path += node.val;
         } else {
