@@ -14,6 +14,3 @@ class NumArray {
         return prefixSums[right + 1] - prefixSums[left];
     }
 }
-
-/**
- */
