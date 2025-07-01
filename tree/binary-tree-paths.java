@@ -59,6 +59,5 @@ class Solution {
         System.out.println(result); // Expected: ["1->2->5","1->3"]
 
         TreeNode root2 = new TreeNode(1);
-        System.out.println(sol.binaryTreePaths(root2));
     }
 }
