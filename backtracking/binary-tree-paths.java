@@ -54,7 +54,5 @@ class Solution {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2, null, new TreeNode(5));
         root.right = new TreeNode(3);
-
-        List<String> result = sol.binaryTreePaths(root);
     }
 }
