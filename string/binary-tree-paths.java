@@ -19,7 +19,9 @@ import java.util.*;
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> paths = new ArrayList<>();
-        if (root == null) return paths;
+        if (root == null) {
+            return paths;
+        }
 
         dfs(root, "", paths);
         return paths;
