@@ -21,7 +21,7 @@ class NumArray {
         NumArray numArray = new NumArray(new int[] {-2, 0, 3, -5, 2, -1});
         System.out.println(numArray.sumRange(0, 2)); // Expected: 1
         System.out.println(numArray.sumRange(2, 5)); // Expected: -1
-        System.out.println(numArray.sumRange(0, 5)); // Expected: -3
+        System.out.println(numArray.sumRange(0, 5));
     }
 }
 
