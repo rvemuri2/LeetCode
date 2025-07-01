@@ -46,5 +46,4 @@ class Solution {
             dfs(node.right, path, paths);
         }
     }
-    // Test example
 }
