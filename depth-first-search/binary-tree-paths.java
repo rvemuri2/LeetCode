@@ -29,8 +29,7 @@ class Solution {
     // Helper DFS method
     private void dfs(TreeNode node, String path, List<String> paths) {
         if (node == null) return;
-
-        // Append current node's value to the path
+        
         if (path.length() == 0) {
             path += node.val;
         } else {
