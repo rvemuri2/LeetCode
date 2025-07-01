@@ -25,7 +25,6 @@ class NumArray {
 
         NumArray numArray2 = new NumArray(new int[] {1,2,3,4,5});
         System.out.println(numArray2.sumRange(1,3)); // Expected: 2+3+4=9
-        System.out.println(numArray2.sumRange(0,4));
     }
 }
 
