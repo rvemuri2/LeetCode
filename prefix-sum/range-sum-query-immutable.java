@@ -5,8 +5,7 @@ class NumArray {
         // Initialize prefix sum array
         prefixSums = new int[nums.length + 1];
         prefixSums[0] = 0; // prefixSums[0] is 0 for ease of calculation
-
-        // Compute prefix sums: prefixSums[i] = sum of first i elements
+        
         for (int i = 0; i < nums.length; i++) {
             prefixSums[i + 1] = prefixSums[i] + nums[i];
         }
