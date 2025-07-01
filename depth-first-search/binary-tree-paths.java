@@ -56,6 +56,6 @@ class Solution {
         root.right = new TreeNode(3);
 
         List<String> result = sol.binaryTreePaths(root);
-        System.out.println(result); // Expected: ["1->2->5","1->3"]
+        System.out.println(result);
     }
 }
