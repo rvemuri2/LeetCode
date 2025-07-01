@@ -26,7 +26,6 @@ class Solution {
         return paths;
     }
 
-    // Helper DFS method
     private void dfs(TreeNode node, String path, List<String> paths) {
         if (node == null) {
             return;
