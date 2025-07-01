@@ -4,8 +4,8 @@ class NumArray {
     public NumArray(int[] nums) {
         // Initialize prefix sum array
         prefixSums = new int[nums.length + 1];
-        prefixSums[0] = 0; // prefixSums[0] is 0 for ease of calculation
-        
+        prefixSums[0] = 0;
+
         for (int i = 0; i < nums.length; i++) {
             prefixSums[i + 1] = prefixSums[i] + nums[i];
         }
