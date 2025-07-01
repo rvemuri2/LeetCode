@@ -41,7 +41,6 @@ class Solution {
         if (node.left == null && node.right == null) {
             paths.add(path);
         } else {
-            // Continue DFS on left and right children
             dfs(node.left, path, paths);
             dfs(node.right, path, paths);
         }
