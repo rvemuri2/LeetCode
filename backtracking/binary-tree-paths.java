@@ -46,7 +46,5 @@ class Solution {
             dfs(node.right, path, paths);
         }
     }
-
     // Test example
-    public static void main(String[] args) {}
 }
