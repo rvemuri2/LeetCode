@@ -16,8 +16,6 @@ class NumArray {
         // The sum from left to right is prefix[right+1] - prefix[left]
         return prefixSums[right + 1] - prefixSums[left];
     }
-
-    public static void main(String[] args) {}
 }
 
 /**
