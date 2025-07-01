@@ -2,7 +2,6 @@ class NumArray {
     private int[] prefixSums;
 
     public NumArray(int[] nums) {
-        // Initialize prefix sum array
         prefixSums = new int[nums.length + 1];
         prefixSums[0] = 0;
 
