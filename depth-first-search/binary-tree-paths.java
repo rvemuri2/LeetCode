@@ -21,7 +21,6 @@ class Solution {
         List<String> paths = new ArrayList<>();
         if (root == null) return paths;
 
-        // Start DFS with empty path
         dfs(root, "", paths);
         return paths;
     }
