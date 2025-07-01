@@ -50,7 +50,5 @@ class Solution {
     // Test example
     public static void main(String[] args) {
         Solution sol = new Solution();
-        
-        TreeNode root = new TreeNode(1);
     }
 }
