@@ -26,6 +26,5 @@ class Solution {
         System.out.println(sol.missingNumber(nums2)); // Output: 2
 
         int[] nums3 = {9,6,4,2,3,5,7,0,1};
-        System.out.println(sol.missingNumber(nums3));
     }
 }
