@@ -1,6 +1,3 @@
-/**
- */
-
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> paths = new ArrayList<>();
