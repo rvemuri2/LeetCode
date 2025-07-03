@@ -20,6 +20,6 @@ class Solution {
         Solution sol = new Solution();
 
         int[] nums1 = {3,0,1};
-        System.out.println(sol.missingNumber(nums1)); // Output: 2
+        System.out.println(sol.missingNumber(nums1));
     }
 }
