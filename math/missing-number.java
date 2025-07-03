@@ -23,6 +23,6 @@ class Solution {
         System.out.println(sol.missingNumber(nums1)); // Output: 2
 
         int[] nums2 = {0,1};
-        System.out.println(sol.missingNumber(nums2)); // Output: 2
+        System.out.println(sol.missingNumber(nums2));
     }
 }
