@@ -21,7 +21,5 @@ class Solution {
 
         int[] nums1 = {3,0,1};
         System.out.println(sol.missingNumber(nums1)); // Output: 2
-
-        int[] nums2 = {0,1};
     }
 }
