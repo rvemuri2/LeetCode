@@ -1,7 +1,6 @@
 class Solution {
     public char kthCharacter(long k, int[] operations) {
         int m = operations.length;
-        // 1) Build len[], but cap each at k (no need to track lengths beyond k)
         long[] len = new long[m + 1];
         len[0] = 1;
         for (int i = 0; i < m; i++) {
