@@ -1,49 +1,57 @@
+import java.util.*;
+
 class Solution {
+    /**
+     * Alice may have long-pressed a single key once, turning an intended run of length x
+     * into a final run of length L ≥ x. Given the final word, count how many distinct
+     * original words (without any extra long-presses) could produce it.
+     *
+     * At most one run was long-pressed.  If a run has final length L:
+     *   – If it was never long-pressed, original length = L (contributes 1 possibility).
+     *   – If it was long-pressed, original length could be any 1 ≤ x < L, giving (L–1) possibilities.
+     * Summing over runs, we get:
+     *   total = 1 (no long press anywhere) + ∑_{runs with L ≥ 2} (L – 1).
+     */
     public int possibleStringCount(String word) {
         int n = word.length();
-        int count = 1; // The original string itself
-
-        boolean deleted = false;
-
+        int total = 1;  // the case with no long-press at all
+        
         int i = 0;
         while (i < n) {
             char c = word.charAt(i);
             int j = i;
-
-            // Find run length
+            // find the extent of this run
             while (j < n && word.charAt(j) == c) {
                 j++;
             }
-
-            int runLength = j - i;
-
-            if (!deleted && runLength >= 2) {
-                count++;
-                deleted = true;
+            int runLen = j - i;
+            if (runLen >= 2) {
+                // if this run was the one long-pressed, original length x could be 1..(runLen-1)
+                total += (runLen - 1);
             }
-
             i = j;
         }
-
-        return count;
+        
+        return total;
     }
 
+    // ----------- Simple Tests ------------
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        String word1 = "abbcccc";
-        System.out.println("Test 1: " + sol.possibleStringCount(word1)); // Expected: 5
-
-        String word2 = "abcd";
-        System.out.println("Test 2: " + sol.possibleStringCount(word2)); // Expected: 1
-
-        String word3 = "aaaa";
-        System.out.println("Test 3: " + sol.possibleStringCount(word3)); // Expected: 2
-
-        String word4 = "abcabcabc";
-        System.out.println("Test 4: " + sol.possibleStringCount(word4)); // Expected: 1
-
-        String word5 = "aabbbcc";
-        System.out.println("Test 5: " + sol.possibleStringCount(word5)); // Expected: 2
+        
+        // Example 1
+        System.out.println(sol.possibleStringCount("abbcccc")); // 5
+        
+        // Example 2
+        System.out.println(sol.possibleStringCount("abcd"));    // 1
+        
+        // Example 3
+        System.out.println(sol.possibleStringCount("aaaa"));    // 4
+        
+        // Additional tests
+        System.out.println(sol.possibleStringCount("aabbbcc")); // runs: aa(2)->1, bbb(3)->2, cc(2)->1 => 1+2+1+1 = 5
+        System.out.println(sol.possibleStringCount("xyz"));     // no runs ≥2 => 1
+        System.out.println(sol.possibleStringCount("qqq"));     // run=3 => (3–1)+1 = 3
+        System.out.println(sol.possibleStringCount("pqqqr"));   // runs: p(1), qqq(3)->2, r(1) => 1+2 = 3
     }
 }
