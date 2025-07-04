@@ -29,6 +29,4 @@ class Solution {
         char ans = (char) ('a' + shiftCount);
         return ans;
     }
-
-    public static void main(String[] args) {}
 }
