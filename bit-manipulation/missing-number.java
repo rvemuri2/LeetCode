@@ -14,6 +14,4 @@ class Solution {
         // The missing number is the difference
         return expectedSum - actualSum;
     }
-
-    // Test examples
 }
