@@ -17,7 +17,6 @@ class Solution {
 
             int runLength = j - i;
 
-            // Only ONE deletion allowed in total
             if (!deleted && runLength >= 2) {
                 count++;
                 deleted = true;
