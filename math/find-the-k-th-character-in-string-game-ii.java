@@ -8,8 +8,7 @@ class Solution {
             // both op 0 and op 1 double the length
             len[i + 1] = Math.min(len[i] * 2, k);
         }
-
-        // 2) Walk backwards, mapping k back to the original 'a'
+        
         int shiftCount = 0;
         for (int i = m - 1; i >= 0; i--) {
             long half = len[i];
