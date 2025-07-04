@@ -38,9 +38,6 @@ class Solution {
     // ----------- Simple Tests ------------
     public static void main(String[] args) {
         Solution sol = new Solution();
-        
-        // Example 1
-        System.out.println(sol.possibleStringCount("abbcccc"));
-    
+        // Example 1    
     }
 }
