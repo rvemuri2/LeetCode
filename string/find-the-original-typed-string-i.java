@@ -20,7 +20,6 @@ class Solution {
         while (i < n) {
             char c = word.charAt(i);
             int j = i;
-            // find the extent of this run
             while (j < n && word.charAt(j) == c) {
                 j++;
             }
