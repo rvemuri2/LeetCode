@@ -25,7 +25,6 @@ class Solution {
         }
 
         // 3) After unwinding all doublings, k must be 1 (the single 'a')
-        // Apply total shifts
         char ans = (char) ('a' + shiftCount);
         return ans;
     }
