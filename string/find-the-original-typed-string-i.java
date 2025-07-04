@@ -36,6 +36,4 @@ class Solution {
     }
 
     // ----------- Simple Tests ------------
-    public static void main(String[] args) {
-    }
 }
