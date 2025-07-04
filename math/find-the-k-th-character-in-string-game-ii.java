@@ -14,7 +14,6 @@ class Solution {
         for (int i = m - 1; i >= 0; i--) {
             long half = len[i];
             if (k > half) {
-                // k is in the appended half
                 k -= half;
                 if (operations[i] == 1) {
                     shiftCount = (shiftCount + 1) % 26;
