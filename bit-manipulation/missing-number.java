@@ -18,6 +18,5 @@ class Solution {
     // Test examples
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] nums1 = {3,0,1};
     }
 }
