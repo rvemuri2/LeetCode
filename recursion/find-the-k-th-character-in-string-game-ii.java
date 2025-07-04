@@ -23,8 +23,6 @@ class Solution {
             }
             // else k remains in [1..half]
         }
-
-        // 3) After unwinding all doublings, k must be 1 (the single 'a')
         char ans = (char) ('a' + shiftCount);
         return ans;
     }
