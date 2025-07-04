@@ -43,7 +43,6 @@ class Solution {
         System.out.println(sol.possibleStringCount("abbcccc")); // 5
         
         // Example 2
-        System.out.println(sol.possibleStringCount("abcd"));
     
     }
 }
