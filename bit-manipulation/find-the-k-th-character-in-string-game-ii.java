@@ -21,7 +21,6 @@ class Solution {
                     shiftCount = (shiftCount + 1) % 26;
                 }
             }
-            // else k remains in [1..half]
         }
         char ans = (char) ('a' + shiftCount);
         return ans;
