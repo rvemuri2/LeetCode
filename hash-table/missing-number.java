@@ -10,8 +10,6 @@ class Solution {
         for (int num : nums) {
             actualSum += num;
         }
-
-        // The missing number is the difference
         return expectedSum - actualSum;
     }
 }
