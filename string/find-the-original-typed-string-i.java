@@ -34,6 +34,4 @@ class Solution {
         
         return total;
     }
-
-    // ----------- Simple Tests ------------
 }
