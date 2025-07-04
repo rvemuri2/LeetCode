@@ -32,11 +32,8 @@ class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-
         // Provided tests
         System.out.println(sol.kthCharacter(5,  new int[]{0,0,0}));    // a
         System.out.println(sol.kthCharacter(10, new int[]{0,1,0,1})); // b
-
-        // Edge test from the editorial
     }
 }
