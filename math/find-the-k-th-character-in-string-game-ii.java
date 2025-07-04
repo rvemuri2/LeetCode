@@ -1,42 +1,45 @@
 class Solution {
     public char kthCharacter(long k, int[] operations) {
         int m = operations.length;
-        // 1) Compute lengths after each operation
+        // 1) Build len[], but cap each at k (no need to track lengths beyond k)
         long[] len = new long[m + 1];
-        len[0] = 1;  // initial word = "a"
+        len[0] = 1;
         for (int i = 0; i < m; i++) {
             // both op 0 and op 1 double the length
-            len[i + 1] = len[i] * 2;
-            // we are guaranteed len[i+1] >= k at the end
+            len[i + 1] = Math.min(len[i] * 2, k);
         }
 
-        // 2) Walk backwards, mapping k into the original half
-        int shiftCount = 0;  // total shifts from type-1 second-half selections
+        // 2) Walk backwards, mapping k back to the original 'a'
+        int shiftCount = 0;
         for (int i = m - 1; i >= 0; i--) {
             long half = len[i];
             if (k > half) {
-                // k landed in the appended half
+                // k is in the appended half
                 k -= half;
                 if (operations[i] == 1) {
-                    // that half was a shifted copy → record one shift
-                    shiftCount++;
+                    // appended half was the shifted copy
+                    shiftCount = (shiftCount + 1) % 26;
                 }
             }
-            // else k stays the same, in the first half
+            // else k remains in [1..half]
         }
 
-        // 3) At this point k must be 1, picking from the original "a"
-        // Apply all recorded shifts mod 26
-        int shift = shiftCount % 26;
-        char ans = (char) ('a' + shift);
+        // 3) After unwinding all doublings, k must be 1 (the single 'a')
+        // Apply total shifts
+        char ans = (char) ('a' + shiftCount);
         return ans;
     }
 
-    // Quick tests
     public static void main(String[] args) {
         Solution sol = new Solution();
+
+        // Provided tests
         System.out.println(sol.kthCharacter(5,  new int[]{0,0,0}));    // a
         System.out.println(sol.kthCharacter(10, new int[]{0,1,0,1})); // b
-        System.out.println(sol.kthCharacter(1,  new int[]{1,1,1,1})); // e  ("a"→"ab"→"bcc"→ …)
+
+        // Edge test from the editorial
+        long k = 33354182522397L;
+        int[] ops = {0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,0,0,1,1,0,1,0,1,1,0,1,1,1,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0,1,0,1,1,0,1,0,0,0,1,0,1,0,1,1,0,0,0,0,1,0,1,1,0,0,1,0,0,1,1,0,1,1,1,1,1,1,0,0,0};
+        System.out.println(sol.kthCharacter(k, ops)); // should print 'k'
     }
 }
