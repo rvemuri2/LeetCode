@@ -38,6 +38,5 @@ class Solution {
         System.out.println(sol.kthCharacter(10, new int[]{0,1,0,1})); // b
 
         // Edge test from the editorial
-        long k = 33354182522397L;
     }
 }
