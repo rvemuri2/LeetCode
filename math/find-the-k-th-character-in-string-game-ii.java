@@ -33,6 +33,5 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         // Provided tests
-        System.out.println(sol.kthCharacter(5,  new int[]{0,0,0}));
     }
 }
