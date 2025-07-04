@@ -47,7 +47,6 @@ class Solution {
         
         // Example 3
         System.out.println(sol.possibleStringCount("aaaa"));    // 4
-        
-        // Additional tests
+    
     }
 }
