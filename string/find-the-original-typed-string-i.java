@@ -26,7 +26,6 @@ class Solution {
             }
             int runLen = j - i;
             if (runLen >= 2) {
-                // if this run was the one long-pressed, original length x could be 1..(runLen-1)
                 total += (runLen - 1);
             }
             i = j;
