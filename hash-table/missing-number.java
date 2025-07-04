@@ -16,5 +16,4 @@ class Solution {
     }
 
     // Test examples
-    public static void main(String[] args) {}
 }
