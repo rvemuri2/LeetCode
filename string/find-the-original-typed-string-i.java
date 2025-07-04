@@ -37,7 +37,6 @@ class Solution {
 
     // ----------- Simple Tests ------------
     public static void main(String[] args) {
-        Solution sol = new Solution();
-        // Example 1    
+        Solution sol = new Solution();  
     }
 }
