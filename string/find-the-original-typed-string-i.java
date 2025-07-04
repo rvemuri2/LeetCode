@@ -49,6 +49,5 @@ class Solution {
         System.out.println(sol.possibleStringCount("aaaa"));    // 4
         
         // Additional tests
-        System.out.println(sol.possibleStringCount("aabbbcc"));
     }
 }
