@@ -40,7 +40,7 @@ class Solution {
         Solution sol = new Solution();
         
         // Example 1
-        System.out.println(sol.possibleStringCount("abbcccc")); // 5
+        System.out.println(sol.possibleStringCount("abbcccc"));
     
     }
 }
