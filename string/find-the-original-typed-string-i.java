@@ -51,6 +51,6 @@ class Solution {
         // Additional tests
         System.out.println(sol.possibleStringCount("aabbbcc")); // runs: aa(2)->1, bbb(3)->2, cc(2)->1 => 1+2+1+1 = 5
         System.out.println(sol.possibleStringCount("xyz"));     // no runs ≥2 => 1
-        System.out.println(sol.possibleStringCount("qqq"));     // run=3 => (3–1)+1 = 3
+        System.out.println(sol.possibleStringCount("qqq"));
     }
 }
