@@ -40,6 +40,6 @@ class Solution {
         // Edge test from the editorial
         long k = 33354182522397L;
         int[] ops = {0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,0,0,1,1,0,1,0,1,1,0,1,1,1,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0,1,0,1,1,0,1,0,0,0,1,0,1,0,1,1,0,0,0,0,1,0,1,1,0,0,1,0,0,1,1,0,1,1,1,1,1,1,0,0,0};
-        System.out.println(sol.kthCharacter(k, ops)); // should print 'k'
+        System.out.println(sol.kthCharacter(k, ops));
     }
 }
