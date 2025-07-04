@@ -17,7 +17,6 @@ class Solution {
                 // k is in the appended half
                 k -= half;
                 if (operations[i] == 1) {
-                    // appended half was the shifted copy
                     shiftCount = (shiftCount + 1) % 26;
                 }
             }
