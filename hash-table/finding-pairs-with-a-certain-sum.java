@@ -50,7 +50,7 @@ class FindSumPairs {
     // ---------- Simple test -------------
     public static void main(String[] args) {
         FindSumPairs findSumPairs = new FindSumPairs(
-            new int[]{1,1,2,2,2,3},
+            new int[]{1,1,2,2,2,3};
         );
     }
 }
