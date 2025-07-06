@@ -4,7 +4,6 @@ class Solution {
     /**
      * Alice may have long-pressed a single key once, turning an intended run of length x
      * into a final run of length L ≥ x. Given the final word, count how many distinct
-     * original words (without any extra long-presses) could produce it.
      */
     public int possibleStringCount(String word) {
         int n = word.length();
