@@ -1,8 +1,6 @@
 import java.util.*;
 
 class Solution {
-    /**
-     */
     public int possibleStringCount(String word) {
         int n = word.length();
         int total = 1;
