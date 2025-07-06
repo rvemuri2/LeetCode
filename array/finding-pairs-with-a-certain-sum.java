@@ -58,7 +58,6 @@ class FindSumPairs {
         System.out.println(findSumPairs.count(8)); // 2
         System.out.println(findSumPairs.count(4)); // 1
         findSumPairs.add(0, 1);                   // nums2[0] = 1+1 = 2
-        findSumPairs.add(1, 1);
     }
 }
 
