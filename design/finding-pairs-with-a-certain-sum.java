@@ -55,7 +55,6 @@ class FindSumPairs {
         );
         System.out.println(findSumPairs.count(7)); // 8
         findSumPairs.add(3, 2);                   // nums2[3] = 2+2 = 4
-        System.out.println(findSumPairs.count(8));
     }
 }
 
