@@ -7,7 +7,6 @@ class Solution {
      * original words (without any extra long-presses) could produce it.
      *
      * At most one run was long-pressed.  If a run has final length L:
-     *   – If it was never long-pressed, original length = L (contributes 1 possibility).
      */
     public int possibleStringCount(String word) {
         int n = word.length();
