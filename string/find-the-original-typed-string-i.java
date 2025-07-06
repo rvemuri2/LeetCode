@@ -9,7 +9,6 @@ class Solution {
      * At most one run was long-pressed.  If a run has final length L:
      *   – If it was never long-pressed, original length = L (contributes 1 possibility).
      *   – If it was long-pressed, original length could be any 1 ≤ x < L, giving (L–1) possibilities.
-     * Summing over runs, we get:
      */
     public int possibleStringCount(String word) {
         int n = word.length();
