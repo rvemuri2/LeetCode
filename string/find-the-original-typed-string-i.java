@@ -6,7 +6,6 @@ class Solution {
      * into a final run of length L ≥ x. Given the final word, count how many distinct
      * original words (without any extra long-presses) could produce it.
      *
-     * At most one run was long-pressed.  If a run has final length L:
      */
     public int possibleStringCount(String word) {
         int n = word.length();
