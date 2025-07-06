@@ -53,7 +53,7 @@ class FindSumPairs {
             new int[]{1,1,2,2,2,3},
             new int[]{1,4,5,2,5,4}
         );
-        System.out.println(findSumPairs.count(7)); // 8
+        System.out.println(findSumPairs.count(7));
     }
 }
 
