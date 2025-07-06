@@ -2,7 +2,6 @@ import java.util.*;
 
 class Solution {
     /**
-     * Alice may have long-pressed a single key once, turning an intended run of length x
      */
     public int possibleStringCount(String word) {
         int n = word.length();
