@@ -42,5 +42,4 @@ class FindSumPairs {
 }
 
 /**
- * Your FindSumPairs object will be instantiated and called as such:
  */
