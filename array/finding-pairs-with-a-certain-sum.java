@@ -19,7 +19,7 @@ class FindSumPairs {
     public void add(int index, int val) {
         int old = nums2[index];
         int updated = old + val;
-        // Decrement freq of old value
+        
         freq2.put(old, freq2.get(old) - 1);
         if (freq2.get(old) == 0) {
             freq2.remove(old);
