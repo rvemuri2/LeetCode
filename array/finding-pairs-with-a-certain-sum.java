@@ -4,8 +4,6 @@ class FindSumPairs {
     private int[] nums1, nums2;
     private Map<Integer, Integer> freq2;
 
-    /**
-     */
     public FindSumPairs(int[] nums1, int[] nums2) {
         this.nums1 = nums1;
         this.nums2 = nums2;
