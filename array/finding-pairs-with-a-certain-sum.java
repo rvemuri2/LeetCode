@@ -48,7 +48,6 @@ class FindSumPairs {
     }
 
     // ---------- Simple test -------------
-    public static void main(String[] args) {}
 }
 
 /**
