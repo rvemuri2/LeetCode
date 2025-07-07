@@ -33,9 +33,6 @@ class FindSumPairs {
         nums2[index] = updated;
         freq2.put(updated, freq2.getOrDefault(updated, 0) + 1);
     }
-    
-    /**
-     */
     public int count(int tot) {
         int answer = 0;
         for (int x : nums1) {
