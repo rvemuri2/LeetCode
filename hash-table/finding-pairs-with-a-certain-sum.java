@@ -1,5 +1,3 @@
-import java.util.*;
-
 class FindSumPairs {
     private int[] nums1, nums2;
     private Map<Integer, Integer> freq2;
