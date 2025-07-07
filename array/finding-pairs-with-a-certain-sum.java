@@ -29,7 +29,6 @@ class FindSumPairs {
         if (freq2.get(old) == 0) {
             freq2.remove(old);
         }
-        // Update array and increment freq of new value
         nums2[index] = updated;
         freq2.put(updated, freq2.getOrDefault(updated, 0) + 1);
     }
