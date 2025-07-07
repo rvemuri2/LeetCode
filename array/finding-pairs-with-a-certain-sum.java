@@ -6,7 +6,6 @@ class FindSumPairs {
 
     /**
      * Initialize with nums1 and nums2.
-     * We keep nums1 as-is, and build a frequency map for nums2.
      */
     public FindSumPairs(int[] nums1, int[] nums2) {
         this.nums1 = nums1;
@@ -19,7 +18,7 @@ class FindSumPairs {
     public void add(int index, int val) {
         int old = nums2[index];
         int updated = old + val;
-        
+
         freq2.put(old, freq2.get(old) - 1);
         if (freq2.get(old) == 0) {
             freq2.remove(old);
