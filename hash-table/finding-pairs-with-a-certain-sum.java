@@ -5,7 +5,6 @@ class FindSumPairs {
     private Map<Integer, Integer> freq2;
 
     /**
-     * Initialize with nums1 and nums2.
      */
     public FindSumPairs(int[] nums1, int[] nums2) {
         this.nums1 = nums1;
