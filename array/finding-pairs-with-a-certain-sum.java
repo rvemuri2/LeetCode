@@ -18,7 +18,6 @@ class FindSumPairs {
     }
     
     /**
-     * Add val to nums2[index], updating our frequency map.
      */
     public void add(int index, int val) {
         int old = nums2[index];
