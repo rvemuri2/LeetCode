@@ -25,7 +25,6 @@ class FindSumPairs {
         int updated = old + val;
         // Decrement freq of old value
         freq2.put(old, freq2.get(old) - 1);
-        // If count drops to 0, remove the key to keep the map small
         if (freq2.get(old) == 0) {
             freq2.remove(old);
         }
