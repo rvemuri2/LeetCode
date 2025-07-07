@@ -46,8 +46,6 @@ class FindSumPairs {
         }
         return answer;
     }
-
-    // ---------- Simple test -------------
 }
 
 /**
