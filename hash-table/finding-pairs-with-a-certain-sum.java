@@ -40,6 +40,3 @@ class FindSumPairs {
         return answer;
     }
 }
-
-/**
- */
