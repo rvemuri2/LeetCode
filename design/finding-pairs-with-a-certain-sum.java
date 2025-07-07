@@ -10,7 +10,7 @@ class FindSumPairs {
             freq2.put(x, freq2.getOrDefault(x, 0) + 1);
         }
     }
-    //Adding method
+    //Adding
     public void add(int index, int val) {
         int old = nums2[index];
         int updated = old + val;
