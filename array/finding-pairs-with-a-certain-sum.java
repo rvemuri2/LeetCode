@@ -36,7 +36,6 @@ class FindSumPairs {
     
     /**
      * Count how many pairs (i, j) satisfy nums1[i] + nums2[j] == tot.
-     * We iterate over nums1 and look up the complement in freq2.
      */
     public int count(int tot) {
         int answer = 0;
