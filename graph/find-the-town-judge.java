@@ -15,9 +15,8 @@ class Solution {
             inDegree[b]++;
         }
         for (int i = 1; i <= n; i++) {
-            if (inDegree[i] == n - 1 && outDegree[i] == 0) {
+            if (inDegree[i] == n - 1 && outDegree[i] == 0)
                 return i;
-            }
         }
         return -1;
     }
