@@ -1,6 +1,5 @@
 class Solution {
     /**
-     * Find the town judge:
      */
     public int findJudge(int n, int[][] trust) {
         int[] inDegree = new int[n + 1];
