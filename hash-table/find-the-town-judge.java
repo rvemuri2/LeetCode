@@ -29,6 +29,6 @@ class Solution {
         Solution sol = new Solution();
 
         System.out.println(sol.findJudge(2, new int[][]{{1,2}}));            // 2
-        System.out.println(sol.findJudge(3, new int[][]{{1,3},{2,3}}));
+        System.out.println(sol.findJudge(3, new int[][]{{1,3}}));
     }
 }
