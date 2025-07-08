@@ -8,7 +8,6 @@ class Solution {
         int[] inDegree = new int[n + 1];
         int[] outDegree = new int[n + 1];
 
-        // Build degrees
         for (int[] t : trust) {
             int a = t[0], b = t[1];
             outDegree[a]++;
