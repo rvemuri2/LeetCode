@@ -14,8 +14,6 @@ class Solution {
             outDegree[a]++;
             inDegree[b]++;
         }
-
-        // Find person with inDegree == n-1 and outDegree == 0
         for (int i = 1; i <= n; i++) {
             if (inDegree[i] == n - 1 && outDegree[i] == 0) {
                 return i;
