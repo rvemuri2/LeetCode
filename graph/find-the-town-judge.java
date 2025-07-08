@@ -2,7 +2,6 @@ class Solution {
     /**
      * Find the town judge:
      * - Judge trusts nobody  => outDegree[j] == 0
-     * - Everybody else trusts judge => inDegree[j] == n-1
      */
     public int findJudge(int n, int[][] trust) {
         int[] inDegree = new int[n + 1];
