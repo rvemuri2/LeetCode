@@ -21,7 +21,6 @@ class Solution {
                 mapST.put(c1, c2);
             }
 
-            // Check reverse mapping from t -> s to ensure bijection
             if (mapTS.containsKey(c2)) {
                 if (mapTS.get(c2) != c1) {
                     return false;
