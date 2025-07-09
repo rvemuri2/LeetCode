@@ -4,7 +4,6 @@ class Solution {
     public boolean isIsomorphic(String s, String t) {
         if (s.length() != t.length()) return false;
 
-        // Maps for both directions
         Map<Character, Character> mapST = new HashMap<>();
         Map<Character, Character> mapTS = new HashMap<>();
 
