@@ -30,5 +30,4 @@ class Solution {
         return true;
     }
     // Quick tests
-    public static void main(String[] args) {}
 }
