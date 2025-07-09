@@ -34,6 +34,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println(sol.isIsomorphic("egg", "add")); // true
+        System.out.println(sol.isIsomorphic("egg", "add"));
     }
 }
