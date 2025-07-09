@@ -36,6 +36,6 @@ class Solution {
 
         System.out.println(sol.isIsomorphic("egg", "add")); // true
         System.out.println(sol.isIsomorphic("foo", "bar")); // false
-        System.out.println(sol.isIsomorphic("paper", "title")); // true
+        System.out.println(sol.isIsomorphic("paper", "title"));
     }
 }
