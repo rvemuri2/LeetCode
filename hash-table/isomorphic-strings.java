@@ -14,7 +14,9 @@ class Solution {
 
             // Check if mapping exists from s -> t
             if (mapST.containsKey(c1)) {
-                if (mapST.get(c1) != c2) return false;
+                if (mapST.get(c1) != c2) {
+                    return false;
+                }
             } else {
                 mapST.put(c1, c2);
             }
