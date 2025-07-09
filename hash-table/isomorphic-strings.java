@@ -12,7 +12,6 @@ class Solution {
             char c1 = s.charAt(i);
             char c2 = t.charAt(i);
 
-            // Check if mapping exists from s -> t
             if (mapST.containsKey(c1)) {
                 if (mapST.get(c1) != c2) {
                     return false;
