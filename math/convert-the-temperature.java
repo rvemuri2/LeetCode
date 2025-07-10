@@ -12,6 +12,5 @@ class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        double[] res1 = sol.convertTemperature(36.50);
     }
 }
