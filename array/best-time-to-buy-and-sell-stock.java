@@ -29,6 +29,5 @@ class Solution {
         System.out.println(sol.maxProfit(prices1)); // Output: 5
 
         int[] prices2 = {7,6,4,3,1};
-        System.out.println(sol.maxProfit(prices2));
     }
 }
