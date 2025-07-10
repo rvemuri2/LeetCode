@@ -29,6 +29,6 @@ class Solution {
 
         int[] nums3 = {1,1,2,2};
         int[] res3 = sol.shuffle(nums3, 2);
-        System.out.println(java.util.Arrays.toString(res3)); // [1,2,1,2]
+        System.out.println(java.util.Arrays.toString(res3));
     }
 }
