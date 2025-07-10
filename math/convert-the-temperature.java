@@ -14,7 +14,5 @@ class Solution {
         Solution sol = new Solution();
         double[] res1 = sol.convertTemperature(36.50);
         System.out.printf("[%.5f,%.5f]%n", res1[0], res1[1]); // [309.65000,97.70000]
-
-        double[] res2 = sol.convertTemperature(122.11);
     }
 }
