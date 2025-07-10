@@ -33,7 +33,5 @@ class Solution {
 
         int[] prices3 = {1,2};
         System.out.println(sol.maxProfit(prices3)); // Output: 1
-
-        int[] prices4 = {2,4,1};
     }
 }
