@@ -16,7 +16,5 @@ class Solution {
     }
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        int[] nums1 = {2,5,1,3,4,7};
     }
 }
