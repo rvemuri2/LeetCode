@@ -22,7 +22,5 @@ class Solution {
         int[] nums1 = {2,5,1,3,4,7};
         int[] res1 = sol.shuffle(nums1, 3);
         System.out.println(java.util.Arrays.toString(res1)); // [2,3,5,4,1,7]
-
-        int[] nums2 = {1,2,3,4,4,3,2,1};
     }
 }
