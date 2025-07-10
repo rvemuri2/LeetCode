@@ -4,7 +4,6 @@ class Solution {
         int minPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
 
-        // Iterate through each day's price
         for (int price : prices) {
             if (price < minPrice) {
                 minPrice = price;
