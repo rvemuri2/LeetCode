@@ -1,6 +1,5 @@
 class Solution {
     public double[] convertTemperature(double celsius) {
-        // Formula for Kelvin: Celsius + 273.15
         double kelvin = celsius + 273.15;
 
         double fahrenheit = celsius * 1.80 + 32.00;
