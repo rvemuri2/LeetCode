@@ -9,6 +9,4 @@ class Solution {
         // Return as an array [kelvin, fahrenheit]
         return new double[]{kelvin, fahrenheit};
     }
-
-    public static void main(String[] args) {}
 }
