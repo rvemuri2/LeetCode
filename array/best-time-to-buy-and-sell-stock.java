@@ -10,7 +10,6 @@ class Solution {
             if (price < minPrice) {
                 minPrice = price;
             } else {
-                // Else calculate profit and update maxProfit if it's higher
                 int profit = price - minPrice;
                 if (profit > maxProfit) {
                     maxProfit = profit;
