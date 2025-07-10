@@ -20,6 +20,4 @@ class Solution {
 
         return maxProfit;
     }
-
-    // Test cases
 }
