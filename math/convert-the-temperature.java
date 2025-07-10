@@ -6,7 +6,6 @@ class Solution {
         // Formula for Fahrenheit: Celsius * 1.80 + 32.00
         double fahrenheit = celsius * 1.80 + 32.00;
 
-        // Return as an array [kelvin, fahrenheit]
         return new double[]{kelvin, fahrenheit};
     }
 }
