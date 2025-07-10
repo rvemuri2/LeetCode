@@ -6,7 +6,6 @@ class Solution {
 
         // Iterate through each day's price
         for (int price : prices) {
-            // If current price is lower than minPrice, update minPrice
             if (price < minPrice) {
                 minPrice = price;
             } else {
