@@ -32,6 +32,6 @@ class Solution {
         System.out.println(sol.maxProfit(prices2)); // Output: 0
 
         int[] prices3 = {1,2};
-        System.out.println(sol.maxProfit(prices3)); // Output: 1
+        System.out.println(sol.maxProfit(prices3));
     }
 }
