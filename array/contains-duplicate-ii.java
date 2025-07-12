@@ -16,6 +16,4 @@ class Solution {
 
         return false;
     }
-
-    // Example test cases
 }
