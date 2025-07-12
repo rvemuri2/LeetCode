@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
-        HashMap<Integer, Integer> map = new HashMap<>(); // value -> last seen index
+        HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])) {
