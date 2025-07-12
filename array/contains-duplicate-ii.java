@@ -11,7 +11,7 @@ class Solution {
                     return true;
                 }
             }
-            map.put(nums[i], i); // update the last seen index
+            map.put(nums[i], i);
         }
 
         return false;
