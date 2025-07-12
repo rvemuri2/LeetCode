@@ -7,5 +7,4 @@ class Solution {
         }
         return count;
     }
-    // Test cases
 }
