@@ -13,6 +13,6 @@ class Solution {
         Solution sol = new Solution();
 
         System.out.println(sol.hammingWeight(11));         // Output: 3 (binary: 1011)
-        System.out.println(sol.hammingWeight(128));        // Output: 1 (binary: 10000000)
+        System.out.println(sol.hammingWeight(128));
     }
 }
