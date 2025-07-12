@@ -12,6 +12,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println(sol.hammingWeight(11));         // Output: 3 (binary: 1011)
+        System.out.println(sol.hammingWeight(11));
     }
 }
