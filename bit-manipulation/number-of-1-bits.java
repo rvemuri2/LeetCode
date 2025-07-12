@@ -7,7 +7,5 @@ class Solution {
         }
         return count;
     }
-
     // Test cases
-    public static void main(String[] args) {}
 }
