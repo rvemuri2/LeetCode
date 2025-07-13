@@ -9,6 +9,5 @@ class Solution {
         Solution sol = new Solution();
         System.out.println(sol.canWinNim(4));  // false
         System.out.println(sol.canWinNim(1));  // true
-        System.out.println(sol.canWinNim(2));
     }
 }
