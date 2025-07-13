@@ -7,6 +7,6 @@ class Solution {
     // Example test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.canWinNim(4));  // false
+        System.out.println(sol.canWinNim(4));
     }
 }
