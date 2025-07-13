@@ -41,7 +41,5 @@ class Solution {
 
         System.out.println(Arrays.toString(sol.intersect(new int[]{1,1,1,1}, new int[]{1,1})));
         // Output: [1, 1]
-
-        System.out.println(Arrays.toString(sol.intersect(new int[]{}, new int[]{1,2})));
     }
 }
