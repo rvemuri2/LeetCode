@@ -10,6 +10,6 @@ class Solution {
         System.out.println(sol.canWinNim(4));  // false
         System.out.println(sol.canWinNim(1));  // true
         System.out.println(sol.canWinNim(2));  // true
-        System.out.println(sol.canWinNim(7));  // true
+        System.out.println(sol.canWinNim(7));
     }
 }
