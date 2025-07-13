@@ -6,6 +6,5 @@ class Solution {
 
     // Example test cases
     public static void main(String[] args) {
-        Solution sol = new Solution();
     }
 }
