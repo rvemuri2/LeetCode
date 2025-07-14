@@ -29,7 +29,5 @@ class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        System.out.println(Arrays.toString(sol.intersect(new int[]{1,2,2,1}, new int[]{2,2})));
     }
 }
