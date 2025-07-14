@@ -37,6 +37,5 @@ class Solution {
         // Output: [4, 9] or [9, 4]
 
         System.out.println(Arrays.toString(sol.intersect(new int[]{1,2,2,3,3,3}, new int[]{2,3,3,4})));
-        // Output: [2, 3, 3]
     }
 }
