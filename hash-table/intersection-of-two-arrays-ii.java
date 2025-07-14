@@ -17,8 +17,7 @@ class Solution {
                 map.put(num, map.get(num) - 1);
             }
         }
-
-        // Convert list to array
+        
         int[] intersection = new int[result.size()];
         for (int i = 0; i < result.size(); i++) {
             intersection[i] = result.get(i);
