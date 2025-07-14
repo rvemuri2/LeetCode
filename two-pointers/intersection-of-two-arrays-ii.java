@@ -5,7 +5,6 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         List<Integer> result = new ArrayList<>();
 
-        // Count elements in nums1
         for (int num : nums1) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
