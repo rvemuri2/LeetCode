@@ -26,6 +26,4 @@ class Solution {
 
         return intersection;
     }
-
-    public static void main(String[] args) {}
 }
