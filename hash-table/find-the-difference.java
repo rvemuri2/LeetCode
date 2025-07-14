@@ -15,6 +15,6 @@ class Solution {
         System.out.println(sol.findTheDifference("", "y"));         // Output: y
         System.out.println(sol.findTheDifference("a", "aa"));       // Output: a
         System.out.println(sol.findTheDifference("ae", "aea"));     // Output: a
-        System.out.println(sol.findTheDifference("xyz", "xxyz"));   // Output: x
+        System.out.println(sol.findTheDifference("xyz", "xxyz"));
     }
 }
