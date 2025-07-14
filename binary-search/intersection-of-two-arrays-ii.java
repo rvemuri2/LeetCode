@@ -31,6 +31,5 @@ class Solution {
         Solution sol = new Solution();
 
         System.out.println(Arrays.toString(sol.intersect(new int[]{1,2,2,1}, new int[]{2,2})));
-        // Output: [2, 2]
     }
 }
