@@ -13,6 +13,6 @@ class Solution {
         Solution sol = new Solution();
         System.out.println(sol.findTheDifference("abcd", "abcde")); // Output: e
         System.out.println(sol.findTheDifference("", "y"));         // Output: y
-        System.out.println(sol.findTheDifference("a", "aa"));       // Output: a
+        System.out.println(sol.findTheDifference("a", "aa"));
     }
 }
