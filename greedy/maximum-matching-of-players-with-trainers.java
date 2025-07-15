@@ -50,7 +50,5 @@ public class Solution {
         int[] players5 = {1, 2, 3, 4, 5};
         int[] trainers5 = {2, 2, 2, 2, 2};
         System.out.println("Test 5 Output: " + sol.matchPlayersAndTrainers(players5, trainers5)); // Expected: 2
-
-        int[] players6 = {1_000_000_000};
     }
 }
