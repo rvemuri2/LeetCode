@@ -2,7 +2,6 @@
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
- *     ListNode next;
  */
 class Solution {
     public int getDecimalValue(ListNode head) {
