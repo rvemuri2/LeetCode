@@ -46,7 +46,5 @@ public class Solution {
         int[] players4 = {2, 4, 6};
         int[] trainers4 = {1, 3, 5, 7};
         System.out.println("Test 4 Output: " + sol.matchPlayersAndTrainers(players4, trainers4)); // Expected: 3
-
-        int[] players5 = {1, 2, 3, 4, 5};
     }
 }
