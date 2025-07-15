@@ -53,6 +53,5 @@ public class Solution {
 
         int[] players6 = {1_000_000_000};
         int[] trainers6 = {1_000_000_000};
-        System.out.println("Test 6 Output: " + sol.matchPlayersAndTrainers(players6, trainers6));
     }
 }
