@@ -1,5 +1,3 @@
-/**
- */
 class Solution {
     public int getDecimalValue(ListNode head) {
         int result = 0;
