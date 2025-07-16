@@ -8,7 +8,7 @@ public class Solution {
         Arrays.sort(trainers);
         
         int i = 0; // Pointer for players
-        int j = 0; // Pointer for trainers
+        int j = 0;
         int count = 0;
         
         while (i < players.length && j < trainers.length) {
