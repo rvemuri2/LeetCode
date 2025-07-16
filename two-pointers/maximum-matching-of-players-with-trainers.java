@@ -26,6 +26,4 @@ public class Solution {
         
         return count;
     }
-
-    // Test cases to verify the solution
 }
