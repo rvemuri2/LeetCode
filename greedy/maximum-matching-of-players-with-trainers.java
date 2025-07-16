@@ -4,7 +4,7 @@ class Solution {
         Arrays.sort(trainers);
         
         int count = 0;
-        int i = 0; // pointer for players
+        int i = 0;
         int j = 0;
         
         while (i < players.length && j < trainers.length) {
