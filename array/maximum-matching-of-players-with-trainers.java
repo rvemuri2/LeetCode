@@ -14,7 +14,6 @@ public class Solution {
         // Try to match each player with the least capable valid trainer
         while (i < players.length && j < trainers.length) {
             if (players[i] <= trainers[j]) {
-                // Match found: player[i] can be trained by trainer[j]
                 count++;
                 i++;
                 j++;
