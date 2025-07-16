@@ -19,7 +19,6 @@ public class Solution {
                 i++;
                 j++;
             } else {
-                // Trainer[j] is too weak, try next stronger trainer
                 j++;
             }
         }
