@@ -36,6 +36,5 @@ public class Solution {
         System.out.println("Test 1 Output: " + sol.matchPlayersAndTrainers(players1, trainers1)); // Expected: 2
 
         int[] players2 = {1, 1, 1};
-        int[] trainers2 = {10};
     }
 }
