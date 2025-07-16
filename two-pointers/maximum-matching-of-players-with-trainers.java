@@ -9,7 +9,7 @@ public class Solution {
         
         int i = 0; // Pointer for players
         int j = 0; // Pointer for trainers
-        int count = 0; // Count of successful matchings
+        int count = 0;
         
         while (i < players.length && j < trainers.length) {
             if (players[i] <= trainers[j]) {
