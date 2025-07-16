@@ -9,7 +9,6 @@ class Solution {
         
         while (i < players.length && j < trainers.length) {
             if (players[i] <= trainers[j]) {
-                // Match found, move both pointers
                 count++;
                 i++;
                 j++;
