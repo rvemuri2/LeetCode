@@ -37,6 +37,5 @@ public class Solution {
 
         int[] players2 = {1, 1, 1};
         int[] trainers2 = {10};
-        System.out.println("Test 2 Output: " + sol.matchPlayersAndTrainers(players2, trainers2));
     }
 }
