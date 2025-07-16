@@ -11,7 +11,6 @@ public class Solution {
         int j = 0; // Pointer for trainers
         int count = 0; // Count of successful matchings
         
-        // Try to match each player with the least capable valid trainer
         while (i < players.length && j < trainers.length) {
             if (players[i] <= trainers[j]) {
                 count++;
