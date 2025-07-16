@@ -5,7 +5,7 @@ class Solution {
         
         int count = 0;
         int i = 0; // pointer for players
-        int j = 0; // pointer for trainers
+        int j = 0;
         
         while (i < players.length && j < trainers.length) {
             if (players[i] <= trainers[j]) {
