@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class Solution {
-    // Main matching logic using greedy two-pointer approach
     public int matchPlayersAndTrainers(int[] players, int[] trainers) {
 
         Arrays.sort(players);
