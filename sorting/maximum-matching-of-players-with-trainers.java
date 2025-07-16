@@ -28,6 +28,5 @@ public class Solution {
     }
 
     // Test cases to verify the solution
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) {}
 }
