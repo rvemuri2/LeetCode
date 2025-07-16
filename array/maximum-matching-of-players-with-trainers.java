@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Solution {
     public int matchPlayersAndTrainers(int[] players, int[] trainers) {
 
