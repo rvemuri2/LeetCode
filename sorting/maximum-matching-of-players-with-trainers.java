@@ -30,6 +30,5 @@ public class Solution {
     // Test cases to verify the solution
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] players1 = {4, 7, 9};
     }
 }
