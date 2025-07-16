@@ -7,7 +7,7 @@ public class Solution {
         Arrays.sort(players);
         Arrays.sort(trainers);
         
-        int i = 0; // Pointer for players
+        int i = 0;
         int j = 0;
         int count = 0;
         
