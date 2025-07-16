@@ -14,7 +14,6 @@ class Solution {
                 i++;
                 j++;
             } else {
-                // Current trainer can't train this player, try next trainer
                 j++;
             }
         }
