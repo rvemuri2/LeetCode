@@ -94,7 +94,5 @@ class Solution {
 
         List<String> wordList2 = Arrays.asList("hot", "dot", "dog", "lot", "log");
         System.out.println("Test Case 2 (ladderLength): " + sol.ladderLength("hit", "cog", wordList2)); // Output: 0
-
-        // Test maximumLength
     }
 }
