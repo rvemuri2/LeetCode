@@ -93,6 +93,5 @@ class Solution {
         System.out.println("Test Case 1 (ladderLength): " + sol.ladderLength("hit", "cog", wordList1)); // Output: 5
 
         List<String> wordList2 = Arrays.asList("hot", "dot", "dog", "lot", "log");
-        System.out.println("Test Case 2 (ladderLength): " + sol.ladderLength("hit", "cog", wordList2));
     }
 }
