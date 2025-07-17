@@ -68,7 +68,7 @@ class Solution {
         for (int x : nums) {
             if ((x & 1) == expect) {
                 altOddStart++;
-                expect ^= 1; // flip expected parity
+                expect ^= 1;
             }
         }
         expect = 0;
