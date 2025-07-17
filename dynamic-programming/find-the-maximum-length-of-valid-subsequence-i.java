@@ -53,7 +53,9 @@ class Solution {
     public int maximumLength(int[] nums) {
         int cntOdd = 0, cntEven = 0;
         for (int x : nums) {
-            if ((x & 1) == 0) cntEven++;
+            if ((x & 1) == 0) {
+                cntEven++;
+            }
             else               cntOdd++;
         }
 
