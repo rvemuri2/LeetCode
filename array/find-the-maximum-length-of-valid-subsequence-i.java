@@ -106,6 +106,6 @@ class Solution {
         System.out.println("Test Case 5 (maximumLength): " + sol.maximumLength(nums3)); // Output: 3
 
         int[] nums4 = {1, 2, 2, 1, 2}; // alternating best: 4
-        System.out.println("Test Case 6 (maximumLength): " + sol.maximumLength(nums4)); // Output: 4
+        System.out.println("Test Case 6 (maximumLength): " + sol.maximumLength(nums4));
     }
 }
