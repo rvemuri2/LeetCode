@@ -96,6 +96,5 @@ class Solution {
         System.out.println("Test Case 2 (ladderLength): " + sol.ladderLength("hit", "cog", wordList2)); // Output: 0
 
         // Test maximumLength
-        int[] nums1 = {1, 2, 3, 4, 5};
     }
 }
