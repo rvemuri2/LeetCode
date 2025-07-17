@@ -57,7 +57,6 @@ class Solution {
             else               cntOdd++;
         }
 
-        // 1) all even or all odd
         int bestConst = Math.max(cntOdd, cntEven);
 
         int altOddStart = 0, altEvenStart = 0;
