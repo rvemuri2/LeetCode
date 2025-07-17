@@ -105,6 +105,6 @@ class Solution {
         int[] nums3 = {1, 3, 5, 2, 4}; // alternating odd start: 3
         System.out.println("Test Case 5 (maximumLength): " + sol.maximumLength(nums3)); // Output: 3
 
-        int[] nums4 = {1, 2, 2, 1, 2}; // alternating best: 4
+        int[] nums4 = {1, 2, 2, 1, 2};
     }
 }
