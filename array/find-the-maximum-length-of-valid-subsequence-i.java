@@ -89,6 +89,5 @@ class Solution {
         Solution sol = new Solution();
 
         // Test ladderLength
-        List<String> wordList1 = Arrays.asList("hot", "dot", "dog", "lot", "log", "cog");
     }
 }
