@@ -100,6 +100,6 @@ class Solution {
         System.out.println("Test Case 3 (maximumLength): " + sol.maximumLength(nums1)); // Output: 5
 
         int[] nums2 = {2, 4, 6, 8}; // constant best: 4
-        System.out.println("Test Case 4 (maximumLength): " + sol.maximumLength(nums2)); // Output: 4
+        System.out.println("Test Case 4 (maximumLength): " + sol.maximumLength(nums2));
     }
 }
