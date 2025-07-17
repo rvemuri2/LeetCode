@@ -71,8 +71,6 @@ class Solution {
                 expect ^= 1; // flip expected parity
             }
         }
-
-        // Try alternating starting with even
         expect = 0;
         for (int x : nums) {
             if ((x & 1) == expect) {
