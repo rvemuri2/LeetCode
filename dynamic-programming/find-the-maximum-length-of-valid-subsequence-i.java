@@ -97,6 +97,5 @@ class Solution {
 
         // Test maximumLength
         int[] nums1 = {1, 2, 3, 4, 5}; // alternating best: 5
-        System.out.println("Test Case 3 (maximumLength): " + sol.maximumLength(nums1));
     }
 }
