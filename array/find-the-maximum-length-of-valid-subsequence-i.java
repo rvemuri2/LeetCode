@@ -84,7 +84,4 @@ class Solution {
         int bestAlt = Math.max(altOddStart, altEvenStart);
         return Math.max(bestConst, bestAlt);
     }
-
-    public static void main(String[] args) {
-    }
 }
