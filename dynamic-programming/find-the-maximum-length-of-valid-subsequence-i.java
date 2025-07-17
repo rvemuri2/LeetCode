@@ -60,7 +60,6 @@ class Solution {
         // 1) all even or all odd
         int bestConst = Math.max(cntOdd, cntEven);
 
-        // 2) alternating parity (two variants)
         int altOddStart = 0, altEvenStart = 0;
 
         int expect = 1;
