@@ -63,7 +63,6 @@ class Solution {
         // 2) alternating parity (two variants)
         int altOddStart = 0, altEvenStart = 0;
 
-        // Try alternating starting with odd
         int expect = 1;
         for (int x : nums) {
             if ((x & 1) == expect) {
