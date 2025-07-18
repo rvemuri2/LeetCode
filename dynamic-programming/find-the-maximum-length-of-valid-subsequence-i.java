@@ -42,7 +42,7 @@ class Solution {
             level++;
         }
 
-        return 0; // endWord not reachable
+        return 0;
     }
 
     public int maximumLength(int[] nums) {
