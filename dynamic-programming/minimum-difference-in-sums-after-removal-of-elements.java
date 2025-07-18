@@ -51,6 +51,5 @@ class Solution {
         return minDiff;
     }
 
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) {}
 }
