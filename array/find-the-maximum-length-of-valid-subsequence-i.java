@@ -48,7 +48,6 @@ class Solution {
     /**
      * Returns the length of the longest subarray from nums that is either:
      * - All same parity (even or odd), or
-     * - Alternating parity, starting with even or odd
      */
     public int maximumLength(int[] nums) {
         int cntOdd = 0, cntEven = 0;
@@ -56,7 +55,9 @@ class Solution {
             if ((x & 1) == 0) {
                 cntEven++;
             }
-            else               cntOdd++;
+            else {
+                cntOdd++;
+            }
         }
 
         int bestConst = Math.max(cntOdd, cntEven);
