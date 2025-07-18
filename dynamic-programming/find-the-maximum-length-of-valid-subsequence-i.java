@@ -45,8 +45,6 @@ class Solution {
         return 0; // endWord not reachable
     }
 
-    /**
-     */
     public int maximumLength(int[] nums) {
         int cntOdd = 0, cntEven = 0;
         for (int x : nums) {
