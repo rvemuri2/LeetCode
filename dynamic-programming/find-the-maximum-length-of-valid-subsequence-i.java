@@ -2,7 +2,6 @@ import java.util.*;
 
 class Solution {
     /**
-     * Returns the number of words in the shortest transformation sequence from beginWord to endWord.
      */
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> wordSet = new HashSet<>(wordList);
