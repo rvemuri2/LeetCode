@@ -40,7 +40,6 @@ class Solution {
             }
         }
 
-        // Calculate the minimum difference
         long minDiff = Long.MAX_VALUE;
         for (int i = n - 1; i < 2 * n; i++) {
             if (leftSums[i] != Long.MAX_VALUE && rightSums[i + 1] != Long.MIN_VALUE) {
