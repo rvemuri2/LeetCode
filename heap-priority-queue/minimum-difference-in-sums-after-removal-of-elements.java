@@ -54,6 +54,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println(sol.minimumDifference(new int[]{3, 1, 2})); // Output: -1
+        System.out.println(sol.minimumDifference(new int[]{3, 1, 2}));
     }
 }
