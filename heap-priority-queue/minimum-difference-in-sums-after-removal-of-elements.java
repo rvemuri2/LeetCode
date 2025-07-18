@@ -24,7 +24,6 @@ class Solution {
             }
         }
 
-        // Min heap for right n largest sum
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         long rightSum = 0;
         for (int i = len - 1; i >= n; i--) {
