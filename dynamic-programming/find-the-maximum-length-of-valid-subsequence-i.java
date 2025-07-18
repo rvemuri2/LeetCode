@@ -46,7 +46,6 @@ class Solution {
     }
 
     /**
-     * Returns the length of the longest subarray from nums that is either:
      */
     public int maximumLength(int[] nums) {
         int cntOdd = 0, cntEven = 0;
