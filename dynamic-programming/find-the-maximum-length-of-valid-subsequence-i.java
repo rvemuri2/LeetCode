@@ -47,7 +47,6 @@ class Solution {
 
     /**
      * Returns the length of the longest subarray from nums that is either:
-     * - All same parity (even or odd), or
      */
     public int maximumLength(int[] nums) {
         int cntOdd = 0, cntEven = 0;
