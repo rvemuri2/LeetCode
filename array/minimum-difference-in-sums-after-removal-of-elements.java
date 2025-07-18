@@ -8,7 +8,6 @@ class Solution {
         long[] leftSums = new long[len];
         long[] rightSums = new long[len];
 
-        // Max heap for left n smallest sum
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
         long leftSum = 0;
         for (int i = 0; i < 2 * n; i++) {
