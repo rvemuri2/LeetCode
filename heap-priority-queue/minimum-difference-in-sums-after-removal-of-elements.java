@@ -50,6 +50,4 @@ class Solution {
 
         return minDiff;
     }
-
-    public static void main(String[] args) {}
 }
