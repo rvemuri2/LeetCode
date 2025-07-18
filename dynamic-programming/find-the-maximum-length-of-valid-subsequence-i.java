@@ -15,7 +15,7 @@ class Solution {
         Set<String> visited = new HashSet<>();
         visited.add(beginWord);
 
-        int level = 1; // start with beginWord
+        int level = 1;
 
         while (!queue.isEmpty()) {
             int size = queue.size();
