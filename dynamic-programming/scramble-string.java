@@ -25,7 +25,7 @@ class Solution {
         }
 
         int n = s1.length();
-        // Try all possible splits
+
         for (int i = 1; i < n; i++) {
             if (isScramble(s1.substring(0, i), s2.substring(0, i)) &&
                 isScramble(s1.substring(i), s2.substring(i))) {
