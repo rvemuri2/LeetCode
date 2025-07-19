@@ -6,7 +6,6 @@ class Solution {
         List<String> result = new ArrayList<>();
         
         for (String f : folder) {
-            // If result is empty or f is not a subfolder of the last added folder
             if (result.isEmpty() || !f.startsWith(result.get(result.size() - 1) + "/")) {
                 result.add(f);
             }
@@ -14,6 +13,4 @@ class Solution {
 
         return result;
     }
-
-    public static void main(String[] args) {}
 }
