@@ -14,7 +14,6 @@ class Solution {
         String key = s1 + "," + s2;
         if (memo.containsKey(key)) return memo.get(key);
 
-        // Quick check: must contain same chars
         char[] c1 = s1.toCharArray();
         char[] c2 = s2.toCharArray();
         Arrays.sort(c1);
