@@ -45,6 +45,4 @@ class Solution {
         memo.put(key, false);
         return false;
     }
-
-    public static void main(String[] args) {}
 }
