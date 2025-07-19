@@ -52,6 +52,6 @@ class Solution {
         System.out.println("Test 2: " + sol.isScramble("abcde", "caebd")); // false
         System.out.println("Test 3: " + sol.isScramble("a", "a"));         // true
         System.out.println("Test 4: " + sol.isScramble("abc", "bca"));     // true
-        System.out.println("Test 5: " + sol.isScramble("abc", "cba"));     // true
+        System.out.println("Test 5: " + sol.isScramble("abc", "cba"));
     }
 }
