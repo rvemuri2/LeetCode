@@ -17,7 +17,5 @@ class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        System.out.println(sol.removeSubfolders(new String[]{"/a","/a/b","/c/d","/c/d/e","/c/f"}));
     }
 }
