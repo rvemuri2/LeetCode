@@ -48,6 +48,6 @@ class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println("Test 1: " + sol.isScramble("great", "rgeat")); // true
+        System.out.println("Test 1: " + sol.isScramble("great", "rgeat"));
     }
 }
