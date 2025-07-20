@@ -12,7 +12,9 @@ class Solution {
 
         // Memoization key
         String key = s1 + "," + s2;
-        if (memo.containsKey(key)) return memo.get(key);
+        if (memo.containsKey(key)) {
+            return memo.get(key);
+        } 
 
         char[] c1 = s1.toCharArray();
         char[] c2 = s2.toCharArray();
