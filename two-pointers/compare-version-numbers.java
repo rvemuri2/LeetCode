@@ -29,7 +29,5 @@ class Solution {
 
         // Test Case 2
         System.out.println("Test 2: " + sol.compareVersion("1.01", "1.001"));  // 0
-
-        // Test Case 3
     }
 }
