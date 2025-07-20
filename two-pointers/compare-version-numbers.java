@@ -1,7 +1,6 @@
 class Solution {
     /**
      * Compares two version strings.
-     * @param version1 First version string.
      */
     public int compareVersion(String version1, String version2) {
         String[] v1 = version1.split("\\.");
