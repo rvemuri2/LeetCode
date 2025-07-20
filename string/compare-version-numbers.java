@@ -3,7 +3,6 @@ class Solution {
      * Compares two version strings.
      * @param version1 First version string.
      * @param version2 Second version string.
-     * @return -1 if version1 < version2, 1 if version1 > version2, 0 if equal.
      */
     public int compareVersion(String version1, String version2) {
         String[] v1 = version1.split("\\.");
