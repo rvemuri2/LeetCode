@@ -51,6 +51,5 @@ class Solution {
         System.out.println(sol.fractionToDecimal(1, 3));      // 0.(3)
         System.out.println(sol.fractionToDecimal(-1, 2));     // -0.5
         System.out.println(sol.fractionToDecimal(-50, 8));    // -6.25
-        System.out.println(sol.fractionToDecimal(-1, -2147483648));
     }
 }
