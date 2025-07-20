@@ -7,7 +7,6 @@ class Solution {
         // Base case: equal strings
         if (s1.equals(s2)) return true;
 
-        // Base case: mismatched characters
         if (s1.length() != s2.length()) {
             return false;
         } 
