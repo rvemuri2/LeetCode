@@ -47,6 +47,5 @@ class Solution {
         System.out.println(sol.fractionToDecimal(1, 2));      // 0.5
         System.out.println(sol.fractionToDecimal(2, 1));      // 2
         System.out.println(sol.fractionToDecimal(4, 333));    // 0.(012)
-        System.out.println(sol.fractionToDecimal(1, 6));
     }
 }
