@@ -45,6 +45,5 @@ class Solution {
 
         // ✅ Test cases
         System.out.println(sol.fractionToDecimal(1, 2));      // 0.5
-        System.out.println(sol.fractionToDecimal(2, 1));
     }
 }
