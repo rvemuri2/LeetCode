@@ -10,7 +10,6 @@ class Solution {
         // Base case: mismatched characters
         if (s1.length() != s2.length()) return false;
 
-        // Memoization key
         String key = s1 + "," + s2;
         if (memo.containsKey(key)) {
             return memo.get(key);
