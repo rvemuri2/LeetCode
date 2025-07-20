@@ -8,7 +8,9 @@ class Solution {
         if (s1.equals(s2)) return true;
 
         // Base case: mismatched characters
-        if (s1.length() != s2.length()) return false;
+        if (s1.length() != s2.length()) {
+            return false;
+        } 
 
         String key = s1 + "," + s2;
         if (memo.containsKey(key)) {
