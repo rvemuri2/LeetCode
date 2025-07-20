@@ -38,6 +38,6 @@ class Solution {
 
         System.out.println("Test 5: " + sol.compareVersion("1.0.0", "1"));  // 0
 
-        System.out.println("Test 6: " + sol.compareVersion("0.1", "1.0"));  // -1
+        System.out.println("Test 6: " + sol.compareVersion("0.1", "1.0"));
     }
 }
