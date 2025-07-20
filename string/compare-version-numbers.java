@@ -34,6 +34,5 @@ class Solution {
         System.out.println("Test 3: " + sol.compareVersion("1.0", "1.0.0.0"));  // 0
 
         // Additional Test Case
-        System.out.println("Test 4: " + sol.compareVersion("1.0.1", "1"));
     }
 }
