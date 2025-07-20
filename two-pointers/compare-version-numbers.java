@@ -15,7 +15,9 @@ class Solution {
             int num2 = i < v2.length ? Integer.parseInt(v2[i]) : 0;
 
             if (num1 < num2) return -1;
-            if (num1 > num2) return 1;
+            if (num1 > num2) {
+                return 1;
+            } 
         }
 
         return 0;
