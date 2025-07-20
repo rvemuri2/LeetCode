@@ -40,6 +40,6 @@ class Solution {
 
         System.out.println("Test 6: " + sol.compareVersion("0.1", "1.0"));  // -1
 
-        System.out.println("Test 7: " + sol.compareVersion("1.0.2", "1.0.10"));  // -1
+        System.out.println("Test 7: " + sol.compareVersion("1.0.2", "1.0.10"));
     }
 }
