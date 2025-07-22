@@ -34,4 +34,26 @@ class Solution {
 
         return beforeHead.next; // Skip dummy node
     }
+    public static void printList(ListNode node) {
+    while (node != null) {
+        System.out.print(node.val + " ");
+        node = node.next;
+    }
+    System.out.println();
 }
+
+public static void main(String[] args) {
+    Solution sol = new Solution();
+
+    ListNode head1 = new ListNode(1, new ListNode(4, new ListNode(3, new ListNode(2, new ListNode(5, new ListNode(2))))));
+    printList(sol.partition(head1, 3)); // Output: 1 2 2 4 3 5
+
+    ListNode head2 = new ListNode(2, new ListNode(1));
+    printList(sol.partition(head2, 2)); // Output: 1 2
+
+    ListNode head3 = new ListNode(1, new ListNode(2, new ListNode(3)));
+    printList(sol.partition(head3, 4)); // Output: 1 2 3
+}
+
+}
+
