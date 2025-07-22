@@ -6,7 +6,6 @@ class Solution {
 
         StringBuilder sb = new StringBuilder();
 
-        // Handle sign
         if ((numerator < 0) ^ (denominator < 0)) {
             sb.append("-");
         }
