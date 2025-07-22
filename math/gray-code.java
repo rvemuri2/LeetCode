@@ -4,7 +4,6 @@ class Solution {
     /**
      * Generates an n-bit Gray code sequence.
      * @param n number of bits
-     * @return List of integers representing the Gray code sequence
      */
     public List<Integer> grayCode(int n) {
         List<Integer> result = new ArrayList<>();
