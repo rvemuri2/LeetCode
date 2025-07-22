@@ -34,7 +34,5 @@ class Solution {
 
         return beforeHead.next; // Skip dummy node
     }
-    public static void printList(ListNode node) {}
-
 }
 
