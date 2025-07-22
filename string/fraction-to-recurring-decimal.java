@@ -40,7 +40,5 @@ class Solution {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
+    public static void main(String[] args) {}
 }
