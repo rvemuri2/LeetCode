@@ -23,6 +23,6 @@ class Solution {
         // ✅ Test Cases
         System.out.println("n = 1 → " + sol.grayCode(1)); // [0, 1]
         System.out.println("n = 2 → " + sol.grayCode(2)); // [0, 1, 3, 2]
-        System.out.println("n = 3 → " + sol.grayCode(3)); // [0, 1, 3, 2, 6, 7, 5, 4]
+        System.out.println("n = 3 → " + sol.grayCode(3));
     }
 }
