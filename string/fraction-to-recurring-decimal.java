@@ -44,6 +44,5 @@ class Solution {
         Solution sol = new Solution();
 
         // ✅ Test cases
-        System.out.println(sol.fractionToDecimal(1, 2));
     }
 }
