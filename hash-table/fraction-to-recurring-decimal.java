@@ -22,7 +22,7 @@ class Solution {
         if (remainder == 0) return sb.toString();
 
         sb.append(".");
-        Map<Long, Integer> map = new HashMap<>();  // Remainder -> Position
+        Map<Long, Integer> map = new HashMap<>();
 
         while (remainder != 0) {
             if (map.containsKey(remainder)) {
