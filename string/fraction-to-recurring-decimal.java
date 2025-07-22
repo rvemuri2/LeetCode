@@ -15,7 +15,6 @@ class Solution {
         long num = Math.abs((long) numerator);
         long den = Math.abs((long) denominator);
 
-        // Append integer part
         sb.append(num / den);
         long remainder = num % den;
 
