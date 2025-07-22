@@ -14,7 +14,6 @@ class Solution {
         ListNode beforeHead = new ListNode(0);
         ListNode afterHead = new ListNode(0);
 
-        // Tail pointers to build the two lists
         ListNode before = beforeHead;
         ListNode after = afterHead;
 
