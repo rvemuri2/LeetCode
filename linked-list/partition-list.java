@@ -39,10 +39,7 @@ class Solution {
         System.out.print(node.val + " ");
         node = node.next;
     }
-    System.out.println();
 }
-
-public static void main(String[] args) {}
 
 }
 
