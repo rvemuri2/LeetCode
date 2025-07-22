@@ -10,7 +10,6 @@
  */
 class Solution {
     public ListNode partition(ListNode head, int x) {
-        // Dummy heads for the two partitions
         ListNode beforeHead = new ListNode(0);
         ListNode afterHead = new ListNode(0);
 
