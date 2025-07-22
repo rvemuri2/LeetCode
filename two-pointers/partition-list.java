@@ -30,7 +30,7 @@ class Solution {
         }
 
         after.next = null;           // Avoid cycle
-        before.next = afterHead.next; // Connect the two partitions
+        before.next = afterHead.next;
 
         return beforeHead.next;
     }
