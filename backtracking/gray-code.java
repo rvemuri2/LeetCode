@@ -2,7 +2,6 @@ import java.util.*;
 
 class Solution {
     /**
-     * Generates an n-bit Gray code sequence.
      */
     public List<Integer> grayCode(int n) {
         List<Integer> result = new ArrayList<>();
