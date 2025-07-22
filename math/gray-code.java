@@ -21,6 +21,5 @@ class Solution {
         Solution sol = new Solution();
 
         // ✅ Test Cases
-        System.out.println("n = 1 → " + sol.grayCode(1));
     }
 }
