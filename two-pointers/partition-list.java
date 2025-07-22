@@ -29,7 +29,7 @@ class Solution {
             head = head.next;
         }
 
-        after.next = null;           // Avoid cycle
+        after.next = null;
         before.next = afterHead.next;
 
         return beforeHead.next;
