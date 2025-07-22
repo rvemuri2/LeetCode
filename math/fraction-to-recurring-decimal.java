@@ -19,7 +19,9 @@ class Solution {
         sb.append(num / den);
         long remainder = num % den;
 
-        if (remainder == 0) return sb.toString();
+        if (remainder == 0) {
+            return sb.toString();
+        }
 
         sb.append(".");
         Map<Long, Integer> map = new HashMap<>();
