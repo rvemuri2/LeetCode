@@ -11,7 +11,7 @@ class Solution {
         int total = 1 << n; // 2^n values
 
         for (int i = 0; i < total; i++) {
-            result.add(i ^ (i >> 1)); // Gray code formula
+            result.add(i ^ (i >> 1));
         }
 
         return result;
