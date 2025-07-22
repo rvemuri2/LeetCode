@@ -32,7 +32,7 @@ class Solution {
         after.next = null;           // Avoid cycle
         before.next = afterHead.next; // Connect the two partitions
 
-        return beforeHead.next; // Skip dummy node
+        return beforeHead.next;
     }
 }
 
