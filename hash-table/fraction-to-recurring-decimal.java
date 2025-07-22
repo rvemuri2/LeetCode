@@ -11,7 +11,6 @@ class Solution {
             sb.append("-");
         }
 
-        // Convert to long to avoid overflow
         long num = Math.abs((long) numerator);
         long den = Math.abs((long) denominator);
 
