@@ -1,5 +1,4 @@
 /**
- * Definition for singly-linked list.
  */
 class Solution {
     public ListNode partition(ListNode head, int x) {
