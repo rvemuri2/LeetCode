@@ -12,7 +12,6 @@ class Solution {
                 left++;
                 right--;
             }
-            // Left half is sorted
             else if (nums[left] <= nums[mid]) {
                 if (nums[left] <= target && target < nums[mid])
                     right = mid - 1;
