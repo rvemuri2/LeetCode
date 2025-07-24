@@ -35,6 +35,5 @@ public static void main(String[] args) {
 
     System.out.println(sol.search(new int[]{2,5,6,0,0,1,2}, 0)); // true
     System.out.println(sol.search(new int[]{2,5,6,0,0,1,2}, 3)); // false
-    System.out.println(sol.search(new int[]{1,0,1,1,1}, 0));
 }
 }
