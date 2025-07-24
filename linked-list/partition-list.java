@@ -4,7 +4,6 @@
  *     int val;
  *     ListNode next;
  *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
  */
 class Solution {
     public ListNode partition(ListNode head, int x) {
