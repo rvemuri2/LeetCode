@@ -7,7 +7,6 @@ class Solution {
 
             if (nums[mid] == target) return true;
 
-            // Skip duplicates on both ends
             if (nums[left] == nums[mid] && nums[mid] == nums[right]) {
                 left++;
                 right--;
