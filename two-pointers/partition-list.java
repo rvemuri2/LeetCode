@@ -1,5 +1,3 @@
-/**
- */
 class Solution {
     public ListNode partition(ListNode head, int x) {
         ListNode beforeHead = new ListNode(0);
