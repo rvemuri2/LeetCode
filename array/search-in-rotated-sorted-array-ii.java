@@ -33,6 +33,6 @@ class Solution {
 public static void main(String[] args) {
     Solution sol = new Solution();
 
-    System.out.println(sol.search(new int[]{2,5,6,0,0,1,2}, 0)); // true
+    System.out.println(sol.search(new int[]{2,5,6,0,0,1,2}, 0));
 }
 }
