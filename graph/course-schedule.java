@@ -53,7 +53,7 @@ class Solution {
     System.out.println(sol.canFinish(3, prereq3)); // true
 
     int[][] prereq4 = {{1, 0}, {2, 1}, {3, 2}};
-    System.out.println(sol.canFinish(4, prereq4)); // true
+    System.out.println(sol.canFinish(4, prereq4));
 }
 
 }
