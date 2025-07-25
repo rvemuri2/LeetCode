@@ -17,7 +17,6 @@ class Solution {
             inDegree[course]++;
         }
 
-        // Step 2: Initialize queue with courses having in-degree 0
         Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < numCourses; i++) {
             if (inDegree[i] == 0) {
