@@ -2,7 +2,6 @@ import java.util.*;
 
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        // Step 1: Build graph and in-degree array
         List<List<Integer>> graph = new ArrayList<>();
         int[] inDegree = new int[numCourses];
 
