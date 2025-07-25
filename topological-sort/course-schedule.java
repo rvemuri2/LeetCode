@@ -23,8 +23,7 @@ class Solution {
             if (inDegree[i] == 0)
                 queue.offer(i);
         }
-
-        // Step 3: Process courses
+        
         int completedCourses = 0;
         while (!queue.isEmpty()) {
             int course = queue.poll();
