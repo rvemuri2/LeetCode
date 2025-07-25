@@ -50,7 +50,7 @@ class Solution {
     System.out.println(sol.canFinish(2, prereq2)); // false
 
     int[][] prereq3 = {};
-    System.out.println(sol.canFinish(3, prereq3)); // true
+    System.out.println(sol.canFinish(3, prereq3));
 }
 
 }
