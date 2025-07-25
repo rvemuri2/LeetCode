@@ -32,8 +32,9 @@ class Solution {
 
             for (int neighbor : graph.get(course)) {
                 inDegree[neighbor]--;
-                if (inDegree[neighbor] == 0)
+                if (inDegree[neighbor] == 0) {
                     queue.offer(neighbor);
+                }
             }
         }
         return completedCourses == numCourses;
