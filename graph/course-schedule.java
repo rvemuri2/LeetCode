@@ -44,7 +44,6 @@ class Solution {
     Solution sol = new Solution();
 
     int[][] prereq1 = {{1, 0}};
-    System.out.println(sol.canFinish(2, prereq1));
 }
 
 }
