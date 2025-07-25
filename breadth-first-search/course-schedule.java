@@ -20,10 +20,11 @@ class Solution {
         // Step 2: Initialize queue with courses having in-degree 0
         Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < numCourses; i++) {
-            if (inDegree[i] == 0)
+            if (inDegree[i] == 0) {
                 queue.offer(i);
+            }
         }
-        
+
         int completedCourses = 0;
         while (!queue.isEmpty()) {
             int course = queue.poll();
