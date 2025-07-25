@@ -48,8 +48,6 @@ class Solution {
 
     int[][] prereq2 = {{1, 0}, {0, 1}};
     System.out.println(sol.canFinish(2, prereq2)); // false
-
-    int[][] prereq3 = {};
 }
 
 }
