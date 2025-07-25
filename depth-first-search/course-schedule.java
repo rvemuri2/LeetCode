@@ -36,8 +36,6 @@ class Solution {
                     queue.offer(neighbor);
             }
         }
-
-        // Step 4: Check if all courses are completed
         return completedCourses == numCourses;
     }
 }
