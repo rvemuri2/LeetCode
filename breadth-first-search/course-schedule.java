@@ -41,7 +41,6 @@ class Solution {
         return completedCourses == numCourses;
     }
     public static void main(String[] args) {
-    Solution sol = new Solution();
 }
 
 }
