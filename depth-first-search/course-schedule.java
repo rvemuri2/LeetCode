@@ -56,7 +56,7 @@ class Solution {
     System.out.println(sol.canFinish(4, prereq4)); // true
 
     int[][] prereq5 = {{0, 1}, {1, 2}, {2, 0}};
-    System.out.println(sol.canFinish(3, prereq5)); // false (cycle)
+    System.out.println(sol.canFinish(3, prereq5));
 }
 
 }
