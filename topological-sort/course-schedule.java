@@ -40,7 +40,6 @@ class Solution {
         // Step 4: Check if all courses are completed
         return completedCourses == numCourses;
     }
-    public static void main(String[] args) {
-}
+    public static void main(String[] args) {}
 
 }
