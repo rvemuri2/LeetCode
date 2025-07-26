@@ -19,6 +19,5 @@ class Solution {
         Solution sol = new Solution();
 
         System.out.println("Test Case 1: " + sol.hIndex(new int[]{3, 0, 6, 1, 5})); // Output: 3
-        System.out.println("Test Case 2: " + sol.hIndex(new int[]{1, 3, 1}));
     }
 }
