@@ -27,6 +27,5 @@ class Solution {
         Solution sol = new Solution();
         System.out.println("Test Case 1 (n=12): " + sol.numSquares(12)); // Output: 3 (4+4+4)
         System.out.println("Test Case 2 (n=13): " + sol.numSquares(13)); // Output: 2 (4+9)
-        System.out.println("Test Case 3 (n=1): " + sol.numSquares(1));
     }
 }
