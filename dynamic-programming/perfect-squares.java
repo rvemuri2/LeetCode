@@ -23,5 +23,4 @@ class Solution {
     }
 
     // Sample test cases
-    public static void main(String[] args) {}
 }
