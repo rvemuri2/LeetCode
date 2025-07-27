@@ -25,6 +25,5 @@ class Solution {
     // Sample test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println("Test Case 1 (n=12): " + sol.numSquares(12));
     }
 }
