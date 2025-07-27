@@ -10,7 +10,7 @@ class Solution {
 
             if (citations[mid] >= h) {
                 result = h;
-                right = mid - 1; // try for a better (smaller) index
+                right = mid - 1;
             } else {
                 left = mid + 1;
             }
