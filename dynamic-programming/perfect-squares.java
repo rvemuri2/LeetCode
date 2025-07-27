@@ -6,7 +6,6 @@ class Solution {
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 0; // Base case
 
-        // Precompute all perfect squares less than or equal to n
         List<Integer> squares = new ArrayList<>();
         for (int i = 1; i * i <= n; i++) {
             squares.add(i * i);
