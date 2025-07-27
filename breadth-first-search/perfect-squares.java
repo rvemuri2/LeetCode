@@ -14,7 +14,9 @@ class Solution {
 
         for (int i = 1; i <= n; i++) {
             for (int square : squares) {
-                if (i < square) break;
+                if (i < square) {
+                    break;
+                }
                 dp[i] = Math.min(dp[i], dp[i - square] + 1);
             }
         }
