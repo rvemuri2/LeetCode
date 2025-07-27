@@ -21,6 +21,4 @@ class Solution {
 
         return dp[n];
     }
-
-    // Sample test cases
 }
