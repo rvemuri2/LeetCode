@@ -29,6 +29,5 @@ class Solution {
         System.out.println("Test Case 2 (n=13): " + sol.numSquares(13)); // Output: 2 (4+9)
         System.out.println("Test Case 3 (n=1): " + sol.numSquares(1));   // Output: 1 (1)
         System.out.println("Test Case 4 (n=43): " + sol.numSquares(43)); // Output: 3 (36+4+3)
-        System.out.println("Test Case 5 (n=100): " + sol.numSquares(100));
     }
 }
