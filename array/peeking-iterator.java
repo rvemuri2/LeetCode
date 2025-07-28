@@ -64,7 +64,5 @@ class PeekingIterator implements Iterator<Integer> {
         System.out.println(it2.peek());    // 10
         System.out.println(it2.next());    // 10
         System.out.println(it2.hasNext()); // false
-
-        System.out.println("\nTest 3:");
     }
 }
