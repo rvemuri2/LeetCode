@@ -1,30 +1,37 @@
 // Java Iterator interface reference:
 // https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
 
-import java.util.Iterator;
+import java.util.*;
 
+/**
+ * PeekingIterator adds the ability to peek at the next element without advancing the iterator.
+ */
 class PeekingIterator implements Iterator<Integer> {
-	public PeekingIterator(Iterator<Integer> iterator) {
-	    // initialize any member here.
-         this.iterator = iterator;
+    private Iterator<Integer> iterator;
+    private Integer nextElement;
+
+    public PeekingIterator(Iterator<Integer> iterator) {
+        this.iterator = iterator;
         // Preload the first element
         if (iterator.hasNext()) {
             nextElement = iterator.next();
         } else {
             nextElement = null;
         }
-	    
-	}
-	
-    // Returns the next element in the iteration without advancing the iterator.
+    }
+
+    /**
+     * Returns the next element without advancing the iterator.
+     */
     public Integer peek() {
         return nextElement;
     }
-	
-	// hasNext() and next() should behave the same as in the Iterator interface.
-	// Override them if needed.
-	@Override
-	 public Integer next() {
+
+    /**
+     * Returns the next element and advances the iterator.
+     */
+    @Override
+    public Integer next() {
         Integer current = nextElement;
         if (iterator.hasNext()) {
             nextElement = iterator.next();
@@ -33,9 +40,38 @@ class PeekingIterator implements Iterator<Integer> {
         }
         return current;
     }
-	
-	@Override
-	public boolean hasNext() {
-	    return nextElement != null;
-	}
+
+    /**
+     * Returns true if there are more elements.
+     */
+    @Override
+    public boolean hasNext() {
+        return nextElement != null;
+    }
+
+    // Test cases
+    public static void main(String[] args) {
+        System.out.println("Test 1:");
+        PeekingIterator it1 = new PeekingIterator(Arrays.asList(1, 2, 3).iterator());
+        System.out.println(it1.next());    // 1
+        System.out.println(it1.peek());    // 2
+        System.out.println(it1.next());    // 2
+        System.out.println(it1.next());    // 3
+        System.out.println(it1.hasNext()); // false
+
+        System.out.println("\nTest 2:");
+        PeekingIterator it2 = new PeekingIterator(Arrays.asList(10).iterator());
+        System.out.println(it2.peek());    // 10
+        System.out.println(it2.next());    // 10
+        System.out.println(it2.hasNext()); // false
+
+        System.out.println("\nTest 3:");
+        PeekingIterator it3 = new PeekingIterator(Arrays.asList(4, 5).iterator());
+        System.out.println(it3.hasNext()); // true
+        System.out.println(it3.peek());    // 4
+        System.out.println(it3.peek());    // 4
+        System.out.println(it3.next());    // 4
+        System.out.println(it3.next());    // 5
+        System.out.println(it3.hasNext()); // false
+    }
 }
