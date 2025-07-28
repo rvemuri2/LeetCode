@@ -1,6 +1,8 @@
 // Java Iterator interface reference:
 // https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
 
+import java.util.Iterator;
+
 class PeekingIterator implements Iterator<Integer> {
 	public PeekingIterator(Iterator<Integer> iterator) {
 	    // initialize any member here.
@@ -36,15 +38,4 @@ class PeekingIterator implements Iterator<Integer> {
 	public boolean hasNext() {
 	    return nextElement != null;
 	}
-
-      public static void main(String[] args) {
-        List<Integer> nums = Arrays.asList(1, 2, 3);
-        PeekingIterator it = new PeekingIterator(nums.iterator());
-
-        System.out.println(it.next());    // 1
-        System.out.println(it.peek());    // 2
-        System.out.println(it.next());    // 2
-        System.out.println(it.next());    // 3
-        System.out.println(it.hasNext()); // false
-    }
 }
