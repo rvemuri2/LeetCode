@@ -28,7 +28,6 @@ class PeekingIterator implements Iterator<Integer> {
     }
 
     /**
-     * Returns the next element and advances the iterator.
      */
     @Override
     public Integer next() {
