@@ -20,8 +20,6 @@ class PeekingIterator implements Iterator<Integer> {
         }
     }
 
-    /**
-     */
     public Integer peek() {
         return nextElement;
     }
