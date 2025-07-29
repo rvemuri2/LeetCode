@@ -1,5 +1,3 @@
-// Java Iterator interface reference:
-
 class PeekingIterator implements Iterator<Integer> {
     private Iterator<Integer> iterator;
     private Integer nextElement;
