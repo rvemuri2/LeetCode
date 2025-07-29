@@ -48,6 +48,4 @@ class PeekingIterator implements Iterator<Integer> {
     public boolean hasNext() {
         return nextElement != null;
     }
-
-    // Test cases
 }
