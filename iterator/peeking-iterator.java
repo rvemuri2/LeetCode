@@ -12,7 +12,6 @@ class PeekingIterator implements Iterator<Integer> {
 
     public PeekingIterator(Iterator<Integer> iterator) {
         this.iterator = iterator;
-        // Preload the first element
         if (iterator.hasNext()) {
             nextElement = iterator.next();
         } else {
