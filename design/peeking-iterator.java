@@ -41,8 +41,6 @@ class PeekingIterator implements Iterator<Integer> {
         return current;
     }
 
-    /**
-     */
     @Override
     public boolean hasNext() {
         return nextElement != null;
