@@ -50,5 +50,4 @@ class PeekingIterator implements Iterator<Integer> {
     }
 
     // Test cases
-    public static void main(String[] args) {}
 }
