@@ -2,8 +2,7 @@
 // https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
 
 import java.util.*;
-/**
- */
+
 class PeekingIterator implements Iterator<Integer> {
     private Iterator<Integer> iterator;
     private Integer nextElement;
