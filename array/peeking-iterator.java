@@ -21,7 +21,6 @@ class PeekingIterator implements Iterator<Integer> {
     }
 
     /**
-     * Returns the next element without advancing the iterator.
      */
     public Integer peek() {
         return nextElement;
