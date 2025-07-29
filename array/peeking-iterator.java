@@ -42,7 +42,6 @@ class PeekingIterator implements Iterator<Integer> {
     }
 
     /**
-     * Returns true if there are more elements.
      */
     @Override
     public boolean hasNext() {
