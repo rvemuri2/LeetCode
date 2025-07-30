@@ -124,5 +124,4 @@ class LRUCache {
 }
 
 /**
- * Your LRUCache object will be instantiated and called as such:
  */
