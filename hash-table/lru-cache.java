@@ -128,7 +128,6 @@ class LRUCache {
         lru.put(1, 1);               // cache: {1=1}
         lru.put(2, 2);               // cache: {1=1, 2=2}
         System.out.println(lru.get(1)); // 1; cache order MRU: 1 -> 2
-        lru.put(3, 3);
     }
     ===================================================================== */
 }
