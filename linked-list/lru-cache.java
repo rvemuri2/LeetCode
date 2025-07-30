@@ -130,7 +130,7 @@ class LRUCache {
         System.out.println(lru.get(1)); // 1; cache order MRU: 1 -> 2
         lru.put(3, 3);               // evicts key 2; cache: {1=1, 3=3}
         System.out.println(lru.get(2)); // -1
-        lru.put(4, 4);               // evicts key 1; cache: {4=4, 3=3}
+        lru.put(4, 4);
     }
     ===================================================================== */
 }
