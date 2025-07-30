@@ -124,7 +124,6 @@ class LRUCache {
 
     /* ======================= Optional local tests =======================
     public static void main(String[] args) {
-        LRUCache lru = new LRUCache(2);
     }
     ===================================================================== */
 }
