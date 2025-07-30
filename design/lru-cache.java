@@ -126,7 +126,7 @@ class LRUCache {
     public static void main(String[] args) {
         LRUCache lru = new LRUCache(2);
         lru.put(1, 1);               // cache: {1=1}
-        lru.put(2, 2);               // cache: {1=1, 2=2}
+        lru.put(2, 2);
     }
     ===================================================================== */
 }
