@@ -133,7 +133,6 @@ class LRUCache {
         lru.put(4, 4);               // evicts key 1; cache: {4=4, 3=3}
         System.out.println(lru.get(1)); // -1
         System.out.println(lru.get(3)); // 3
-        System.out.println(lru.get(4)); // 4
     }
     ===================================================================== */
 }
