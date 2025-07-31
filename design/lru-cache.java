@@ -86,7 +86,6 @@ class LRUCache {
 
     /* ======================= Doubly Linked List Helpers ======================= */
 
-    // Insert node right after head (mark as MRU)
     private void addFirst(Node node) {
         Node first = head.next;
 
