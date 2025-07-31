@@ -108,7 +108,6 @@ class LRUCache {
         node.prev = node.next = null; // not necessary but helps avoid bugs
     }
 
-    // Move an existing node to the front (MRU)
     private void moveToFront(Node node) {
         removeNode(node);
         addFirst(node);
