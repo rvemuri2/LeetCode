@@ -49,7 +49,6 @@ class LRUCache {
         tail.prev = head;
     }
 
-    /** Returns the value if key exists; otherwise -1. Also marks the entry as most-recently used. */
     public int get(int key) {
         Node node = map.get(key);
         if (node == null) {
