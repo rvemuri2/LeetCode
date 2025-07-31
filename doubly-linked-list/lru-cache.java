@@ -67,7 +67,6 @@ class LRUCache {
             node.value = value;
             moveToFront(node);
         } else {
-            // Create new node
             Node n = new Node(key, value);
             map.put(key, n);
             addFirst(n);
