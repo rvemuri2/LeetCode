@@ -14,7 +14,6 @@ import java.util.Map;
  *      - Else return -1.
  *
  *    put(key, value):
- *      - If key exists: update value and move to front (MRU).
  */
 class LRUCache {
 
