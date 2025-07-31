@@ -15,8 +15,6 @@ import java.util.Map;
  *
  *    put(key, value):
  *      - If key exists: update value and move to front (MRU).
- *      - Else: create a new node, add to front. If over capacity, evict LRU.
- *
  */
 class LRUCache {
 
