@@ -73,7 +73,6 @@ class LRUCache {
             addFirst(n);
             size++;
 
-            // Evict if necessary
             if (size > capacity) {
                 Node lru = removeLast();
                 if (lru != null) {
