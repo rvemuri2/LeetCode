@@ -105,7 +105,7 @@ class LRUCache {
         p.next = n;
         n.prev = p;
 
-        node.prev = node.next = null; // not necessary but helps avoid bugs
+        node.prev = node.next = null;
     }
 
     private void moveToFront(Node node) {
