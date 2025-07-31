@@ -63,7 +63,6 @@ class LRUCache {
         Node node = map.get(key);
 
         if (node != null) {
-            // Update existing node and move it to front (MRU)
             node.value = value;
             moveToFront(node);
         } else {
