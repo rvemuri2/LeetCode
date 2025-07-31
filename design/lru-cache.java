@@ -117,7 +117,9 @@ class LRUCache {
     // Remove and return the last real node (LRU). Returns null if list is empty.
     private Node removeLast() {
         Node lru = tail.prev;
-        if (lru == head) return null;
+        if (lru == head) {
+            return null;
+        }
         removeNode(lru);
         return lru;
     }
