@@ -84,8 +84,6 @@ class LRUCache {
         }
     }
 
-    /* ======================= Doubly Linked List Helpers ======================= */
-
     private void addFirst(Node node) {
         Node first = head.next;
 
