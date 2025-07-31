@@ -10,7 +10,6 @@ import java.util.Map;
  *
  *  Operations:
  *    get(key):
- *      - If found, move the node to the front (MRU) and return value.
  */
 class LRUCache {
 
