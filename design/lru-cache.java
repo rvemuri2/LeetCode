@@ -58,7 +58,6 @@ class LRUCache {
         return node.value;
     }
 
-    /** Inserts or updates key with value. If capacity exceeded, evicts the least-recently used key. */
     public void put(int key, int value) {
         Node node = map.get(key);
 
