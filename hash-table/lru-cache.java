@@ -35,7 +35,7 @@ class LRUCache {
 
     // Sentinels for the doubly linked list to avoid edge-case checks
     private final Node head; // dummy head (MRU side)
-    private final Node tail; // dummy tail (LRU side)
+    private final Node tail;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
