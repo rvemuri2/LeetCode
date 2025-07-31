@@ -97,7 +97,6 @@ class LRUCache {
         first.prev = node;
     }
 
-    // Remove an arbitrary node from the list
     private void removeNode(Node node) {
         Node p = node.prev;
         Node n = node.next;
