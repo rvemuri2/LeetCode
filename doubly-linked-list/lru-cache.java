@@ -9,7 +9,6 @@ import java.util.Map;
  *      * Least-recently-used (LRU) node is right before 'tail'
  *
  *  Operations:
- *    get(key):
  */
 class LRUCache {
 
