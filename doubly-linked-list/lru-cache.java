@@ -42,7 +42,6 @@ class LRUCache {
         this.size = 0;
         this.map = new HashMap<>(capacity * 2);
 
-        // Initialize the sentinel nodes and link them
         head = new Node();
         tail = new Node();
         head.next = tail;
