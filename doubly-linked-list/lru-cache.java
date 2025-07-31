@@ -33,7 +33,6 @@ class LRUCache {
     private int size;
     private final Map<Integer, Node> map;
 
-    // Sentinels for the doubly linked list to avoid edge-case checks
     private final Node head;
     private final Node tail;
 
