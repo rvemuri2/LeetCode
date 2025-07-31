@@ -12,8 +12,6 @@ import java.util.Map;
  *    get(key):
  *      - If found, move the node to the front (MRU) and return value.
  *      - Else return -1.
- *
- *    put(key, value):
  */
 class LRUCache {
 
