@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 class LRUCache {
     private static class Node {
         int key, value;
