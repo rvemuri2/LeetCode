@@ -8,7 +8,6 @@ import java.util.Map;
  *      * Most-recently-used (MRU) node is right after 'head'
  *      * Least-recently-used (LRU) node is right before 'tail'
  *
- *  Operations:
  */
 class LRUCache {
 
