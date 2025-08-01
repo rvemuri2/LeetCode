@@ -1,10 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- */
 class LRUCache {
-
     private static class Node {
         int key, value;
         Node prev, next;
