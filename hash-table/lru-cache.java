@@ -3,7 +3,6 @@ import java.util.Map;
 
 /**
  * LRU Cache implemented with:
- *  - HashMap<K, Node> for O(1) key -> node lookup
  */
 class LRUCache {
 
