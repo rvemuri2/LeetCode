@@ -7,7 +7,6 @@ import java.util.Map;
  *  - Doubly linked list to maintain recency order in O(1)
  *      * Most-recently-used (MRU) node is right after 'head'
  *      * Least-recently-used (LRU) node is right before 'tail'
- *
  */
 class LRUCache {
 
