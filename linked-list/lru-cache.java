@@ -6,7 +6,6 @@ import java.util.Map;
  *  - HashMap<K, Node> for O(1) key -> node lookup
  *  - Doubly linked list to maintain recency order in O(1)
  *      * Most-recently-used (MRU) node is right after 'head'
- *      * Least-recently-used (LRU) node is right before 'tail'
  */
 class LRUCache {
 
