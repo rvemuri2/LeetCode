@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LRU Cache implemented with:
  */
 class LRUCache {
 
