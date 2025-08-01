@@ -6,7 +6,9 @@ class LRUCache {
         int key, value;
         Node prev, next;
         Node() {}
-        Node(int k, int v) { key = k; value = v; }
+        Node(int k, int v) { 
+            key = k; value = v; 
+        }
     }
 
     private final int capacity;
