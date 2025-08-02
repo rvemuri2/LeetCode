@@ -43,7 +43,6 @@ class Solution {
             }
         }
 
-        // BFS to mark all 'O's connected to border as SAFE ('S')
         int[][] dirs = {{1,0},{-1,0},{0,1},{0,-1}};
         while (!q.isEmpty()) {
             int[] cell = q.poll();
