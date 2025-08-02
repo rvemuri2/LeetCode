@@ -6,7 +6,6 @@ class Solution {
      * Surrounded Regions (BFS version, O(m*n) time, O(m*n) space)
      *
      * Idea:
-     * 1) Any 'O' that is connected to the border (top row, bottom row, left col, right col)
      */
     public void solve(char[][] board) {
         int m = board.length, n = board[0].length;
