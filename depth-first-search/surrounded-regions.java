@@ -20,7 +20,6 @@ class Solution {
         Deque<int[]> q = new ArrayDeque<>();
 
         // Enqueue all 'O's on the border and mark them as SAFE ('S').
-        // Top and bottom rows
         for (int c = 0; c < n; c++) {
             if (board[0][c] == 'O') {
                 board[0][c] = 'S';
