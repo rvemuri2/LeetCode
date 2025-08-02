@@ -31,7 +31,7 @@ class Solution {
                 q.offer(new int[]{m - 1, c});
             }
         }
-        // Left and right columns
+
         for (int r = 0; r < m; r++) {
             if (board[r][0] == 'O') {
                 board[r][0] = 'S';
