@@ -11,7 +11,6 @@ class Solution {
      * 2) After marking, any remaining 'O' is surrounded -> flip it to 'X'.
      * 3) Turn all SAFE marks back to 'O'.
      *
-     * We do the marking using BFS to avoid deep recursion.
      */
     public void solve(char[][] board) {
         int m = board.length, n = board[0].length;
