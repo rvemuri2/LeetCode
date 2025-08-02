@@ -16,7 +16,6 @@ class Solution {
     public void solve(char[][] board) {
         int m = board.length, n = board[0].length;
 
-        // Helper to enqueue a cell if it's an 'O'
         Deque<int[]> q = new ArrayDeque<>();
 
         for (int c = 0; c < n; c++) {
