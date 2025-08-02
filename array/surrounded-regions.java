@@ -5,7 +5,6 @@ class Solution {
     /**
      * Surrounded Regions (BFS version, O(m*n) time, O(m*n) space)
      *
-     * Idea:
      */
     public void solve(char[][] board) {
         int m = board.length, n = board[0].length;
