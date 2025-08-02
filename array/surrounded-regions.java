@@ -57,7 +57,6 @@ class Solution {
             }
         }
 
-        // Flip all remaining 'O' to 'X' (they are surrounded), and all 'S' back to 'O'
         for (int r = 0; r < m; r++) {
             for (int c = 0; c < n; c++) {
                 if (board[r][c] == 'O') {
