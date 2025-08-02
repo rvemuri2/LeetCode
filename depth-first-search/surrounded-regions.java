@@ -19,7 +19,6 @@ class Solution {
         // Helper to enqueue a cell if it's an 'O'
         Deque<int[]> q = new ArrayDeque<>();
 
-        // Enqueue all 'O's on the border and mark them as SAFE ('S').
         for (int c = 0; c < n; c++) {
             if (board[0][c] == 'O') {
                 board[0][c] = 'S';
