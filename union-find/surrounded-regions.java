@@ -61,9 +61,9 @@ class Solution {
         for (int r = 0; r < m; r++) {
             for (int c = 0; c < n; c++) {
                 if (board[r][c] == 'O') {
-                    board[r][c] = 'X';  // captured
+                    board[r][c] = 'X';
                 } else if (board[r][c] == 'S') {
-                    board[r][c] = 'O';  // restore safe ones
+                    board[r][c] = 'O'; 
                 }
             }
         }
