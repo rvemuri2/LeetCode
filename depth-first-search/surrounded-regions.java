@@ -8,7 +8,6 @@ class Solution {
      * Idea:
      * 1) Any 'O' that is connected to the border (top row, bottom row, left col, right col)
      *    cannot be captured. We'll mark all such 'O's as SAFE by traversing from the border.
-     * 2) After marking, any remaining 'O' is surrounded -> flip it to 'X'.
      */
     public void solve(char[][] board) {
         int m = board.length, n = board[0].length;
