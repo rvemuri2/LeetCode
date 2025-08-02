@@ -10,7 +10,6 @@ class Solution {
      *    cannot be captured. We'll mark all such 'O's as SAFE by traversing from the border.
      * 2) After marking, any remaining 'O' is surrounded -> flip it to 'X'.
      * 3) Turn all SAFE marks back to 'O'.
-     *
      */
     public void solve(char[][] board) {
         int m = board.length, n = board[0].length;
