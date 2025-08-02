@@ -37,6 +37,5 @@ class Solution {
         System.out.println(sol.wordBreak("applepenapple", Arrays.asList("apple", "pen"))); // true
         System.out.println(sol.wordBreak("catsandog", Arrays.asList("cats", "dog", "sand", "and", "cat"))); // false
         System.out.println(sol.wordBreak("aaaaaaa", Arrays.asList("aaaa", "aaa"))); // true
-        System.out.println(sol.wordBreak("cars", Arrays.asList("car", "ca", "rs")));
     }
 }
