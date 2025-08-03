@@ -18,7 +18,6 @@ class Solution {
         // dp[i] = true if s[0...i-1] can be segmented using wordDict
         for (int i = 1; i <= n; i++) {
             for (int j = 0; j < i; j++) {
-                // Check if s[j...i-1] is a word and s[0...j-1] is segmentable
                 if (dp[j] && wordSet.contains(s.substring(j, i))) {
                     dp[i] = true;
                     break;
