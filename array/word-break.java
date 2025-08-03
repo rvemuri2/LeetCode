@@ -21,7 +21,7 @@ class Solution {
                 // Check if s[j...i-1] is a word and s[0...j-1] is segmentable
                 if (dp[j] && wordSet.contains(s.substring(j, i))) {
                     dp[i] = true;
-                    break; // no need to check further j's
+                    break;
                 }
             }
         }
