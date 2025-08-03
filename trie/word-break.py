@@ -1,6 +1,5 @@
 """
 Complexity Analysis:
-    - Time Complexity: O(n*m)
 """
 
 class Solution:
