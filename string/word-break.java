@@ -34,6 +34,5 @@ class Solution {
         Solution sol = new Solution();
 
         System.out.println(sol.wordBreak("leetcode", Arrays.asList("leet", "code"))); // true
-        System.out.println(sol.wordBreak("applepenapple", Arrays.asList("apple", "pen")));
     }
 }
