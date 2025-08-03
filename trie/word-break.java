@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> wordSet = new HashSet<>(wordDict);
