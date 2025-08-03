@@ -4,7 +4,6 @@ class Solution {
     /**
      * Determines if the input string `s` can be segmented into a sequence
      * of one or more words from the dictionary `wordDict`.
-     *
      */
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> wordSet = new HashSet<>(wordDict);
