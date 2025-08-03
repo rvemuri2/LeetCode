@@ -15,7 +15,6 @@ class Solution {
         boolean[] dp = new boolean[n + 1];
         dp[0] = true; // empty string can always be segmented
 
-        // dp[i] = true if s[0...i-1] can be segmented using wordDict
         for (int i = 1; i <= n; i++) {
             for (int j = 0; j < i; j++) {
                 if (dp[j] && wordSet.contains(s.substring(j, i))) {
