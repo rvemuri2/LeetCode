@@ -13,7 +13,7 @@ class Solution {
         Set<String> wordSet = new HashSet<>(wordDict); // for fast lookup
         int n = s.length();
         boolean[] dp = new boolean[n + 1];
-        dp[0] = true; // empty string can always be segmented
+        dp[0] = true;
 
         for (int i = 1; i <= n; i++) {
             for (int j = 0; j < i; j++) {
