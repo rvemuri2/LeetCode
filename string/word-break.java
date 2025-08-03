@@ -10,7 +10,7 @@ class Solution {
      * @return          True if `s` can be segmented, otherwise false.
      */
     public boolean wordBreak(String s, List<String> wordDict) {
-        Set<String> wordSet = new HashSet<>(wordDict); // for fast lookup
+        Set<String> wordSet = new HashSet<>(wordDict);
         int n = s.length();
         boolean[] dp = new boolean[n + 1];
         dp[0] = true;
