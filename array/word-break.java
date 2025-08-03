@@ -6,7 +6,6 @@ class Solution {
      * of one or more words from the dictionary `wordDict`.
      *
      * @param s         The input string to segment.
-     * @param wordDict  The list of valid words that can be used for segmentation.
      */
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> wordSet = new HashSet<>(wordDict);
