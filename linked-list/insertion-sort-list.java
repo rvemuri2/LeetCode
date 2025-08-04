@@ -49,6 +49,5 @@ public class Main {
         printList(sorted);  // Output: 1 -> 2 -> 3 -> 4
     }
 
-    static void printList(ListNode head) {
-    }
+    static void printList(ListNode head) {}
 }
