@@ -54,6 +54,5 @@ public class Main {
             System.out.print(head.val + (head.next != null ? " -> " : ""));
             head = head.next;
         }
-        System.out.println();
     }
 }
