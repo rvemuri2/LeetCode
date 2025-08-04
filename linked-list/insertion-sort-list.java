@@ -37,3 +37,23 @@ class Solution {
         return dummy.next;
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+
+        // Build list: 4 -> 2 -> 1 -> 3
+        ListNode head = new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))));
+
+        ListNode sorted = sol.insertionSortList(head);
+        printList(sorted);  // Output: 1 -> 2 -> 3 -> 4
+    }
+
+    static void printList(ListNode head) {
+        while (head != null) {
+            System.out.print(head.val + (head.next != null ? " -> " : ""));
+            head = head.next;
+        }
+        System.out.println();
+    }
+}
