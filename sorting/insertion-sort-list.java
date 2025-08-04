@@ -52,7 +52,6 @@ public class Main {
     static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val + (head.next != null ? " -> " : ""));
-            head = head.next;
         }
     }
 }
