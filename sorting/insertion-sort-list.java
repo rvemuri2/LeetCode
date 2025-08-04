@@ -18,7 +18,6 @@ class Solution {
         while (current != null) {
             ListNode prev = dummy;
 
-            // Find the correct place to insert the current node
             while (prev.next != null && prev.next.val < current.val) {
                 prev = prev.next;
             }
