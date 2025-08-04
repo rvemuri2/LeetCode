@@ -48,6 +48,4 @@ public class Main {
         ListNode sorted = sol.insertionSortList(head);
         printList(sorted);  // Output: 1 -> 2 -> 3 -> 4
     }
-
-    static void printList(ListNode head) {}
 }
