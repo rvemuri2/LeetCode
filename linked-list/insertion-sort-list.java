@@ -26,7 +26,6 @@ class Solution {
             // Save the next node to process
             ListNode nextTemp = current.next;
 
-            // Insert current node between prev and prev.next
             current.next = prev.next;
             prev.next = current;
 
