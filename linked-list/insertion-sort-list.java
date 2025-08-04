@@ -41,7 +41,5 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        // Build list: 4 -> 2 -> 1 -> 3
     }
 }
