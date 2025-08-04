@@ -11,7 +11,6 @@
 
 class Solution {
     public ListNode insertionSortList(ListNode head) {
-        // Dummy node helps simplify insertion at the head
         ListNode dummy = new ListNode(0);
         ListNode current = head;
 
