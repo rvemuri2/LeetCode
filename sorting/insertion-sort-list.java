@@ -37,5 +37,3 @@ class Solution {
         return dummy.next;
     }
 }
-
-public class Main {}
