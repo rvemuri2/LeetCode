@@ -23,7 +23,6 @@ class Solution {
                 prev = prev.next;
             }
 
-            // Save the next node to process
             ListNode nextTemp = current.next;
 
             current.next = prev.next;
