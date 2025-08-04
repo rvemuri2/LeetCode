@@ -30,7 +30,6 @@ class Solution {
             current.next = prev.next;
             prev.next = current;
 
-            // Move to the next node in the original list
             current = nextTemp;
         }
 
