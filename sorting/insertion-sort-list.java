@@ -43,6 +43,5 @@ public class Main {
         Solution sol = new Solution();
 
         // Build list: 4 -> 2 -> 1 -> 3
-        ListNode head = new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))));
     }
 }
