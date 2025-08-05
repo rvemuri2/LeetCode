@@ -45,7 +45,6 @@ public class Solution {
         }
     }
 
-    // Utility method to print a 2D board
     private static void printBoard(int[][] board) {
         for (int[] row : board) {
             System.out.println(Arrays.toString(row));
