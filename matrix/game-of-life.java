@@ -67,7 +67,5 @@ public class Solution {
         printBoard(board1);
 
         sol.gameOfLife(board1);
-
-        System.out.println("\nAfter:");
     }
 }
