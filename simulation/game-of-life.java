@@ -73,8 +73,7 @@ public class Solution {
 
         // Additional Test Case
         int[][] board2 = {
-            {1, 1},
-            {1, 0}
+            {1, 1}
         };
     }
 }
