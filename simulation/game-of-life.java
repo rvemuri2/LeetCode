@@ -78,6 +78,5 @@ public class Solution {
         };
 
         System.out.println("\nBefore (Test Case 2):");
-        printBoard(board2);
     }
 }
