@@ -62,7 +62,5 @@ public class Solution {
             {1, 1, 1},
             {0, 0, 0}
         };
-
-        System.out.println("Before:");
     }
 }
