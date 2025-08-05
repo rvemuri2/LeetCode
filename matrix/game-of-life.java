@@ -11,7 +11,6 @@ public class Solution {
             { 1, -1}, { 1, 0}, { 1, 1}
         };
 
-        // First pass: mark the cells with temporary states
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 int liveNeighbors = 0;
