@@ -72,8 +72,5 @@ public class Solution {
         printBoard(board1);
 
         // Additional Test Case
-        int[][] board2 = {
-            {1, 1}
-        };
     }
 }
