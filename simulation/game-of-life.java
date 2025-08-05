@@ -76,7 +76,5 @@ public class Solution {
             {1, 1},
             {1, 0}
         };
-
-        System.out.println("\nBefore (Test Case 2):");
     }
 }
