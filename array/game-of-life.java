@@ -57,8 +57,7 @@ public class Solution {
         Solution sol = new Solution();
 
         int[][] board1 = {
-            {0, 1, 0},
-            {0, 0, 1},
+            {0, 1, 0}
         };
     }
 }
