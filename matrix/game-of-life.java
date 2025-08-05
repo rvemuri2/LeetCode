@@ -83,6 +83,5 @@ public class Solution {
         sol.gameOfLife(board2);
 
         System.out.println("\nAfter (Test Case 2):");
-        printBoard(board2);
     }
 }
