@@ -29,9 +29,7 @@ public class Solution {
                         board[i][j] = -1;
                     }
                 } else {
-                    if (liveNeighbors == 3) {
-                        board[i][j] = 2;
-                    }
+                    if (liveNeighbors == 3) board[i][j] = 2;
                 }
             }
         }
