@@ -64,6 +64,5 @@ public class Solution {
         };
 
         System.out.println("Before:");
-        printBoard(board1);
     }
 }
