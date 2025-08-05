@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Solution {
     public void gameOfLife(int[][] board) {
         int m = board.length;
