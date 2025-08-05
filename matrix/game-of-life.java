@@ -46,8 +46,5 @@ public class Solution {
     }
 
     private static void printBoard(int[][] board) {
-        for (int[] row : board) {
-            System.out.println(Arrays.toString(row));
-        }
     }
 }
