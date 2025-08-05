@@ -44,7 +44,4 @@ public class Solution {
             }
         }
     }
-
-    private static void printBoard(int[][] board) {
-    }
 }
