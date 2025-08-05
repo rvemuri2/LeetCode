@@ -70,7 +70,5 @@ public class Solution {
 
         System.out.println("\nAfter:");
         printBoard(board1);
-
-        // Additional Test Case
     }
 }
