@@ -30,6 +30,5 @@ class Solution {
         System.out.println("Test 2 Output: " + sol.findDuplicate(test2)); // Expected: 3
 
         int[] test3 = {3, 3, 3, 3, 3};
-        System.out.println("Test 3 Output: " + sol.findDuplicate(test3));
     }
 }
