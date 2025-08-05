@@ -15,9 +15,7 @@ public class Solution {
                 for (int[] dir : dirs) {
                     int r = i + dir[0], c = j + dir[1];
                     if (r >= 0 && r < m && c >= 0 && c < n) {
-                        if (board[r][c] == 1 || board[r][c] == -1) {
-                            liveNeighbors++;
-                        }
+                        if (board[r][c] == 1 || board[r][c] == -1) liveNeighbors++;
                     }
                 }
 
