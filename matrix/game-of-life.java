@@ -25,9 +25,7 @@ public class Solution {
                 }
 
                 if (board[i][j] == 1) {
-                    if (liveNeighbors < 2 || liveNeighbors > 3) {
-                        board[i][j] = -1;
-                    }
+                    if (liveNeighbors < 2 || liveNeighbors > 3) board[i][j] = -1;
                 } else {
                     if (liveNeighbors == 3) board[i][j] = 2;
                 }
