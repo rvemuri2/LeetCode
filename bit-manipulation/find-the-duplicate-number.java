@@ -24,6 +24,5 @@ class Solution {
         Solution sol = new Solution();
 
         int[] test1 = {1, 3, 4, 2, 2};
-        System.out.println("Test 1 Output: " + sol.findDuplicate(test1));
     }
 }
