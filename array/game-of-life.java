@@ -41,8 +41,8 @@ public class Solution {
                 if (board[i][j] == -1) {
                     board[i][j] = 0;
                 }
-                else if {
-                    (board[i][j] == 2) board[i][j] = 1;
+                else if (board[i][j] == 2) { 
+                    board[i][j] = 1;
                 }
             }
         }
