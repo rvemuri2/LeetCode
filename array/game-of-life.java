@@ -51,6 +51,4 @@ public class Solution {
             System.out.println(Arrays.toString(row));
         }
     }
-
-    // Main method with test cases
 }
