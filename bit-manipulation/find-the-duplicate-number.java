@@ -22,7 +22,5 @@ class Solution {
     // Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        int[] test1 = {1, 3, 4, 2, 2};
     }
 }
