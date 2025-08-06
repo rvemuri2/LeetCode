@@ -9,7 +9,6 @@ class Solution {
             fast = nums[nums[fast]];
         } while (slow != fast);
 
-        // Phase 2: Find entrance to the cycle (duplicate number)
         slow = nums[0];
         while (slow != fast) {
             slow = nums[slow];
