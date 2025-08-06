@@ -18,6 +18,4 @@ class Solution {
 
         return slow;
     }
-
-    // Test cases
 }
