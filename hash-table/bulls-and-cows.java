@@ -30,6 +30,7 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        String secret1 = "1807", guess1 = "7810";
+        String secret1 = "1807";
+        String guess1 = "7810";
     }
 }
