@@ -6,7 +6,6 @@ class Solution {
         int[] secretCount = new int[10]; // For digits 0-9
         int[] guessCount = new int[10];
 
-        // First pass: count bulls and track unmatched digits
         for (int i = 0; i < secret.length(); i++) {
             char s = secret.charAt(i);
             char g = guess.charAt(i);
