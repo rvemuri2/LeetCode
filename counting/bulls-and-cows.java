@@ -43,6 +43,5 @@ class Solution {
         System.out.println("Test 4 Output: " + sol.getHint(secret4, guess4)); // 1A0B
 
         String secret5 = "1122", guess5 = "2211";
-        System.out.println("Test 5 Output: " + sol.getHint(secret5, guess5));
     }
 }
