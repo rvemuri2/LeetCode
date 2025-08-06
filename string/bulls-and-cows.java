@@ -31,6 +31,5 @@ class Solution {
         Solution sol = new Solution();
 
         String secret1 = "1807";
-        String guess1 = "7810";
     }
 }
