@@ -31,6 +31,6 @@ class Solution {
         Solution sol = new Solution();
 
         String secret1 = "1807", guess1 = "7810";
-        System.out.println("Test 1 Output: " + sol.getHint(secret1, guess1)); // 1A3B
+        System.out.println("Test 1 Output: " + sol.getHint(secret1, guess1));
     }
 }
