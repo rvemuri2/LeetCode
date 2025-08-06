@@ -29,7 +29,5 @@ class Solution {
     // Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        String secret1 = "1807";
     }
 }
