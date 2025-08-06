@@ -18,7 +18,6 @@ class Solution {
             }
         }
 
-        // Second pass: count cows (matching unmatched digits)
         for (int i = 0; i < 10; i++) {
             cows += Math.min(secretCount[i], guessCount[i]);
         }
