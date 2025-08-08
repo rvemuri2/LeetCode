@@ -37,5 +37,4 @@ class Solution {
     }
 
     // Quick harness with a few test cases
-    public static void main(String[] args) {}
 }
