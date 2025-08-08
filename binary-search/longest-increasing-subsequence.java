@@ -35,6 +35,4 @@ class Solution {
 
         return size;
     }
-
-    // Quick harness with a few test cases
 }
