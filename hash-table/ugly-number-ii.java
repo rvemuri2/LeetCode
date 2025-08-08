@@ -19,7 +19,6 @@ public class Solution {
         int next3 = 3;
         int next5 = 5;
 
-        // Generate remaining n-1 ugly numbers
         for (int i = 1; i < n; i++) {
             int next = Math.min(next2, Math.min(next3, next5));
             ugly[i] = next;
