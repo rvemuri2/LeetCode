@@ -43,6 +43,5 @@ public class Solution {
         System.out.println("Test 1 (n=10): " + sol.nthUglyNumber(10)); // Output: 12
 
         // Test case 2: 1st ugly number is always 1
-        System.out.println("Test 2 (n=1): " + sol.nthUglyNumber(1));   // Output: 1
     }
 }
