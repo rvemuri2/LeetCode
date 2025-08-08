@@ -47,7 +47,5 @@ public class Solution {
 
         // Test case 3: Check for a mid-range value
         System.out.println("Test 3 (n=15): " + sol.nthUglyNumber(15)); // Output: 24
-
-        // Test case 4: Edge case, upper bound
     }
 }
