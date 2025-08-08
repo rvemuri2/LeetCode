@@ -21,7 +21,6 @@ public class Solution {
 
         // Generate remaining n-1 ugly numbers
         for (int i = 1; i < n; i++) {
-            // Choose the smallest among the candidates
             int next = Math.min(next2, Math.min(next3, next5));
             ugly[i] = next;
 
