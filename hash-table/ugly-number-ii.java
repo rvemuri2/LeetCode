@@ -4,7 +4,6 @@ public class Solution {
      * Ugly numbers are positive numbers whose prime factors only include 2, 3, 5.
      * 
      * @param n The position of the ugly number to find
-     * @return The nth ugly number
      */
     public int nthUglyNumber(int n) {
         int[] ugly = new int[n];
