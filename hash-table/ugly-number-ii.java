@@ -7,7 +7,6 @@ public class Solution {
      * @return The nth ugly number
      */
     public int nthUglyNumber(int n) {
-        // Array to store the first n ugly numbers
         int[] ugly = new int[n];
         ugly[0] = 1;
 
