@@ -11,7 +11,6 @@ public class Solution {
         int[] ugly = new int[n];
         ugly[0] = 1; // First ugly number is always 1
 
-        // Pointers for multiples of 2, 3, and 5 respectively
         int i2 = 0, i3 = 0, i5 = 0;
 
         int next2 = 2;
