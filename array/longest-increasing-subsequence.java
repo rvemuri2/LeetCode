@@ -39,7 +39,5 @@ class Solution {
     // Quick harness with a few test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        System.out.println(sol.lengthOfLIS(new int[]{10,9,2,5,3,7,101,18}));
     }
 }
