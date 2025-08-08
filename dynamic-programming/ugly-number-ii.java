@@ -36,6 +36,5 @@ public class Solution {
     }
 
     // Main method to test the nthUglyNumber function with various test cases
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) {}
 }
