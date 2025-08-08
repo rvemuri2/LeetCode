@@ -31,7 +31,6 @@ public class Solution {
             if (next == next5) next5 = ugly[++i5] * 5;
         }
 
-        // Return the last element in the ugly number list, which is the nth one
         return ugly[n - 1];
     }
 }
