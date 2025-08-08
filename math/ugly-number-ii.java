@@ -25,7 +25,6 @@ public class Solution {
             int next = Math.min(next2, Math.min(next3, next5));
             ugly[i] = next;
 
-            // Increment the pointer(s) whose value matched the selected ugly number
             if (next == next2) {
                 next2 = ugly[++i2] * 2;
             }
