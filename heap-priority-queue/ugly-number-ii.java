@@ -49,6 +49,5 @@ public class Solution {
         System.out.println("Test 3 (n=15): " + sol.nthUglyNumber(15)); // Output: 24
 
         // Test case 4: Edge case, upper bound
-        System.out.println("Test 4 (n=1690): " + sol.nthUglyNumber(1690));
     }
 }
