@@ -45,6 +45,5 @@ class Solution {
         System.out.println(sol.lengthOfLIS(new int[]{7,7,7,7,7,7,7}));       // 1 -> [7]
         System.out.println(sol.lengthOfLIS(new int[]{4,10,4,3,8,9}));        // 3 -> [4,8,9] or [3,8,9]
         System.out.println(sol.lengthOfLIS(new int[]{1}));                   // 1
-        System.out.println(sol.lengthOfLIS(new int[]{}));
     }
 }
