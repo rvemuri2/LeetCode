@@ -46,6 +46,5 @@ public class Solution {
         System.out.println("Test 2 (n=1): " + sol.nthUglyNumber(1));   // Output: 1
 
         // Test case 3: Check for a mid-range value
-        System.out.println("Test 3 (n=15): " + sol.nthUglyNumber(15));
     }
 }
