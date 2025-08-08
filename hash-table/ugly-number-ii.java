@@ -9,7 +9,7 @@ public class Solution {
     public int nthUglyNumber(int n) {
         // Array to store the first n ugly numbers
         int[] ugly = new int[n];
-        ugly[0] = 1; // First ugly number is always 1
+        ugly[0] = 1;
 
         int i2 = 0, i3 = 0, i5 = 0;
 
