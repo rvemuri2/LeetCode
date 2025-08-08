@@ -40,6 +40,6 @@ public class Solution {
         Solution sol = new Solution();
 
         // Test case 1: 10th ugly number should be 12
-        System.out.println("Test 1 (n=10): " + sol.nthUglyNumber(10)); // Output: 12
+        System.out.println("Test 1 (n=10): " + sol.nthUglyNumber(10));
     }
 }
