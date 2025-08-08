@@ -1,6 +1,5 @@
 public class Solution {
     /**
-     * Returns the nth ugly number.
      */
     public int nthUglyNumber(int n) {
         int[] ugly = new int[n];
