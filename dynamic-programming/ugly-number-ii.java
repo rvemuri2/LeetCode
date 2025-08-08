@@ -34,6 +34,4 @@ public class Solution {
         // Return the last element in the ugly number list, which is the nth one
         return ugly[n - 1];
     }
-
-    // Main method to test the nthUglyNumber function with various test cases
 }
