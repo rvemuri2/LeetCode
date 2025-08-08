@@ -40,6 +40,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println(sol.lengthOfLIS(new int[]{10,9,2,5,3,7,101,18})); // 4 -> [2,3,7,101]
+        System.out.println(sol.lengthOfLIS(new int[]{10,9,2,5,3,7,101,18}));
     }
 }
