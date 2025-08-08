@@ -14,7 +14,6 @@ public class Solution {
         // Pointers for multiples of 2, 3, and 5 respectively
         int i2 = 0, i3 = 0, i5 = 0;
 
-        // Initialize the next multiples of 2, 3, and 5
         int next2 = 2;
         int next3 = 3;
         int next5 = 5;
