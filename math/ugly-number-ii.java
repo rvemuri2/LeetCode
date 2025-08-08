@@ -38,7 +38,5 @@ public class Solution {
     // Main method to test the nthUglyNumber function with various test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        // Test case 1: 10th ugly number should be 12
     }
 }
