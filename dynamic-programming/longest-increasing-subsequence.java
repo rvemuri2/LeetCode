@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int[] tails = new int[nums.length];
