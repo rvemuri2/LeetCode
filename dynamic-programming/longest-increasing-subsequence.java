@@ -11,7 +11,6 @@ class Solution {
      *      - Otherwise, replace the first tail >= num (we keep tails as small as possible).
      * - The size of tails at the end is the LIS length.
      *
-     * Time:  O(n log n)
      */
     public int lengthOfLIS(int[] nums) {
         int[] tails = new int[nums.length];
