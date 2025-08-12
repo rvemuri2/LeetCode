@@ -29,7 +29,6 @@ class Solution {
             }
             // lo is the place to put x
             tails[lo] = x;
-            // If x extends the largest subsequence, increase size
             if (lo == size) size++;
         }
 
