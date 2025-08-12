@@ -15,7 +15,6 @@ class Solution {
      * Space: O(n)
      */
     public int lengthOfLIS(int[] nums) {
-        // tails will be increasing; size tells how many valid entries we currently have
         int[] tails = new int[nums.length];
         int size = 0;
 
