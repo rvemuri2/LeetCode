@@ -20,7 +20,6 @@ class Solution {
         int size = 0;
 
         for (int x : nums) {
-            // Find the first index i in [0, size) where tails[i] >= x
             int lo = 0, hi = size;
             while (lo < hi) {
                 int mid = (lo + hi) >>> 1;
