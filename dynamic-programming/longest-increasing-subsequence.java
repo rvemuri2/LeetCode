@@ -2,7 +2,6 @@ import java.util.*;
 
 class Solution {
     /**
-     * Returns the length of the Longest Increasing Subsequence (strictly increasing).
      */
     public int lengthOfLIS(int[] nums) {
         int[] tails = new int[nums.length];
