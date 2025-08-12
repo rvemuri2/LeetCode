@@ -6,7 +6,6 @@ class Solution {
      * 
      * Idea (Patience Sorting / Tails array):
      * - tails[len] = the smallest possible tail value of any increasing subsequence of length (len+1).
-     * - For each num, find its position in tails using binary search:
      */
     public int lengthOfLIS(int[] nums) {
         int[] tails = new int[nums.length];
