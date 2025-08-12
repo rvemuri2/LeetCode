@@ -29,7 +29,9 @@ class Solution {
             }
             // lo is the place to put x
             tails[lo] = x;
-            if (lo == size) size++;
+            if (lo == size) {
+                size++;
+            }
         }
 
         return size;
