@@ -27,7 +27,6 @@ class Solution {
                 if (tails[mid] < x) lo = mid + 1;
                 else hi = mid;
             }
-            // lo is the place to put x
             tails[lo] = x;
             if (lo == size) {
                 size++;
