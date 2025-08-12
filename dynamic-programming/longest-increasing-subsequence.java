@@ -25,7 +25,9 @@ class Solution {
             while (lo < hi) {
                 int mid = (lo + hi) >>> 1;
                 if (tails[mid] < x) lo = mid + 1;
-                else hi = mid;
+                else {
+                    hi = mid;
+                }
             }
             tails[lo] = x;
             if (lo == size) {
