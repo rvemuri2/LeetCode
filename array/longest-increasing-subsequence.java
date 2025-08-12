@@ -4,7 +4,6 @@ class Solution {
     /**
      * Returns the length of the Longest Increasing Subsequence (strictly increasing).
      * 
-     * Idea (Patience Sorting / Tails array):
      */
     public int lengthOfLIS(int[] nums) {
         int[] tails = new int[nums.length];
