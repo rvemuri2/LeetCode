@@ -10,7 +10,6 @@ class Solution {
      *      - If num is larger than all tails, append it (we extended the LIS).
      *      - Otherwise, replace the first tail >= num (we keep tails as small as possible).
      * - The size of tails at the end is the LIS length.
-     *
      */
     public int lengthOfLIS(int[] nums) {
         int[] tails = new int[nums.length];
