@@ -38,7 +38,8 @@ class Solution {
                         ans.add(Arrays.asList(nums[i], nums[j], nums[l], nums[r]));
 
                         // move l and r skipping duplicates
-                        int lv = nums[l], rv = nums[r];
+                        int lv = nums[l];
+                        int rv = nums[r];
                         while (l < r && nums[l] == lv) {
                             l++;
                         }
