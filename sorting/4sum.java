@@ -26,7 +26,9 @@ class Solution {
 
                 // pruning for current (i, j)
                 long minWithIJ = (long) nums[i] + nums[j] + nums[j + 1] + nums[j + 2];
-                if (minWithIJ > target) break;
+                if (minWithIJ > target) {
+                    break;
+                }
 
                 long maxWithIJ = (long) nums[i] + nums[j] + nums[n - 1] + nums[n - 2];
                 if (maxWithIJ < target) {
