@@ -39,7 +39,9 @@ class Solution {
 
                         // move l and r skipping duplicates
                         int lv = nums[l], rv = nums[r];
-                        while (l < r && nums[l] == lv) l++;
+                        while (l < r && nums[l] == lv) {
+                            l++;
+                        }
                         while (l < r && nums[r] == rv) {
                              r--;
                         }
