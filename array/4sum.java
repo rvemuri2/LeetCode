@@ -18,7 +18,9 @@ class Solution {
 
             // pruning: if the largest possible sum with nums[i] is still < target, continue
             long maxWithI = (long) nums[i] + nums[n - 1] + nums[n - 2] + nums[n - 3];
-            if (maxWithI < target) continue;
+            if (maxWithI < target) {
+                continue;
+            }
 
             for (int j = i + 1; j < n - 2; j++) {
                 if (j > i + 1 && nums[j] == nums[j - 1]) {
