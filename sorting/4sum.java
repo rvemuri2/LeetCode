@@ -9,7 +9,6 @@ class Solution {
         Arrays.sort(nums); // sort to enable two-pointer and duplicate skipping
 
         for (int i = 0; i < n - 3; i++) {
-            // skip duplicates for i
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
