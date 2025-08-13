@@ -21,7 +21,6 @@ class Solution {
             if (maxWithI < target) continue;
 
             for (int j = i + 1; j < n - 2; j++) {
-                // skip duplicates for j
                 if (j > i + 1 && nums[j] == nums[j - 1]) {
                     continue;
                 }
