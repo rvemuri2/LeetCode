@@ -29,7 +29,9 @@ class Solution {
                 if (minWithIJ > target) break;
 
                 long maxWithIJ = (long) nums[i] + nums[j] + nums[n - 1] + nums[n - 2];
-                if (maxWithIJ < target) continue;
+                if (maxWithIJ < target) {
+                    continue;
+                }
 
                 int l = j + 1;
                 int r = n - 1;
