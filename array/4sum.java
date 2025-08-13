@@ -16,7 +16,6 @@ class Solution {
             long minWithI = (long) nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3];
             if (minWithI > target) break;
 
-            // pruning: if the largest possible sum with nums[i] is still < target, continue
             long maxWithI = (long) nums[i] + nums[n - 1] + nums[n - 2] + nums[n - 3];
             if (maxWithI < target) {
                 continue;
