@@ -22,7 +22,9 @@ class Solution {
 
             for (int j = i + 1; j < n - 2; j++) {
                 // skip duplicates for j
-                if (j > i + 1 && nums[j] == nums[j - 1]) continue;
+                if (j > i + 1 && nums[j] == nums[j - 1]) {
+                    continue;
+                }
 
                 long minWithIJ = (long) nums[i] + nums[j] + nums[j + 1] + nums[j + 2];
                 if (minWithIJ > target) {
