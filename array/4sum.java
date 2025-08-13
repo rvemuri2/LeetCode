@@ -6,7 +6,7 @@ class Solution {
         int n = nums.length;
         if (n < 4) return ans;
 
-        Arrays.sort(nums); // sort to enable two-pointer and duplicate skipping
+        Arrays.sort(nums);
 
         for (int i = 0; i < n - 3; i++) {
             if (i > 0 && nums[i] == nums[i - 1]) {
