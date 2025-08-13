@@ -14,7 +14,9 @@ class Solution {
 
             // pruning: if the smallest possible sum with nums[i] is already > target, break
             long minWithI = (long) nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3];
-            if (minWithI > target) break;
+            if (minWithI > target) {
+                break;
+            }
 
             long maxWithI = (long) nums[i] + nums[n - 1] + nums[n - 2] + nums[n - 3];
             if (maxWithI < target) {
