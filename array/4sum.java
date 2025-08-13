@@ -36,8 +36,6 @@ class Solution {
                     long sum = (long) nums[i] + nums[j] + nums[l] + nums[r];
                     if (sum == target) {
                         ans.add(Arrays.asList(nums[i], nums[j], nums[l], nums[r]));
-
-                        // move l and r skipping duplicates
                         int lv = nums[l];
                         int rv = nums[r];
                         while (l < r && nums[l] == lv) {
