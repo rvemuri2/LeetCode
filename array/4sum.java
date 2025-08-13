@@ -31,7 +31,8 @@ class Solution {
                 long maxWithIJ = (long) nums[i] + nums[j] + nums[n - 1] + nums[n - 2];
                 if (maxWithIJ < target) continue;
 
-                int l = j + 1, r = n - 1;
+                int l = j + 1;
+                int r = n - 1;
                 while (l < r) {
                     long sum = (long) nums[i] + nums[j] + nums[l] + nums[r];
                     if (sum == target) {
