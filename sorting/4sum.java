@@ -43,7 +43,7 @@ class Solution {
                         while (l < r && nums[r] == rv) r--;
                     } else if (sum < target) {
                         l++;
-                    } else { // sum > target
+                    } else {
                         r--;
                     }
                 }
