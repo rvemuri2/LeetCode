@@ -12,7 +12,6 @@ class Solution {
             // skip duplicates for i
             if (i > 0 && nums[i] == nums[i - 1]) continue;
 
-            // pruning: if the smallest possible sum with nums[i] is already > target, break
             long minWithI = (long) nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3];
             if (minWithI > target) {
                 break;
