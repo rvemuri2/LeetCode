@@ -48,6 +48,5 @@ class Solution {
         System.out.println(Arrays.toString(sol.findOrder(2, pre1))); // [0,1]
 
         int[][] pre2 = {{1,0},{2,0},{3,1},{3,2}};
-        System.out.println(Arrays.toString(sol.findOrder(4, pre2)));
     }
 }
