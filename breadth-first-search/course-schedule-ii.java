@@ -49,7 +49,5 @@ class Solution {
 
         int[][] pre2 = {{1,0},{2,0},{3,1},{3,2}};
         System.out.println(Arrays.toString(sol.findOrder(4, pre2))); // one valid: [0,1,2,3] or [0,2,1,3]
-
-        int[][] pre3 = {};
     }
 }
