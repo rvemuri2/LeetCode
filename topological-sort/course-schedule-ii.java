@@ -52,7 +52,5 @@ class Solution {
 
         int[][] pre3 = {};
         System.out.println(Arrays.toString(sol.findOrder(1, pre3))); // [0]
-
-        int[][] pre4 = {{1,0},{0,1}};
     }
 }
