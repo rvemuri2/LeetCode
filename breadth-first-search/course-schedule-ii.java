@@ -45,6 +45,5 @@ class Solution {
         Solution sol = new Solution();
 
         int[][] pre1 = {{1,0}};
-        System.out.println(Arrays.toString(sol.findOrder(2, pre1)));
     }
 }
