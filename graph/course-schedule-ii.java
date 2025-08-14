@@ -13,7 +13,6 @@ class Solution {
         List<List<Integer>> graph = new ArrayList<>(numCourses);
         for (int i = 0; i < numCourses; i++) graph.add(new ArrayList<>());
         
-        // Indegree array
         int[] indeg = new int[numCourses];
         for (int[] p : prerequisites) {
             int a = p[0], b = p[1];
