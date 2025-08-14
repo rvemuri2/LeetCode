@@ -39,6 +39,4 @@ class Solution {
         if (idx != numCourses) return new int[0];
         return order;
     }
-
-    // Simple tests
 }
