@@ -4,7 +4,6 @@ class Solution {
     /**
      * Topological sort (Kahn's BFS) to produce a valid course order.
      * Build graph edges bi -> ai (to take ai you must first take bi),
-     * compute indegrees, push all nodes with indegree 0, and repeatedly pop
      */
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         List<List<Integer>> graph = new ArrayList<>(numCourses);
