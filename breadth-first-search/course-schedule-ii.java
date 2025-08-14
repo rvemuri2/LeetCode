@@ -31,7 +31,9 @@ class Solution {
             int u = q.poll();
             order[idx++] = u;
             for (int v : graph.get(u)) {
-                if (--indeg[v] == 0) q.offer(v);
+                if (--indeg[v] == 0) {
+                    q.offer(v);
+                }
             }
         }
         
