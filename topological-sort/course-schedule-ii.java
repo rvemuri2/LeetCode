@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     /**
      * Topological sort (Kahn's BFS) to produce a valid course order.
-     * Build graph edges bi -> ai (to take ai you must first take bi),
      */
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         List<List<Integer>> graph = new ArrayList<>(numCourses);
