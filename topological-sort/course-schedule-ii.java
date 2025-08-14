@@ -35,7 +35,6 @@ class Solution {
             }
         }
         
-        // If we couldn't schedule all courses, a cycle exists
         if (idx != numCourses) {
             return new int[0];
         }
