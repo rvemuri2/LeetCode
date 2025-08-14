@@ -21,7 +21,6 @@ class Solution {
             indeg[a]++;
         }
         
-        // Queue of courses with no prerequisites
         ArrayDeque<Integer> q = new ArrayDeque<>();
         for (int i = 0; i < numCourses; i++) if (indeg[i] == 0) q.offer(i);
         
