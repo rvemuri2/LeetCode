@@ -6,7 +6,6 @@ class Solution {
      * Build graph edges bi -> ai (to take ai you must first take bi),
      * compute indegrees, push all nodes with indegree 0, and repeatedly pop
      * and relax outgoing edges. If we process all courses, we have a valid order;
-     * otherwise a cycle exists -> return empty array.
      */
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         List<List<Integer>> graph = new ArrayList<>(numCourses);
