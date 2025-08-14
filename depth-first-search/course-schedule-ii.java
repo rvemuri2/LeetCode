@@ -16,7 +16,7 @@ class Solution {
         // Indegree array
         int[] indeg = new int[numCourses];
         for (int[] p : prerequisites) {
-            int a = p[0], b = p[1]; // b -> a
+            int a = p[0], b = p[1];
             graph.get(b).add(a);
             indeg[a]++;
         }
