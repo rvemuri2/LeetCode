@@ -9,7 +9,6 @@ class Solution {
      * otherwise a cycle exists -> return empty array.
      */
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        // Adjacency list: from -> list of to
         List<List<Integer>> graph = new ArrayList<>(numCourses);
         for (int i = 0; i < numCourses; i++) graph.add(new ArrayList<>());
         
