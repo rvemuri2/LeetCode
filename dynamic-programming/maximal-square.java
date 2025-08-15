@@ -39,6 +39,5 @@ class Solution {
             {'1','1','1','1','1'},
             {'1','0','0','1','0'}
         };
-        System.out.println(sol.maximalSquare(ex1));
     }
 }
