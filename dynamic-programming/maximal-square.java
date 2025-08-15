@@ -11,7 +11,6 @@ class Solution {
      * Track the maximum side length; the answer is side^2 (area).
      *
      * Time:  O(m * n)
-     * Space: O(n) if optimized to one row; here we keep O(m * n) for clarity (still fine for 300x300).
      */
     public int maximalSquare(char[][] matrix) {
         int m = matrix.length;
