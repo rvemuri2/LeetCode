@@ -14,7 +14,8 @@ class Solution {
      * Space: O(n) if optimized to one row; here we keep O(m * n) for clarity (still fine for 300x300).
      */
     public int maximalSquare(char[][] matrix) {
-        int m = matrix.length, n = matrix[0].length;
+        int m = matrix.length;
+        int n = matrix[0].length;
         int[][] dp = new int[m + 1][n + 1];
         int maxSide = 0;
 
