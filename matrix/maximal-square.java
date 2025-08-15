@@ -2,9 +2,6 @@ import java.util.*;
 
 class Solution {
     /**
-     * Maximal Square (DP)
-     *
-     * Let dp[i+1][j+1] be the side length of the largest all-1s square
      */
     public int maximalSquare(char[][] matrix) {
         int m = matrix.length;
