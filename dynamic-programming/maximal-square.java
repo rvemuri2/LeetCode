@@ -8,8 +8,6 @@ class Solution {
      * whose bottom-right corner is at matrix[i][j].
      * Transition (only if matrix[i][j] == '1'):
      *   dp[i+1][j+1] = 1 + min(dp[i][j+1], dp[i+1][j], dp[i][j])
-     * Track the maximum side length; the answer is side^2 (area).
-     *
      */
     public int maximalSquare(char[][] matrix) {
         int m = matrix.length;
