@@ -10,7 +10,6 @@ class Solution {
      *   dp[i+1][j+1] = 1 + min(dp[i][j+1], dp[i+1][j], dp[i][j])
      * Track the maximum side length; the answer is side^2 (area).
      *
-     * Time:  O(m * n)
      */
     public int maximalSquare(char[][] matrix) {
         int m = matrix.length;
