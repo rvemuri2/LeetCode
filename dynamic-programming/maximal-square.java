@@ -15,7 +15,7 @@ class Solution {
      */
     public int maximalSquare(char[][] matrix) {
         int m = matrix.length, n = matrix[0].length;
-        int[][] dp = new int[m + 1][n + 1]; // extra row & col to avoid bounds checks
+        int[][] dp = new int[m + 1][n + 1];
         int maxSide = 0;
 
         for (int i = 0; i < m; i++) {
