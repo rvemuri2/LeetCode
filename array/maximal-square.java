@@ -28,6 +28,4 @@ class Solution {
         }
         return maxSide * maxSide;
     }
-
-    // --- Simple runner with the provided examples ---
 }
