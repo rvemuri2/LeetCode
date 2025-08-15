@@ -57,6 +57,6 @@ class Solution {
             {'1','1','1'},
             {'1','1','1'}
         };
-        System.out.println(sol.maximalSquare(extra)); // 4
+        System.out.println(sol.maximalSquare(extra));
     }
 }
