@@ -50,6 +50,5 @@ class Solution {
         char[][] ex3 = {
             {'0'}
         };
-        System.out.println(sol.maximalSquare(ex3));
     }
 }
