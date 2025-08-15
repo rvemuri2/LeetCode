@@ -54,7 +54,6 @@ class Solution {
 
         // Additional quick check: all ones 2x3 -> largest square side = 2 -> area 4
         char[][] extra = {
-            {'1','1','1'},
             {'1','1','1'}
         };
     }
