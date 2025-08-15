@@ -30,5 +30,4 @@ class Solution {
     }
 
     // --- Simple runner with the provided examples ---
-    public static void main(String[] args) {}
 }
