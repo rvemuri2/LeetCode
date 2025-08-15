@@ -1,8 +1,6 @@
 import java.util.*;
 
 class Solution {
-    /**
-     */
     public int maximalSquare(char[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
