@@ -51,7 +51,5 @@ class Solution {
             {'0'}
         };
         System.out.println(sol.maximalSquare(ex3)); // 0
-
-        // Additional quick check: all ones 2x3 -> largest square side = 2 -> area 4
     }
 }
