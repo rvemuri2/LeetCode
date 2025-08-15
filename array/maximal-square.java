@@ -7,7 +7,6 @@ class Solution {
      * Let dp[i+1][j+1] be the side length of the largest all-1s square
      * whose bottom-right corner is at matrix[i][j].
      * Transition (only if matrix[i][j] == '1'):
-     *   dp[i+1][j+1] = 1 + min(dp[i][j+1], dp[i+1][j], dp[i][j])
      */
     public int maximalSquare(char[][] matrix) {
         int m = matrix.length;
