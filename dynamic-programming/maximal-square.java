@@ -32,9 +32,5 @@ class Solution {
     // --- Simple runner with the provided examples ---
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        char[][] ex1 = {
-            {'1','0','1','0','0'}
-        };
     }
 }
