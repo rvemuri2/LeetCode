@@ -46,9 +46,5 @@ class Solution {
             {'1','0'}
         };
         System.out.println(sol.maximalSquare(ex2)); // 1
-
-        char[][] ex3 = {
-            {'0'}
-        };
     }
 }
