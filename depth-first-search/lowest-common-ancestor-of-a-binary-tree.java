@@ -21,7 +21,6 @@ class Solution {
      * Lowest Common Ancestor in a general binary tree (not necessarily a BST).
      *
      * Intuition:
-     * - If the current node is null, no ancestor here -> return null.
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
