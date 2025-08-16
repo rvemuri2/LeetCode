@@ -10,7 +10,6 @@
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
  */
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
