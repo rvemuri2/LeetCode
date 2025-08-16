@@ -28,11 +28,10 @@ class Solution {
      *     * If only one side returns non-null, propagate that node upward (it's either p/q or their LCA).
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        // Base cases
         if (root == null) {
             return null;
         }
-        
+
         if (root == p || root == q) { 
             return root;
         }
