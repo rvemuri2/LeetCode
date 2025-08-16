@@ -32,7 +32,6 @@ class Solution {
         if (root == null) return null;
         if (root == p || root == q) return root;
 
-        // Recurse
         TreeNode left  = lowestCommonAncestor(root.left,  p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
 
