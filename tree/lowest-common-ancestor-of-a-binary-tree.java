@@ -37,8 +37,10 @@ class Solution {
         TreeNode right = lowestCommonAncestor(root.right, p, q);
 
         // If both sides found a node, current root is the LCA
-        if (left != null && right != null) return root;
-
+        if (left != null && right != null) {
+             return root;
+        }
+        
         return (left != null) ? left : right;
     }
 }
