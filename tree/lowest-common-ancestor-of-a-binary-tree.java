@@ -23,7 +23,6 @@ class Solution {
      * Intuition:
      * - If the current node is null, no ancestor here -> return null.
      * - If the current node is either p or q, then the current node is part of the answer -> return it.
-     * - Recurse on left and right subtrees.
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
