@@ -25,7 +25,6 @@ class Solution {
      * - If the current node is either p or q, then the current node is part of the answer -> return it.
      * - Recurse on left and right subtrees.
      *     * If both sides return non-null, p and q are in different branches -> current node is LCA.
-     *     * If only one side returns non-null, propagate that node upward (it's either p/q or their LCA).
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
