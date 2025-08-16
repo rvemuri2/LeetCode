@@ -39,7 +39,6 @@ class Solution {
         // If both sides found a node, current root is the LCA
         if (left != null && right != null) return root;
 
-        // Otherwise, return the non-null side (could be p, q, or their LCA deeper down)
         return (left != null) ? left : right;
     }
 }
