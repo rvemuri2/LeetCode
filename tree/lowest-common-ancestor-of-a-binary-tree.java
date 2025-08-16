@@ -8,7 +8,6 @@
  * }
  */
 /**
- * Definition for a binary tree node.
  */
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
