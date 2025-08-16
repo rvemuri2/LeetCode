@@ -19,7 +19,6 @@
 class Solution {
     /**
      * Lowest Common Ancestor in a general binary tree (not necessarily a BST).
-     *
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
