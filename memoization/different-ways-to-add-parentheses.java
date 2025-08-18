@@ -75,7 +75,5 @@ class Solution {
 
         System.out.println("Mixed multi-digit:");
         System.out.println(sol.diffWaysToCompute("12+3*4-5")); // results may vary in order
-
-        System.out.println("Another check:");
     }
 }
