@@ -72,7 +72,5 @@ class Solution {
 
         System.out.println("Single number:");
         System.out.println(sol.diffWaysToCompute("42")); // [42]
-
-        System.out.println("Mixed multi-digit:");
     }
 }
