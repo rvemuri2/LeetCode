@@ -69,7 +69,5 @@ class Solution {
 
         System.out.println("Example 2:");
         System.out.println(sol.diffWaysToCompute("2*3-4*5")); // [-34,-14,-10,-10,10]
-
-        System.out.println("Single number:");
     }
 }
