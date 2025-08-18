@@ -66,7 +66,5 @@ class Solution {
 
         System.out.println("Example 1:");
         System.out.println(sol.diffWaysToCompute("2-1-1")); // [0, 2]
-
-        System.out.println("Example 2:");
     }
 }
