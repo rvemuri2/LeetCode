@@ -11,7 +11,6 @@ import java.util.*;
  *
  * Time:
  *   Catalan-like number of splits; memoization prevents recomputing substrings.
- *   expression length <= 20, so this is easily fast enough.
  */
 class Solution {
     private final Map<String, List<Integer>> memo = new HashMap<>();
