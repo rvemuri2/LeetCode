@@ -77,6 +77,6 @@ class Solution {
         System.out.println(sol.diffWaysToCompute("12+3*4-5")); // results may vary in order
 
         System.out.println("Another check:");
-        System.out.println(sol.diffWaysToCompute("10*5-3*2")); // results may vary in order
+        System.out.println(sol.diffWaysToCompute("10*5-3*2"));
     }
 }
