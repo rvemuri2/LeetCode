@@ -4,7 +4,6 @@ import java.util.*;
  * Different Ways to Add Parentheses
  * ---------------------------------
  * Divide & conquer + memoization:
- * - For each operator in the expression, split into left/right substrings.
  */
 class Solution {
     private final Map<String, List<Integer>> memo = new HashMap<>();
