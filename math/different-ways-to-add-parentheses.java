@@ -3,7 +3,6 @@ import java.util.*;
 /**
  * Different Ways to Add Parentheses
  * ---------------------------------
- * Divide & conquer + memoization:
  */
 class Solution {
     private final Map<String, List<Integer>> memo = new HashMap<>();
