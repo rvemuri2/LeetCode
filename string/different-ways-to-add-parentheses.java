@@ -10,7 +10,6 @@ import java.util.*;
  * - If the substring has no operator, it's a plain number -> single result.
  *
  * Time:
- *   Catalan-like number of splits; memoization prevents recomputing substrings.
  */
 class Solution {
     private final Map<String, List<Integer>> memo = new HashMap<>();
