@@ -43,7 +43,6 @@ class Solution {
             }
         }
 
-        // If no operator found, it's a number literal
         if (res.isEmpty()) {
             res.add(Integer.parseInt(expr));
         }
