@@ -63,7 +63,5 @@ class Solution {
     // --- Simple test harness ---
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        System.out.println("Example 1:");
     }
 }
