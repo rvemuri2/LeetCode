@@ -5,7 +5,6 @@ import java.util.*;
  * ---------------------------------
  * Divide & conquer + memoization:
  * - For each operator in the expression, split into left/right substrings.
- * - Recursively compute all results for left and right.
  */
 class Solution {
     private final Map<String, List<Integer>> memo = new HashMap<>();
