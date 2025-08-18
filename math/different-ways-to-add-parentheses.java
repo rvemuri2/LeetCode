@@ -59,6 +59,4 @@ class Solution {
             default:  return a * b; // '*'
         }
     }
-
-    // --- Simple test harness ---
 }
