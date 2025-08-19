@@ -61,7 +61,5 @@ class Solution {
         System.out.print("Before: "); print(head2);
         sol.deleteNode(find(head2, 1));
         System.out.print("After : "); print(head2); // 4 -> 5 -> 9
-
-        // Extra: delete middle in longer list
     }
 }
