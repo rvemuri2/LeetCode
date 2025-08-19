@@ -49,7 +49,5 @@ class Solution {
     // Simple test harness
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        // Example 1: head = [4,5,1,9], delete node with value 5 -> [4,1,9]
     }
 }
