@@ -55,7 +55,5 @@ class Solution {
         System.out.print("Before: "); print(head1);
         sol.deleteNode(find(head1, 5));
         System.out.print("After : "); print(head1); // 4 -> 1 -> 9
-
-        // Example 2: head = [4,5,1,9], delete node with value 1 -> [4,5,9]
     }
 }
