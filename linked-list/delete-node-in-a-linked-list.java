@@ -64,6 +64,5 @@ class Solution {
 
         // Extra: delete middle in longer list
         ListNode head3 = build(10, 20, 30, 40, 50);
-        System.out.print("Before: "); print(head3);
     }
 }
