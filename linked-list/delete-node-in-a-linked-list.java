@@ -60,6 +60,5 @@ class Solution {
         ListNode head2 = build(4,5,1,9);
         System.out.print("Before: "); print(head2);
         sol.deleteNode(find(head2, 1));
-        System.out.print("After : "); print(head2);
     }
 }
