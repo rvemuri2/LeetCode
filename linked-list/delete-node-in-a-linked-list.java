@@ -63,6 +63,5 @@ class Solution {
         System.out.print("After : "); print(head2); // 4 -> 5 -> 9
 
         // Extra: delete middle in longer list
-        ListNode head3 = build(10, 20, 30, 40, 50);
     }
 }
