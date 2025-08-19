@@ -57,6 +57,5 @@ class Solution {
         System.out.print("After : "); print(head1); // 4 -> 1 -> 9
 
         // Example 2: head = [4,5,1,9], delete node with value 1 -> [4,5,9]
-        ListNode head2 = build(4,5,1,9);
     }
 }
