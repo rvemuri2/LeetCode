@@ -58,6 +58,5 @@ class Solution {
 
         // Example 2: head = [4,5,1,9], delete node with value 1 -> [4,5,9]
         ListNode head2 = build(4,5,1,9);
-        System.out.print("Before: "); print(head2);
     }
 }
