@@ -1,7 +1,6 @@
 import java.util.*;
 
 /**
- * Different Ways to Add Parentheses
  */
 class Solution {
     private final Map<String, List<Integer>> memo = new HashMap<>();
