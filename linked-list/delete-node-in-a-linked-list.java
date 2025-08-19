@@ -53,6 +53,5 @@ class Solution {
         // Example 1: head = [4,5,1,9], delete node with value 5 -> [4,1,9]
         ListNode head1 = build(4,5,1,9);
         System.out.print("Before: "); print(head1);
-        sol.deleteNode(find(head1, 5));
     }
 }
