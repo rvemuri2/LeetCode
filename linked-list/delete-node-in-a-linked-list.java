@@ -34,6 +34,4 @@ class Solution {
         }
         return null;
     }
-
-    static void print(ListNode head) {}
 }
