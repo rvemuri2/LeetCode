@@ -38,8 +38,5 @@ class Solution {
     static void print(ListNode head) {
         ListNode cur = head;
         StringBuilder sb = new StringBuilder();
-        while (cur != null) {
-            sb.append(cur.val);
-        }
     }
 }
