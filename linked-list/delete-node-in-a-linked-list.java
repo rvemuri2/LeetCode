@@ -17,6 +17,4 @@ class Solution {
         // Skip over the next node
         node.next = node.next.next;
     }
-
-    // --- Helpers for demo/testing ---
 }
