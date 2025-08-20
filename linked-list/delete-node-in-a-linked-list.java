@@ -45,6 +45,4 @@ class Solution {
         }
         System.out.println(sb.toString());
     }
-
-    // Simple test harness
 }
