@@ -43,6 +43,5 @@ class Solution {
             if (cur.next != null) sb.append(" -> ");
             cur = cur.next;
         }
-        System.out.println(sb.toString());
     }
 }
