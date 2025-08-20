@@ -12,7 +12,6 @@ class Solution {
      * Assumption: node is not the tail (node.next != null).
      */
     public void deleteNode(ListNode node) {
-        // Copy the next node's data into this node
         node.val = node.next.val;
         node.next = node.next.next;
     }
