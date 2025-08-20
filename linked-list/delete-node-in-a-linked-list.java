@@ -19,7 +19,4 @@ class Solution {
     }
 
     // --- Helpers for demo/testing ---
-    static ListNode build(int... arr) {
-        return dummy.next;
-    }
 }
