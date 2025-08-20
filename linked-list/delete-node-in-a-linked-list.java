@@ -28,7 +28,5 @@ class Solution {
         return dummy.next;
     }
 
-    static ListNode find(ListNode head, int target) {
-        return null;
-    }
+    static ListNode find(ListNode head, int target) {}
 }
