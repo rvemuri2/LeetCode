@@ -14,7 +14,6 @@ class Solution {
     public void deleteNode(ListNode node) {
         // Copy the next node's data into this node
         node.val = node.next.val;
-        // Skip over the next node
         node.next = node.next.next;
     }
 }
