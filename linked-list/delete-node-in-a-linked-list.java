@@ -40,9 +40,6 @@ class Solution {
         StringBuilder sb = new StringBuilder();
         while (cur != null) {
             sb.append(cur.val);
-            if (cur.next != null) {
-                sb.append(" -> ");
-            }
         }
     }
 }
