@@ -9,7 +9,6 @@
 class Solution {
     /**
      * Deletes the given node from a singly linked list when only that node is provided.
-     * Assumption: node is not the tail (node.next != null).
      */
     public void deleteNode(ListNode node) {
         node.val = node.next.val;
