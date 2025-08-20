@@ -22,7 +22,6 @@ class Solution {
     static ListNode build(int... arr) {
         ListNode dummy = new ListNode(0), cur = dummy;
         for (int x : arr) {
-            cur.next = new ListNode(x);
         }
         return dummy.next;
     }
