@@ -23,7 +23,6 @@ class Solution {
         ListNode dummy = new ListNode(0), cur = dummy;
         for (int x : arr) {
             cur.next = new ListNode(x);
-            cur = cur.next;
         }
         return dummy.next;
     }
