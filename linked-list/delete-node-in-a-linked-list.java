@@ -30,9 +30,7 @@ class Solution {
 
     static ListNode find(ListNode head, int target) {
         for (ListNode cur = head; cur != null; cur = cur.next) {
-            if (cur.val == target) {
-                return cur;
-            }
         }
+        return null;
     }
 }
