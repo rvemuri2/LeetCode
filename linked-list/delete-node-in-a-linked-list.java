@@ -36,6 +36,5 @@ class Solution {
     }
 
     static void print(ListNode head) {
-        ListNode cur = head;
     }
 }
