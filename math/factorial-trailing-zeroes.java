@@ -12,6 +12,5 @@ class Solution {
     }
 
     // Main method with test cases
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) {}
 }
