@@ -17,6 +17,6 @@ class Solution {
         
         System.out.println(sol.trailingZeroes(3));   // Output: 0 (3! = 6)
         System.out.println(sol.trailingZeroes(5));   // Output: 1 (5! = 120)
-        System.out.println(sol.trailingZeroes(10));  // Output: 2 (10! = 3628800)
+        System.out.println(sol.trailingZeroes(10));
     }
 }
