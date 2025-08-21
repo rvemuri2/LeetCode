@@ -74,7 +74,7 @@ class BSTIterator {
         System.out.println(it.next());    // 15
         System.out.println(it.hasNext()); // true
         System.out.println(it.next());    // 20
-        System.out.println(it.hasNext()); // false
+        System.out.println(it.hasNext());
     }
 }
 
