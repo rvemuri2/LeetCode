@@ -10,6 +10,4 @@ class Solution {
         
         return count;
     }
-
-    // Main method with test cases
 }
