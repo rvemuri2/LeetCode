@@ -15,6 +15,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         
-        System.out.println(sol.trailingZeroes(3));   // Output: 0 (3! = 6)
+        System.out.println(sol.trailingZeroes(3));
     }
 }
