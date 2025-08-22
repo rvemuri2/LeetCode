@@ -37,7 +37,6 @@ class BSTIterator {
         return node.val;
     }
 
-    // Check if we still have elements
     public boolean hasNext() {
         return !stack.isEmpty();
     }
