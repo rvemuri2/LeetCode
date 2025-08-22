@@ -55,6 +55,5 @@ class BSTIterator {
         // Example tree:
         //       7
         //      / \
-        //     3   15
     }
 }
