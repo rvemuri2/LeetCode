@@ -71,6 +71,3 @@ class BSTIterator {
         System.out.println(it.hasNext()); // true
     }
 }
-
-/**
- */
