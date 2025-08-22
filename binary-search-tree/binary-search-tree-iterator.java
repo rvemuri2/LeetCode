@@ -29,7 +29,6 @@ class BSTIterator {
         // Top of stack is the smallest available
         TreeNode node = stack.pop();
 
-        // If there is a right subtree, push all its left children
         if (node.right != null) {
             pushLeft(node.right);
         }
