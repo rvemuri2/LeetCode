@@ -54,6 +54,5 @@ class BSTIterator {
     public static void main(String[] args) {
         // Example tree:
         //       7
-        //      / \
     }
 }
