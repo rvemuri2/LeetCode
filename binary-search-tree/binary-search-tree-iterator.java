@@ -42,7 +42,6 @@ class BSTIterator {
         return !stack.isEmpty();
     }
 
-    // Helper: push left path into stack
     private void pushLeft(TreeNode node) {
         while (node != null) {
             stack.push(node);
