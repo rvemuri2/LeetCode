@@ -26,7 +26,6 @@ class BSTIterator {
 
     // Return next smallest number
     public int next() {
-        // Top of stack is the smallest available
         TreeNode node = stack.pop();
 
         if (node.right != null) {
