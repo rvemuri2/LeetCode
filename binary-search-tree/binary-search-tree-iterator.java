@@ -56,6 +56,5 @@ class BSTIterator {
         //       7
         //      / \
         //     3   15
-        //        /  \
     }
 }
