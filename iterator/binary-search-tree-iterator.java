@@ -59,6 +59,5 @@ class BSTIterator {
         //        /  \
         //       9    20
         TreeNode root = new TreeNode(7);
-        root.left = new TreeNode(3);
     }
 }
