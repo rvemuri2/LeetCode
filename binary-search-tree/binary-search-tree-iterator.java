@@ -65,7 +65,5 @@ class BSTIterator {
         root.right.right = new TreeNode(20);
 
         BSTIterator it = new BSTIterator(root);
-
-        System.out.println(it.next());
     }
 }
