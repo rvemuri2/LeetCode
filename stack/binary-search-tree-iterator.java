@@ -63,7 +63,5 @@ class BSTIterator {
         root.right = new TreeNode(15);
         root.right.left = new TreeNode(9);
         root.right.right = new TreeNode(20);
-
-        BSTIterator it = new BSTIterator(root);
     }
 }
