@@ -67,6 +67,6 @@ class BSTIterator {
         BSTIterator it = new BSTIterator(root);
 
         System.out.println(it.next());    // 3
-        System.out.println(it.next());    // 7
+        System.out.println(it.next());
     }
 }
