@@ -22,6 +22,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println(sol.largestNumber(new int[]{10, 2}));                 // "210"
+        System.out.println(sol.largestNumber(new int[]{10, 2}));
     }
 }
