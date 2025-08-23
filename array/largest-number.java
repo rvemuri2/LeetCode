@@ -26,6 +26,5 @@ class Solution {
         System.out.println(sol.largestNumber(new int[]{3, 30, 34, 5, 9}));       // "9534330"
         System.out.println(sol.largestNumber(new int[]{0, 0}));                  // "0"
         System.out.println(sol.largestNumber(new int[]{20, 1}));                 // "201"
-        System.out.println(sol.largestNumber(new int[]{121, 12}));
     }
 }
