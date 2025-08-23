@@ -13,7 +13,6 @@
  *     }
  * }
  */
-import java.util.Stack;
 
 class BSTIterator {
     private Stack<TreeNode> stack;
