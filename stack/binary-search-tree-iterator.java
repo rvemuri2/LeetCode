@@ -18,7 +18,6 @@ import java.util.Stack;
 class BSTIterator {
     private Stack<TreeNode> stack;
 
-    // Constructor: push all left children starting from root
     public BSTIterator(TreeNode root) {
         stack = new Stack<>();
         pushLeft(root);
