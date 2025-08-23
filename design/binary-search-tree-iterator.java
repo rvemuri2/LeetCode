@@ -1,6 +1,3 @@
-/**
- */
-
 class BSTIterator {
     private Stack<TreeNode> stack;
 
