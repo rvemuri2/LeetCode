@@ -6,7 +6,6 @@ class Solution {
         String[] arr = new String[nums.length];
         for (int i = 0; i < nums.length; i++) arr[i] = String.valueOf(nums[i]);
 
-        // Sort by custom order: for a, b — put b before a if (b+a) > (a+b)
         Arrays.sort(arr, (a, b) -> (b + a).compareTo(a + b));
 
         if (arr[0].equals("0")) {
