@@ -40,6 +40,4 @@ class Solution {
 
         return new ArrayList<>(repeated);
     }
-
-    // Quick tests
 }
