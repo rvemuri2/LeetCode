@@ -43,6 +43,5 @@ class Solution {
 
     // Quick tests
     public static void main(String[] args) {
-        Solution sol = new Solution();
     }
 }
