@@ -9,7 +9,6 @@ class Solution {
         // Sort by custom order: for a, b — put b before a if (b+a) > (a+b)
         Arrays.sort(arr, (a, b) -> (b + a).compareTo(a + b));
 
-        // If the largest element is "0", the entire number is 0
         if (arr[0].equals("0")) {
             return "0";
         }
