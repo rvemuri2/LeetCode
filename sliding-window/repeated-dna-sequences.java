@@ -46,6 +46,5 @@ class Solution {
         Solution sol = new Solution();
 
         System.out.println(sol.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
-        // Expected: ["AAAAACCCCC","CCCCCAAAAA"] (order may vary)
     }
 }
