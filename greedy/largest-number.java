@@ -10,7 +10,9 @@ class Solution {
         Arrays.sort(arr, (a, b) -> (b + a).compareTo(a + b));
 
         // If the largest element is "0", the entire number is 0
-        if (arr[0].equals("0")) return "0";
+        if (arr[0].equals("0")) {
+            return "0";
+        }
 
         StringBuilder sb = new StringBuilder();
         for (String s : arr) {
