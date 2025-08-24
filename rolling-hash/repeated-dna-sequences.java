@@ -52,6 +52,5 @@ class Solution {
         // Expected: ["AAAAAAAAAA"]
 
         System.out.println(sol.findRepeatedDnaSequences("ACGTACGTAC"));
-        // Expected: [] (length = 10, occurs once)
     }
 }
