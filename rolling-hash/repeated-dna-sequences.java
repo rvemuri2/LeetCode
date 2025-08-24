@@ -55,6 +55,5 @@ class Solution {
         // Expected: [] (length = 10, occurs once)
 
         System.out.println(sol.findRepeatedDnaSequences("ACGTACGTACGT"));
-        // "ACGTACGTAC" and "CGTACGTACG" and "GTACGTACGT" repeat? Only "ACGTACGTAC" appears twice (positions 0..9 and 2..11 doesn't match; actual repeats depend on string)
     }
 }
