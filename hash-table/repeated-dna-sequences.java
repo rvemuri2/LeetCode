@@ -33,7 +33,6 @@ class Solution {
         for (int i = L; i < n; i++) {
             code = ((code << 2) & mask) | enc[s.charAt(i) - 'A'];
             if (!seen.add(code)) {
-                // Already seen this 10-letter encoding -> repeated
                 repeated.add(s.substring(i - L + 1, i + 1));
             }
         }
