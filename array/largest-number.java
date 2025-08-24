@@ -12,7 +12,6 @@ class Solution {
         // If the largest element is "0", the entire number is 0
         if (arr[0].equals("0")) return "0";
 
-        // Build the result
         StringBuilder sb = new StringBuilder();
         for (String s : arr) {
              sb.append(s);
