@@ -14,7 +14,9 @@ class Solution {
 
         // Build the result
         StringBuilder sb = new StringBuilder();
-        for (String s : arr) sb.append(s);
+        for (String s : arr) {
+             sb.append(s);
+        }
         return sb.toString();
     }
 }
