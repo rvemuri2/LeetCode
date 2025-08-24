@@ -56,6 +56,5 @@ class Solution {
 
         System.out.println(sol.findRepeatedDnaSequences("ACGTACGTACGT"));
         // "ACGTACGTAC" and "CGTACGTACG" and "GTACGTACGT" repeat? Only "ACGTACGTAC" appears twice (positions 0..9 and 2..11 doesn't match; actual repeats depend on string)
-        // For this input, result: ["ACGTACGTAC"] if repeating exists
     }
 }
