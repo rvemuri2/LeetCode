@@ -59,6 +59,5 @@ class Solution {
         // For this input, result: ["ACGTACGTAC"] if repeating exists
 
         System.out.println(sol.findRepeatedDnaSequences("A"));
-        // Expected: []
     }
 }
