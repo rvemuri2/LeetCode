@@ -30,6 +30,5 @@ class Solution {
         Solution sol = new Solution();
 
         System.out.println(sol.coinChange(new int[]{1, 2, 5}, 11)); // 3 (5+5+1)
-        System.out.println(sol.coinChange(new int[]{2}, 3));
     }
 }
