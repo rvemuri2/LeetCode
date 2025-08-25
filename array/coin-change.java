@@ -2,7 +2,6 @@ import java.util.*;
 
 class Solution {
     /**
-     * Classic unbounded coin change (fewest coins).
      */
     public int coinChange(int[] coins, int amount) {
         if (amount == 0) {
