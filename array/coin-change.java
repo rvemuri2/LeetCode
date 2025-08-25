@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     /**
      * Classic unbounded coin change (fewest coins).
-     * Bottom-up DP where dp[a] = min coins to make amount 'a'.
      */
     public int coinChange(int[] coins, int amount) {
         if (amount == 0) {
