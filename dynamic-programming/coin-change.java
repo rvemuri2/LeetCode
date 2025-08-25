@@ -24,6 +24,4 @@ class Solution {
         }
         return dp[amount] > amount ? -1 : dp[amount];
     }
-
-    // Quick tests
 }
