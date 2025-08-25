@@ -13,7 +13,7 @@ class Solution {
         // Encode A,C,G,T into 2 bits: A->00, C->01, G->10, T->11
         int[] enc = new int[26];
         enc['A' - 'A'] = 0;  // 00
-        enc['C' - 'A'] = 1;  // 01
+        enc['C' - 'A'] = 1;
         enc['G' - 'A'] = 2;
         enc['T' - 'A'] = 3;
 
