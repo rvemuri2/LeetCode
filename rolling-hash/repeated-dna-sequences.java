@@ -29,7 +29,6 @@ class Solution {
         Set<String> repeated = new HashSet<>();
         seen.add(code);
 
-        // Slide window over the string
         for (int i = L; i < n; i++) {
             code = ((code << 2) & mask) | enc[s.charAt(i) - 'A'];
             if (!seen.add(code)) {
