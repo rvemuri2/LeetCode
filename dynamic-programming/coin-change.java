@@ -1,8 +1,6 @@
 import java.util.*;
 
 class Solution {
-    /**
-     */
     public int coinChange(int[] coins, int amount) {
         if (amount == 0) {
             return 0;
