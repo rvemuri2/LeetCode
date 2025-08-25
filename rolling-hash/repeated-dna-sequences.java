@@ -1,7 +1,6 @@
 import java.util.*;
 
 /**
- * Find all 10-letter-long DNA sequences that occur more than once.
  */
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
