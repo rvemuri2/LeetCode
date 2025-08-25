@@ -6,7 +6,6 @@ class Solution {
      * Bottom-up DP where dp[a] = min coins to make amount 'a'.
      *
      * Time  : O(amount * coins.length)
-     * Space : O(amount)
      */
     public int coinChange(int[] coins, int amount) {
         if (amount == 0) {
