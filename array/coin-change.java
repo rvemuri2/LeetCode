@@ -33,6 +33,6 @@ class Solution {
         System.out.println(sol.coinChange(new int[]{2}, 3));        // -1
         System.out.println(sol.coinChange(new int[]{1}, 0));        // 0
         System.out.println(sol.coinChange(new int[]{2, 5, 10, 1}, 27)); // 4 (10+10+5+2)
-        System.out.println(sol.coinChange(new int[]{186, 419, 83, 408}, 6249)); // 20 (known tricky case)
+        System.out.println(sol.coinChange(new int[]{186, 419, 83, 408}, 6249));
     }
 }
