@@ -28,7 +28,5 @@ class Solution {
     // Quick tests
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        System.out.println(sol.coinChange(new int[]{1, 2, 5}, 11));
     }
 }
