@@ -10,7 +10,6 @@ class Solution {
         int n = s.length();
         if (n < L) return Collections.emptyList();
 
-        // Encode A,C,G,T into 2 bits: A->00, C->01, G->10, T->11
         int[] enc = new int[26];
         enc['A' - 'A'] = 0;
         enc['C' - 'A'] = 1;
