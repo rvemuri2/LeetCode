@@ -17,7 +17,7 @@ class Solution {
         enc['G' - 'A'] = 2;  // 10
         enc['T' - 'A'] = 3;  // 11
 
-        int mask = (1 << (2 * L)) - 1; // keep only the lowest 20 bits
+        int mask = (1 << (2 * L)) - 1;
         int code = 0;
 
         for (int i = 0; i < L; i++) {
