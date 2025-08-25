@@ -8,7 +8,9 @@ class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         final int L = 10;
         int n = s.length();
-        if (n < L) return Collections.emptyList();
+        if (n < L) {
+            return Collections.emptyList();
+        }
 
         int[] enc = new int[26];
         enc['A' - 'A'] = 0;
