@@ -20,7 +20,6 @@ class Solution {
         int mask = (1 << (2 * L)) - 1; // keep only the lowest 20 bits
         int code = 0;
 
-        // Build initial window
         for (int i = 0; i < L; i++) {
             code = (code << 2) | enc[s.charAt(i) - 'A'];
         }
