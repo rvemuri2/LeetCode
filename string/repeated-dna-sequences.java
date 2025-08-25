@@ -15,7 +15,7 @@ class Solution {
         enc['A' - 'A'] = 0;  // 00
         enc['C' - 'A'] = 1;  // 01
         enc['G' - 'A'] = 2;  // 10
-        enc['T' - 'A'] = 3;  // 11
+        enc['T' - 'A'] = 3;
 
         int mask = (1 << (2 * L)) - 1;
         int code = 0;
