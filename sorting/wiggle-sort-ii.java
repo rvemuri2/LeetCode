@@ -90,7 +90,6 @@ public class Solution {
         System.out.println(Arrays.toString(nums3)); // valid wiggle pattern
 
         // quick checker: nums[0] < nums[1] > nums[2] < nums[3] ...
-        System.out.println(isWiggle(nums1));
     }
 
     private static boolean isWiggle(int[] a) {
