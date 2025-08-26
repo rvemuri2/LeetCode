@@ -82,7 +82,6 @@ public class Solution {
         System.out.println(Arrays.toString(nums1)); // e.g. [1,6,1,5,1,4]
 
         int[] nums2 = {1,3,2,2,3,1};
-        sol.wiggleSort(nums2);
     }
 
     private static boolean isWiggle(int[] a) {
