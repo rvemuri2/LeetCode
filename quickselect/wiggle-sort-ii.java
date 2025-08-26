@@ -95,7 +95,9 @@ public class Solution {
             if (i % 2 == 1) {
                 if (!(a[i] > a[i-1])) return false;
             } else {
-                if (!(a[i] < a[i-1])) return false;
+                if (!(a[i] < a[i-1])) {
+                     return false;
+                }
             }
         }
         return true;
