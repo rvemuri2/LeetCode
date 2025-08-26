@@ -75,7 +75,6 @@ public class Solution {
 
     // ---- Simple tests ----
     public static void main(String[] args) {
-        Solution sol = new Solution();
     }
 
     private static boolean isWiggle(int[] a) {
