@@ -1,0 +1,108 @@
+import java.util.*;
+
+public class Solution {
+    /**
+     * Wiggle Sort II (in-place, O(n) average time, O(1) extra space).
+     *
+     * Reorder nums so that: nums[0] < nums[1] > nums[2] < nums[3] ...
+     *
+     * Idea:
+     * 1) Find the median via Quickselect.
+     * 2) Three-way partition (Dutch National Flag) around the median,
+     *    but place items through a "virtual index" mapping so that
+     *    large numbers go to odd positions and small numbers to even.
+     *
+     * Virtual index mapping:
+     *   idx(i) = (1 + 2*i) % (n | 1)
+     * This permutes 0..n-1 into an order that interleaves positions:
+     *   odd slots first, then even slots, and works for both even/odd n.
+     */
+    public void wiggleSort(int[] nums) {
+        int n = nums.length;
+        if (n <= 1) return;
+
+        int median = kthElement(nums, (n - 1) / 2); // 0-based median
+
+        // 3-way partition using virtual index
+        int left = 0, i = 0, right = n - 1;
+        while (i <= right) {
+            int vi = virtualIndex(i, n);
+            if (nums[vi] > median) {
+                swap(nums, virtualIndex(left++, n), vi);
+                i++;
+            } else if (nums[vi] < median) {
+                swap(nums, vi, virtualIndex(right--, n));
+            } else {
+                i++;
+            }
+        }
+    }
+
+    // Map a real index to its virtual index for wiggle layout
+    private int virtualIndex(int i, int n) {
+        return (1 + 2 * i) % (n | 1);
+    }
+
+    // Quickselect to find k-th smallest element (0-based) in-place
+    private int kthElement(int[] a, int k) {
+        int l = 0, r = a.length - 1;
+        Random rnd = new Random();
+        while (l <= r) {
+            int p = partition(a, l, r, l + rnd.nextInt(r - l + 1));
+            if (p == k) return a[p];
+            if (p < k) l = p + 1;
+            else r = p - 1;
+        }
+        // should not reach here for valid k
+        return -1;
+    }
+
+    private int partition(int[] a, int l, int r, int pivotIdx) {
+        int pivot = a[pivotIdx];
+        swap(a, pivotIdx, r);
+        int store = l;
+        for (int i = l; i < r; i++) {
+            if (a[i] < pivot) swap(a, store++, i);
+        }
+        swap(a, store, r);
+        return store;
+    }
+
+    private void swap(int[] a, int i, int j) {
+        if (i == j) return;
+        int t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+
+    // ---- Simple tests ----
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+
+        int[] nums1 = {1,5,1,1,6,4};
+        sol.wiggleSort(nums1);
+        System.out.println(Arrays.toString(nums1)); // e.g. [1,6,1,5,1,4]
+
+        int[] nums2 = {1,3,2,2,3,1};
+        sol.wiggleSort(nums2);
+        System.out.println(Arrays.toString(nums2)); // e.g. [2,3,1,3,1,2]
+
+        int[] nums3 = {1,1,2,1,2,2,1};
+        sol.wiggleSort(nums3);
+        System.out.println(Arrays.toString(nums3)); // valid wiggle pattern
+
+        // quick checker: nums[0] < nums[1] > nums[2] < nums[3] ...
+        System.out.println(isWiggle(nums1));
+        System.out.println(isWiggle(nums2));
+        System.out.println(isWiggle(nums3));
+    }
+
+    private static boolean isWiggle(int[] a) {
+        for (int i = 1; i < a.length; i++) {
+            if (i % 2 == 1) {
+                if (!(a[i] > a[i-1])) return false;
+            } else {
+                if (!(a[i] < a[i-1])) return false;
+            }
+        }
+        return true;
+    }
+}
