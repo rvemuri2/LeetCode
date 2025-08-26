@@ -91,7 +91,6 @@ public class Solution {
 
         // quick checker: nums[0] < nums[1] > nums[2] < nums[3] ...
         System.out.println(isWiggle(nums1));
-        System.out.println(isWiggle(nums2));
     }
 
     private static boolean isWiggle(int[] a) {
