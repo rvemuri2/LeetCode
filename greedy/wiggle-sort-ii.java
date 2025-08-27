@@ -21,7 +21,7 @@ public class Solution {
         int n = nums.length;
         if (n <= 1) return;
 
-        int median = kthElement(nums, (n - 1) / 2); // 0-based median
+        int median = kthElement(nums, (n - 1) / 2);
 
         int left = 0;
         int i = 0;
