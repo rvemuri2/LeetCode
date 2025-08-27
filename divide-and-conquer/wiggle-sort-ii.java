@@ -9,7 +9,6 @@ public class Solution {
      * Idea:
      * 1) Find the median via Quickselect.
      * 2) Three-way partition (Dutch National Flag) around the median,
-     *    but place items through a "virtual index" mapping so that
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
