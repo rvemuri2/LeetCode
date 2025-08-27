@@ -53,7 +53,9 @@ public class Solution {
             if (p < k) {
                 l = p + 1;
             }
-            else r = p - 1;
+            else {
+                r = p - 1;
+            }
         }
         return -1;
     }
