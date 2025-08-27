@@ -23,7 +23,6 @@ public class Solution {
 
         int median = kthElement(nums, (n - 1) / 2); // 0-based median
 
-        // 3-way partition using virtual index
         int left = 0, i = 0, right = n - 1;
         while (i <= right) {
             int vi = virtualIndex(i, n);
