@@ -15,7 +15,6 @@ public class Solution {
      * Virtual index mapping:
      *   idx(i) = (1 + 2*i) % (n | 1)
      * This permutes 0..n-1 into an order that interleaves positions:
-     *   odd slots first, then even slots, and works for both even/odd n.
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
