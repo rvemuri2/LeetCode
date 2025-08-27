@@ -74,8 +74,6 @@ public class Solution {
     }
 
     // ---- Simple tests ----
-    public static void main(String[] args) {}
-
     private static boolean isWiggle(int[] a) {
         for (int i = 1; i < a.length; i++) {
             if (i % 2 == 1) {
