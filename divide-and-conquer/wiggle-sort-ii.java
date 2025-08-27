@@ -43,7 +43,6 @@ public class Solution {
         return (1 + 2 * i) % (n | 1);
     }
 
-    // Quickselect to find k-th smallest element (0-based) in-place
     private int kthElement(int[] a, int k) {
         int l = 0;
         int r = a.length - 1;
