@@ -53,7 +53,6 @@ public class Solution {
             if (p < k) l = p + 1;
             else r = p - 1;
         }
-        // should not reach here for valid k
         return -1;
     }
 
