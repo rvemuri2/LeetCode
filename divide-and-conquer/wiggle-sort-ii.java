@@ -70,7 +70,9 @@ public class Solution {
 
     private void swap(int[] a, int i, int j) {
         if (i == j) return;
-        int t = a[i]; a[i] = a[j]; a[j] = t;
+        int t = a[i]; 
+        a[i] = a[j]; 
+        a[j] = t;
     }
 
     private static boolean isWiggle(int[] a) {
