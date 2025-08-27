@@ -69,7 +69,9 @@ public class Solution {
     }
 
     private void swap(int[] a, int i, int j) {
-        if (i == j) return;
+        if (i == j) {
+            return;
+        }
         int t = a[i]; 
         a[i] = a[j]; 
         a[j] = t;
