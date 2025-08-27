@@ -19,7 +19,9 @@ public class Solution {
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
-        if (n <= 1) return;
+        if (n <= 1) {
+            return;
+        }
 
         int median = kthElement(nums, (n - 1) / 2);
 
