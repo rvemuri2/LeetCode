@@ -62,7 +62,9 @@ public class Solution {
         swap(a, pivotIdx, r);
         int store = l;
         for (int i = l; i < r; i++) {
-            if (a[i] < pivot) swap(a, store++, i);
+            if (a[i] < pivot) {
+                swap(a, store++, i);
+            }
         }
         swap(a, store, r);
         return store;
