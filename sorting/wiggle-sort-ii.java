@@ -12,7 +12,6 @@ public class Solution {
      *    but place items through a "virtual index" mapping so that
      *    large numbers go to odd positions and small numbers to even.
      *
-     * Virtual index mapping:
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
