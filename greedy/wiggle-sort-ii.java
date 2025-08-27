@@ -73,7 +73,6 @@ public class Solution {
         int t = a[i]; a[i] = a[j]; a[j] = t;
     }
 
-    // ---- Simple tests ----
     private static boolean isWiggle(int[] a) {
         for (int i = 1; i < a.length; i++) {
             if (i % 2 == 1) {
