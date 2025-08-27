@@ -45,7 +45,8 @@ public class Solution {
 
     // Quickselect to find k-th smallest element (0-based) in-place
     private int kthElement(int[] a, int k) {
-        int l = 0, r = a.length - 1;
+        int l = 0;
+        int r = a.length - 1;
         Random rnd = new Random();
         while (l <= r) {
             int p = partition(a, l, r, l + rnd.nextInt(r - l + 1));
