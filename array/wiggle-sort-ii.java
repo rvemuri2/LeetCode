@@ -7,7 +7,6 @@ public class Solution {
      * Reorder nums so that: nums[0] < nums[1] > nums[2] < nums[3] ...
      *
      * Idea:
-     * 1) Find the median via Quickselect.
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
