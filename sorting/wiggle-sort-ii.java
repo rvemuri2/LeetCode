@@ -49,7 +49,9 @@ public class Solution {
         Random rnd = new Random();
         while (l <= r) {
             int p = partition(a, l, r, l + rnd.nextInt(r - l + 1));
-            if (p == k) return a[p];
+            if (p == k) {
+                return a[p];
+            }
             if (p < k) {
                 l = p + 1;
             }
