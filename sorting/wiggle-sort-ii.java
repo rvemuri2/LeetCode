@@ -24,7 +24,8 @@ public class Solution {
         int median = kthElement(nums, (n - 1) / 2); // 0-based median
 
         int left = 0;
-        int i = 0, right = n - 1;
+        int i = 0;
+        int right = n - 1;
         while (i <= right) {
             int vi = virtualIndex(i, n);
             if (nums[vi] > median) {
