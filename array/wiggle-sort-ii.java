@@ -5,7 +5,6 @@ public class Solution {
      * Wiggle Sort II (in-place, O(n) average time, O(1) extra space).
      *
      * Reorder nums so that: nums[0] < nums[1] > nums[2] < nums[3] ...
-     *
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
