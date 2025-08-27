@@ -84,9 +84,7 @@ public class Solution {
                      return false;
                 }
             } else {
-                if (!(a[i] < a[i-1])) {
-                     return false;
-                }
+                if (!(a[i] < a[i-1])) return false;
             }
         }
         return true;
