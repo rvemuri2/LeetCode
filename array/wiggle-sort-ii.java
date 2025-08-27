@@ -13,7 +13,6 @@ public class Solution {
      *    large numbers go to odd positions and small numbers to even.
      *
      * Virtual index mapping:
-     *   idx(i) = (1 + 2*i) % (n | 1)
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
