@@ -8,7 +8,6 @@ public class Solution {
      *
      * Idea:
      * 1) Find the median via Quickselect.
-     * 2) Three-way partition (Dutch National Flag) around the median,
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
