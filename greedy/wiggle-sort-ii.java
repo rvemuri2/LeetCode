@@ -38,7 +38,6 @@ public class Solution {
         }
     }
 
-    // Map a real index to its virtual index for wiggle layout
     private int virtualIndex(int i, int n) {
         return (1 + 2 * i) % (n | 1);
     }
