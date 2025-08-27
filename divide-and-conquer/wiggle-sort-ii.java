@@ -11,7 +11,6 @@ public class Solution {
      * 2) Three-way partition (Dutch National Flag) around the median,
      *    but place items through a "virtual index" mapping so that
      *    large numbers go to odd positions and small numbers to even.
-     *
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
