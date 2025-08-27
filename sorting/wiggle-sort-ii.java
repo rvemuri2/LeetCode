@@ -50,7 +50,9 @@ public class Solution {
         while (l <= r) {
             int p = partition(a, l, r, l + rnd.nextInt(r - l + 1));
             if (p == k) return a[p];
-            if (p < k) l = p + 1;
+            if (p < k) {
+                l = p + 1;
+            }
             else r = p - 1;
         }
         return -1;
