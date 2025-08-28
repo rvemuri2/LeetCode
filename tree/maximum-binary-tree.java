@@ -94,6 +94,5 @@ public class Solution {
         // Expected: [3,null,2,null,1]
 
         // Additional tests
-        int[] nums3 = {5};
     }
 }
