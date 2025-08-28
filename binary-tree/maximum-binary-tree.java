@@ -89,6 +89,5 @@ public class Solution {
         // Expected: [6,3,5,null,2,0,null,null,1]
 
         int[] nums2 = {3,2,1};
-        TreeNode root2 = sol.constructMaximumBinaryTree(nums2);
     }
 }
