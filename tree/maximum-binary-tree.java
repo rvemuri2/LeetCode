@@ -96,6 +96,5 @@ public class Solution {
         // Additional tests
         int[] nums3 = {5};
         System.out.println("Single node: " + listFormat(levelOrderWithNulls(sol.constructMaximumBinaryTree(nums3))));
-        // Expected: [5]
     }
 }
