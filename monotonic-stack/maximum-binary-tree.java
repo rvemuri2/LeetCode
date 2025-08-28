@@ -78,6 +78,4 @@ public class Solution {
         sb.append(']');
         return sb.toString();
     }
-
-    /* ----------------------------------- Tests ----------------------------------- */
 }
