@@ -103,6 +103,5 @@ public class Solution {
         // Expected: [4,3,null,2,null,1]
 
         int[] nums5 = {4,3,2,1}; // strictly decreasing -> left spine
-        System.out.println("Decreasing: " + listFormat(levelOrderWithNulls(sol.constructMaximumBinaryTree(nums5))));
     }
 }
