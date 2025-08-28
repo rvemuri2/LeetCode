@@ -87,7 +87,5 @@ public class Solution {
         TreeNode root1 = sol.constructMaximumBinaryTree(nums1);
         System.out.println("Example 1: " + listFormat(levelOrderWithNulls(root1)));
         // Expected: [6,3,5,null,2,0,null,null,1]
-
-        int[] nums2 = {3,2,1};
     }
 }
