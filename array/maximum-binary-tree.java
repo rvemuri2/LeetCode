@@ -90,6 +90,5 @@ public class Solution {
 
         int[] nums2 = {3,2,1};
         TreeNode root2 = sol.constructMaximumBinaryTree(nums2);
-        System.out.println("Example 2: " + listFormat(levelOrderWithNulls(root2)));
     }
 }
