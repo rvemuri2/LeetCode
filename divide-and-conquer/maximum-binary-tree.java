@@ -84,6 +84,5 @@ public class Solution {
         Solution sol = new Solution();
 
         int[] nums1 = {3,2,1,6,0,5};
-        TreeNode root1 = sol.constructMaximumBinaryTree(nums1);
     }
 }
