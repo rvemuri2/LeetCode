@@ -81,6 +81,5 @@ public class Solution {
 
     /* ----------------------------------- Tests ----------------------------------- */
     public static void main(String[] args) {
-        Solution sol = new Solution();
     }
 }
