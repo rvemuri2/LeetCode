@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Solution {
     /**
-     * Wiggle Sort II (in-place, O(n) average time, O(1) extra space).
      */
     public void wiggleSort(int[] nums) {
         int n = nums.length;
