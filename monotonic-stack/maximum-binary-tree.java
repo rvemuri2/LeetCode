@@ -98,6 +98,6 @@ public class Solution {
         System.out.println("Single node: " + listFormat(levelOrderWithNulls(sol.constructMaximumBinaryTree(nums3))));
         // Expected: [5]
 
-        int[] nums4 = {1,2,3,4}; // strictly increasing -> right spine
+        int[] nums4 = {1,2,3,4};
     }
 }
