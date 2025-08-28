@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Solution {
     public void wiggleSort(int[] nums) {
         int n = nums.length;
