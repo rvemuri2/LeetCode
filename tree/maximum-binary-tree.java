@@ -59,9 +59,6 @@ public class Solution {
         }
 
         int i = ans.size() - 1;
-        while (i >= 0 && ans.get(i) == null) {
-             i--;
-        }
         return ans.subList(0, i + 1);
     }
 }
