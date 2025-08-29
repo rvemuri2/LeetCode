@@ -48,7 +48,6 @@ public class Solution {
         Queue<TreeNode> q = new ArrayDeque<>();
         q.offer(root);
         while (!q.isEmpty()) {
-            TreeNode node = q.poll();
         }
 
         int i = ans.size() - 1;
