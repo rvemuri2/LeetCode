@@ -66,7 +66,6 @@ public class Solution {
         return ans.subList(0, i + 1);
     }
 
-    // Pretty print the level-order list like the examples
     static String listFormat(List<Integer> list) {
         StringBuilder sb = new StringBuilder();
         sb.append('[');
