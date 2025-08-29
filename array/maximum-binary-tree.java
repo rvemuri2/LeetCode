@@ -64,7 +64,4 @@ public class Solution {
         }
         return ans.subList(0, i + 1);
     }
-
-    static String listFormat(List<Integer> list) {
-    }
 }
