@@ -62,7 +62,9 @@ public class Solution {
         }
         // trim trailing nulls
         int i = ans.size() - 1;
-        while (i >= 0 && ans.get(i) == null) i--;
+        while (i >= 0 && ans.get(i) == null) {
+             i--;
+        }
         return ans.subList(0, i + 1);
     }
 
