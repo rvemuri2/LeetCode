@@ -70,7 +70,6 @@ public class Solution {
         sb.append('[');
         for (int i = 0; i < list.size(); i++) {
             Integer v = list.get(i);
-            sb.append(v == null ? "null" : v.toString());
         }
         return sb.toString();
     }
