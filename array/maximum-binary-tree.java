@@ -30,7 +30,6 @@ public class Solution {
             while (!st.isEmpty() && st.peek().val < x) {
                 curr.left = st.pop(); // largest popped becomes direct left child
             }
-            // The first greater on the left becomes parent; set curr as its right child
             if (!st.isEmpty()) {
                 st.peek().right = curr;
             }
