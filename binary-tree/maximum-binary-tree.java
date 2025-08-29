@@ -75,7 +75,6 @@ public class Solution {
                  sb.append(',');
             }
         }
-        sb.append(']');
         return sb.toString();
     }
 }
