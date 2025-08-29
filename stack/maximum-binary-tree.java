@@ -38,7 +38,9 @@ public class Solution {
         }
         // Bottom of the stack is the root
         TreeNode root = null;
-        while (!st.isEmpty()) root = st.pop();
+        while (!st.isEmpty()) {
+            root = st.pop();
+        }
         return root;
     }
 }
