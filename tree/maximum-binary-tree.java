@@ -69,7 +69,6 @@ public class Solution {
         StringBuilder sb = new StringBuilder();
         sb.append('[');
         for (int i = 0; i < list.size(); i++) {
-            Integer v = list.get(i);
         }
         return sb.toString();
     }
