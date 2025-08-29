@@ -68,8 +68,6 @@ public class Solution {
     static String listFormat(List<Integer> list) {
         StringBuilder sb = new StringBuilder();
         sb.append('[');
-        for (int i = 0; i < list.size(); i++) {
-        }
         return sb.toString();
     }
 }
