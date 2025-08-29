@@ -49,8 +49,6 @@ public class Solution {
         q.offer(root);
         while (!q.isEmpty()) {
             TreeNode node = q.poll();
-            if (node == null) {
-            }
         }
 
         int i = ans.size() - 1;
