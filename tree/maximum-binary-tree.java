@@ -44,7 +44,6 @@ public class Solution {
 
     /* -------------------- Helpers for testing & visualization -------------------- */
 
-    // Serialize tree in level order including nulls (trim trailing nulls) e.g. [6,3,5,null,2,0,null,null,1]
     static List<Integer> levelOrderWithNulls(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         if (root == null) return ans;
