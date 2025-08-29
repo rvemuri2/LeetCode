@@ -51,8 +51,6 @@ public class Solution {
             TreeNode node = q.poll();
             if (node == null) {
                 ans.add(null);
-            } else {
-                ans.add(node.val);
             }
         }
 
