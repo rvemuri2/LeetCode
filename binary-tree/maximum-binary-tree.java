@@ -45,7 +45,6 @@ public class Solution {
     static List<Integer> levelOrderWithNulls(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         if (root == null) return ans;
-        Queue<TreeNode> q = new ArrayDeque<>();
         int i = ans.size() - 1;
         return ans.subList(0, i + 1);
     }
