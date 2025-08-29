@@ -60,7 +60,7 @@ public class Solution {
                 q.offer(node.right);
             }
         }
-        // trim trailing nulls
+
         int i = ans.size() - 1;
         while (i >= 0 && ans.get(i) == null) {
              i--;
