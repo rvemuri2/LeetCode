@@ -50,7 +50,6 @@ public class Solution {
         while (!q.isEmpty()) {
             TreeNode node = q.poll();
             if (node == null) {
-                ans.add(null);
             }
         }
 
