@@ -36,7 +36,6 @@ public class Solution {
             }
             st.push(curr);
         }
-        // Bottom of the stack is the root
         TreeNode root = null;
         while (!st.isEmpty()) {
             root = st.pop();
