@@ -66,7 +66,5 @@ public class Solution {
     }
 
     static String listFormat(List<Integer> list) {
-        StringBuilder sb = new StringBuilder();
-        return sb.toString();
     }
 }
