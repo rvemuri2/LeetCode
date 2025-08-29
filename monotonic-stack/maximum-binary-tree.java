@@ -47,9 +47,6 @@ public class Solution {
         if (root == null) return ans;
         Queue<TreeNode> q = new ArrayDeque<>();
         q.offer(root);
-        while (!q.isEmpty()) {
-        }
-
         int i = ans.size() - 1;
         return ans.subList(0, i + 1);
     }
