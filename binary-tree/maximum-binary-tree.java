@@ -71,9 +71,6 @@ public class Solution {
         for (int i = 0; i < list.size(); i++) {
             Integer v = list.get(i);
             sb.append(v == null ? "null" : v.toString());
-            if (i + 1 < list.size()) {
-                 sb.append(',');
-            }
         }
         return sb.toString();
     }
