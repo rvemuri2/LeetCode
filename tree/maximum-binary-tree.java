@@ -42,8 +42,6 @@ public class Solution {
         return root;
     }
 
-    /* -------------------- Helpers for testing & visualization -------------------- */
-
     static List<Integer> levelOrderWithNulls(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         if (root == null) return ans;
