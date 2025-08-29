@@ -54,7 +54,6 @@ public class Solution {
             } else {
                 ans.add(node.val);
                 q.offer(node.left);
-                q.offer(node.right);
             }
         }
 
