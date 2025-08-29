@@ -41,9 +41,4 @@ public class Solution {
         while (!st.isEmpty()) root = st.pop();
         return root;
     }
-
-    static List<Integer> levelOrderWithNulls(TreeNode root) {
-        int i = ans.size() - 1;
-        return ans.subList(0, i + 1);
-    }
 }
