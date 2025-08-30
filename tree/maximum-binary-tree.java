@@ -8,9 +8,7 @@ public class Solution {
             st.push(curr);
         }
         TreeNode root = null;
-        while (!st.isEmpty()) {
-            root = st.pop();
-        }
+        while (!st.isEmpty()) root = st.pop();
         return root;
     }
 }
