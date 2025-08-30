@@ -14,8 +14,6 @@
  * }
  */
 public class Solution {
-    /**
-     */
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         Deque<TreeNode> st = new ArrayDeque<>();
         for (int x : nums) {
