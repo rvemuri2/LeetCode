@@ -26,7 +26,6 @@ public class Solution {
         Deque<TreeNode> st = new ArrayDeque<>();
         for (int x : nums) {
             TreeNode curr = new TreeNode(x);
-            // All smaller nodes to the left become left-children in chain
             while (!st.isEmpty() && st.peek().val < x) {
                 curr.left = st.pop();
             }
