@@ -28,7 +28,7 @@ public class Solution {
             TreeNode curr = new TreeNode(x);
             // All smaller nodes to the left become left-children in chain
             while (!st.isEmpty() && st.peek().val < x) {
-                curr.left = st.pop(); // largest popped becomes direct left child
+                curr.left = st.pop();
             }
             if (!st.isEmpty()) {
                 st.peek().right = curr;
