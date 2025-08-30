@@ -2,7 +2,6 @@
  * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
- *     TreeNode left;
  */
 public class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
