@@ -11,7 +11,6 @@
  *         this.left = left;
  *         this.right = right;
  *     }
- * }
  */
 public class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
