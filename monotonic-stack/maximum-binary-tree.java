@@ -4,7 +4,6 @@
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode() {}
  */
 public class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
