@@ -18,7 +18,6 @@ public class Solution {
      * Construct Maximum Binary Tree in O(n) using a monotonic decreasing stack.
      *
      * Intuition:
-     * - For each number, it becomes the parent of the last smaller element to its left (stack top after popping smaller ones).
      */
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         Deque<TreeNode> st = new ArrayDeque<>();
