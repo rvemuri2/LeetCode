@@ -15,7 +15,6 @@
  */
 public class Solution {
     /**
-     * Construct Maximum Binary Tree in O(n) using a monotonic decreasing stack.
      */
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         Deque<TreeNode> st = new ArrayDeque<>();
