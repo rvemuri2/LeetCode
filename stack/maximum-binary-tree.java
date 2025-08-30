@@ -3,9 +3,7 @@ public class Solution {
         Deque<TreeNode> st = new ArrayDeque<>();
         for (int x : nums) {
             TreeNode curr = new TreeNode(x);
-            while (!st.isEmpty() && st.peek().val < x) {
-                curr.left = st.pop();
-            }
+            while (!st.isEmpty() && st.peek().val < x) curr.left = st.pop();
             if (!st.isEmpty()) {
                 st.peek().right = curr;
             }
