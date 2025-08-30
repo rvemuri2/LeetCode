@@ -1,5 +1,3 @@
-/**
- */
 public class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         Deque<TreeNode> st = new ArrayDeque<>();
