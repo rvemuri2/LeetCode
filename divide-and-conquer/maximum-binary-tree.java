@@ -3,7 +3,6 @@
  * public class TreeNode {
  *     int val;
  *     TreeNode left;
- *     TreeNode right;
  */
 public class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
