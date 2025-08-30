@@ -20,7 +20,6 @@ public class Solution {
      * Intuition:
      * - For each number, it becomes the parent of the last smaller element to its left (stack top after popping smaller ones).
      * - It also becomes the child (left child) of the first greater element to its left (the new stack top after popping).
-     * This ensures the max node stays closer to root and smaller nodes become children appropriately.
      */
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         Deque<TreeNode> st = new ArrayDeque<>();
