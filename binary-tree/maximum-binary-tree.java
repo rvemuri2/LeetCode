@@ -4,9 +4,7 @@ public class Solution {
         for (int x : nums) {
             TreeNode curr = new TreeNode(x);
             while (!st.isEmpty() && st.peek().val < x) curr.left = st.pop();
-            if (!st.isEmpty()) {
-                st.peek().right = curr;
-            }
+            if (!st.isEmpty()) st.peek().right = curr;
             st.push(curr);
         }
         TreeNode root = null;
