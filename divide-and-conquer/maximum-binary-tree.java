@@ -1,6 +1,5 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
  */
 public class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
