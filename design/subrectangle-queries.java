@@ -4,7 +4,6 @@ class SubrectangleQueries {
     private final int[][] rect; // mutable copy we will update in-place
 
     /**
-     * Store a deep copy of the initial rectangle so we can mutate safely.
      */
     public SubrectangleQueries(int[][] rectangle) {
         int r = rectangle.length, c = rectangle[0].length;
@@ -13,7 +12,7 @@ class SubrectangleQueries {
             System.arraycopy(rectangle[i], 0, rect[i], 0, c);
         }
     }
-    
+
     public void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
         for (int r = row1; r <= row2; r++) {
             for (int c = col1; c <= col2; c++) {
