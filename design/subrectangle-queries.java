@@ -16,7 +16,6 @@ class SubrectangleQueries {
 
     /**
      * Update every cell in the sub-rectangle [row1..row2] x [col1..col2] to newValue.
-     * Time: O((row2-row1+1)*(col2-col1+1)) which is fine for constraints (<= 10^4 per update).
      */
     public void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
         for (int r = row1; r <= row2; r++) {
@@ -25,7 +24,7 @@ class SubrectangleQueries {
             }
         }
     }
-    
+
     public int getValue(int row, int col) {
         return rect[row][col];
     }
