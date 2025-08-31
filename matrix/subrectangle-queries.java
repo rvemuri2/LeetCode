@@ -37,5 +37,4 @@ class SubrectangleQueries {
 
 /**
  * Your SubrectangleQueries object will be instantiated and called as such:
- * SubrectangleQueries obj = new SubrectangleQueries(rectangle);
  */
