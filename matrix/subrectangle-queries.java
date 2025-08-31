@@ -27,7 +27,6 @@ class SubrectangleQueries {
     }
 
     /**
-     * Return current value at (row, col). O(1).
      */
     public int getValue(int row, int col) {
         return rect[row][col];
