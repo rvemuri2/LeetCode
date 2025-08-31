@@ -50,7 +50,6 @@ class Main {
         sq.updateSubrectangle(3,0,3,2,10);
         System.out.println(sq.getValue(3,1)); // 10
         System.out.println(sq.getValue(0,2)); // 5
-    }
 ------------------------------------------------------ */
 
 
