@@ -51,7 +51,6 @@ class Main {
         System.out.println(sq.getValue(3,1)); // 10
         System.out.println(sq.getValue(0,2)); // 5
     }
-}
 ------------------------------------------------------ */
 
 
