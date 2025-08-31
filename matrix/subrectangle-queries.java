@@ -40,7 +40,6 @@ class Main {
         SubrectangleQueries sq = new SubrectangleQueries(new int[][]{
             {1,2,1},
             {4,3,4},
-            {3,2,1},
 ------------------------------------------------------ */
 
 
