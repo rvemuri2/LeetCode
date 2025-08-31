@@ -44,7 +44,6 @@ class Main {
             {1,1,1}
         });
         System.out.println(sq.getValue(0,2)); // 1
-        sq.updateSubrectangle(0,0,3,2,5);
 ------------------------------------------------------ */
 
 
