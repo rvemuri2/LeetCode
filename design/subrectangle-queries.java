@@ -33,7 +33,3 @@ class SubrectangleQueries {
         return rect[row][col];
     }
 }
-
-
-/**
- */
