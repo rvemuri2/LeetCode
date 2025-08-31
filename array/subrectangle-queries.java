@@ -38,7 +38,6 @@ class SubrectangleQueries {
 class Main {
     public static void main(String[] args) {
         SubrectangleQueries sq = new SubrectangleQueries(new int[][]{
-            {1,2,1},
 ------------------------------------------------------ */
 
 
