@@ -34,9 +34,6 @@ class SubrectangleQueries {
     }
 }
 
-/* -------------------- Small demo --------------------
------------------------------------------------------- */
-
 
 /**
  * Your SubrectangleQueries object will be instantiated and called as such:
