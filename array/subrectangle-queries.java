@@ -25,9 +25,7 @@ class SubrectangleQueries {
             }
         }
     }
-
-    /**
-     */
+    
     public int getValue(int row, int col) {
         return rect[row][col];
     }
