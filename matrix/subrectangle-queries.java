@@ -1,7 +1,7 @@
 import java.util.*;
 
 class SubrectangleQueries {
-    private final int[][] rect; // mutable copy we will update in-place
+    private final int[][] rect;
 
     public SubrectangleQueries(int[][] rectangle) {
         int r = rectangle.length, c = rectangle[0].length;
