@@ -32,7 +32,5 @@ class Solution {
         int[][] ans2 = sol.sortTheStudents(score2, k2);
         System.out.println("Output: " + Arrays.deepToString(ans2));
         // Expected: [[5,6],[3,4]]
-
-        // A couple of extra quick tests
     }
 }
