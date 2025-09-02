@@ -6,7 +6,7 @@ import java.util.*;
 class Solution {
     public int[][] sortTheStudents(int[][] score, int k) {
         // Sort in-place by the kth exam descending.
-        final int kk = k; // effectively final for the lambda
+        final int kk = k;
         Arrays.sort(score, (a, b) -> Integer.compare(b[kk], a[kk]));
         return score;
     }
