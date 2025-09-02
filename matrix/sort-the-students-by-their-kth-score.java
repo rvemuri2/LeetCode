@@ -38,6 +38,5 @@ class Solution {
         int k3 = 1; // sort by 2nd column descending
         System.out.println("\nExtra test input: " + Arrays.deepToString(score3) + ", k=" + k3);
         int[][] ans3 = sol.sortTheStudents(score3, k3);
-        System.out.println("Output: " + Arrays.deepToString(ans3));
     }
 }
