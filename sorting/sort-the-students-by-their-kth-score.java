@@ -14,6 +14,4 @@ class Solution {
         // Arrays.sort(copy, (a, b) -> Integer.compare(b[kk], a[kk]));
         // return copy;
     }
-
-    // ---------- Demo ----------
 }
