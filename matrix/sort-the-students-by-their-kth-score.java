@@ -20,6 +20,5 @@ class Solution {
         Solution sol = new Solution();
 
         int[][] score1 = { {10,6,9,1}, {7,5,11,2}, {4,8,3,15} };
-        int k1 = 2;
     }
 }
