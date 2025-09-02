@@ -25,7 +25,5 @@ class Solution {
         int[][] ans1 = sol.sortTheStudents(score1, k1);
         System.out.println("Output: " + Arrays.deepToString(ans1));
         // Expected: [[7,5,11,2],[10,6,9,1],[4,8,3,15]]
-
-        int[][] score2 = { {3,4}, {5,6} };
     }
 }
