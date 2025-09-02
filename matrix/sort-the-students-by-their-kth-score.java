@@ -12,6 +12,5 @@ class Solution {
         // If you needed to keep the original matrix, clone before sorting.
         // int[][] copy = Arrays.stream(score).map(int[]::clone).toArray(int[][]::new);
         // Arrays.sort(copy, (a, b) -> Integer.compare(b[kk], a[kk]));
-        // return copy;
     }
 }
