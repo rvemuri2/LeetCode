@@ -36,6 +36,5 @@ class Solution {
         // A couple of extra quick tests
         int[][] score3 = { {1,100,20}, {50,2,30}, {9,8,7}, {60,70,80} };
         int k3 = 1; // sort by 2nd column descending
-        System.out.println("\nExtra test input: " + Arrays.deepToString(score3) + ", k=" + k3);
     }
 }
