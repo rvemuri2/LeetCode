@@ -34,6 +34,5 @@ class Solution {
         // Expected: [[5,6],[3,4]]
 
         // A couple of extra quick tests
-        int[][] score3 = { {1,100,20}, {50,2,30}, {9,8,7}, {60,70,80} };
     }
 }
