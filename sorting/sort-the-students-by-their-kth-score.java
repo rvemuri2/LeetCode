@@ -23,6 +23,5 @@ class Solution {
         int k1 = 2;
         System.out.println("Example 1 input: " + Arrays.deepToString(score1) + ", k=" + k1);
         int[][] ans1 = sol.sortTheStudents(score1, k1);
-        System.out.println("Output: " + Arrays.deepToString(ans1));
     }
 }
