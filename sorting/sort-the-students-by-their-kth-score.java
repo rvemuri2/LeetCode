@@ -9,6 +9,5 @@ class Solution {
         final int kk = k; // effectively final for the lambda
         Arrays.sort(score, (a, b) -> Integer.compare(b[kk], a[kk]));
         return score;
-        // If you needed to keep the original matrix, clone before sorting.
     }
 }
