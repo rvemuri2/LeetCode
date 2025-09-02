@@ -28,6 +28,5 @@ class Solution {
 
         int[][] score2 = { {3,4}, {5,6} };
         int k2 = 0;
-        System.out.println("\nExample 2 input: " + Arrays.deepToString(score2) + ", k=" + k2);
     }
 }
