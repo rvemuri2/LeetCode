@@ -13,8 +13,6 @@
  *     }
  * }
  */
-/**
- */
 class Solution {
     public int sumEvenGrandparent(TreeNode root) {
         return dfs(root, null, null);
