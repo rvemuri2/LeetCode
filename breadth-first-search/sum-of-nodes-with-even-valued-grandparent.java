@@ -14,7 +14,6 @@
  * }
  */
 /**
- * Definition for a binary tree node.
  */
 class Solution {
     public int sumEvenGrandparent(TreeNode root) {
