@@ -29,7 +29,6 @@
  * }
  */
 class Solution {
-    // Sum values of nodes whose grandparent's value is even.
     public int sumEvenGrandparent(TreeNode root) {
         return dfs(root, null, null);
     }
