@@ -20,7 +20,6 @@
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
  */
 class Solution {
     public int sumEvenGrandparent(TreeNode root) {
