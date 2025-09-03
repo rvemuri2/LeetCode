@@ -19,7 +19,6 @@
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode() {}
  */
 class Solution {
     public int sumEvenGrandparent(TreeNode root) {
