@@ -32,7 +32,6 @@ class Solution {
         return dfs(root, null, null);
     }
 
-    // Helper DFS carrying parent and grandparent pointers.
     private int dfs(TreeNode node, TreeNode parent, TreeNode grand) {
         if (node == null) {
             return 0;
