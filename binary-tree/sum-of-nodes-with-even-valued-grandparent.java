@@ -36,7 +36,9 @@ class Solution {
 
     // Helper DFS carrying parent and grandparent pointers.
     private int dfs(TreeNode node, TreeNode parent, TreeNode grand) {
-        if (node == null) return 0;
+        if (node == null) {
+            return 0;
+        }
 
         int add = (grand != null && (grand.val & 1) == 0) ? node.val : 0;
 
