@@ -1,0 +1,48 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    // Sum values of nodes whose grandparent's value is even.
+    public int sumEvenGrandparent(TreeNode root) {
+        return dfs(root, null, null);
+    }
+
+    // Helper DFS carrying parent and grandparent pointers.
+    private int dfs(TreeNode node, TreeNode parent, TreeNode grand) {
+        if (node == null) return 0;
+
+        int add = (grand != null && (grand.val & 1) == 0) ? node.val : 0;
+
+        int leftSum  = dfs(node.left,  node, parent);
+        int rightSum = dfs(node.right, node, parent);
+
+        return add + leftSum + rightSum;
+    }
+}
