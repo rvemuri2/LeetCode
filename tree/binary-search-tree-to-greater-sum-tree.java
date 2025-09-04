@@ -47,7 +47,6 @@ class Solution {
 
 /* ---------- Helpers + Tests ---------- */
 
-import java.util.*;
 class Main {
     // Build a tree from level-order array where nulls represent missing nodes
     static TreeNode fromLevelOrder(Integer[] arr) {
