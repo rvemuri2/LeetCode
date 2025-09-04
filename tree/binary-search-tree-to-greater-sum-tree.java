@@ -142,6 +142,5 @@ class Main {
         }
 
         // Left-skewed: [3,2,null,1] -> values (1,2,3) become (6,5,3): [3,5,null,6]
-        Integer[] in5 = {3,2,null,1};
     }
 }
