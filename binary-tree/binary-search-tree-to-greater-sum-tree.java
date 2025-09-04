@@ -131,7 +131,5 @@ class Main {
             TreeNode out = new Solution().bstToGst(root);
             assertEquals(toLevelOrder(out), exp3, "Single node");
         }
-
-        // Right-skewed: [1,null,2,null,3] -> [6,null,5,null,3]
     }
 }
