@@ -105,6 +105,5 @@ class Main {
     }
 
     public static void main(String[] args) {
-        // Example 1
     }
 }
