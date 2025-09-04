@@ -115,6 +115,5 @@ class Main {
         }
 
         // Example 2
-        Integer[] in2 = {0,null,1};
     }
 }
