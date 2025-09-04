@@ -126,8 +126,5 @@ class Main {
         // Single node
         Integer[] in3 = {5};
         Integer[] exp3 = {5};
-        {
-            TreeNode root = fromLevelOrder(in3);
-        }
     }
 }
