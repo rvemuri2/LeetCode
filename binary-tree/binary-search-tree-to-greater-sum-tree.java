@@ -137,7 +137,6 @@ class Main {
         Integer[] exp4 = {6,null,5,null,3};
         {
             TreeNode root = fromLevelOrder(in4);
-            TreeNode out = new Solution().bstToGst(root);
         }
     }
 }
