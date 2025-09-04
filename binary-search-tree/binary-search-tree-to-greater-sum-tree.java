@@ -113,7 +113,5 @@ class Main {
             TreeNode out = new Solution().bstToGst(root);
             assertEquals(toLevelOrder(out), exp1, "Example 1");
         }
-
-        // Example 2
     }
 }
