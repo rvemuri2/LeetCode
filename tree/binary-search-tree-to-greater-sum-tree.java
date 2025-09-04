@@ -125,6 +125,5 @@ class Main {
 
         // Single node
         Integer[] in3 = {5};
-        Integer[] exp3 = {5};
     }
 }
