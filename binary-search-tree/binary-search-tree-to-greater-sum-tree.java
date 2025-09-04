@@ -133,6 +133,5 @@ class Main {
         }
 
         // Right-skewed: [1,null,2,null,3] -> [6,null,5,null,3]
-        Integer[] in4 = {1,null,2,null,3};
     }
 }
