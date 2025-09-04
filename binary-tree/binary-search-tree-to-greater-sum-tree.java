@@ -124,6 +124,5 @@ class Main {
         }
 
         // Single node
-        Integer[] in3 = {5};
     }
 }
