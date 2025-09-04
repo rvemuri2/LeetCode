@@ -149,7 +149,5 @@ class Main {
             TreeNode out = new Solution().bstToGst(root);
             assertEquals(toLevelOrder(out), exp5, "Left-skewed");
         }
-
-        System.out.println("All tests passed ✅");
     }
 }
