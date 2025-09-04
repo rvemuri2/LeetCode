@@ -106,6 +106,5 @@ class Main {
 
     public static void main(String[] args) {
         // Example 1
-        Integer[] in1 = {4,1,6,0,2,5,7,null,null,null,3,null,null,null,8};
     }
 }
