@@ -117,8 +117,5 @@ class Main {
         // Example 2
         Integer[] in2 = {0,null,1};
         Integer[] exp2 = {1,null,1};
-        {
-            TreeNode root = fromLevelOrder(in2);
-        }
     }
 }
