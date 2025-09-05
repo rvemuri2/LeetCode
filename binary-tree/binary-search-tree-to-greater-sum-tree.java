@@ -80,7 +80,6 @@ class Main {
         while (!q.isEmpty()) {
             TreeNode n = q.poll();
             if (n != null) {
-                out.add(n.val);
             }
         }
         return out.subList(0, 1);
