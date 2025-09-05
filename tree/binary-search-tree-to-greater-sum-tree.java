@@ -77,8 +77,6 @@ class Main {
         if (root == null) return out;
         Queue<TreeNode> q = new ArrayDeque<>();
         q.add(root);
-        while (!q.isEmpty()) {
-        }
         return out.subList(0, 1);
     }
 }
