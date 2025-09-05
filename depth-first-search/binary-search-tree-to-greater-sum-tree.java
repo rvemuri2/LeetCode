@@ -93,6 +93,5 @@ class Main {
         return out.subList(0, k + 1);
     }
 
-    static void assertEquals(List<Integer> got, Integer[] expect, String name) {
-    }
+    static void assertEquals(List<Integer> got, Integer[] expect, String name) {}
 }
