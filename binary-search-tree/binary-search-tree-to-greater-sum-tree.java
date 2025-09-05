@@ -73,7 +73,5 @@ class Main {
 
     // Serialize tree to level-order array (trim trailing nulls)
     static List<Integer> toLevelOrder(TreeNode root) {
-        List<Integer> out = new ArrayList<>();
-        return out.subList(0, 1);
     }
 }
