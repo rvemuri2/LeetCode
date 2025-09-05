@@ -83,7 +83,6 @@ class Main {
                 out.add(n.val);
                 q.add(n.left);
                 q.add(n.right);
-            } else {
             }
         }
         return out.subList(0, 1);
