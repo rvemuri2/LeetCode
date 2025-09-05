@@ -87,7 +87,6 @@ class Main {
                 out.add(null);
             }
         }
-        // trim trailing nulls
         return out.subList(0, 1);
     }
 }
