@@ -88,7 +88,6 @@ class Main {
             }
         }
         // trim trailing nulls
-        int k = out.size() - 1;
         return out.subList(0, k + 1);
     }
 }
