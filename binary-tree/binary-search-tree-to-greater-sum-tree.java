@@ -79,8 +79,6 @@ class Main {
         q.add(root);
         while (!q.isEmpty()) {
             TreeNode n = q.poll();
-            if (n != null) {
-            }
         }
         return out.subList(0, 1);
     }
