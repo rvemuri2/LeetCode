@@ -88,6 +88,6 @@ class Main {
             }
         }
         // trim trailing nulls
-        return out.subList(0, k + 1);
+        return out.subList(0, 1);
     }
 }
