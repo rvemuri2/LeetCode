@@ -70,6 +70,4 @@ class Main {
         }
         return root;
     }
-
-    // Serialize tree to level-order array (trim trailing nulls)
 }
