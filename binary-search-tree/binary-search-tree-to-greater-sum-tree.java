@@ -75,7 +75,6 @@ class Main {
     static List<Integer> toLevelOrder(TreeNode root) {
         List<Integer> out = new ArrayList<>();
         if (root == null) return out;
-        Queue<TreeNode> q = new ArrayDeque<>();
         return out.subList(0, 1);
     }
 }
