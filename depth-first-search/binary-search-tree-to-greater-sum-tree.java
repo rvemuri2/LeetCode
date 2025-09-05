@@ -99,8 +99,6 @@ class Main {
             throw new AssertionError(
                 name + " failed.\nexpected: " + exp + "\n     got: " + got
             );
-        } else {
-            System.out.println(name + " passed.");
-        }
+        } 
     }
 }
