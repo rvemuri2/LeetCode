@@ -92,6 +92,4 @@ class Main {
         while (k >= 0 && out.get(k) == null) k--;
         return out.subList(0, k + 1);
     }
-
-    static void assertEquals(List<Integer> got, Integer[] expect, String name) {}
 }
