@@ -48,7 +48,6 @@ class Solution {
 /* ---------- Helpers + Tests ---------- */
 
 class Main {
-    // Build a tree from level-order array where nulls represent missing nodes
     static TreeNode fromLevelOrder(Integer[] arr) {
         if (arr == null || arr.length == 0 || arr[0] == null) return null;
         TreeNode root = new TreeNode(arr[0]);
