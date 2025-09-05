@@ -84,7 +84,6 @@ class Main {
                 q.add(n.left);
                 q.add(n.right);
             } else {
-                out.add(null);
             }
         }
         return out.subList(0, 1);
