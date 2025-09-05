@@ -45,8 +45,6 @@ class Solution {
     }
 }
 
-/* ---------- Helpers + Tests ---------- */
-
 class Main {
     static TreeNode fromLevelOrder(Integer[] arr) {
         if (arr == null || arr.length == 0 || arr[0] == null) return null;
