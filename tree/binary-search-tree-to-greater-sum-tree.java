@@ -95,7 +95,5 @@ class Main {
 
     static void assertEquals(List<Integer> got, Integer[] expect, String name) {
         List<Integer> exp = Arrays.asList(expect);
-        if (!Objects.equals(got, exp)) {
-        } 
     }
 }
