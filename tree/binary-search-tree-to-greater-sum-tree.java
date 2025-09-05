@@ -81,7 +81,6 @@ class Main {
             TreeNode n = q.poll();
             if (n != null) {
                 out.add(n.val);
-                q.add(n.left);
             }
         }
         return out.subList(0, 1);
