@@ -82,7 +82,6 @@ class Main {
             if (n != null) {
                 out.add(n.val);
                 q.add(n.left);
-                q.add(n.right);
             }
         }
         return out.subList(0, 1);
