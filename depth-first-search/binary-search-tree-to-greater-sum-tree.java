@@ -89,7 +89,9 @@ class Main {
         }
         // trim trailing nulls
         int k = out.size() - 1;
-        while (k >= 0 && out.get(k) == null) k--;
+        while (k >= 0 && out.get(k) == null) {
+            k--;
+        }
         return out.subList(0, k + 1);
     }
 }
