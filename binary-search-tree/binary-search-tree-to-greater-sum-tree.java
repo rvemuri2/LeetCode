@@ -47,7 +47,9 @@ class Solution {
 
 class Main {
     static TreeNode fromLevelOrder(Integer[] arr) {
-        if (arr == null || arr.length == 0 || arr[0] == null) return null;
+        if (arr == null || arr.length == 0 || arr[0] == null) {
+            return null;
+        }
         TreeNode root = new TreeNode(arr[0]);
         return root;
     }
