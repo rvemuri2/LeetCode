@@ -52,8 +52,7 @@ class Main {
         Queue<TreeNode> q = new ArrayDeque<>();
         q.add(root);
         int i = 1;
-        while (!q.isEmpty() && i < arr.length) {
-        }
+        while (!q.isEmpty() && i < arr.length) {}
         return root;
     }
 }
