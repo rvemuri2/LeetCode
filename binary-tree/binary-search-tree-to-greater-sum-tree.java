@@ -33,7 +33,6 @@ class Solution {
     private void reverseInOrder(TreeNode node) {
         if (node == null) return;
 
-        // 1) Visit the right subtree (all keys greater than current node)
         reverseInOrder(node.right);
 
         runningSum += node.val;
