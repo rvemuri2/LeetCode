@@ -37,7 +37,7 @@ class Solution {
         reverseInOrder(node.right);
 
         // 2) Update current node with running sum
-        runningSum += node.val;   // include current node's original value
+        runningSum += node.val;
         node.val = runningSum;
 
         reverseInOrder(node.left);
