@@ -63,7 +63,6 @@ class Main {
                 curr.right = new TreeNode(arr[i]);
                 q.add(curr.right);
             }
-            i++;
         }
         return root;
     }
