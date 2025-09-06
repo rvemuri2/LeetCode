@@ -56,7 +56,6 @@ class Main {
             TreeNode curr = q.poll();
             if (i < arr.length && arr[i] != null) {
                 curr.left = new TreeNode(arr[i]);
-                q.add(curr.left);
             }
         }
         return root;
