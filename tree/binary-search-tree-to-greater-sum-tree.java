@@ -45,9 +45,4 @@ class Solution {
     }
 }
 
-class Main {
-    static TreeNode fromLevelOrder(Integer[] arr) {
-        TreeNode root = new TreeNode(arr[0]);
-        return root;
-    }
-}
+class Main {}
