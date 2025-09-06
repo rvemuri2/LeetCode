@@ -40,7 +40,6 @@ class Solution {
         runningSum += node.val;   // include current node's original value
         node.val = runningSum;    // assign the updated (greater-sum) value
 
-        // 3) Visit the left subtree (smaller keys)
         reverseInOrder(node.left);
     }
 }
