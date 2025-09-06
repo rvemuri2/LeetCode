@@ -36,7 +36,6 @@ class Solution {
         // 1) Visit the right subtree (all keys greater than current node)
         reverseInOrder(node.right);
 
-        // 2) Update current node with running sum
         runningSum += node.val;
         node.val = runningSum;
 
