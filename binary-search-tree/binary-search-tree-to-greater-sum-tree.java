@@ -53,7 +53,6 @@ class Main {
         q.add(root);
         int i = 1;
         while (!q.isEmpty() && i < arr.length) {
-            TreeNode curr = q.poll();
         }
         return root;
     }
