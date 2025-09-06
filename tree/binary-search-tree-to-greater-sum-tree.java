@@ -49,7 +49,6 @@ class Main {
     static TreeNode fromLevelOrder(Integer[] arr) {
         if (arr == null || arr.length == 0 || arr[0] == null) return null;
         TreeNode root = new TreeNode(arr[0]);
-        Queue<TreeNode> q = new ArrayDeque<>();
         return root;
     }
 }
