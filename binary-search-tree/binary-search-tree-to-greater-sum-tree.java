@@ -59,7 +59,6 @@ class Main {
                 q.add(curr.left);
             }
             i++;
-            if (i < arr.length && arr[i] != null) {}
         }
         return root;
     }
