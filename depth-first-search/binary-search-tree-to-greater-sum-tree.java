@@ -23,7 +23,6 @@ class Solution {
      * Uses reverse in-order traversal to accumulate the running sum of greater keys.
      *
      * Time:  O(n)  (each node visited once)
-     * Space: O(h)  recursion stack (h = tree height; O(n) worst-case skew, O(log n) average for balanced)
      */
     public TreeNode bstToGst(TreeNode root) {
         reverseInOrder(root);
