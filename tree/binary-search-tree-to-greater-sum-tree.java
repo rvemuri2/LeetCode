@@ -54,8 +54,6 @@ class Main {
         int i = 1;
         while (!q.isEmpty() && i < arr.length) {
             TreeNode curr = q.poll();
-            if (i < arr.length && arr[i] != null) {
-            }
         }
         return root;
     }
