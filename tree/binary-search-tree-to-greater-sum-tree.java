@@ -51,7 +51,6 @@ class Main {
         TreeNode root = new TreeNode(arr[0]);
         Queue<TreeNode> q = new ArrayDeque<>();
         q.add(root);
-        int i = 1;
         return root;
     }
 }
