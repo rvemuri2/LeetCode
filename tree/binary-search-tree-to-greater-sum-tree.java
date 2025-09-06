@@ -60,7 +60,6 @@ class Main {
             }
             i++;
             if (i < arr.length && arr[i] != null) {
-                curr.right = new TreeNode(arr[i]);
             }
         }
         return root;
