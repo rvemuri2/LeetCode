@@ -22,7 +22,6 @@ class Solution {
      * For each node, sets node.val = original node.val + sum of all keys greater than it.
      * Uses reverse in-order traversal to accumulate the running sum of greater keys.
      *
-     * Time:  O(n)  (each node visited once)
      */
     public TreeNode bstToGst(TreeNode root) {
         reverseInOrder(root);
