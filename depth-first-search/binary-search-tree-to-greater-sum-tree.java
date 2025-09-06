@@ -44,5 +44,3 @@ class Solution {
         reverseInOrder(node.left);
     }
 }
-
-class Main {}
