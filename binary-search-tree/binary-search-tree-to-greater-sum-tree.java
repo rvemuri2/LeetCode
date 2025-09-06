@@ -50,7 +50,6 @@ class Main {
         if (arr == null || arr.length == 0 || arr[0] == null) return null;
         TreeNode root = new TreeNode(arr[0]);
         Queue<TreeNode> q = new ArrayDeque<>();
-        q.add(root);
         return root;
     }
 }
