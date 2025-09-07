@@ -8,7 +8,9 @@ class Solution {
     public int[] findArray(int[] pref) {
         int n = pref.length;
         int[] arr = new int[n];
-        if (n == 0) return arr;
+        if (n == 0) {
+            return arr;
+        }
 
         arr[0] = pref[0];
         for (int i = 1; i < n; i++) {
