@@ -1,5 +1,4 @@
 class Solution {
-    // Reconstruct arr from its prefix-xor array pref.
     public int[] findArray(int[] pref) {
         int n = pref.length;
         int[] arr = new int[n];
