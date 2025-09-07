@@ -5,7 +5,6 @@
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
  */
 class Solution {
     private int runningSum = 0;
