@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    // Running sum of all nodes visited so far (from greatest downwards)
+    private int runningSum = 0;
     public TreeNode bstToGst(TreeNode root) {
         reverseInOrder(root);
         return root;
