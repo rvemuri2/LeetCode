@@ -18,7 +18,6 @@ class Solution {
     private int runningSum = 0;
 
     /**
-     * Converts a BST to a Greater Sum Tree (GST).
      */
     public TreeNode bstToGst(TreeNode root) {
         reverseInOrder(root);
