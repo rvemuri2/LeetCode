@@ -1,7 +1,6 @@
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
  */
 class Solution {
     private int runningSum = 0;
