@@ -1,5 +1,3 @@
-/**
- */
 class Solution {
     private int runningSum = 0;
     public TreeNode bstToGst(TreeNode root) {
