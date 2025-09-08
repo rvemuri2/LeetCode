@@ -80,6 +80,5 @@ class Solution {
         int[] B5 = {5, 4, 3, 2, 1};
         System.out.println("Reversed: " + Arrays.toString(s.findThePrefixCommonArray(A5, B5)));
         // Walkthrough expectation:
-        // i=0: {1} vs {5} -> 0
     }
 }
