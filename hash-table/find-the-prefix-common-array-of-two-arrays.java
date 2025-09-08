@@ -74,7 +74,5 @@ class Solution {
         int[] B4 = {4, 1, 3, 2, 5};
         System.out.println("Same arrays: " + Arrays.toString(s.findThePrefixCommonArray(A4, B4)));
         // Expected: [1, 2, 3, 4, 5]
-
-        // Completely reversed
     }
 }
