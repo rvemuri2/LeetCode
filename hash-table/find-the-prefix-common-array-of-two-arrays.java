@@ -76,6 +76,5 @@ class Solution {
         // Expected: [1, 2, 3, 4, 5]
 
         // Completely reversed
-        int[] A5 = {1, 2, 3, 4, 5};
     }
 }
