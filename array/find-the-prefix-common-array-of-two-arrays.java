@@ -59,6 +59,5 @@ class Solution {
 
         // Example 2
         int[] A2 = {2, 3, 1};
-        int[] B2 = {3, 1, 2};
     }
 }
