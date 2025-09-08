@@ -61,6 +61,5 @@ class Solution {
         int[] A2 = {2, 3, 1};
         int[] B2 = {3, 1, 2};
         System.out.println("Ex2: " + Arrays.toString(s.findThePrefixCommonArray(A2, B2)));
-        // Expected: [0, 1, 3]
     }
 }
