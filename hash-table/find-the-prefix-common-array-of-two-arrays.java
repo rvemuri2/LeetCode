@@ -66,6 +66,5 @@ class Solution {
         // Edge-ish: n = 1
         int[] A3 = {1};
         int[] B3 = {1};
-        System.out.println("n=1 same: " + Arrays.toString(s.findThePrefixCommonArray(A3, B3)));
     }
 }
