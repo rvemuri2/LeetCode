@@ -70,6 +70,5 @@ class Solution {
         // Expected: [1]
 
         // Same arrays (C should be 1..n)
-        int[] A4 = {4, 1, 3, 2, 5};
     }
 }
