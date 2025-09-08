@@ -77,6 +77,5 @@ class Solution {
 
         // Completely reversed
         int[] A5 = {1, 2, 3, 4, 5};
-        int[] B5 = {5, 4, 3, 2, 1};
     }
 }
