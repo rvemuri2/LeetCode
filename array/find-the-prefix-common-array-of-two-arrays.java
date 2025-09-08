@@ -64,6 +64,5 @@ class Solution {
         // Expected: [0, 1, 3]
 
         // Edge-ish: n = 1
-        int[] A3 = {1};
     }
 }
