@@ -82,6 +82,5 @@ class Solution {
         // Walkthrough expectation:
         // i=0: {1} vs {5} -> 0
         // i=1: {1,2} vs {5,4} -> 0
-        // i=2: {1,2,3} vs {5,4,3} -> now 3 is common -> 1
     }
 }
