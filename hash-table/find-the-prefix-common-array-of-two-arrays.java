@@ -90,6 +90,5 @@ class Solution {
         // Random permutation pair
         int[] A6 = {3, 5, 1, 2, 4};
         int[] B6 = {2, 3, 4, 5, 1};
-        System.out.println("Random: " + Arrays.toString(s.findThePrefixCommonArray(A6, B6)));
     }
 }
