@@ -58,6 +58,5 @@ class Solution {
         // Expected: [0, 2, 3, 4]
 
         // Example 2
-        int[] A2 = {2, 3, 1};
     }
 }
