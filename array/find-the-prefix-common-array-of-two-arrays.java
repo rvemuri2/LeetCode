@@ -72,6 +72,5 @@ class Solution {
         // Same arrays (C should be 1..n)
         int[] A4 = {4, 1, 3, 2, 5};
         int[] B4 = {4, 1, 3, 2, 5};
-        System.out.println("Same arrays: " + Arrays.toString(s.findThePrefixCommonArray(A4, B4)));
     }
 }
