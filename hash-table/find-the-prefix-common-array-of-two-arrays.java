@@ -88,6 +88,5 @@ class Solution {
         // Expected: [0, 0, 1, 3, 5]
 
         // Random permutation pair
-        int[] A6 = {3, 5, 1, 2, 4};
     }
 }
