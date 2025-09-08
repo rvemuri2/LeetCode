@@ -85,6 +85,5 @@ class Solution {
         // i=2: {1,2,3} vs {5,4,3} -> now 3 is common -> 1
         // i=3: add 4 in A and 2 in B -> both 2 and 4 are now common -> 3
         // i=4: add 5 in A and 1 in B -> both 1 and 5 are now common -> 5
-        // Expected: [0, 0, 1, 3, 5]
     }
 }
