@@ -65,6 +65,5 @@ class Solution {
 
         // Edge-ish: n = 1
         int[] A3 = {1};
-        int[] B3 = {1};
     }
 }
