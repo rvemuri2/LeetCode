@@ -14,9 +14,8 @@ class Solution {
 
             if (!seenA[a]) {
                 seenA[a] = true;
-                if (seenB[a]) {
+                if (seenB[a]) 
                     commonSoFar++;
-                }
             }
 
             if (!seenB[b]) {
