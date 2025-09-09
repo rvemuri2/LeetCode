@@ -7,7 +7,6 @@ class Solution {
      *
      * A and B are permutations of 1..n (no duplicates overall).
      * Time:  O(n)
-     * Space: O(n)
      */
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length;
