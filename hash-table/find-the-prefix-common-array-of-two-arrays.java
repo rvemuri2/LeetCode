@@ -30,7 +30,6 @@ class Solution {
                 if (seenB[a]) commonSoFar++;
             }
 
-            // Mark B[i]; if it was already seen in A, we've completed a "pair"
             if (!seenB[b]) {
                 seenB[b] = true;
                 if (seenA[b]) {
