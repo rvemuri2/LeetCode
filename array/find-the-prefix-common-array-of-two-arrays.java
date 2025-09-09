@@ -33,7 +33,6 @@ class Solution {
             // Mark B[i]; if it was already seen in A, we've completed a "pair"
             // Note: even if a == b, this increments at most once overall:
             //   - when processing 'a', seenB[a] is still false (unless it appeared earlier),
-            //   - when processing 'b', seenA[b] is true just marked, so it increments once.
             if (!seenB[b]) {
                 seenB[b] = true;
                 if (seenA[b]) {
