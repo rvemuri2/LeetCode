@@ -2,7 +2,6 @@ import java.util.Arrays;
 
 class Solution {
     /**
-     * Returns the prefix common array C where
      */
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length;
