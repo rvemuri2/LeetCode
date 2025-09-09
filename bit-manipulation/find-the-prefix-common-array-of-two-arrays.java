@@ -14,7 +14,6 @@ class Solution {
         int[] C = new int[n];
 
         // seenA[v] == true iff value v has appeared in A so far
-        // seenB[v] == true iff value v has appeared in B so far
         boolean[] seenA = new boolean[n + 1];
         boolean[] seenB = new boolean[n + 1];
 
