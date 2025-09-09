@@ -13,7 +13,6 @@ class Solution {
         int n = A.length;
         int[] C = new int[n];
 
-        // seenA[v] == true iff value v has appeared in A so far
         boolean[] seenA = new boolean[n + 1];
         boolean[] seenB = new boolean[n + 1];
 
