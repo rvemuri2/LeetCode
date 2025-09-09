@@ -52,6 +52,5 @@ class Solution {
         Solution s = new Solution();
 
         // Example 1
-        int[] A1 = {1, 3, 2, 4};
     }
 }
