@@ -4,7 +4,6 @@ class Solution {
     /**
      * Returns the prefix common array C where
      * C[i] = number of values that have appeared in A[0..i] and B[0..i].
-     *
      */
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length;
