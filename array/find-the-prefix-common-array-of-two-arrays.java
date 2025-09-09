@@ -36,7 +36,9 @@ class Solution {
             //   - when processing 'b', seenA[b] is true just marked, so it increments once.
             if (!seenB[b]) {
                 seenB[b] = true;
-                if (seenA[b]) commonSoFar++;
+                if (seenA[b]) {
+                    commonSoFar++;
+                }
             }
 
             C[i] = commonSoFar;
