@@ -27,7 +27,9 @@ class Solution {
             // Mark A[i]; if it was already seen in B, we've completed a "pair"
             if (!seenA[a]) {
                 seenA[a] = true;
-                if (seenB[a]) commonSoFar++;
+                if (seenB[a]) {
+                    commonSoFar++;
+                }
             }
 
             if (!seenB[b]) {
