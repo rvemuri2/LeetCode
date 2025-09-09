@@ -6,7 +6,6 @@ class Solution {
      * C[i] = number of values that have appeared in A[0..i] and B[0..i].
      *
      * A and B are permutations of 1..n (no duplicates overall).
-     * Time:  O(n)
      */
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length;
