@@ -49,6 +49,5 @@ class Solution {
     // Simple test harness below
     // -------------------------
     public static void main(String[] args) {
-        Solution s = new Solution();
     }
 }
