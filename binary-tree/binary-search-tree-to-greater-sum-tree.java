@@ -1,5 +1,4 @@
 /**
- * Definition for a binary tree node.
  */
 class Solution {
     private int acc = 0;
