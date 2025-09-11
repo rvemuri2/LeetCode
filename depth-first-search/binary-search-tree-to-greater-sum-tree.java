@@ -1,5 +1,3 @@
-/**
- */
 class Solution {
     private int acc = 0;
 
