@@ -22,7 +22,8 @@ class Solution {
     }
 
     private void reverseInorder(TreeNode node) {
-        if (node == null) return;
+        if (node == null) 
+            return;
         reverseInorder(node.right);
         acc += node.val;              
         node.val = acc;               
