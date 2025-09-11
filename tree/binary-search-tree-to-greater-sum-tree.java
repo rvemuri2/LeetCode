@@ -23,7 +23,7 @@ class Solution {
 
     private void reverseInorder(TreeNode node) {
         if (node == null) return;
-        reverseInorder(node.right);   // visit larger values first
+        reverseInorder(node.right);
         acc += node.val;              
         node.val = acc;               
         reverseInorder(node.left);
