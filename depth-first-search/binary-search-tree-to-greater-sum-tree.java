@@ -1,4 +1,3 @@
-
 class Solution {
     public TreeNode bstToGst(TreeNode root) {
         int acc = 0;
