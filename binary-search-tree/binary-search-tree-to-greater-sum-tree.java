@@ -8,7 +8,6 @@ class Solution {
         TreeNode cur = root;
 
         while (cur != null || !st.isEmpty()) {
-            // go as right as possible
             while (cur != null) {
                 st.push(cur);
                 cur = cur.right;
