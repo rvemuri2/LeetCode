@@ -1,17 +1,23 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 class Solution {
-    private int acc = 0;
-
     public TreeNode bstToGst(TreeNode root) {
-        reverseInorder(root);
-        return root;
-    }
+        int acc = 0;
+        Deque<TreeNode> st = new ArrayDeque<>();
+        TreeNode cur = root;
 
-    private void reverseInorder(TreeNode node) {
-        if (node == null) 
-            return;
-        reverseInorder(node.right);
-        acc += node.val;              
-        node.val = acc;               
-        reverseInorder(node.left);
+        while (cur != null || !st.isEmpty()) {
+            // go as right as possible
+            while (cur != null) {
+                st.push(cur);
+                cur = cur.right;
+            }
+            TreeNode node = st.pop();
+            acc += node.val;
+            node.val = acc;
+            cur = node.left; // then process left side
+        }
+        return root;
     }
 }
