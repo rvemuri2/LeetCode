@@ -16,7 +16,7 @@ class Solution {
             TreeNode node = st.pop();
             acc += node.val;
             node.val = acc;
-            cur = node.left; // then process left side
+            cur = node.left;
         }
         return root;
     }
