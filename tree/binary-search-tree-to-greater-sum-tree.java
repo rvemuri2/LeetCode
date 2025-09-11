@@ -25,7 +25,7 @@ class Solution {
         if (node == null) return;
         reverseInorder(node.right);   // visit larger values first
         acc += node.val;              // accumulate
-        node.val = acc;               // update current node
+        node.val = acc;               
         reverseInorder(node.left);
     }
 }
