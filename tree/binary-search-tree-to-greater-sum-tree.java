@@ -11,7 +11,6 @@
  *         this.left = left;
  *         this.right = right;
  *     }
- * }
  */
 class Solution {
     private int acc = 0;
