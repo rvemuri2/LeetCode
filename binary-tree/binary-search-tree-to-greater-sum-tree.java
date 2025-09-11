@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    private int acc = 0;  // running sum of greater-or-equal values seen so far
+    private int acc = 0;
 
     public TreeNode bstToGst(TreeNode root) {
         reverseInorder(root);
