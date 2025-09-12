@@ -3,7 +3,6 @@
  * public class TreeNode {
  *     int val;
  *     TreeNode left;
- *     TreeNode right;
  */
 class Solution {
     int sum = 0 ;
