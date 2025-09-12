@@ -35,8 +35,6 @@ class Solution {
 
         // Duplicates: different indices count as different subsets
         total++; passed += test(new int[]{1, 1, 3}, 4, "Duplicates by index");
-
-        // Mixed small
     }
 
     private static int test(int[] nums, int expected, String name) {
