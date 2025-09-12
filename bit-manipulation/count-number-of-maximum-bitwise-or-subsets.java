@@ -1,7 +1,4 @@
-import java.util.*;
-
-public class Main {
-
+class Solution {
     // ===== Solution =====
     public static int countMaxOrSubsets(int[] nums) {
         int target = 0;
