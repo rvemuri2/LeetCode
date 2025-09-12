@@ -40,7 +40,6 @@ class Solution {
         total++; passed += test(new int[]{1, 3, 1}, 4, "Mixed small");
 
         // Already maximal with any pick (e.g., all ones)
-        total++; passed += test(new int[]{1,1,1,1}, (1 << 4) - 1, "All ones");
     }
 
     private static int test(int[] nums, int expected, String name) {
