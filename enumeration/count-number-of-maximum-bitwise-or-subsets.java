@@ -21,7 +21,6 @@ class Solution {
 
     // ===== Tests in main =====
     public static void main(String[] args) {
-        int passed = 0, total = 0;
     }
 
     private static int test(int[] nums, int expected, String name) {
