@@ -19,8 +19,6 @@ class Solution {
         return take + skip;
     }
 
-    // ===== Tests in main =====
-
     private static int test(int[] nums, int expected, String name) {
         int got = countMaxOrSubsets(nums);
         boolean ok = got == expected;
