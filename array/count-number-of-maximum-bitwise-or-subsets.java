@@ -32,8 +32,6 @@ class Solution {
 
         // All distinct powers of two -> only the full set achieves the OR of all
         total++; passed += test(new int[]{1, 2, 4, 8, 16}, 1, "Distinct powers of two");
-
-        // Duplicates: different indices count as different subsets
     }
 
     private static int test(int[] nums, int expected, String name) {
