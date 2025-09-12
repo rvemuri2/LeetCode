@@ -1,5 +1,4 @@
 /**
- * Definition for a binary tree node.
  */
 class Solution {
     int sum = 0 ;
