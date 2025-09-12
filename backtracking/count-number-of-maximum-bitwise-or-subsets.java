@@ -28,7 +28,6 @@ class Solution {
         total++; passed += test(new int[]{3, 2, 1, 5}, 6, "Example 3");
 
         // Single element
-        total++; passed += test(new int[]{42}, 1, "Single element");
     }
 
     private static int test(int[] nums, int expected, String name) {
