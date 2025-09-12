@@ -20,8 +20,7 @@ class Solution {
     }
 
     // ===== Tests in main =====
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) {}
 
     private static int test(int[] nums, int expected, String name) {
         int got = countMaxOrSubsets(nums);
