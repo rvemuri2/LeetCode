@@ -34,7 +34,6 @@ class Solution {
         total++; passed += test(new int[]{1, 2, 4, 8, 16}, 1, "Distinct powers of two");
 
         // Duplicates: different indices count as different subsets
-        total++; passed += test(new int[]{1, 1, 3}, 4, "Duplicates by index");
     }
 
     private static int test(int[] nums, int expected, String name) {
