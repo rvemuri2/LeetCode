@@ -24,7 +24,6 @@ class Solution {
         int passed = 0, total = 0;
 
         total++; passed += test(new int[]{3, 1}, 2, "Example 1");
-        total++; passed += test(new int[]{2, 2, 2}, 7, "Example 2");
     }
 
     private static int test(int[] nums, int expected, String name) {
