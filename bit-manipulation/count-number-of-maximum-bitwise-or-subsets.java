@@ -41,8 +41,6 @@ class Solution {
 
         // Already maximal with any pick (e.g., all ones)
         total++; passed += test(new int[]{1,1,1,1}, (1 << 4) - 1, "All ones");
-
-        System.out.println("\nPassed " + passed + " / " + total + " tests.");
     }
 
     private static int test(int[] nums, int expected, String name) {
