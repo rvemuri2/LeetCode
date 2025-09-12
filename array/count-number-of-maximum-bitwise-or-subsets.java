@@ -22,8 +22,6 @@ class Solution {
     private static int test(int[] nums, int expected, String name) {
         int got = countMaxOrSubsets(nums);
         boolean ok = got == expected;
-        System.out.printf("%-25s -> expected=%d, got=%d %s%n",
-                name, expected, got, ok ? "[OK]" : "[FAIL]");
         return ok ? 1 : 0;
     }
 }
