@@ -29,8 +29,6 @@ class Solution {
 
         // Single element
         total++; passed += test(new int[]{42}, 1, "Single element");
-
-        // All distinct powers of two -> only the full set achieves the OR of all
     }
 
     private static int test(int[] nums, int expected, String name) {
