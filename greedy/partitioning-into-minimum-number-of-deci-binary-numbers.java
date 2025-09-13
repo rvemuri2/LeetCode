@@ -18,7 +18,7 @@ public class Solution {
         String[] tests = {
             "32",                 // expected 3
             "82734",              // expected 8
-            "27346209830709182346", // expected 9
+            "27346209830709182346",
         };
     }
 }
