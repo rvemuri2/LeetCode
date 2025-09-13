@@ -2,7 +2,9 @@ class Solution {
     // ===== Solution =====
     public static int countMaxOrSubsets(int[] nums) {
         int target = 0;
-        for (int x : nums) target |= x;
+        for (int x : nums) {
+            target |= x;
+        }
 
         return dfsCount(nums, 0, 0, target);
     }
