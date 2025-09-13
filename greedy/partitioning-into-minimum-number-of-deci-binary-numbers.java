@@ -15,7 +15,6 @@ public class Solution {
     // Simple test harness
     public static void main(String[] args) {
         Solution s = new Solution();
-        String[] tests = {
-        };
+        String[] tests = {};
     }
 }
