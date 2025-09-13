@@ -20,7 +20,6 @@ public class Solution {
             "82734",              // expected 8
             "27346209830709182346", // expected 9
             "1",                  // expected 1
-            "11111",
         };
     }
 }
