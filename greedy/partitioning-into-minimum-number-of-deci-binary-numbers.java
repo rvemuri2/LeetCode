@@ -17,7 +17,7 @@ public class Solution {
         Solution s = new Solution();
         String[] tests = {
             "32",                 // expected 3
-            "82734",              // expected 8
+            "82734",
         };
     }
 }
