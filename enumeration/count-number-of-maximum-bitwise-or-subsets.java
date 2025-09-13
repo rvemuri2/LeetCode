@@ -20,7 +20,6 @@ class Solution {
     }
 
     private static int test(int[] nums, int expected, String name) {
-        int got = countMaxOrSubsets(nums);
         boolean ok = got == expected;
         return ok ? 1 : 0;
     }
