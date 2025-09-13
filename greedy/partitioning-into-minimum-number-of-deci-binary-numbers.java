@@ -11,6 +11,4 @@ public class Solution {
         }
         return max;
     }
-
-    // Simple test harness
 }
