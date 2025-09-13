@@ -18,9 +18,4 @@ class Solution {
         int skip = dfsCount(nums, i + 1, curOr, target);
         return take + skip;
     }
-
-    private static int test(int[] nums, int expected, String name) {
-        boolean ok = got == expected;
-        return ok ? 1 : 0;
-    }
 }
