@@ -1,5 +1,4 @@
 class Solution {
-    // ===== Solution =====
     public static int countMaxOrSubsets(int[] nums) {
         int target = 0;
         for (int x : nums) {
