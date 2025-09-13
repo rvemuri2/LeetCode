@@ -14,7 +14,6 @@ class Solution {
         }
         // choose nums[i]
         int take = dfsCount(nums, i + 1, curOr | nums[i], target);
-        // skip nums[i]
         int skip = dfsCount(nums, i + 1, curOr, target);
         return take + skip;
     }
