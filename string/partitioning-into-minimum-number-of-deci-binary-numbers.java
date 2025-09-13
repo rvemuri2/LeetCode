@@ -25,9 +25,5 @@ public class Solution {
             "909",                // expected 9
             "8",                  // expected 8
         };
-
-        for (String t : tests) {
-            int ans = s.minPartitions(t);
-        }
     }
 }
