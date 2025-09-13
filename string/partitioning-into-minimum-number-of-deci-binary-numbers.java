@@ -6,7 +6,9 @@ public class Solution {
             int d = n.charAt(i) - '0';
             if (d > max) {
                 max = d;
-                if (max == 9) return 9;
+                if (max == 9) {
+                    return 9;
+                }
             }
         }
         return max;
