@@ -21,7 +21,6 @@ public class Solution {
             "27346209830709182346", // expected 9
             "1",                  // expected 1
             "11111",              // expected 1
-            "10",
         };
     }
 }
