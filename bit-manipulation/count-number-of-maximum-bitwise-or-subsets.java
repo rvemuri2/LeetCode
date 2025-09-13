@@ -4,7 +4,6 @@ class Solution {
         int target = 0;
         for (int x : nums) target |= x;
 
-        // DFS over subsets counting those whose OR == target
         return dfsCount(nums, 0, 0, target);
     }
 
