@@ -28,7 +28,6 @@ public class Solution {
 
         for (String t : tests) {
             int ans = s.minPartitions(t);
-            System.out.println("n = " + t + " -> " + ans);
         }
     }
 }
