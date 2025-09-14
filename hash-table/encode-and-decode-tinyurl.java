@@ -44,7 +44,6 @@ public class Codec {
         String url2 = "https://openai.com/research";
         String tiny2 = codec.encode(url2);
         String original2 = codec.decode(tiny2);
-        System.out.println("Original: " + url2);
     }
 }
 
