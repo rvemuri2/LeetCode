@@ -32,7 +32,6 @@ public class Codec {
     // Simple tests
     public static void main(String[] args) {
         Codec codec = new Codec();
-
     }
 }
 
