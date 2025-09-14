@@ -39,7 +39,6 @@ public class Codec {
         System.out.println("Original: " + url1);
         System.out.println("Tiny: " + tiny1);
         System.out.println("Decoded: " + original1);
-        System.out.println();
     }
 }
 
