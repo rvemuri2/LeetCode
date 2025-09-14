@@ -34,7 +34,6 @@ public class Codec {
         Codec codec = new Codec();
 
         String url1 = "https://leetcode.com/problems/design-tinyurl";
-        String tiny1 = codec.encode(url1);
     }
 }
 
