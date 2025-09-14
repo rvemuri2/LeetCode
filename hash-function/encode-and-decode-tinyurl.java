@@ -24,5 +24,4 @@ public class Codec {
     }
 }
 
-// Codec codec = new Codec();
 // codec.decode(codec.encode(url));
