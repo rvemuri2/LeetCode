@@ -48,8 +48,6 @@ public class Codec {
         System.out.println("Tiny: " + tiny2);
         System.out.println("Decoded: " + original2);
         System.out.println();
-
-        // Encode same URL again -> should return same short URL
     }
 }
 
