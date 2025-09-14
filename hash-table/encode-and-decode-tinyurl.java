@@ -41,7 +41,6 @@ public class Codec {
         System.out.println("Decoded: " + original1);
         System.out.println();
 
-        String url2 = "https://openai.com/research";
     }
 }
 
