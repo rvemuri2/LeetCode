@@ -51,7 +51,6 @@ public class Codec {
 
         // Encode same URL again -> should return same short URL
         String tinyAgain = codec.encode(url1);
-        System.out.println("Encoding again: " + tinyAgain + " (should match first tiny)");
     }
 }
 
