@@ -40,7 +40,6 @@ public class Codec {
         System.out.println("Tiny: " + tiny1);
         System.out.println("Decoded: " + original1);
         System.out.println();
-
     }
 }
 
