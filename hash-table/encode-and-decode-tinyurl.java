@@ -42,7 +42,6 @@ public class Codec {
         System.out.println();
 
         String url2 = "https://openai.com/research";
-        String tiny2 = codec.encode(url2);
     }
 }
 
