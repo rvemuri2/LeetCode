@@ -13,7 +13,6 @@ public class Codec {
         counter = 1;
     }
 
-    // Encodes a URL to a shortened URL.
     public String encode(String longUrl) {
         if (longToShort.containsKey(longUrl)) {
             return longToShort.get(longUrl);
