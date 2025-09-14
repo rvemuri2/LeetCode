@@ -33,7 +33,6 @@ public class Codec {
     public static void main(String[] args) {
         Codec codec = new Codec();
 
-        String url1 = "https://leetcode.com/problems/design-tinyurl";
     }
 }
 
