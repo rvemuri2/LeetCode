@@ -50,7 +50,6 @@ public class Codec {
         System.out.println();
 
         // Encode same URL again -> should return same short URL
-        String tinyAgain = codec.encode(url1);
     }
 }
 
