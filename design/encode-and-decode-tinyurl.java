@@ -14,9 +14,7 @@ public class Codec {
     }
 
     public String encode(String longUrl) {
-        if (longToShort.containsKey(longUrl)) {
-            return longToShort.get(longUrl);
-        }
+        if (longToShort.containsKey(longUrl)) return longToShort.get(longUrl);
         String shortUrl = base + counter++;
         shortToLong.put(shortUrl, longUrl);
         longToShort.put(longUrl, shortUrl);
