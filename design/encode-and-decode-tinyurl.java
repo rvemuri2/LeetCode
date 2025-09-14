@@ -23,5 +23,3 @@ public class Codec {
         return shortToLong.get(shortUrl);
     }
 }
-
-// codec.decode(codec.encode(url));
