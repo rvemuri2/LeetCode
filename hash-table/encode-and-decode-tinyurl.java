@@ -45,7 +45,6 @@ public class Codec {
         String tiny2 = codec.encode(url2);
         String original2 = codec.decode(tiny2);
         System.out.println("Original: " + url2);
-        System.out.println("Tiny: " + tiny2);
     }
 }
 
