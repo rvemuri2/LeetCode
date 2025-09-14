@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Codec {
     private Map<String, String> shortToLong;
     private Map<String, String> longToShort;
