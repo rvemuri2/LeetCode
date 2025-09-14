@@ -28,8 +28,6 @@ public class Codec {
     public String decode(String shortUrl) {
         return shortToLong.get(shortUrl);
     }
-
-    // Simple tests
 }
 
 // Your Codec object will be instantiated and called as such:
