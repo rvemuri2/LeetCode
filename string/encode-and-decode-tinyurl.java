@@ -24,7 +24,6 @@ public class Codec {
         return shortUrl;
     }
 
-    // Decodes a shortened URL to its original URL.
     public String decode(String shortUrl) {
         return shortToLong.get(shortUrl);
     }
