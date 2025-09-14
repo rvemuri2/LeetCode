@@ -30,8 +30,7 @@ public class Codec {
     }
 
     // Simple tests
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) {}
 }
 
 // Your Codec object will be instantiated and called as such:
