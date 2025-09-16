@@ -62,6 +62,5 @@ class Solution {
         root2.right = new TreeNode(8);
         root2.left.left = new TreeNode(2);
         root2.left.right = new TreeNode(7);
-        root2.right.left = new TreeNode(1);
     }
 }
