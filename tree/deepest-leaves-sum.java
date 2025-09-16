@@ -42,7 +42,5 @@ class Solution {
     // --- Test harness ---
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        // Example 1: root = [1,2,3,4,5,null,6,7,null,null,null,null,8]
     }
 }
