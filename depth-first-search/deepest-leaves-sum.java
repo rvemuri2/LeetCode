@@ -45,6 +45,5 @@ class Solution {
 
         // Example 1: root = [1,2,3,4,5,null,6,7,null,null,null,null,8]
         TreeNode root1 = new TreeNode(1);
-        root1.left = new TreeNode(2);
     }
 }
