@@ -68,7 +68,5 @@ class Solution {
         root2.left.right.left = new TreeNode(1);
         root2.left.right.right = new TreeNode(4);
         root2.right.right.right = new TreeNode(5);
-
-        System.out.println("Example 2 Output: " + sol2.deepestLeavesSum(root2));
     }
 }
