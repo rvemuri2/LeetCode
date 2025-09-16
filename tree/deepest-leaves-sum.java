@@ -59,6 +59,5 @@ class Solution {
         Solution sol2 = new Solution();
         TreeNode root2 = new TreeNode(6);
         root2.left = new TreeNode(7);
-        root2.right = new TreeNode(8);
     }
 }
