@@ -57,6 +57,5 @@ class Solution {
 
         // Example 2: root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]
         Solution sol2 = new Solution();
-        TreeNode root2 = new TreeNode(6);
     }
 }
