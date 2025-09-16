@@ -50,6 +50,5 @@ class Solution {
         root1.left.left = new TreeNode(4);
         root1.left.right = new TreeNode(5);
         root1.right.right = new TreeNode(6);
-        root1.left.left.left = new TreeNode(7);
     }
 }
