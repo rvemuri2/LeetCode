@@ -56,6 +56,5 @@ class Solution {
         System.out.println("Example 1 Output: " + sol.deepestLeavesSum(root1)); // Expected: 15
 
         // Example 2: root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]
-        Solution sol2 = new Solution();
     }
 }
