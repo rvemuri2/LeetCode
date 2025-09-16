@@ -72,6 +72,5 @@ class Solution {
         System.out.println("Example 2 Output: " + sol2.deepestLeavesSum(root2)); // Expected: 19
 
         // Example 3: Single node tree
-        Solution sol3 = new Solution();
     }
 }
