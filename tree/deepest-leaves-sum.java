@@ -73,6 +73,5 @@ class Solution {
 
         // Example 3: Single node tree
         Solution sol3 = new Solution();
-        TreeNode root3 = new TreeNode(10);
     }
 }
