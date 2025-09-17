@@ -18,7 +18,9 @@ class Solution {
     int sum=0;
     public int function(TreeNode root,int count)
     {
-      if(root==null) return sum;
+      if(root==null) {
+        return sum;
+      }
       if(root.left==null && root.right==null) 
       { 
         if(count > max)
