@@ -1,5 +1,3 @@
-/**
- */
 class Solution {
     private int maxDepth = -1;
     private int sum = 0;
