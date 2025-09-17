@@ -21,8 +21,7 @@ class Solution {
         return sum;
       }
       if(root.left==null && root.right==null) { 
-        if(count > max)
-        {
+        if(count > max) {
             sum=0;
             sum+=root.val;
         }
