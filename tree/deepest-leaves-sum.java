@@ -1,27 +1,46 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    private int maxDepth = -1;
-    private int sum = 0;
-
-    public int deepestLeavesSum(TreeNode root) {
-        dfs(root, 0);
-        return sum;
+    int max=0;
+    int sum=0;
+    public int function(TreeNode root,int count)
+    {
+      if(root==null) return sum;
+      if(root.left==null && root.right==null) 
+      { 
+        if(count > max)
+        {
+            sum=0;
+            sum+=root.val;
+        }
+        if(count==max)
+        {
+            sum+=root.val;
+        }
+        max=Math.max(max,count);
+        return 0;
+      }
+      function(root.left,count+1);
+      function(root.right,count+1);
+      return sum; 
     }
-
-    private void dfs(TreeNode node, int depth) {
-        if (node == null) {
-            return;
-        }
-
-        if (node.left == null && node.right == null) {
-            if (depth > maxDepth) {
-                maxDepth = depth;
-                sum = node.val;
-            } else if (depth == maxDepth) {
-                sum += node.val;
-            }
-        }
-
-        dfs(node.left, depth + 1);
-        dfs(node.right, depth + 1);
+    public int deepestLeavesSum(TreeNode root) {
+        if(root==null) return 0;
+        int count=0;
+        function(root,1);
+        return sum;
     }
 }
