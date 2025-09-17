@@ -29,7 +29,7 @@ class Solution {
         if (node.left == null && node.right == null) {
             if (depth > maxDepth) {
                 maxDepth = depth;
-                sum = node.val; // reset sum for deeper level
+                sum = node.val;
             } else if (depth == maxDepth) {
                 sum += node.val;
             }
