@@ -16,8 +16,7 @@
 class Solution {
     int max=0;
     int sum=0;
-    public int function(TreeNode root,int count)
-    {
+    public int function(TreeNode root,int count) {
       if(root==null) {
         return sum;
       }
