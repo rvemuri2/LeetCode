@@ -4,7 +4,6 @@
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode() {}
  */
 class Solution {
     private int maxDepth = -1;
