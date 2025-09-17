@@ -31,7 +31,7 @@ class Solution {
                 maxDepth = depth;
                 sum = node.val; // reset sum for deeper level
             } else if (depth == maxDepth) {
-                sum += node.val; // add if same deepest level
+                sum += node.val;
             }
         }
 
