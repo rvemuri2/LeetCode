@@ -38,7 +38,9 @@ class Solution {
       return sum; 
     }
     public int deepestLeavesSum(TreeNode root) {
-        if(root==null) return 0;
+        if(root==null) {
+            return 0;
+        }
         int count=0;
         function(root,1);
         return sum;
