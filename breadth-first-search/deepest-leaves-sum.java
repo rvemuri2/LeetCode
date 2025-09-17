@@ -23,7 +23,8 @@ class Solution {
     }
 
     private void dfs(TreeNode node, int depth) {
-        if (node == null) return;
+        if (node == null) 
+            return;
 
         // Leaf node
         if (node.left == null && node.right == null) {
