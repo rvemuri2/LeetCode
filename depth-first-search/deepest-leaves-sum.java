@@ -38,6 +38,4 @@ class Solution {
         dfs(node.left, depth + 1);
         dfs(node.right, depth + 1);
     }
-
-    // --- Test harness ---
 }
