@@ -23,8 +23,9 @@ class Solution {
     }
 
     private void dfs(TreeNode node, int depth) {
-        if (node == null) 
+        if (node == null) {
             return;
+        }
 
         if (node.left == null && node.right == null) {
             if (depth > maxDepth) {
