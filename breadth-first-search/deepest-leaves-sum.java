@@ -25,11 +25,10 @@ class Solution {
             sum=0;
             sum+=root.val;
         }
-        if(count==max)
-        {
+        if(count==max) {
             sum+=root.val;
         }
-        max=Math.max(max,count);
+        max = Math.max(max,count);
         return 0;
       }
       function(root.left,count+1);
