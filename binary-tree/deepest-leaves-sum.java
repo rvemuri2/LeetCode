@@ -26,7 +26,6 @@ class Solution {
         if (node == null) 
             return;
 
-        // Leaf node
         if (node.left == null && node.right == null) {
             if (depth > maxDepth) {
                 maxDepth = depth;
