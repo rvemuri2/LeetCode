@@ -20,8 +20,7 @@ class Solution {
       if(root==null) {
         return sum;
       }
-      if(root.left==null && root.right==null) 
-      { 
+      if(root.left==null && root.right==null) { 
         if(count > max)
         {
             sum=0;
