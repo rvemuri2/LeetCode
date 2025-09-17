@@ -6,7 +6,6 @@
  *     TreeNode right;
  *     TreeNode() {}
  *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
  */
 class Solution {
     private int maxDepth = -1;
