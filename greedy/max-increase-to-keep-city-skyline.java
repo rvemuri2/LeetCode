@@ -77,6 +77,5 @@ public class Solution {
             {50,  0}
         };
         // rowMax = [100,50], colMax = [50,100]
-        // allowed grid = [[min(100,50)=50, min(100,100)=100],[min(50,50)=50, min(50,100)=50]]
     }
 }
