@@ -46,9 +46,5 @@ public class Solution {
             {0,3,1,0}
         };
         System.out.println("Example 1: " + sol.maxIncreaseKeepingSkyline(g1)); // 35
-
-        int[][] g2 = {
-            {0,0,0},
-        };
     }
 }
