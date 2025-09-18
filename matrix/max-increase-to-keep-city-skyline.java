@@ -70,6 +70,6 @@ public class Solution {
             {5,5,5}
         };
         // Already at max for both row/col; no increase
-        System.out.println("Test 4: " + sol.maxIncreaseKeepingSkyline(g4)); // 0
+        System.out.println("Test 4: " + sol.maxIncreaseKeepingSkyline(g4));
     }
 }
