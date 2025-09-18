@@ -45,6 +45,5 @@ public class Solution {
             {9,2,6,3},
             {0,3,1,0}
         };
-        System.out.println("Example 1: " + sol.maxIncreaseKeepingSkyline(g1));
     }
 }
