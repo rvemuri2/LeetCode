@@ -62,6 +62,5 @@ public class Solution {
         // rowMax = [2,4], colMax = [3,4]
         // allowed grid = [[min(2,3)=2, min(2,4)=2], [min(4,3)=3, min(4,4)=4]]
         // increases = (2-1)+(2-2)+(3-3)+(4-4)=1
-        System.out.println("Test 3: " + sol.maxIncreaseKeepingSkyline(g3));
     }
 }
