@@ -66,7 +66,6 @@ public class Solution {
 
         int[][] g4 = {
             {5,5,5},
-            {5,5,5},
             {5,5,5}
         };
     }
