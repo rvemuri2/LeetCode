@@ -65,7 +65,6 @@ public class Solution {
         System.out.println("Test 3: " + sol.maxIncreaseKeepingSkyline(g3)); // 1
 
         int[][] g4 = {
-            {5,5,5},
             {5,5,5}
         };
     }
