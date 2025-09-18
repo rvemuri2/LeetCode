@@ -79,6 +79,5 @@ public class Solution {
         // rowMax = [100,50], colMax = [50,100]
         // allowed grid = [[min(100,50)=50, min(100,100)=100],[min(50,50)=50, min(50,100)=50]]
         // increases = (50-0)+(100-100)+(50-50)+(50-0)=50+0+0+50=100
-        System.out.println("Test 5: " + sol.maxIncreaseKeepingSkyline(g5));
     }
 }
