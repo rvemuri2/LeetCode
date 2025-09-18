@@ -59,6 +59,5 @@ public class Solution {
             {1,2},
             {3,4}
         };
-        // rowMax = [2,4], colMax = [3,4]
     }
 }
