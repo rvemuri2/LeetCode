@@ -60,6 +60,5 @@ public class Solution {
             {3,4}
         };
         // rowMax = [2,4], colMax = [3,4]
-        // allowed grid = [[min(2,3)=2, min(2,4)=2], [min(4,3)=3, min(4,4)=4]]
     }
 }
