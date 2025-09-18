@@ -56,8 +56,7 @@ public class Solution {
 
         // Additional tests
         int[][] g3 = {
-            {1,2},
-            {3,4}
+            {1,2}
         };
     }
 }
