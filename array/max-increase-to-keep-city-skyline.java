@@ -49,7 +49,6 @@ public class Solution {
 
         int[][] g2 = {
             {0,0,0},
-            {0,0,0},
         };
     }
 }
