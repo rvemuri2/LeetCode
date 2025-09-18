@@ -69,6 +69,5 @@ public class Solution {
             {5,5,5},
             {5,5,5}
         };
-        // Already at max for both row/col; no increase
     }
 }
