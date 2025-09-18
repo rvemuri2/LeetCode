@@ -71,9 +71,5 @@ public class Solution {
         };
         // Already at max for both row/col; no increase
         System.out.println("Test 4: " + sol.maxIncreaseKeepingSkyline(g4)); // 0
-
-        int[][] g5 = {
-            {0,100},
-        };
     }
 }
