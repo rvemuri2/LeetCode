@@ -6,7 +6,6 @@ public class Solution {
         int[] rowMax = new int[n];
         int[] colMax = new int[n];
 
-        // Compute row and column skylines
         for (int i = 0; i < n; i++) {
             int rm = 0;
             for (int j = 0; j < n; j++) rm = Math.max(rm, grid[i][j]);
