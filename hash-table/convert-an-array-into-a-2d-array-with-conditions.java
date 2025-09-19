@@ -1,6 +1,5 @@
 class Solution {
     public List<List<Integer>> findMatrix(int[] nums) {
-        // Result 2D array
         List<List<Integer>> result = new ArrayList<>();
         
         HashMap<Integer, Integer> freq = new HashMap<>();
