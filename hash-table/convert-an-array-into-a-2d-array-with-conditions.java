@@ -23,10 +23,8 @@ class Solution {
                     freq.put(key, freq.get(key) - 1); // reduce count
                 }
             }
-            
             result.add(currentRow);
         }
-        
         return result;
     }
 }
