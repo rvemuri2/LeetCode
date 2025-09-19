@@ -16,8 +16,7 @@ public class Solution {
         }
         for (int j = 0; j < n; j++) {
             int cm = 0;
-            for (int i = 0; i < n; i++)
-                cm = Math.max(cm, grid[i][j]);
+            for (int i = 0; i < n; i++) cm = Math.max(cm, grid[i][j]);
             colMax[j] = cm;
         }
 
