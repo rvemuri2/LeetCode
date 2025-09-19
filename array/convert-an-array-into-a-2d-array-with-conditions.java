@@ -5,6 +5,7 @@ class Solution {
         
         // Count frequency of each number
         HashMap<Integer, Integer> freq = new HashMap<>();
+        
         for (int num : nums)
             freq.put(num, freq.getOrDefault(num, 0) + 1);
         
