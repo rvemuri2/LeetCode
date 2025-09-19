@@ -16,7 +16,6 @@ class Solution {
         for (int row = 0; row < maxFreq; row++) {
             List<Integer> currentRow = new ArrayList<>();
             
-            // Add elements that still have remaining frequency
             for (int key : freq.keySet()) {
                 if (freq.get(key) > 0) {
                     currentRow.add(key);
