@@ -5,9 +5,8 @@ class Solution {
         
         // Count frequency of each number
         HashMap<Integer, Integer> freq = new HashMap<>();
-        for (int num : nums) {
+        for (int num : nums)
             freq.put(num, freq.getOrDefault(num, 0) + 1);
-        }
         
         int maxFreq = Collections.max(freq.values());
         
