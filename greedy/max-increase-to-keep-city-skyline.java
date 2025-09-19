@@ -34,6 +34,4 @@ public class Solution {
         }
         return total;
     }
-
-    // --- Test harness ---
 }
