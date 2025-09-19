@@ -37,6 +37,5 @@ public class Solution {
 
     // --- Test harness ---
     public static void main(String[] args) {
-        Solution sol = new Solution();
     }
 }
