@@ -9,7 +9,6 @@ class Solution {
             freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
         
-        // Number of rows needed = max frequency
         int maxFreq = Collections.max(freq.values());
         
         for (int row = 0; row < maxFreq; row++) {
