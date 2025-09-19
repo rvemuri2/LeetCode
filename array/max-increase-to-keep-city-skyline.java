@@ -27,9 +27,7 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 int allowed = Math.min(rowMax[i], colMax[j]);
-                if (allowed > grid[i][j]) {
-                    total += allowed - grid[i][j];
-                }
+                if (allowed > grid[i][j]) total += allowed - grid[i][j];
             }
         }
         return total;
