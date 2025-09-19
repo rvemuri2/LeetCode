@@ -9,9 +9,8 @@ public class Solution {
         // Compute row and column skylines
         for (int i = 0; i < n; i++) {
             int rm = 0;
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < n; j++)
                 rm = Math.max(rm, grid[i][j]);
-            }
             rowMax[i] = rm;
         }
         for (int j = 0; j < n; j++) {
