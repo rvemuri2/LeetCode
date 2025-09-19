@@ -3,7 +3,6 @@ class Solution {
         // Result 2D array
         List<List<Integer>> result = new ArrayList<>();
         
-        // Count frequency of each number
         HashMap<Integer, Integer> freq = new HashMap<>();
 
         for (int num : nums) freq.put(num, freq.getOrDefault(num, 0) + 1);
