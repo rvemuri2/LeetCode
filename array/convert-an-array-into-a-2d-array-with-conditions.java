@@ -12,7 +12,6 @@ class Solution {
         // Number of rows needed = max frequency
         int maxFreq = Collections.max(freq.values());
         
-        // Build rows one by one
         for (int row = 0; row < maxFreq; row++) {
             List<Integer> currentRow = new ArrayList<>();
             
