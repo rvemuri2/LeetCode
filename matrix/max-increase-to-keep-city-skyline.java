@@ -38,9 +38,5 @@ public class Solution {
     // --- Test harness ---
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        int[][] g1 = {
-            {3,0,8,4},
-        };
     }
 }
