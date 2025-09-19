@@ -20,7 +20,7 @@ class Solution {
             for (int key : freq.keySet()) {
                 if (freq.get(key) > 0) {
                     currentRow.add(key);
-                    freq.put(key, freq.get(key) - 1); // reduce count
+                    freq.put(key, freq.get(key) - 1);
                 }
             }
             result.add(currentRow);
