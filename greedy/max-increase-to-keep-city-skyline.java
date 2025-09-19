@@ -41,7 +41,6 @@ public class Solution {
 
         int[][] g1 = {
             {3,0,8,4},
-            {2,4,5,7},
         };
     }
 }
