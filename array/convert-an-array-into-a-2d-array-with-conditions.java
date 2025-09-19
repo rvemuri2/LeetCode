@@ -1,7 +1,6 @@
 class Solution {
     public List<List<Integer>> findMatrix(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        
         HashMap<Integer, Integer> freq = new HashMap<>();
 
         for (int num : nums) freq.put(num, freq.getOrDefault(num, 0) + 1);
