@@ -59,6 +59,5 @@ public class Solution {
         // Case 5: large gap rows (devices separated by empty rows)
         String[] bank5 = {"100", "000", "010", "000", "001"};
         System.out.println("Test 5: " + sol.numberOfBeams(bank5));
-        // Expected:
     }
 }
