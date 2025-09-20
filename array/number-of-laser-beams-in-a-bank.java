@@ -39,6 +39,5 @@ public class Solution {
         // Expected: 8
 
         // Example 2
-        String[] bank2 = {"000","111","000"};
     }
 }
