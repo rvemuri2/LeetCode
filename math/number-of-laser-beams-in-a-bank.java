@@ -51,6 +51,5 @@ public class Solution {
         // Case 4: consecutive non-empty rows
         String[] bank4 = {"01","10","11"};
         System.out.println("Test 4: " + sol.numberOfBeams(bank4)); 
-        // Expected: 
     }
 }
