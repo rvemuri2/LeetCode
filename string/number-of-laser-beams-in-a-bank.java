@@ -62,6 +62,5 @@ public class Solution {
         // Expected:
         // Row0(1) + Row2(1) = 1 beam
         // Row2(1) + Row4(1) = 1 beam
-        // Total = 2
     }
 }
