@@ -28,6 +28,4 @@ public class Solution {
 
         return beams;
     }
-
-    // ----------------- TESTS -----------------
 }
