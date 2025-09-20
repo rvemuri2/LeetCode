@@ -36,6 +36,5 @@ public class Solution {
         // Example 1
         String[] bank1 = {"011001","000000","010100","001000"};
         System.out.println("Test 1: " + sol.numberOfBeams(bank1)); 
-        // Expected: 8
     }
 }
