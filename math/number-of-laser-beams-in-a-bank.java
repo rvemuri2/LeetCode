@@ -57,6 +57,5 @@ public class Solution {
         // Total = 3
 
         // Case 5: large gap rows (devices separated by empty rows)
-        String[] bank5 = {"100", "000", "010", "000", "001"};
     }
 }
