@@ -60,6 +60,5 @@ public class Solution {
         String[] bank5 = {"100", "000", "010", "000", "001"};
         System.out.println("Test 5: " + sol.numberOfBeams(bank5));
         // Expected:
-        // Row0(1) + Row2(1) = 1 beam
     }
 }
