@@ -52,6 +52,5 @@ public class Solution {
         String[] bank4 = {"01","10","11"};
         System.out.println("Test 4: " + sol.numberOfBeams(bank4)); 
         // Expected: 
-        // Row0 has 1 device, Row1 has 1 device => 1*1 = 1
     }
 }
