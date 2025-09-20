@@ -54,6 +54,5 @@ public class Solution {
         // Expected: 
         // Row0 has 1 device, Row1 has 1 device => 1*1 = 1
         // Row1 has 1 device, Row2 has 2 devices => 1*2 = 2
-        // Total = 3
     }
 }
