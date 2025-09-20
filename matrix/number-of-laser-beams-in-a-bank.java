@@ -45,6 +45,5 @@ public class Solution {
 
         // Case 3: only one row with devices → no beams
         String[] bank3 = {"10101"};
-        System.out.println("Test 3: " + sol.numberOfBeams(bank3)); 
     }
 }
