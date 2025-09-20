@@ -34,6 +34,5 @@ public class Solution {
         Solution sol = new Solution();
 
         // Example 1
-        String[] bank1 = {"011001","000000","010100","001000"};
     }
 }
