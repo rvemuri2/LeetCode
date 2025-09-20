@@ -44,6 +44,5 @@ public class Solution {
         // Expected: 0
 
         // Case 3: only one row with devices → no beams
-        String[] bank3 = {"10101"};
     }
 }
