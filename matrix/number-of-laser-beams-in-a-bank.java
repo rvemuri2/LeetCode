@@ -40,6 +40,5 @@ public class Solution {
 
         // Example 2
         String[] bank2 = {"000","111","000"};
-        System.out.println("Test 2: " + sol.numberOfBeams(bank2)); 
     }
 }
