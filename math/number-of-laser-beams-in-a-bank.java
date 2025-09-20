@@ -32,7 +32,5 @@ public class Solution {
     // ----------------- TESTS -----------------
     public static void main(String[] args) {
         Solution sol = new Solution();
-
-        // Example 1
     }
 }
