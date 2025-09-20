@@ -42,7 +42,5 @@ public class Solution {
         String[] bank2 = {"000","111","000"};
         System.out.println("Test 2: " + sol.numberOfBeams(bank2)); 
         // Expected: 0
-
-        // Case 3: only one row with devices → no beams
     }
 }
