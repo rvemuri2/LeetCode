@@ -61,6 +61,5 @@ public class Solution {
         System.out.println("Test 5: " + sol.numberOfBeams(bank5));
         // Expected:
         // Row0(1) + Row2(1) = 1 beam
-        // Row2(1) + Row4(1) = 1 beam
     }
 }
