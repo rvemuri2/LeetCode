@@ -49,6 +49,5 @@ public class Solution {
         // Expected: 0
 
         // Case 4: consecutive non-empty rows
-        String[] bank4 = {"01","10","11"};
     }
 }
