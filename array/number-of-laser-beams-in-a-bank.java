@@ -20,7 +20,6 @@ public class Solution {
             if (cnt > 0) {
                 // Each device in this row connects with every device in the previous non-empty row
                 beams += prev * cnt;
-                // Update prev to current row count
                 prev = cnt;
             }
         }
