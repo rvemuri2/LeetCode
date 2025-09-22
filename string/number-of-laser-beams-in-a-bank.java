@@ -3,7 +3,6 @@ public class Solution {
      * Count the number of laser beams between security devices in the bank.
      * 
      * @param bank binary string array representing the floor plan
-     * @return total number of beams
      */
     public int numberOfBeams(String[] bank) {
         int prev = 0;
