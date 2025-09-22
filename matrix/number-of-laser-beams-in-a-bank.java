@@ -7,7 +7,7 @@ public class Solution {
      */
     public int numberOfBeams(String[] bank) {
         int prev = 0;   // number of devices in the last non-empty row
-        int beams = 0;  // running total of beams
+        int beams = 0;
 
         for (String row : bank) {
             int cnt = 0;
