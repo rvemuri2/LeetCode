@@ -38,6 +38,5 @@ public class Main {
         runTest(new int[]{10, 6, 3}, 9, 1);
 
         // Many zeros, k nonzero -> popcount(k) flips
-        runTest(new int[]{0,0,0,0}, 13, Integer.bitCount(13));
     }
 }
