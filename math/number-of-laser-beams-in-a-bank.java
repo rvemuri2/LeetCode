@@ -23,7 +23,6 @@ public class Solution {
                 // Update prev to current row count
                 prev = cnt;
             }
-            // If cnt == 0, skip; beams cannot "jump over" empty rows
         }
 
         return beams;
