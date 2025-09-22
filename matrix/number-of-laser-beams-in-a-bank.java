@@ -10,7 +10,6 @@ public class Solution {
         int beams = 0;  // running total of beams
 
         for (String row : bank) {
-            // Count devices ('1') in this row
             int cnt = 0;
             for (int i = 0; i < row.length(); i++) {
                 if (row.charAt(i) == '1') {
