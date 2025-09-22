@@ -33,6 +33,5 @@ public class Main {
         runTest(new int[]{1, 2, 4}, 0, 3);
 
         // Larger numbers; check differing bits only matter
-        // x = 10 ^ 6 ^ 3 = (1010)^(0110)^(0011) = 1101 (13)
     }
 }
