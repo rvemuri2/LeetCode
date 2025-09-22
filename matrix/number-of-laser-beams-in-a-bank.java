@@ -1,6 +1,5 @@
 public class Solution {
     /**
-     * Count the number of laser beams between security devices in the bank.
      */
     public int numberOfBeams(String[] bank) {
         int prev = 0;
