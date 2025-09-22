@@ -27,7 +27,5 @@ public class Main {
 
         // Already equals k; no ops
         runTest(new int[]{5}, 5, 0);
-
-        // Need to flip multiple bits
     }
 }
