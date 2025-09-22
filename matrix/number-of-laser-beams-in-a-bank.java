@@ -16,7 +16,6 @@ public class Solution {
                 if (row.charAt(i) == '1') cnt++;
             }
 
-            // Only process if this row has at least one device
             if (cnt > 0) {
                 beams += prev * cnt;
                 prev = cnt;
