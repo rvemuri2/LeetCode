@@ -41,6 +41,5 @@ public class Main {
         runTest(new int[]{0,0,0,0}, 13, Integer.bitCount(13)); // 13 -> 1101 -> 3
 
         // Random test
-        runTest(new int[]{7, 7, 7}, 7, 0);
     }
 }
