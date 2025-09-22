@@ -6,7 +6,7 @@ public class Solution {
      * @return total number of beams
      */
     public int numberOfBeams(String[] bank) {
-        int prev = 0;   // number of devices in the last non-empty row
+        int prev = 0;
         int beams = 0;
 
         for (String row : bank) {
