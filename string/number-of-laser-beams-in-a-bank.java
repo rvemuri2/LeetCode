@@ -13,8 +13,9 @@ public class Solution {
             // Count devices ('1') in this row
             int cnt = 0;
             for (int i = 0; i < row.length(); i++) {
-                if (row.charAt(i) == '1') 
+                if (row.charAt(i) == '1') {
                     cnt++;
+                }
             }
 
             if (cnt > 0) {
