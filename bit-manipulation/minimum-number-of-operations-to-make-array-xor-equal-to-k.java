@@ -29,6 +29,5 @@ public class Main {
         runTest(new int[]{5}, 5, 0);
 
         // Need to flip multiple bits
-        // nums XOR = 7 (111), target k = 0 (000) -> 3 differing bits
     }
 }
