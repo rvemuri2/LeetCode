@@ -18,7 +18,6 @@ public class Solution {
 
             // Only process if this row has at least one device
             if (cnt > 0) {
-                // Each device in this row connects with every device in the previous non-empty row
                 beams += prev * cnt;
                 prev = cnt;
             }
