@@ -31,7 +31,5 @@ public class Main {
         // Need to flip multiple bits
         // nums XOR = 7 (111), target k = 0 (000) -> 3 differing bits
         runTest(new int[]{1, 2, 4}, 0, 3);
-
-        // Larger numbers; check differing bits only matter
     }
 }
