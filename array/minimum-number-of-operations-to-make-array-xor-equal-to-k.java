@@ -34,6 +34,5 @@ public class Main {
 
         // Larger numbers; check differing bits only matter
         // x = 10 ^ 6 ^ 3 = (1010)^(0110)^(0011) = 1101 (13)
-        // k = 9 (1001), x^k = 1101 ^ 1001 = 0100 -> 1 bit
     }
 }
