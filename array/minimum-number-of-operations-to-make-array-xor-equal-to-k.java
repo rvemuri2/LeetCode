@@ -8,6 +8,3 @@ class Solution {
         return Integer.bitCount(x ^ k);     // number of differing bits
     }
 }
-
-public class Main {
-}
