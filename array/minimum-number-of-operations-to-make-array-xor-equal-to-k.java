@@ -5,6 +5,6 @@ class Solution {
     public int minOperations(int[] nums, int k) {
         int x = 0;
         for (int v : nums) x ^= v;          // XOR of all elements
-        return Integer.bitCount(x ^ k);     // number of differing bits
+        return Integer.bitCount(x ^ k);     
     }
 }
