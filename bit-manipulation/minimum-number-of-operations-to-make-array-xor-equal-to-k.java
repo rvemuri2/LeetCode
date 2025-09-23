@@ -15,6 +15,5 @@ public class Main {
         int got = sol.minOperations(nums, k);
         System.out.printf("nums=%s, k=%d -> got=%d, expected=%d %s%n",
                 Arrays.toString(nums), k, got, expected,
-                (got == expected ? "✓" : "✗"));
     }
 }
