@@ -16,7 +16,6 @@ class Solution {
                 count++;
             }
             
-            // Remove the last bit from both integers.
             k /= 2;
             finalXor /= 2;
         }
