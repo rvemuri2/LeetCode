@@ -17,5 +17,4 @@ public class Main {
                 Arrays.toString(nums), k, got, expected,
                 (got == expected ? "✓" : "✗"));
     }
-
 }
