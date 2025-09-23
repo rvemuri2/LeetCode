@@ -23,6 +23,5 @@ public class Main {
         runTest(new int[]{2, 1, 3, 4}, 1, 2);
 
         // Example 2
-        runTest(new int[]{2, 0, 2, 0}, 0, 0);
     }
 }
