@@ -24,7 +24,5 @@ public class Main {
 
         // Example 2
         runTest(new int[]{2, 0, 2, 0}, 0, 0);
-
-        // Already equals k; no ops
     }
 }
