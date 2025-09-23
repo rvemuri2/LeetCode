@@ -10,6 +10,5 @@ class Solution {
 }
 
 public class Main {
-    private static void runTest(int[] nums, int k, int expected) {
-    }
+    private static void runTest(int[] nums, int k, int expected) {}
 }
