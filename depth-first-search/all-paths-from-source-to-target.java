@@ -24,6 +24,5 @@ class Solution {
     // --- simple test runner ---
     public static void main(String[] args) {
         Solution s = new Solution();
-
     }
 }
