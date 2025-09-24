@@ -9,8 +9,7 @@ class Solution {
 
     public void dfs(int u, List<List<Integer>> res, List<Integer> temp, int[][] graph)
     {
-        if(u==graph.length-1)
-        {
+        if(u==graph.length-1) {
             res.add(new ArrayList<>(temp));
             return;
         }
