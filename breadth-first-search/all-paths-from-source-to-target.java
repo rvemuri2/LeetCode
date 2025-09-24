@@ -29,6 +29,5 @@ class Solution {
         System.out.println(s.allPathsSourceTarget(g1)); // [[0, 1, 3], [0, 2, 3]]
 
         int[][] g2 = {{4,3,1},{3,2,4},{3},{4},{}};
-        System.out.println(s.allPathsSourceTarget(g2));
     }
 }
