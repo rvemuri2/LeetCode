@@ -17,7 +17,7 @@ class Solution {
         for (int nxt : graph[node]) {
             path.add(nxt);
             dfs(nxt, graph, path, ans, target);
-            path.remove(path.size() - 1); // backtrack
+            path.remove(path.size() - 1);
         }
     }
 }
