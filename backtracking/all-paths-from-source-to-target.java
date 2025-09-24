@@ -12,8 +12,7 @@ class Solution {
             res.add(new ArrayList<>(temp));
             return;
         }
-        for(int v:graph[u])
-        {
+        for(int v:graph[u]) {
             temp.add(v);
             dfs(v, res, temp, graph);
             temp.remove(temp.size()-1);
