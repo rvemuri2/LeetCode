@@ -11,9 +11,8 @@ class Solution {
         while (k > 0 || finalXor > 0) {
             // k % 2 returns the rightmost bit in k,
             // finalXor % 2 returns the rightmost bit in finalXor.
-            if ((k % 2) != (finalXor % 2)) {
+            if ((k % 2) != (finalXor % 2)) 
                 count++;
-            }
             
             k /= 2;
             finalXor /= 2;
