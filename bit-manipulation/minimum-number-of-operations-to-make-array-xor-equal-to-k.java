@@ -7,7 +7,6 @@ class Solution {
         }
         
         int count = 0;
-        // Keep iterating until both k and finalXor becomes zero.
         while (k > 0 || finalXor > 0) {
             if ((k % 2) != (finalXor % 2)) count++;
             
