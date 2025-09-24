@@ -26,7 +26,6 @@ class Solution {
         Solution s = new Solution();
 
         int[][] g1 = {{1,2},{3},{3},{}};
-        System.out.println(s.allPathsSourceTarget(g1));
 
     }
 }
