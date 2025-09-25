@@ -42,6 +42,6 @@ class Solution {
         int m2 = 4;
         int[] result2 = sol.processQueries(queries2, m2);
         System.out.print("Output 2: ");
-        printArray(result2); // Expected [3, 1, 2, 0]
+        printArray(result2);
     }
 }
