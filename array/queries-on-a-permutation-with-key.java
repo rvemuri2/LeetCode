@@ -24,6 +24,5 @@ class Solution {
 
     // Simple method to print arrays
     private static void printArray(int[] arr) {
-        System.out.println(Arrays.toString(arr));
     }
 }
