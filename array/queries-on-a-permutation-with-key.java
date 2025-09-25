@@ -1,5 +1,3 @@
-
-
 class Solution {
     public int[] processQueries(int[] queries, int m) {
         List<Integer> perm = new ArrayList<>(m);
