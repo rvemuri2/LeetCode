@@ -11,7 +11,6 @@ class Solution {
         int[] res = new int[queries.length];
         for (int i = 0; i < queries.length; i++) {
             int q = queries[i];
-            // Find index of the query in the permutation
             int idx = perm.indexOf(q);
             res[i] = idx;
 
