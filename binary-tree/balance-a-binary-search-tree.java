@@ -1,17 +1,19 @@
-import java.util.*;
-
-/** Run this file directly: javac Main.java && java Main */
-public class Main {
-    // ----- LeetCode-style TreeNode -----
-    static class TreeNode {
-        int val;
-        TreeNode left, right;
-        TreeNode() {}
-        TreeNode(int v) { val = v; }
-        TreeNode(int v, TreeNode l, TreeNode r) { val = v; left = l; right = r; }
-    }
-
-    // ----- Solution from previous message -----
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+// ----- Solution from previous message -----
     static class Solution {
         public TreeNode balanceBST(TreeNode root) {
             ArrayList<Integer> vals = new ArrayList<>();
