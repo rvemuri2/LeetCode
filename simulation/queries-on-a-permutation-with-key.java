@@ -49,6 +49,5 @@ class Solution {
         int m3 = 8;
         int[] result3 = sol.processQueries(queries3, m3);
         System.out.print("Output 3: ");
-        printArray(result3);
     }
 }
