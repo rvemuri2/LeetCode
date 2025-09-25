@@ -23,5 +23,4 @@ class Solution {
     }
 
     // Simple method to print arrays
-    private static void printArray(int[] arr) {}
 }
