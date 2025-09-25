@@ -27,6 +27,5 @@ class Solution {
         System.out.println(Arrays.toString(arr));
     }
 
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) {}
 }
