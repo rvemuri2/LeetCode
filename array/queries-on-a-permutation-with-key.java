@@ -15,7 +15,6 @@ class Solution {
             int idx = perm.indexOf(q);
             res[i] = idx;
 
-            // Move this number to the front of the permutation
             perm.remove(idx);
             perm.add(0, q);
         }
