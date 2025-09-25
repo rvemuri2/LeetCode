@@ -1,8 +1,7 @@
-import java.util.*;
+
 
 class Solution {
     public int[] processQueries(int[] queries, int m) {
-        // Initialize permutation P = [1, 2, ..., m]
         List<Integer> perm = new ArrayList<>(m);
         for (int x = 1; x <= m; x++) {
             perm.add(x);
