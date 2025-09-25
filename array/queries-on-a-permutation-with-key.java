@@ -26,6 +26,4 @@ class Solution {
     private static void printArray(int[] arr) {
         System.out.println(Arrays.toString(arr));
     }
-
-    public static void main(String[] args) {}
 }
