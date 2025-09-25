@@ -23,6 +23,5 @@ class Solution {
     }
 
     // Simple method to print arrays
-    private static void printArray(int[] arr) {
-    }
+    private static void printArray(int[] arr) {}
 }
