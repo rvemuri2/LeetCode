@@ -38,6 +38,5 @@ class Solution {
         printArray(result1); // Expected [2, 1, 2, 1]
 
         // Example 2
-        int[] queries2 = {4, 1, 2, 2};
     }
 }
