@@ -39,6 +39,5 @@ class Solution {
 
         // Example 2
         int[] queries2 = {4, 1, 2, 2};
-        int m2 = 4;
     }
 }
