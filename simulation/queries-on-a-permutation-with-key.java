@@ -21,6 +21,4 @@ class Solution {
         }
         return res;
     }
-
-    // Simple method to print arrays
 }
