@@ -35,6 +35,5 @@ class Solution {
         int m1 = 5;
         int[] result1 = sol.processQueries(queries1, m1);
         System.out.print("Output 1: ");
-        printArray(result1);
     }
 }
