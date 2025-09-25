@@ -13,9 +13,8 @@
  *     }
  * }
  */
-// ----- Solution from previous message -----
-    static class Solution {
-        public TreeNode balanceBST(TreeNode root) {
+class Solution {
+    public TreeNode balanceBST(TreeNode root) {
             ArrayList<Integer> vals = new ArrayList<>();
             inorder(root, vals);
             return build(vals, 0, vals.size() - 1);
@@ -157,5 +156,4 @@
         else              root.right = insertBST(root.right, v);
         return root;
     }
-}
 }
