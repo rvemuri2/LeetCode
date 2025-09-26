@@ -32,7 +32,7 @@ class Solution {
                 res *= st.pop();  // sign before '('
                 res += st.pop();  // result before '('
             } else if (c == ' ') {
-                continue; // ignore spaces
+                continue;
             }
         }
 
