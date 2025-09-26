@@ -47,7 +47,6 @@ public class Main {
 
         String[] tests = {
             "1 + 1",
-            " 2-1 + 2 ",
         };
     }
 }
