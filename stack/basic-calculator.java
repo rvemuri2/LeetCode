@@ -5,7 +5,7 @@ class Solution {
         int n = s.length();
         int res = 0;       // current accumulated result
         int num = 0;       // current number being built
-        int sign = 1;      // current sign (+1 or -1)
+        int sign = 1;
         Deque<Integer> st = new ArrayDeque<>();
 
         for (int i = 0; i < n; i++) {
