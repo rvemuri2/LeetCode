@@ -5,7 +5,6 @@ class Solution {
         int num = 0;
         int sign = 1;
         Deque<Integer> st = new ArrayDeque<>();
-
         for (int i = 0; i < n; i++) {
             char c = s.charAt(i);
 
