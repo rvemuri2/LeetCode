@@ -30,7 +30,7 @@ class Solution {
                 res += sign * num;
                 num = 0;
                 res *= st.pop();  // sign before '('
-                res += st.pop();  // result before '('
+                res += st.pop();
             } else if (c == ' ') {
                 continue;
             }
