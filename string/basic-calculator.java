@@ -7,7 +7,6 @@ class Solution {
         Deque<Integer> st = new ArrayDeque<>();
         for (int i = 0; i < n; i++) {
             char c = s.charAt(i);
-
             if (Character.isDigit(c)) {
                 num = num * 10 + (c - '0');
             } else if (c == '+') {
