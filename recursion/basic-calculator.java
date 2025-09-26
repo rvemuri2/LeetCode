@@ -40,5 +40,3 @@ class Solution {
         return res;
     }
 }
-
-public class Main {}
