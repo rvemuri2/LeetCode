@@ -20,7 +20,7 @@ class Solution {
             } else if (c == '-') {
                 res += sign * num;
                 num = 0;
-                sign = -1; // handles unary minus too
+                sign = -1;
             } else if (c == '(') {
                 st.push(res);
                 st.push(sign);
@@ -29,7 +29,7 @@ class Solution {
             } else if (c == ')') {
                 res += sign * num;
                 num = 0;
-                res *= st.pop();  // sign before '('
+                res *= st.pop();
                 res += st.pop();
             } else if (c == ' ') {
                 continue;
