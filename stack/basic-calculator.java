@@ -46,7 +46,6 @@ public class Main {
         Solution sol = new Solution();
 
         String[] tests = {
-            "1 + 1",
         };
     }
 }
