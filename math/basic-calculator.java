@@ -53,9 +53,5 @@ public class Main {
             "10 - (2 + (3 - (4 + 5)))",
             "42"
         };
-
-        for (String t : tests) {
-            System.out.println("Input: \"" + t + "\" -> Output: " + sol.calculate(t));
-        }
     }
 }
