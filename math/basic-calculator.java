@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public int calculate(String s) {
         int n = s.length();
-        int res = 0;       // current accumulated result
+        int res = 0;
         int num = 0;
         int sign = 1;
         Deque<Integer> st = new ArrayDeque<>();
