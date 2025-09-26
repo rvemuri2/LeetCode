@@ -6,7 +6,7 @@ class Solution {
         int res = 0;       // current accumulated result
         int num = 0;       // current number being built
         int sign = 1;      // current sign (+1 or -1)
-        Deque<Integer> st = new ArrayDeque<>(); // stack: [.., prevRes, prevSign]
+        Deque<Integer> st = new ArrayDeque<>();
 
         for (int i = 0; i < n; i++) {
             char c = s.charAt(i);
