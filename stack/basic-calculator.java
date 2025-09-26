@@ -33,7 +33,6 @@ class Solution {
                 continue;
             }
         }
-
         res += sign * num;
         return res;
     }
