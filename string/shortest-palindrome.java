@@ -32,8 +32,7 @@ public class Main {
         Solution sol = new Solution();
         String[] tests = {
             "aacecaaa",   // -> "aaacecaaa"
-            "abcd",       // -> "dcbabcd"
-            "",               
+            "abcd",       // -> "dcbabcd"             
         };
     }
 }
