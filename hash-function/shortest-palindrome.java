@@ -37,8 +37,7 @@ public class Main {
             "a",          // -> "a"
             "aa",         // -> "aa"
             "aba",        // -> "aba"
-            "abb",        // -> "bbabb"
-            "baa",           
+            "abb",        // -> "bbabb"         
         };
     }
 }
