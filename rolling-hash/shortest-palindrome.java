@@ -33,7 +33,7 @@ public class Main {
         String[] tests = {
             "aacecaaa",   // -> "aaacecaaa"
             "abcd",       // -> "dcbabcd"
-            "",           // -> ""     
+            "",               
         };
     }
 }
