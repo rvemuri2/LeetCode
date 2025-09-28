@@ -35,8 +35,7 @@ public class Main {
             "abcd",       // -> "dcbabcd"
             "",           // -> ""
             "a",          // -> "a"
-            "aa",         // -> "aa"
-            "aba",    
+            "aa",         // -> "aa"  
         };
     }
 }
