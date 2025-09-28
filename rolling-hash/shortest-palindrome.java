@@ -43,7 +43,6 @@ public class Main {
             "abcdabc"     // -> "cbadcabcdabc"
         };
 
-        for (String s : tests) {
-        }
+        for (String s : tests) {}
     }
 }
