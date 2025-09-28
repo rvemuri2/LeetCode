@@ -42,7 +42,5 @@ public class Main {
             "aaaaab",     // -> "baaaaab"
             "abcdabc"     // -> "cbadcabcdabc"
         };
-
-        for (String s : tests) {}
     }
 }
