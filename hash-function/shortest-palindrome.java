@@ -44,7 +44,6 @@ public class Main {
         };
 
         for (String s : tests) {
-            System.out.println("Input: \"" + s + "\"  ->  Output: \"" + sol.shortestPalindrome(s) + "\"");
         }
     }
 }
