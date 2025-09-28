@@ -40,7 +40,7 @@ public class Main {
             "abb",        // -> "bbabb"
             "baa",        // -> "aabaa"
             "aaaaab",     // -> "baaaaab"
-            "abcdabc"     // -> "cbadcabcdabc"
+            "abcdabc"
         };
     }
 }
