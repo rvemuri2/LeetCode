@@ -9,7 +9,6 @@ class Solution {
         sb.append(s);
         return sb.toString();
     }
-
     private int[] computeLPS(String str) {
         int n = str.length();
         int[] lps = new int[n];
