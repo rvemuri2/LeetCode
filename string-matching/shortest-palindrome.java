@@ -15,7 +15,6 @@ class Solution {
         int[] lps = new int[n];
         int len = 0;
         int i = 1;
-
         while (i < n) {
             if (str.charAt(i) == str.charAt(len)) {
                 len++;
