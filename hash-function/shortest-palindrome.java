@@ -16,7 +16,7 @@ class Solution {
     private int[] computeLPS(String str) {
         int n = str.length();
         int[] lps = new int[n];
-        int len = 0; // length of the previous longest prefix suffix
+        int len = 0;
         int i = 1;
 
         while (i < n) {
