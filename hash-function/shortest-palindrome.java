@@ -2,7 +2,6 @@ class Solution {
     public String shortestPalindrome(String s) {
         String rev = new StringBuilder(s).reverse().toString();
         String temp = s + "#" + rev;
-
         int[] lps = computeLPS(temp);
         String suffix = s.substring(lps[temp.length() - 1]);
         StringBuilder sb = new StringBuilder(suffix);
