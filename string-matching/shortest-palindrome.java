@@ -17,8 +17,7 @@ class Solution {
         int[] lps = new int[n];
         int len = 0;
         for (int i = 1; i < n; i++) {
-            while (len > 0 && str.charAt(i) != str.charAt(len))
-                len = lps[len - 1];
+            while (len > 0 && str.charAt(i) != str.charAt(len)) len = lps[len - 1];
             if (str.charAt(i) == str.charAt(len)) {
                 len++;
             }
