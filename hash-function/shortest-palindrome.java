@@ -4,7 +4,6 @@ class Solution {
         String temp = s + "#" + rev;
 
         int[] lps = computeLPS(temp);
-
         String suffix = s.substring(lps[temp.length() - 1]);
         StringBuilder sb = new StringBuilder(suffix);
         sb.reverse();
