@@ -20,7 +20,8 @@ class Solution {
             while (len > 0 && str.charAt(i) != str.charAt(len)) {
                 len = lps[len - 1];
             }
-            if (str.charAt(i) == str.charAt(len)) len++;
+            if (str.charAt(i) == str.charAt(len)) 
+                len++;
             lps[i] = len;
         }
         return lps;
