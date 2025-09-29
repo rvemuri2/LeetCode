@@ -26,5 +26,3 @@ class Solution {
         return lps;
     }
 }
-
-public class Main {}
