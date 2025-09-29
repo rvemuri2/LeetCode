@@ -9,7 +9,6 @@ class Solution {
         StringBuilder sb = new StringBuilder(suffix);
         sb.reverse();
         sb.append(s);
-
         return sb.toString();
     }
 
