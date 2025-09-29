@@ -2,8 +2,9 @@ import java.util.*;
 
 class Solution {
     public String shortestPalindrome(String s) {
-        if (s == null || s.length() <= 1) 
+        if (s == null || s.length() <= 1) {
             return s;
+        }
         String rs = new StringBuilder(s).reverse().toString();
         String t = s + "#" + rs;
         int[] lps = buildLPS(t);
