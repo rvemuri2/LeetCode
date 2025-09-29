@@ -1,27 +1,11 @@
 class Solution {
     public String shortestPalindrome(String s) {
-        if (s == null || s.length() <= 1) {
-            return s;
-        }
-        String rs = new StringBuilder(s).reverse().toString();
-        String t = s + "#" + rs;
-        int[] lps = buildLPS(t);
-        int longestPrefixPal = lps[t.length() - 1];
-        String suffix = s.substring(longestPrefixPal);
-        return new StringBuilder(suffix).reverse().toString() + s;
+            int j = 0;
+    for (int i = s.length() - 1; i >= 0; i--) {
+        if (s.charAt(i) == s.charAt(j)) { j += 1; }
     }
-
-    private int[] buildLPS(String str) {
-        int n = str.length();
-        int[] lps = new int[n];
-        int len = 0;
-        for (int i = 1; i < n; i++) {
-            while (len > 0 && str.charAt(i) != str.charAt(len)) len = lps[len - 1];
-            if (str.charAt(i) == str.charAt(len)) {
-                len++;
-            }
-            lps[i] = len;
-        }
-        return lps;
+    if (j == s.length()) { return s; }
+    String suffix = s.substring(j);
+    return new StringBuffer(suffix).reverse().toString() + shortestPalindrome(s.substring(0, j)) + suffix;
     }
 }
