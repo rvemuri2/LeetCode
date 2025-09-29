@@ -6,7 +6,7 @@ class Solution {
         String rs = new StringBuilder(s).reverse().toString();
         String t = s + "#" + rs;
         int[] lps = buildLPS(t);
-        int longestPrefixPal = lps[t.length() - 1]; // length of longest palindromic prefix
+        int longestPrefixPal = lps[t.length() - 1];
         String suffix = s.substring(longestPrefixPal);
         return new StringBuilder(suffix).reverse().toString() + s;
     }
