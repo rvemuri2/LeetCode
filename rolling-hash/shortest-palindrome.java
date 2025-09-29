@@ -11,7 +11,6 @@ class Solution {
         return new StringBuilder(suffix).reverse().toString() + s;
     }
 
-    // KMP prefix-function (LPS array)
     private int[] buildLPS(String str) {
         int n = str.length();
         int[] lps = new int[n];
