@@ -31,7 +31,6 @@ public class Main {
         Solution s = new Solution();
         int[][] tests = {
             {2,3,2},           // -> 3
-
         };
     }
 }
