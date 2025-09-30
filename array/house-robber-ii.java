@@ -41,7 +41,6 @@ public class Main {
         };
 
         for (int[] nums : tests) {
-            System.out.println(Arrays.toString(nums) + " -> " + s.rob(nums));
         }
     }
 }
