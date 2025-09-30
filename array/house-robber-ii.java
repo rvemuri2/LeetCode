@@ -40,7 +40,6 @@ public class Main {
             {5,1,1,5}          // -> 6 (take 1 + 5 in best circular split)
         };
 
-        for (int[] nums : tests) {
-        }
+        for (int[] nums : tests) {}
     }
 }
