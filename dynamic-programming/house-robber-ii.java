@@ -39,6 +39,5 @@ public class Main {
             {2,7,9,3,1},       // -> 11 (circular: max(rob 0..3, rob 1..4) = 11)
             {5,1,1,5}          // -> 6 (take 1 + 5 in best circular split)
         };
-
     }
 }
