@@ -25,5 +25,4 @@ class Solution {
         return prev1;
     }
 }
-public class Main {
-}
+public class Main {}
