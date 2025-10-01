@@ -4,7 +4,6 @@ class Solution {
         if (n == 1)
             return nums[0];
         int a = robLinear(nums, 0, n - 2), b = robLinear(nums, 1, n - 1);
-
         return Math.max(a, b);
     }
     private int robLinear(int[] nums, int lo, int hi) {
