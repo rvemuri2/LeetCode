@@ -6,7 +6,7 @@ class Solution {
         if (n == 1) return nums[0];
         // Case 1: rob from 0..n-2 (exclude last)
         int a = robLinear(nums, 0, n - 2);
-        // Case 2: rob from 1..n-1 (exclude first)
+        
         int b = robLinear(nums, 1, n - 1);
         return Math.max(a, b);
     }
