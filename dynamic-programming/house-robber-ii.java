@@ -14,7 +14,7 @@ class Solution {
     // Robber I on a linear slice [lo..hi] inclusive
     private int robLinear(int[] nums, int lo, int hi) {
         int prev2 = 0; // dp[i-2]
-        int prev1 = 0; // dp[i-1]
+        int prev1 = 0;
         for (int i = lo; i <= hi; i++) {
             int pick = prev2 + nums[i];
             int skip = prev1;
