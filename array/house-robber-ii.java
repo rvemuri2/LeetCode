@@ -11,7 +11,6 @@ class Solution {
         return Math.max(a, b);
     }
 
-
     private int robLinear(int[] nums, int lo, int hi) {
         int prev2 = 0;
         int prev1 = 0;
