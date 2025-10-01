@@ -10,7 +10,6 @@ class Solution {
         int b = robLinear(nums, 1, n - 1);
         return Math.max(a, b);
     }
-
     private int robLinear(int[] nums, int lo, int hi) {
         int prev2 = 0;
         int prev1 = 0;
