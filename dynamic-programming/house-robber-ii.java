@@ -11,7 +11,7 @@ class Solution {
         return Math.max(a, b);
     }
 
-    // Robber I on a linear slice [lo..hi] inclusive
+
     private int robLinear(int[] nums, int lo, int hi) {
         int prev2 = 0;
         int prev1 = 0;
