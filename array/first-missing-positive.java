@@ -30,7 +30,6 @@ public class Main {
 
         // Test cases
         int[] nums1 = {1, 2, 0};
-        System.out.println("Expected: 3, Got: " + sol.firstMissingPositive(nums1));
-
+        
     }
 }
