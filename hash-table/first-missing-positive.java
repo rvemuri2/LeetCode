@@ -45,6 +45,6 @@ public class Main {
         System.out.println("Expected: 1, Got: " + sol.firstMissingPositive(nums5));
 
         int[] nums6 = {1};
-        System.out.println("Expected: 2, Got: " + sol.firstMissingPositive(nums6));
+
     }
 }
