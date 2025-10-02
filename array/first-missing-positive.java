@@ -29,6 +29,6 @@ public class Main {
         Solution sol = new Solution();
 
         // Test cases
-        int[] nums1 = {1, 2, 0};
+        
     }
 }
