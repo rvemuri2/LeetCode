@@ -33,6 +33,5 @@ public class Main {
         System.out.println("Expected: 3, Got: " + sol.firstMissingPositive(nums1));
 
         int[] nums2 = {3, 4, -1, 1};
-        
     }
 }
