@@ -30,6 +30,5 @@ public class Main {
 
         // Test cases
         int[] nums1 = {1, 2, 0};
-        
     }
 }
