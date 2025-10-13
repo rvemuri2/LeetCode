@@ -1,6 +1,6 @@
 /*If curr == 0 → count = high × position
 If curr == 1 → count = (high × position) + (low + 1)
-If curr > 1 → count = (high + 1) × position */
+ */
 
 class Solution {
     public int countDigitOne(int n) {
