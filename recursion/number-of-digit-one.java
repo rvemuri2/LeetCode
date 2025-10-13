@@ -10,13 +10,13 @@ class Solution {
 
         while (b != 0) {
             int position = (int)Math.pow(10, count);  // ✅ position (1,10,100..)
-            int curr = (n / position) % 10;           // ✅ current digit at pos
+            int curr = (n / position) % 10;           
 
             count++;
 
             int a = count;
             int mul = 1;
-            
+
             while (a != 0) {  
                 mul = mul * 10;
                 a--;
