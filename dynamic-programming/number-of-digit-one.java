@@ -11,6 +11,7 @@ class Solution {
             count++;
 
             int a = count;
+            
             int mul = 1;
 
             while (a != 0) {  
