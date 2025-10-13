@@ -30,8 +30,9 @@ class Solution {
                 total += left * position;
 
             } else if (curr == 1) {
-                
+
                 total += (left * position) + (right + 1);
+                
             } else if (curr > 1) {
                 total += (left + 1) * position;
             }
