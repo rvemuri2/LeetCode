@@ -1,4 +1,4 @@
-/*If curr == 0 → count = high × position
+/*
 
  */
 
