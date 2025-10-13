@@ -9,7 +9,7 @@ class Solution {
         int total = 0;
 
         while (b != 0) {
-            int position = (int)Math.pow(10, count);  // ✅ position (1,10,100..)
+            int position = (int)Math.pow(10, count); 
             int curr = (n / position) % 10;           
 
             count++;
