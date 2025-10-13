@@ -1,5 +1,5 @@
 /*If curr == 0 → count = high × position
-If curr == 1 → count = (high × position) + (low + 1)
+
  */
 
 class Solution {
@@ -32,7 +32,7 @@ class Solution {
             } else if (curr == 1) {
 
                 total += (left * position) + (right + 1);
-                
+
             } else if (curr > 1) {
                 total += (left + 1) * position;
             }
