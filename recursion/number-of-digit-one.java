@@ -16,7 +16,7 @@ class Solution {
 
             int a = count;
             int mul = 1;
-            while (a != 0) {   // ✅ keep your loop
+            while (a != 0) {  
                 mul = mul * 10;
                 a--;
             }
