@@ -26,8 +26,9 @@ class Solution {
             int right = n % position;  
 
             if (curr == 0) {
-                
+
                 total += left * position;
+                
             } else if (curr == 1) {
                 total += (left * position) + (right + 1);
             } else if (curr > 1) {
