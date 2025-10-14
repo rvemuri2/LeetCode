@@ -1,9 +1,7 @@
 
   
 
-      
-     
-         
+                
 class Solution {
     public boolean isPalindrome(ListNode head) {
         List<Integer> list = new ArrayList();
