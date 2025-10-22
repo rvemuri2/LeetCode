@@ -17,8 +17,7 @@ class Solution {
 
             else {
 
-                miss += miss;
-                
+                miss += miss;   
                 result++;
             }
         }
