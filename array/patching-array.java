@@ -5,6 +5,7 @@ class Solution {
         int i = 0;
         
         while (missing <= n) {
+        
             if (i < nums.length && nums[i] <= missing) {
                 missing += nums[i++];
             } else {
