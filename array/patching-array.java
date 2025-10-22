@@ -13,7 +13,6 @@ class Solution {
                 result++;
             }
         }
-
         return result;
     }
 }
