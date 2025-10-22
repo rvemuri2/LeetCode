@@ -7,7 +7,8 @@ class Solution {
             if (i < nums.length && nums[i] <= miss) {
                 miss += nums[i];
                 i++;
-            } else {
+            } 
+            else {
                 miss += miss;
                 result++;
             }
