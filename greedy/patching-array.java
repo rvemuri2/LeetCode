@@ -13,8 +13,7 @@ class Solution {
                 missing += missing;
                 count++;
             }
-        }
-        
+        }    
         return count;
     }
 }
