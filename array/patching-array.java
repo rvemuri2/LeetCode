@@ -11,7 +11,6 @@ class Solution {
             if (i < nums.length && nums[i] <= missing) {
                 missing += nums[i++];
             } 
-
             else {
                 missing += missing;
                 count++;
