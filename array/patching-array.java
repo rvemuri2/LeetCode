@@ -4,7 +4,7 @@ class Solution {
         int count = 0;
 
         long missing = 1;
-        
+
         int i = 0;
         
         while (missing <= n) {
@@ -12,6 +12,7 @@ class Solution {
             if (i < nums.length && nums[i] <= missing) {
                 missing += nums[i++];
             } 
+            
             else {
                 missing += missing;
                 count++;
