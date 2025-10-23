@@ -122,7 +122,6 @@ class Solution {
             // floor for mid+upper because we want less or equal operation
             int fl=bst.floor(mid+upper);
             
-            
             int ce=bst.ceil(mid+lower);
             
             if(fl!=-1&&ce!=-1&&fl>=ce)
