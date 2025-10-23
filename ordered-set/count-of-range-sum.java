@@ -102,7 +102,7 @@ class Solution {
 
             if(map.get(sum[i]) == null){
                 map.put(sum[i], i);
-                mapCount.put(sum[i],0);
+                mapCount.put(sum[i], 0);
             }
         
         int res = 0;
