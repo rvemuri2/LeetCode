@@ -101,7 +101,6 @@ class Solution {
         // build seg tree
         build(0,n-1,0);
         
-        
         for(int i = 0; i < n; i++)
 
             if(map.get(sum[i]) == null){
