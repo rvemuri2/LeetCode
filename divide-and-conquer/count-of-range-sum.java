@@ -84,7 +84,6 @@ class Solution {
     public int countRangeSum(int[] nums, int lower, int upper) {
         int n = nums.length;
         
-        
         seg = new int[4 * n];
         sum = new long[n];
         map = new HashMap<>();
