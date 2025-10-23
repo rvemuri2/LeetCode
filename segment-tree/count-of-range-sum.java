@@ -131,7 +131,7 @@ class Solution {
             // having current sum
             mid+=nums[i];
             
-            // map.get(mid)+mapCount.get(mid) gives the current index of mid in sum
+            
             update(0,n-1,map.get(mid)+mapCount.get(mid),0);
             mapCount.put(mid,mapCount.get(mid)+1);
         }
