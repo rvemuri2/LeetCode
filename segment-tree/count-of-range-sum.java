@@ -95,7 +95,6 @@ class Solution {
         for(int i=1;i<n;i++)
             sum[i]=sum[i-1]+nums[i];
         
-        
         Arrays.sort(sum);
         
         build(0, n-1, 0);
