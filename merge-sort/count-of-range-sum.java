@@ -77,7 +77,7 @@ class Solution {
             return 0;
         if(left>=l&&right<=r)
             return seg[index];
-        int mid=(left+right)/2;
+        int mid = (left + right) / 2;
         return count(left, mid, l, r, 2 * index + 1) + count(mid + 1, right, l, r, 2 * index + 2);
     }
     
