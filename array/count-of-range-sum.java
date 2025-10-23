@@ -78,7 +78,7 @@ class Solution {
         if(left>=l&&right<=r)
             return seg[index];
         int mid=(left+right)/2;
-        return count(left,mid,l,r,2*index+1)+count(mid+1,right,l,r,2*index+2);
+        return count(left, mid, l, r, 2 * index + 1) + count(mid + 1, right, l, r, 2 * index + 2);
     }
     
     public int countRangeSum(int[] nums, int lower, int upper) {
