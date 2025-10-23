@@ -86,7 +86,7 @@ class Solution {
         
         // declaring all global variables
         seg = new int[4 * n];
-        sum=new long[n];
+        sum = new long[n];
         map=new HashMap<>();
         mapCount=new HashMap<>();
         
