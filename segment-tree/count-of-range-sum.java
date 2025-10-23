@@ -123,10 +123,10 @@ class Solution {
             if(fl != -1 && ce != -1 && fl >= ce)
                 res+=count(0,n-1,ce,fl,0);
             
-            mid+=nums[i];
+            mid += nums[i];
             
             update(0,n-1,map.get(mid)+mapCount.get(mid),0);
-            
+
             mapCount.put(mid,mapCount.get(mid)+1);
         }
         return res;
