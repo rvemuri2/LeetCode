@@ -111,7 +111,7 @@ class Solution {
         // for count of sub-arrays and this is our return result variable
         int res=0;
         //for current sum
-        long mid=0;
+        long mid = 0;
         
         BST bst=new BST(sum);
         
