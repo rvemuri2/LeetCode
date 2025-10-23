@@ -128,7 +128,6 @@ class Solution {
             if(fl!=-1&&ce!=-1&&fl>=ce)
                 res+=count(0,n-1,ce,fl,0);
             
-            
             mid+=nums[i];
             
             update(0,n-1,map.get(mid)+mapCount.get(mid),0);
