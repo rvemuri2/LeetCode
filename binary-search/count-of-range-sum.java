@@ -119,7 +119,7 @@ class Solution {
         // main logic of our whole code
         for(int i=0;i<n;i++){
             
-            // floor for mid+upper because we want less or equal operation
+            
             int fl=bst.floor(mid+upper);
             
             int ce=bst.ceil(mid+lower);
