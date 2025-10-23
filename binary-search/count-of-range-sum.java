@@ -90,7 +90,6 @@ class Solution {
         map=new HashMap<>();
         mapCount=new HashMap<>();
         
-        // prefix-sum
         sum[0] = nums[0];
 
         for(int i = 1; i < n; i++)
