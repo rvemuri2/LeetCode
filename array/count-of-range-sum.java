@@ -116,7 +116,7 @@ class Solution {
         
         for(int i = 0; i < n; i++){
             
-            int fl=bst.floor(mid+upper);
+            int fl = bst.floor(mid+upper);
             
             int ce=bst.ceil(mid+lower);
             
