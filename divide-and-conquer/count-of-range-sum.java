@@ -98,7 +98,7 @@ class Solution {
         // sort the prefix-sum array
         Arrays.sort(sum);
         
-        // build seg tree
+        
         build(0,n-1,0);
         
         for(int i = 0; i < n; i++)
