@@ -82,7 +82,7 @@ class Solution {
     }
     
     public int countRangeSum(int[] nums, int lower, int upper) {
-        int n=nums.length;
+        int n = nums.length;
         
         // declaring all global variables
         seg = new int[4 * n];
