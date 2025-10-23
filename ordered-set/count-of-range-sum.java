@@ -113,7 +113,7 @@ class Solution {
         //for current sum
         long mid = 0;
         
-        BST bst=new BST(sum);
+        BST bst = new BST(sum);
         
         for(int i = 0; i < n; i++){
             
