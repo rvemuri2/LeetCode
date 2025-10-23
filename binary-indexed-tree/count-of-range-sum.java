@@ -126,6 +126,7 @@ class Solution {
             mid+=nums[i];
             
             update(0,n-1,map.get(mid)+mapCount.get(mid),0);
+            
             mapCount.put(mid,mapCount.get(mid)+1);
         }
         return res;
