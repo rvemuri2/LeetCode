@@ -117,7 +117,7 @@ class Solution {
         BST bst=new BST(sum);
         
         // main logic of our whole code
-        for(int i=0;i<n;i++){
+        for(int i = 0; i < n; i++){
             
             int fl=bst.floor(mid+upper);
             
