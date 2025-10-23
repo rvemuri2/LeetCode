@@ -120,7 +120,7 @@ class Solution {
             
             int ce=bst.ceil(mid+lower);
             
-            if(fl!=-1&&ce!=-1&&fl>=ce)
+            if(fl != -1 && ce != -1 && fl >= ce)
                 res+=count(0,n-1,ce,fl,0);
             
             mid+=nums[i];
