@@ -72,7 +72,7 @@ class Solution {
     }
     
     private int count(int left,int right,int l,int r,int index){
-        if(right<l||left>r)
+        if(right < l || left > r)
             return 0;
         if(left >= l && right <= r)
             return seg[index];
