@@ -103,6 +103,7 @@ class Solution {
         
         // for storing first index of number
         for(int i=0;i<n;i++)
+        
             if(map.get(sum[i])==null){
                 map.put(sum[i],i);
                 mapCount.put(sum[i],0);
