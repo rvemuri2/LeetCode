@@ -108,7 +108,7 @@ class Solution {
                 mapCount.put(sum[i],0);
             }
         
-        // for count of sub-arrays and this is our return result variable
+        
         int res=0;
         
         long mid = 0;
