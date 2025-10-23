@@ -71,7 +71,7 @@ class Solution {
         return seg[index]=update(left,mid,in,2*index+1)+update(mid+1,right,in,2*index+2);
     }
     
-    // count number of numbers present between l and r
+    
     private int count(int left,int right,int l,int r,int index){
         if(right<l||left>r)
             return 0;
