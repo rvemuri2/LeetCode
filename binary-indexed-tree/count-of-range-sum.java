@@ -12,10 +12,10 @@ class BST{
         int lo = 0, hi = n-1, res=-1;
         while(hi >= lo){
             int mid=(lo+hi)/2;
-            if(arr[mid]>=num){
+            if(arr[mid] >= num) {
                 res=mid;
                 hi=mid-1;
-            }else{
+            } else{
                 lo=mid+1;
             }
         }
