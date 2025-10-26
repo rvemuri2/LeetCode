@@ -1,6 +1,5 @@
 // created bst class for floor and ceil operations cleanly
 
-
 class BST{
     long arr[];
     int n;
