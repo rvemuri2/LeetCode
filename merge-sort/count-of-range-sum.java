@@ -1,5 +1,5 @@
 // created bst class for floor and ceil operations cleanly
-// Using OOPS concept to have readable code
+
 
 class BST{
     long arr[];
@@ -67,7 +67,7 @@ class Solution {
             return seg[index];
         if(left==right)
             return seg[index]=0;
-        int mid=(left+right)/2;
+        int mid= (left + right) / 2;
         return seg[index]=update(left,mid,in,2*index+1)+update(mid+1,right,in,2*index+2);
     }
     
