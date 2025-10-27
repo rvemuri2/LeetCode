@@ -16,8 +16,8 @@ class BST{
             if(arr[mid] >= num) {
                 res=mid;
                 hi=mid-1;
-            } else{
-                lo=mid+1;
+            } else {
+                lo = mid + 1;
             }
         }
         return res;
