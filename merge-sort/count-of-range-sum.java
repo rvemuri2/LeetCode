@@ -29,7 +29,7 @@ class BST{
             int mid=(lo+hi)/2;
             if (arr[mid] <= num) {
                 res = mid;
-                lo=mid+1;
+                lo = mid+1;
             } else {
                 hi = mid - 1;
             }
