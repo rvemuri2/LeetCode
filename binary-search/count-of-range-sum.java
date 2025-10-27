@@ -12,7 +12,7 @@ class BST{
         int lo = 0, hi = n-1, res=-1;
         while(hi >= lo){
             int mid=(lo+hi)/2;
-            
+
             if(arr[mid] >= num) {
                 res=mid;
                 hi=mid-1;
@@ -30,7 +30,7 @@ class BST{
             if(arr[mid]<=num){
                 res=mid;
                 lo=mid+1;
-            }else{
+            } else{
                 hi=mid-1;
             }
         }
