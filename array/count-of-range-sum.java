@@ -42,7 +42,7 @@ class Solution {
     
     int seg[];
     
-    // Having prefix-sum array in sorted order
+    
     long sum[];
     
     // storing first index of number in sum
