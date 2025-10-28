@@ -40,7 +40,7 @@ class BST{
 
 class Solution {
     
-    // segment tree array
+    
     int seg[];
     
     // Having prefix-sum array in sorted order
