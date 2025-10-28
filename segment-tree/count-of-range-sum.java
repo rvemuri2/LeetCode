@@ -42,7 +42,6 @@ class Solution {
     
     int seg[];
     
-    
     long sum[];
     
     // storing first index of number in sum
