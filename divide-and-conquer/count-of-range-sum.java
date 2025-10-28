@@ -4,7 +4,7 @@ class BST{
     int n;
     
     BST(long arr[]) {
-        this.arr=arr;
+        this.arr = arr;
         this.n=arr.length;
     }
     
