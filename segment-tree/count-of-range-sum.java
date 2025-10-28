@@ -3,7 +3,7 @@ class BST{
     long arr[];
     int n;
     
-    BST(long arr[]){
+    BST(long arr[]) {
         this.arr=arr;
         this.n=arr.length;
     }
