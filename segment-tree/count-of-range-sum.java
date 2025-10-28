@@ -9,9 +9,9 @@ class BST{
     }
     
     int ceil(long num){
-        int lo = 0, hi = n-1, res=-1;
+        int lo = 0, hi = n-1, res = -1;
         while(hi >= lo){
-            int mid=(lo+hi)/2;
+            int mid = (lo + hi) / 2;
 
             if(arr[mid] >= num) {
                 res=mid;
