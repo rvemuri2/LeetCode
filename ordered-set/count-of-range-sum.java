@@ -5,7 +5,7 @@ class BST{
     
     BST(long arr[]) {
         this.arr = arr;
-        this.n=arr.length;
+        this.n = arr.length;
     }
     
     int ceil(long num){
