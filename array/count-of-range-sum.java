@@ -55,7 +55,6 @@ class Solution {
         return seg[index]=build(left,mid,2*index+1)+build(mid+1,right,2*index+2);
     }
     
-    
     private int update(int left,int right,int in,int index){
         if(left>in||right<in)
             return seg[index];
