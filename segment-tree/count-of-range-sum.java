@@ -46,7 +46,7 @@ class Solution {
     
     Map<Long,Integer>map;
     
-    // storing number of times number has gone in current loop
+    
     Map<Long,Integer>mapCount;
     
     // Build the segment tree
