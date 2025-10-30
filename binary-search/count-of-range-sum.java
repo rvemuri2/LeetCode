@@ -48,7 +48,7 @@ class Solution {
     
     Map<Long,Integer>mapCount;
     
-    // Build the segment tree
+    
     private int build(int left,int right,int index){
         if(left==right)
             return seg[index]=1;
