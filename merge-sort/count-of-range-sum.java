@@ -46,7 +46,6 @@ class Solution {
     
     Map<Long,Integer>map;
     
-    
     Map<Long,Integer>mapCount;
     
     // Build the segment tree
