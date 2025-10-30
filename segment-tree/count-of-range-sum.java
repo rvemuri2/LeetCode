@@ -44,7 +44,6 @@ class Solution {
     
     long sum[];
     
-
     Map<Long,Integer>map;
     
     // storing number of times number has gone in current loop
