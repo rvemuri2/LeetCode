@@ -48,7 +48,6 @@ class Solution {
     
     Map<Long,Integer>mapCount;
     
-    
     private int build(int left,int right,int index){
         if(left==right)
             return seg[index]=1;
