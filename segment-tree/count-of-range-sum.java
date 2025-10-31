@@ -24,7 +24,7 @@ class BST{
     
     int floor(long num){
         int lo = 0, hi = n-1, res = -1;
-        while(hi >= lo){
+        while(hi >= lo) {
             int mid = (lo + hi) / 2;
             if (arr[mid] <= num) {
                 res = mid;
@@ -48,8 +48,8 @@ class Solution {
     Map<Long,Integer>mapCount;
     
     private int build(int left,int right,int index){
-        if(left==right)
-            return seg[index]=1;
+        if(left == right)
+            return seg[index] = 1;
         int mid=(left+right)/2;
         return seg[index]=build(left,mid,2*index+1)+build(mid+1,right,2*index+2);
     }
