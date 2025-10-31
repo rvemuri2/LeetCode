@@ -50,8 +50,8 @@ class Solution {
     private int build(int left,int right,int index){
         if(left == right)
             return seg[index] = 1;
-        int mid=(left+right)/2;
-        return seg[index]=build(left,mid,2*index+1)+build(mid+1,right,2*index+2);
+        int mid=(left+right) / 2;
+        return seg[index] = build(left, mid, 2 * index + 1) + build(mid+1, right, 2 * index + 2);
     }
     
     private int update(int left,int right,int in,int index){
