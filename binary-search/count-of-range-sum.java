@@ -57,10 +57,13 @@ class Solution {
     private int update(int left,int right,int in,int index){
         if(left > in || right < in)
             return seg[index];
+
         if(left==right)
             return seg[index]=0;
+
         int mid= (left + right) / 2;
-        return seg[index]=update(left,mid,in,2*index+1)+update(mid+1,right,in,2*index+2);
+
+        return seg[index] = update(left, mid, in, 2 * index + 1) + update(mid + 1, right, in, 2 * index + 2);
     }
     
     private int count(int left, int right, int l, int r, int index){
