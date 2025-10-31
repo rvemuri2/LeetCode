@@ -55,7 +55,7 @@ class Solution {
     }
     
     private int update(int left,int right,int in,int index){
-        if(left>in||right<in)
+        if(left > in || right < in)
             return seg[index];
         if(left==right)
             return seg[index]=0;
