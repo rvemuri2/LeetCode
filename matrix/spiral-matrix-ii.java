@@ -15,8 +15,9 @@ class Solution {
 
             // right -> left
             if (top <= bottom) {
-                for (int c = right; c >= left && num <= max; c--) 
+                for (int c = right; c >= left && num <= max; c--) {
                     ans[bottom][c] = num++;
+                }
                 bottom--;
             }
 
