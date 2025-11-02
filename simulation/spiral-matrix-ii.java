@@ -19,7 +19,7 @@ class Solution {
                 bottom--;
             }
 
-            // bottom -> top
+            
             if (left <= right) {
                 for (int r = bottom; r >= top && num <= max; r--) ans[r][left] = num++;
                 left++;
