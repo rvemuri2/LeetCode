@@ -5,7 +5,7 @@ class Solution {
         int top = 0, bottom = n - 1, left = 0, right = n - 1;
 
         while (top <= bottom && left <= right) {
-            // left -> right
+            
             for (int c = left; c <= right && num <= max; c++) ans[top][c] = num++;
             top++;
 
