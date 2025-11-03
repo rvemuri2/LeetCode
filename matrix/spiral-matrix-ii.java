@@ -9,7 +9,7 @@ class Solution {
             for (int c = left; c <= right && num <= max; c++) ans[top][c] = num++;
             top++;
 
-            // top -> bottom
+            
             for (int r = top; r <= bottom && num <= max; r++) ans[r][right] = num++;
             right--;
 
