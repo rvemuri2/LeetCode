@@ -13,7 +13,6 @@ class Solution {
             for (int r = top; r <= bottom && num <= max; r++) ans[r][right] = num++;
             right--;
 
-            
             if (top <= bottom) {
                 for (int c = right; c >= left && num <= max; c--) {
                     ans[bottom][c] = num++;
