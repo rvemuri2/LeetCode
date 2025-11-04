@@ -9,7 +9,8 @@ class Solution {
         int right = n - 1;
 
         while (top <= bottom && left <= right) {
-            for (int c = left; c <= right && num <= max; c++) ans[top][c] = num++;
+            for (int c = left; c <= right && num <= max; c++) 
+                ans[top][c] = num++;
             top++;
 
             for (int r = top; r <= bottom && num <= max; r++) 
