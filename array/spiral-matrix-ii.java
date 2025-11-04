@@ -4,7 +4,8 @@ class Solution {
         int num = 1;
         int max = n * n;
         int top = 0;
-        int bottom = n - 1, left = 0, right = n - 1;
+        int bottom = n - 1;
+        int left = 0, right = n - 1;
 
         while (top <= bottom && left <= right) {
             for (int c = left; c <= right && num <= max; c++) ans[top][c] = num++;
