@@ -1,7 +1,8 @@
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] ans = new int[n][n];
-        int num = 1, max = n * n;
+        int num = 1;
+        int max = n * n;
         int top = 0, bottom = n - 1, left = 0, right = n - 1;
 
         while (top <= bottom && left <= right) {
