@@ -17,9 +17,11 @@ class Solution {
             right--;
 
             if (top <= bottom) {
+                
                 for (int c = right; c >= left && num <= max; c--) {
                     ans[bottom][c] = num++;
                 }
+
                 bottom--;
             }
 
