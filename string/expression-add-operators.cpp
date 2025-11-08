@@ -3,7 +3,6 @@ class Solution {
 public:
     vector<string> addOperators(string num, int target) {
         vector<string> result;
-        
         dfs(num, target, {}, {}, {}, {}, result);
         return result;
     }
