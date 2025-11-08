@@ -14,7 +14,6 @@ private:
             if (eval == target)
 
                 result.push_back(path);
-
             return;
         }
         
