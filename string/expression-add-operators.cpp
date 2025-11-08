@@ -25,8 +25,9 @@ private:
             long long curVal = stoll(cur);
             
             if (pos == 0) {
-                
+
                 dfs(num, target, i + 1, curVal, curVal, cur, result);
+                
             } else {
                 dfs(num, target, i + 1, eval + curVal, curVal, 
                     path + "+" + cur, result);
