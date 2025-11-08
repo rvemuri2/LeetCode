@@ -17,7 +17,7 @@ private:
         }
         
         for (int i = pos; i < num.length(); i++) {
-            
+
             string cur = num.substr(pos, i - pos + 1);
             
             if (cur.length() > 1 && cur[0] == '0')
@@ -32,7 +32,6 @@ private:
                 dfs(num, target, i + 1, eval + curVal, curVal, path + "+" + cur, result);
                 
                 dfs(num, target, i + 1, eval - curVal, -curVal, path + "-" + cur, result);
-                
                 dfs(num, target, i + 1, eval - multed + multed * curVal, multed * curVal, path + "*" + cur, result);
             }
         }
