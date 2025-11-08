@@ -12,9 +12,8 @@ private:
              string path, vector<string>& result) {
         
         if (pos == num.length()) {
-            if (eval == target) {
+            if (eval == target)
                 result.push_back(path);
-            }
             return;
         }
         
