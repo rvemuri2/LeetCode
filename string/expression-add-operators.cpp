@@ -1,4 +1,5 @@
 class Solution {
+    
 public:
     vector<string> addOperators(string num, int target) {
         vector<string> result;
@@ -15,7 +16,7 @@ private:
             if (eval == target)
 
                 result.push_back(path);
-                
+
             return;
         }
         
