@@ -13,6 +13,7 @@ private:
         
         if (pos == num.length()) {
             if (eval == target)
+            
                 result.push_back(path);
             return;
         }
