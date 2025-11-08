@@ -10,7 +10,6 @@ public:
     
 private:
     void dfs(const string& num, int target, int pos, long long eval, long long multed, string path, vector<string>& result) {
-        
         if (pos == num.length()) {
             if (eval == target)
 
