@@ -30,8 +30,7 @@ private:
 
             } else {
 
-                dfs(num, target, i + 1, eval + curVal, curVal, 
-                    path + "+" + cur, result);
+                dfs(num, target, i + 1, eval + curVal, curVal, path + "+" + cur, result);
                 
                 dfs(num, target, i + 1, eval - curVal, -curVal, path + "-" + cur, result);
                 
