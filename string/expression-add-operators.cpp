@@ -1,5 +1,4 @@
 class Solution {
-
 public:
     vector<string> addOperators(string num, int target) {
         vector<string> result;
