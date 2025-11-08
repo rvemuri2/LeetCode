@@ -29,8 +29,7 @@ private:
                 dfs(num, target, i + 1, curVal, curVal, cur, result);
             } else {
 
-                dfs(num, target, i + 1, eval + curVal, curVal, path + "+" + cur, result);
-                
+                dfs(num, target, i + 1, eval + curVal, curVal, path + "+" + cur, result);               
                 dfs(num, target, i + 1, eval - curVal, -curVal, path + "-" + cur, result);
                 dfs(num, target, i + 1, eval - multed + multed * curVal, multed * curVal, path + "*" + cur, result);
             }
