@@ -3,7 +3,6 @@ class Solution {
         int n = nums.length;
         int[] result = new int[2];
         int index = 0;
-
         for (int i = 0; i < n; i++) {
             boolean found = false;
             for (int j = 0; j < n; j++) {
