@@ -1,7 +1,6 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
         int n = nums.length, index = 0;
-
         int[] result = new int[2];
         for (int i = 0; i < n; i++) {
             boolean found = false;
