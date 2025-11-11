@@ -1,8 +1,8 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        int n = nums.length;
+        int n = nums.length, int index = 0;
+        
         int[] result = new int[2];
-        int index = 0;
         for (int i = 0; i < n; i++) {
             boolean found = false;
             for (int j = 0; j < n; j++) {
