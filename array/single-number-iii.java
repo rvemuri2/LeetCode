@@ -1,25 +1,21 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        int n = nums.length, index = 0;
-        int[] result = new int[2];
-        
-        for (int i = 0; i < n; i++) {
-            boolean found = false;
-            for (int j = 0; j < n; j++) {
-                if (i != j && nums[i] == nums[j]) {
-                    found = true;
-                    break;
-                }
-            }
+        int xorAll = 0;
+        for (int num : nums) {
+            xorAll ^= num;
+        }
 
-            if (!found) {
-                result[index++] = nums[i];
-                if (index == 2) {
-                    break;
-                }
+        int setBit = xorAll & -xorAll;
+        int a = 0, b = 0;
+        
+        for (int num : nums) {
+            if ((num & setBit) != 0) {
+                a ^= num;
+            } else {
+                b ^= num;
             }
         }
 
-        return result;
+        return new int[]{a, b};
     }
 }
