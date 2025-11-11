@@ -10,6 +10,7 @@ class Solution {
                     break;
                 }
             }
+            
             if (!found) {
                 result[index++] = nums[i];
                 if (index == 2) {
