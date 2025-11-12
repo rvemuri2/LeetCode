@@ -6,6 +6,7 @@ class Solution {
             xorAll ^= num;
 
         int setBit = xorAll & -xorAll;
+        
         int a = 0;
         int b = 0;
         
