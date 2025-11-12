@@ -1,8 +1,7 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        
-        int xorAll = 0;
 
+        int xorAll = 0;
         for (int num : nums)
             xorAll ^= num;
 
