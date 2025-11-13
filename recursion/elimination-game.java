@@ -10,8 +10,7 @@ private int helper(int n, boolean leftToRight) {
 
     if (leftToRight || n % 2 == 1)
         return 2 * helper(n / 2, !leftToRight);
-    else {
+    else
         return 2 * helper(n / 2, !leftToRight) - 1;
-    }
 }
 }
