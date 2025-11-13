@@ -4,7 +4,8 @@ class Solution {
 }
 
 private int helper(int n, boolean leftToRight) {
-    if (n == 1) return 1;
+    if (n == 1) 
+        return 1;
 
     if (leftToRight || n % 2 == 1) {
         return 2 * helper(n / 2, !leftToRight);
