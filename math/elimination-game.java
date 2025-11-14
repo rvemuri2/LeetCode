@@ -1,19 +1,16 @@
 class Solution {
-    
-   public int lastRemaining(int n) {
-        return helper(n, true);
-    }
-
-    private int helper(int n, boolean leftToRight) {
-
-        if (n == 1) {
-            return 1;
-        }   
-
-        if (leftToRight || n % 2 == 1)
-            return 2 * helper(n / 2, !leftToRight);
-
-        else
-            return 2 * helper(n / 2, !leftToRight) - 1;
+    public int lastRemaining(int n) {
+        int head=1;
+        int step=1;
+        boolean left=true;
+        while(n>1){
+            if(left || n%2==1){
+                head+=step;
+            }
+            step*=2;
+            left=!left;
+            n/=2;
+        }
+        return head;
     }
 }
