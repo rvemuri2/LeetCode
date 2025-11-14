@@ -1,6 +1,6 @@
 class Solution {
     public int lastRemaining(int n) {
-        int head=1;
+        int head = 1;
         int step=1;
         boolean left=true;
         while(n>1){
