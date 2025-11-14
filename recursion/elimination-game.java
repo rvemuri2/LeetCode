@@ -1,11 +1,11 @@
 class Solution {
     
    public int lastRemaining(int n) {
-    return helper(n, true);
+        return helper(n, true);
     }
 
     private int helper(int n, boolean leftToRight) {
-        
+
         if (n == 1) {
             return 1;
         }   
