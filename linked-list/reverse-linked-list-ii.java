@@ -12,7 +12,7 @@ class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
         ListNode dummy = new ListNode(0); // created dummy node
         dummy.next = head;
-        ListNode prev = dummy; // intialising prev pointer on dummy node
+        ListNode prev = dummy;
         
         for(int i = 0; i < left - 1; i++)
             prev = prev.next;
