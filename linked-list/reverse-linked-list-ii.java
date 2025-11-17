@@ -18,7 +18,7 @@ class Solution {
             prev = prev.next; // adjusting the prev pointer on it's actual index
         
         ListNode curr = prev.next; // curr pointer will be just after prev
-        // reversing
+        
         for(int i = 0; i < right - left; i++){
             ListNode forw = curr.next;
             curr.next = forw.next;
