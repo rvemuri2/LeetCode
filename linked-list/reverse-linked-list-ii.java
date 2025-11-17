@@ -15,7 +15,7 @@ class Solution {
         ListNode prev = dummy; // intialising prev pointer on dummy node
         
         for(int i = 0; i < left - 1; i++)
-            prev = prev.next; // adjusting the prev pointer on it's actual index
+            prev = prev.next;
         
         ListNode curr = prev.next;
         
