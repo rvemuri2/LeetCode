@@ -4,7 +4,7 @@
  *     int val;
  *     ListNode next;
  *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
+
  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
