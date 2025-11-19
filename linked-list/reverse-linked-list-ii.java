@@ -2,7 +2,6 @@
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
- 
  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
