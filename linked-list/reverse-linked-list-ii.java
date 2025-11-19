@@ -1,6 +1,5 @@
 /**
  * Definition for singly-linked list.
-
  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
