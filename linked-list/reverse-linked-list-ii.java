@@ -4,7 +4,6 @@
  *     int val;
  *     ListNode next;
 
-
  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
