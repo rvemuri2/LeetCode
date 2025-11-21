@@ -1,4 +1,5 @@
 public class Solution {
+    
     public int numTrees(int n) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         map.put(0,1);
