@@ -7,7 +7,6 @@ public class Solution {
     }
     
     private int numTrees(int n, Map<Integer, Integer> map){
-    
         if(map.containsKey(n)) return map.get(n);
         // recursion
         int sum = 0;
