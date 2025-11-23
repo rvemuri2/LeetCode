@@ -1,5 +1,4 @@
 public class Solution {
-
     public int numTrees(int n) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         map.put(0,1);
@@ -12,7 +11,7 @@ public class Solution {
             return map.get(n); 
 
         int sum = 0;
-        
+
         for(int i = 1; i <= n; i++) sum += numTrees(i-1, map) * numTrees(n-i, map);
 
         map.put(n, sum);
