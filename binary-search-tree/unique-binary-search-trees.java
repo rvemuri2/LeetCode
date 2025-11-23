@@ -12,6 +12,7 @@ public class Solution {
             return map.get(n); 
 
         int sum = 0;
+        
         for(int i = 1; i <= n; i++) sum += numTrees(i-1, map) * numTrees(n-i, map);
 
         map.put(n, sum);
