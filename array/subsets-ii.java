@@ -1,5 +1,4 @@
 class Solution {
-
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
