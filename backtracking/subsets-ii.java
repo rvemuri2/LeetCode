@@ -14,6 +14,7 @@ class Solution {
                 continue;
             }
             path.add(nums[i]);
+            
             backtrack(i + 1, nums, path, list);
             path.remove(path.size() - 1);
         }
