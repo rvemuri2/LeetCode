@@ -12,8 +12,9 @@ class Solution {
 
         list.add(new ArrayList<>(path));
         for (int i = start; i < nums.length; i++) {
-            if (i > start && nums[i] == nums[i - 1]) 
+            if (i > start && nums[i] == nums[i - 1]) {
                 continue;
+            }
 
             path.add(nums[i]);
             backtrack(i + 1, nums, path, list);
