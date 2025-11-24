@@ -1,9 +1,9 @@
 class Solution {
-    
+
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
-        Arrays.sort(nums); // sort to handle duplicates
+        Arrays.sort(nums); 
         backtrack(0, nums, path, list);
         return list;
     }
