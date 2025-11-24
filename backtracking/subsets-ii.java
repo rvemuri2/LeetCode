@@ -12,7 +12,7 @@ class Solution {
         list.add(new ArrayList<>(path));
 
         for (int i = start; i < nums.length; i++) {
-            // skip duplicates
+            
             if (i > start && nums[i] == nums[i - 1]) continue;
 
             path.add(nums[i]);
