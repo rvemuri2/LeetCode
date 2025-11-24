@@ -9,10 +9,9 @@ class Solution {
     }
 
     private void backtrack(int start, int[] nums, List<Integer> path, List<List<Integer>> list) {
-        
+
         list.add(new ArrayList<>(path));
         for (int i = start; i < nums.length; i++) {
-            
             if (i > start && nums[i] == nums[i - 1]) 
                 continue;
 
