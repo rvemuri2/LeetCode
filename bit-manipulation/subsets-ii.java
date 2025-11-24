@@ -14,7 +14,6 @@ class Solution {
             if (i > start && nums[i] == nums[i - 1]) {
                 continue;
             }
-
             path.add(nums[i]);
             backtrack(i + 1, nums, path, list);
             path.remove(path.size() - 1);
