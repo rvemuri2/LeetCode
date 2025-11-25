@@ -63,7 +63,7 @@ var findLadders = function(beginWord, endWord, wordList) {
     if (!reached) return []
 
     // move backward to construct paths
-    // add nodes to paths in reverse order to have paths from begin to end
+    
     let ans = [[endWord]]
     for (let level = nodes.length - 1; level >= 0; level--) {        
         let alen = ans.length
