@@ -59,7 +59,7 @@ var findLadders = function(beginWord, endWord, wordList) {
         }
     }
 
-    // try but did not find endWord
+    
     if (!reached) return []
 
     let ans = [[endWord]]
