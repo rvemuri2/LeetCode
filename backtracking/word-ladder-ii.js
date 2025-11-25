@@ -14,7 +14,7 @@ var findLadders = function(beginWord, endWord, wordList) {
     }
 
     // dictionary to help us search words faster
-    // and to trackback what word was used
+    
     let dict = new Set(wordList);
     if (dict.has(endWord) == false) return []
 
