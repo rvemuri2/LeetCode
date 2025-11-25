@@ -5,7 +5,6 @@
  * @return {string[][]}
  */
 var findLadders = function(beginWord, endWord, wordList) {
-    
     let connected = (a,b) => {
         let c = 0
         for (let i = 0; i < a.length && c < 2; i++) {
