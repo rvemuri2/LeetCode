@@ -13,7 +13,7 @@ var findLadders = function(beginWord, endWord, wordList) {
         return c == 1
     }
 
-    // dictionary to help us search words faster
+    
     let dict = new Set(wordList);
     if (dict.has(endWord) == false) return []
 
