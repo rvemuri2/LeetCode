@@ -14,8 +14,9 @@ var findLadders = function(beginWord, endWord, wordList) {
     }
 
     let dict = new Set(wordList);
-    if (dict.has(endWord) == false) 
+    if (dict.has(endWord) == false) {
         return []
+    }
 
     dict.delete(beginWord)
     let queue = [beginWord]
