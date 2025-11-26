@@ -1,5 +1,4 @@
 
-
 var findLadders = function(beginWord, endWord, wordList) {
     let connected = (a,b) => {
         let c = 0
