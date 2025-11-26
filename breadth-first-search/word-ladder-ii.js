@@ -1,7 +1,6 @@
 /**
  * @param {string} beginWord
  * @param {string} endWord
- 
  */
 var findLadders = function(beginWord, endWord, wordList) {
     let connected = (a,b) => {
