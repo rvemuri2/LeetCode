@@ -16,7 +16,6 @@ var findLadders = function(beginWord, endWord, wordList) {
     let queue = [beginWord]
     let nodes = []
 
-    
     // find all ways from beginning
     let reached = false;    
     while (queue.length && !reached) {
