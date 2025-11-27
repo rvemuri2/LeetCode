@@ -18,7 +18,7 @@ var findLadders = function(beginWord, endWord, wordList) {
 
     let reached = false;    
     while (queue.length && !reached) {
-        // update nodes of paths for this level
+        
         nodes.push(queue.slice())
 
         // access whole level   
