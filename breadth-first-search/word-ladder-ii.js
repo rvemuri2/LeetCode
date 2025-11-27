@@ -19,8 +19,7 @@ var findLadders = function(beginWord, endWord, wordList) {
     let reached = false;    
     while (queue.length && !reached) {
         nodes.push(queue.slice())
-
-           
+   
         let qlen = queue.length;
         for (let i = 0; i < qlen && !reached; i++) {
 
