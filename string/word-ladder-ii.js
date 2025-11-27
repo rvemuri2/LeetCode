@@ -21,8 +21,8 @@ var findLadders = function(beginWord, endWord, wordList) {
         nodes.push(queue.slice())
    
         let qlen = queue.length;
+        
         for (let i = 0; i < qlen && !reached; i++) {
-
             let from = queue.shift();
             
             // find all nodes that connect to the nodes of this level
