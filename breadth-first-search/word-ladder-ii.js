@@ -39,7 +39,6 @@ var findLadders = function(beginWord, endWord, wordList) {
                 }
 
                 // - otherwise,
-                
                 queue.push(to)                
                 dict.delete(to)                
             }
