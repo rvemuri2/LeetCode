@@ -21,7 +21,7 @@ var findLadders = function(beginWord, endWord, wordList) {
         nodes.push(queue.slice())
    
         let qlen = queue.length;
-        
+
         for (let i = 0; i < qlen && !reached; i++) {
             let from = queue.shift();
             
@@ -40,7 +40,7 @@ var findLadders = function(beginWord, endWord, wordList) {
 
                 // - otherwise,
                 // - add all connected nodes to the record for the next level
-                // - and delete them from dict to prevent revisiting to form cycles
+                
                 queue.push(to)                
                 dict.delete(to)                
             }
