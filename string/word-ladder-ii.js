@@ -44,7 +44,8 @@ var findLadders = function(beginWord, endWord, wordList) {
         }
     }
 
-    if (!reached) return []
+    if (!reached) 
+        return []
 
     let ans = [[endWord]]
     for (let level = nodes.length - 1; level >= 0; level--) {        
