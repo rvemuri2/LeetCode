@@ -40,7 +40,6 @@ var findLadders = function(beginWord, endWord, wordList) {
 
                 // - otherwise,
                 // - add all connected nodes to the record for the next level
-                
                 queue.push(to)                
                 dict.delete(to)                
             }
