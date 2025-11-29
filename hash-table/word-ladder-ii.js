@@ -29,7 +29,6 @@ var findLadders = function(beginWord, endWord, wordList) {
 
                 if (connected(from,to) == false) continue
 
-                
                 if (to == endWord) {
                     reached = true
                     break;
