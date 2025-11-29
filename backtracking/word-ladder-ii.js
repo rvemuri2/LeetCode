@@ -30,7 +30,6 @@ var findLadders = function(beginWord, endWord, wordList) {
                 if (connected(from,to) == false) continue
 
                 // if connect
-                
                 if (to == endWord) {
                     reached = true
                     break;
