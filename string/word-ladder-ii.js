@@ -31,7 +31,7 @@ var findLadders = function(beginWord, endWord, wordList) {
 
                 // if connect
                 // - and one of them is end word
-                // - then we can stop moving forward
+                
                 if (to == endWord) {
                     reached = true
                     break;
