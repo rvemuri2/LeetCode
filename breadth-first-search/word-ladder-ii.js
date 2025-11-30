@@ -27,7 +27,6 @@ var findLadders = function(beginWord, endWord, wordList) {
             let from = queue.shift();
             
             for (let to of dict) {                
-
                 if (connected(from,to) == false) 
                     continue
                 if (to == endWord) {
