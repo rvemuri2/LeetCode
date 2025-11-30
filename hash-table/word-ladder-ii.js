@@ -28,7 +28,8 @@ var findLadders = function(beginWord, endWord, wordList) {
             
             for (let to of dict) {                
 
-                if (connected(from,to) == false) continue
+                if (connected(from,to) == false) 
+                    continue
                 if (to == endWord) {
                     reached = true
                     break;
