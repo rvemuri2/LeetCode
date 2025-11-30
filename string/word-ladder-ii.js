@@ -50,7 +50,8 @@ var findLadders = function(beginWord, endWord, wordList) {
         let alen = ans.length
         for (let a = 0; a < alen; a++) {
             let p = ans.shift()
-            let last = p[0]            
+            let last = p[0] 
+                       
             for (let word of nodes[level]) {                
                 if (!connected(last, word)) 
                     continue                
