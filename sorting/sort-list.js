@@ -67,6 +67,5 @@ function merge(root, left, right) {
         }
         pointer = pointer.next;
     }
-
     return root.next;
 }
