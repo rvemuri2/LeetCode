@@ -50,7 +50,6 @@ function merge(root, left, right) {
      * temparary node.
      */
     while(left !== null || right !== null) {
-        
         if (left === null) {
             pointer.next = right;
             right = right.next;
