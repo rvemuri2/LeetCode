@@ -57,7 +57,8 @@ function merge(root, left, right) {
         else if (right === null) {
             pointer.next = left;
             left = left.next;
-        } else {
+        } 
+        else {
             if (left.val < right.val) {
                 pointer.next = left;
                 left = left.next;
