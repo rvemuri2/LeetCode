@@ -53,7 +53,8 @@ function merge(root, left, right) {
         if (left === null) {
             pointer.next = right;
             right = right.next;
-        } else if (right === null) {
+        } 
+        else if (right === null) {
             pointer.next = left;
             left = left.next;
         } else {
