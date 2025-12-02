@@ -47,7 +47,7 @@ function merge(root, left, right) {
     /**
      * merge the smaller node in the `left` and `right` list first.
      * return the second node in the list because the first is a 
-     * temparary node.
+
      */
     while(left !== null || right !== null) {
         if (left === null) {
