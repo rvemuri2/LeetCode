@@ -3,6 +3,7 @@ class Solution:
         str1 = ""
         for i in s:
             if(i.isalnum()):
+                i.lower()
                 str1 += i
         
         print(str1)
