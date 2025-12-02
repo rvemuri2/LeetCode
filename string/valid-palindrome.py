@@ -6,5 +6,13 @@ class Solution:
                 i = i.lower()
                 str1 += i
         
-        print(str1)
-        
+        left = 0
+        right = len(s) - 1
+
+        while(left < right):
+            if(str1[left] != str1[right]):
+                return False
+            left += 1
+            right -= 1
+
+        return True        
