@@ -5,15 +5,12 @@ class Solution:
         left = 0
         right = len(nums) - 1
 
-        while(left <= right):
-
-            leftval = nums[left] * nums[left]
-            rightval = nums[right] * nums[right]
-            squaredArray.append(max(leftval, rightval))
-
-            if(leftval >= rightval):
+        while(left <= right):       
+            if(abs(nums[left]) >= abs(nums[right])):
+                squaredArray.append(nums[left] ** 2)
                 left += 1
             else:
+                squaredArray.append(nums[right] ** 2)
                 right -= 1
         
         return squaredArray[::-1]
