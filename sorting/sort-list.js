@@ -44,8 +44,7 @@ function split(node) {
 
 function merge(root, left, right) {
     let pointer = root;
-    /**
-     */
+    
     while(left !== null || right !== null) {
         if (left === null) {
             pointer.next = right;
