@@ -1,20 +1,20 @@
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
 
-        l = 0
-        r = len(nums) - 1
-        arr = []
+        squaredArray = []
+        left = 0
+        right = len(nums) - 1
 
-        while(l <= r):
+        while(left <= right):
 
-            if(abs(nums[r]) > abs(nums[l])):
+            leftval = nums[left] * nums[left]
+            rightval = nums[right] * nums[right]
+            squaredArray.append(max(leftval, rightval))
 
-                arr.append(nums[r] * nums[r])
-                r -= 1
-            
+            if(leftval >= rightval):
+                left += 1
             else:
-                arr.append(nums[l] * nums[l])
-                l += 1
-            
-        return arr[::-1]
+                right -= 1
+        
+        return squaredArray
         
