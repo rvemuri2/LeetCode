@@ -16,5 +16,5 @@ class Solution:
             else:
                 right -= 1
         
-        return squaredArray
+        return squaredArray[::-1]
         
