@@ -1,11 +1,5 @@
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
-        str1 = ""
-        for i in s:
-            if(i.isalnum()):
-                i = i.lower()
-                str1 += i
-        
+    def isPalindrome(self, s: str) -> bool:  
         left = 0
         right = len(s) - 1
 
