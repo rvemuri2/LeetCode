@@ -7,7 +7,7 @@ class Solution:
                 str1 += i
         
         left = 0
-        right = len(s) - 1
+        right = len(str1) - 1
 
         while(left < right):
             if(str1[left] != str1[right]):
