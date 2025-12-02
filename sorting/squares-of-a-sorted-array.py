@@ -9,7 +9,7 @@ class Solution:
 
             leftval = nums[left] * nums[left]
             rightval = nums[right] * nums[right]
-            squaredArray.append(max(leftval, rightval))
+            squaredArray.append(min(leftval, rightval))
 
             if(leftval >= rightval):
                 left += 1
