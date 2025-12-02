@@ -11,9 +11,9 @@ class Solution:
 
         while(left < right):
 
-            if(!(s[left].isalnum())):
+            if(not (s[left].isalnum())):
                 left += 1
-            elif(!(s[right].isalnum())):
+            elif(not (s[right].isalnum())):
                 right -= 1
             elif(s[left].lower() == s[right].lower()):
                 left += 1
