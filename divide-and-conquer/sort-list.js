@@ -46,7 +46,7 @@ function merge(root, left, right) {
     let pointer = root;
     /**
      * merge the smaller node in the `left` and `right` list first.
-     * return the second node in the list because the first is a 
+
      */
     while(left !== null || right !== null) {
         if (left === null) {
