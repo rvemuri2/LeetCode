@@ -7,12 +7,18 @@ class Solution:
                 str1 += i
         
         left = 0
-        right = len(str1) - 1
+        right = len(s) - 1
 
         while(left < right):
-            if(str1[left] != str1[right]):
+
+            if(!(s[left].isalnum())):
+                left += 1
+            elif(!(s[right].isalnum())):
+                right -= 1
+            elif(s[left].lower() == s[right].lower()):
+                left += 1
+                right -= 1
+            else:
                 return False
-            left += 1
-            right -= 1
 
         return True        
