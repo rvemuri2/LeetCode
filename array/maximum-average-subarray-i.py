@@ -7,7 +7,7 @@ class Solution:
 
         while(right < len(nums)):
             total = 0
-            for i in range(k):
+            for i in range(left, right):
                 total += nums[i]
             total /= k
             avg = max(avg, total)
