@@ -13,9 +13,12 @@ class Solution:
                 right += 1
                 length = max(length, len(char))
             
+            print(right)
+            
             if(s[right] in char):
                 char.remove(s[left])
                 left += 1
+            
         
         return length
             
