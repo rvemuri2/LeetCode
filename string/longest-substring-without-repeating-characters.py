@@ -12,13 +12,10 @@ class Solution:
                 char.add(s[right])
                 right += 1
                 length = max(length, len(char))
-            
-            print(right)
 
-            if(s[right] in char):
-                while(s[right] in char and right < len(s)):
-                    char.remove(s[left])
-                    left += 1
+            else:
+                char.remove(s[left])
+                left += 1
             
         
         return length
