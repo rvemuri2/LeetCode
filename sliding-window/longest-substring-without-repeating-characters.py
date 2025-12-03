@@ -10,7 +10,8 @@ class Solution:
 
             if(s[right] not in char):
                 char.add(s[right])
-                right += 1
+                if(s[right] < len(s)):
+                    right += 1
                 length = max(length, len(char))
             
             print(right)
