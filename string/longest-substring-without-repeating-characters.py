@@ -16,7 +16,6 @@ class Solution:
             while(s[right] in char):
                 char.remove(s[left])
                 left += 1
-                char.add(s[left])
         
         return length
             
