@@ -6,7 +6,7 @@ class Solution:
 
         area = 0
 
-        while(left <= right):
+        while(left < right):
             
             if(height[left] >= height[right]):
                 area = max(height[right] * (right - left), area)
