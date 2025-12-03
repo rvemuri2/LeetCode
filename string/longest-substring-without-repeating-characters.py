@@ -13,7 +13,7 @@ class Solution:
                 right += 1
                 length = max(length, len(char))
             
-            while(s[right] in char):
+            if(s[right] in char):
                 char.remove(s[left])
                 left += 1
         
