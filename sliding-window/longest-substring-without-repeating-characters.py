@@ -10,15 +10,15 @@ class Solution:
 
             if(s[right] not in char):
                 char.add(s[right])
-                if(right < len(s)):
-                    right += 1
+                right += 1
                 length = max(length, len(char))
             
             print(right)
-            
+
             if(s[right] in char):
-                char.remove(s[left])
-                left += 1
+                while(s[right] in char and right < len(s)):
+                    char.remove(s[left])
+                    left += 1
             
         
         return length
