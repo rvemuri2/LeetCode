@@ -28,7 +28,7 @@ function split(node) {
     let slow = node;
     let fast = node;
     // use fast & slow pointer to find the middle node so that 
-    // we can split the list into list[0 -> slow] & list[slow + 1 -> list.size]
+    
     while (fast.next && fast.next.next) {
         slow = slow.next;
         fast = fast.next.next;
