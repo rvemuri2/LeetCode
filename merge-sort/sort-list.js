@@ -19,7 +19,7 @@ var sortList = function(head) {
      * recursively.
      */
     const [left, right] = split(head);
-    // use a temparary node to link all the sorted nodes
+    
     const root = new ListNode(null);
     return merge(root, sortList(left), sortList(right))
 };
