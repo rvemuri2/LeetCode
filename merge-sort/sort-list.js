@@ -36,7 +36,7 @@ function split(node) {
     
     const left = node;
     const right = slow.next;
-    // break off the list so that `left` doesn't link to `right`
+    
     slow.next = null;
     
     return [left, right];
