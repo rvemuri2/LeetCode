@@ -27,7 +27,7 @@ var sortList = function(head) {
 function split(node) {
     let slow = node;
     let fast = node;
-    // use fast & slow pointer to find the middle node so that 
+    
     while (fast.next && fast.next.next) {
         slow = slow.next;
         fast = fast.next.next;
