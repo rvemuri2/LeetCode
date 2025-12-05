@@ -36,7 +36,6 @@ function split(node) {
     
     const left = node;
     const right = slow.next;
-    
     slow.next = null;
     
     return [left, right];
