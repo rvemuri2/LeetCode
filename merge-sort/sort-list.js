@@ -14,7 +14,6 @@ var sortList = function(head) {
         return head;
     }
     
-    
     const [left, right] = split(head);
     const root = new ListNode(null);
     return merge(root, sortList(left), sortList(right))
