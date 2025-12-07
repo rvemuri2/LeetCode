@@ -14,7 +14,7 @@ var sortList = function(head) {
         return head;
     }
     /**
-     * The goal is to use merge sort on the linked list. 
+     
      */
     const [left, right] = split(head);
     const root = new ListNode(null);
