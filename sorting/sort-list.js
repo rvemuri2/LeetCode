@@ -16,7 +16,7 @@ var sortList = function(head) {
     /**
      * The goal is to use merge sort on the linked list. 
      * We need to split the list into two and merge them in the ascending order 
-     * recursively.
+
      */
     const [left, right] = split(head);
     const root = new ListNode(null);
