@@ -7,7 +7,7 @@
  */
 /**
  * @param {ListNode} head
- * @return {ListNode}
+
  */
 var sortList = function(head) {
     if (head === null || head.next === null) {
