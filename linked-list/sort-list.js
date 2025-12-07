@@ -13,8 +13,7 @@ var sortList = function(head) {
     if (head === null || head.next === null) {
         return head;
     }
-    /**
-     
+    /** 
      */
     const [left, right] = split(head);
     const root = new ListNode(null);
