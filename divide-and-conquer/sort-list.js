@@ -6,7 +6,6 @@
  * }
  */
 /**
-
  */
 var sortList = function(head) {
     if (head === null || head.next === null) {
