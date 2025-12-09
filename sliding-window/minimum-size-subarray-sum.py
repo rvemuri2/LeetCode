@@ -15,7 +15,6 @@ class Solution:
             while(sum1 >= target):
                 min_length = min(min_length, r - l)
                 sum1 -= nums[l]
-                count -= 1
                 l += 1
             
         return 0 if min_length == float('inf') else min_length
