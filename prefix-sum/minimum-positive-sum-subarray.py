@@ -1,25 +1,22 @@
 class Solution:
     def minimumSumSubarray(self, nums: List[int], l: int, r: int) -> int:
 
-        left = 0
-        right = 0
         total = 0
         count = float('inf')
 
-        while(right < len(nums)):
+        for i in range(l, r + 1):
 
-            total += nums[right]
+            total = sum(nums[:i])
 
-            if(total > 0 and l <= (right - left + 1) <= r):
+            if(total > 0):
                 count = min(count, total)
-                total -= nums[left]
-                left += 1
             
-            if(total < 0):
-                total -= nums[left]
-                left += 1
-            
-            right += 1
+            for j in range(i, len(nums)):
+                total += nums[j]
+                total -= nums[j - i]
+
+                if total > 0:
+                    count = min(total, count)
         
         return -1 if count == float('inf') else count
         
