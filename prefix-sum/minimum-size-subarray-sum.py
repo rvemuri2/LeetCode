@@ -8,7 +8,7 @@ class Solution:
         for i in nums:
             sum1 += i
             count += 1
-            if(sum1 == target):
+            if(sum1 >= target):
                 min_length = min(count, min_length)
                 sum1 = i
                 count = 1
