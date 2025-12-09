@@ -13,7 +13,7 @@ class Solution:
             r += 1
 
             while(sum1 >= target):
-                min_length = min(count, r - l)
+                min_length = min(min_length, r - l)
                 sum1 -= nums[l]
                 count -= 1
                 l += 1
