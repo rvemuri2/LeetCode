@@ -11,7 +11,7 @@ class Solution:
             total += nums[right]
             right += 1
 
-            if(total > 0 and l < (right - left + 1) <= r):
+            if(total > 0 and l <= (right - left + 1) <= r):
                 count = min(count, total)
                 total -= nums[left]
                 left += 1
