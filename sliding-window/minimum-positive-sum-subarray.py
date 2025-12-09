@@ -9,12 +9,17 @@ class Solution:
         while(right < len(nums)):
 
             total += nums[right]
-            right += 1
 
             if(total > 0 and l <= (right - left + 1) <= r):
                 count = min(count, total)
                 total -= nums[left]
                 left += 1
+            
+            if(total < 0):
+                total -= nums[left]
+                left += 1
+            
+            right += 1
         
         return -1 if count == float('inf') else count
         
