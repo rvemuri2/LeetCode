@@ -6,7 +6,7 @@ class Solution {
         String vowels = "aeiouAEIOU";
         
         while (start < end) {
-            // Move start pointer until it points to a vowel
+            
             while (start < end && vowels.indexOf(word[start]) == -1) {
                 start++;
             }
