@@ -21,7 +21,6 @@ class Solution {
             word[start] = word[end];
             word[end] = temp;
             
-            
             start++;
             end--;
         }
