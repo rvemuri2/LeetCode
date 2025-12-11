@@ -6,7 +6,6 @@ class Solution {
         String vowels = "aeiouAEIOU";
         
         while (start < end) {
-            
             while (start < end && vowels.indexOf(word[start]) == -1) {
                 start++;
             }
