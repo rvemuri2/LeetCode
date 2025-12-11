@@ -16,7 +16,6 @@ class Solution {
                 end--;
             }
             
-            
             char temp = word[start];
             word[start] = word[end];
             word[end] = temp;
