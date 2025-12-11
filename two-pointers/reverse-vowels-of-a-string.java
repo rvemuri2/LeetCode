@@ -11,7 +11,6 @@ class Solution {
                 start++;
             }
             
-            
             while (start < end && vowels.indexOf(word[end]) == -1) {
                 end--;
             }
