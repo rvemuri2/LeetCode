@@ -16,7 +16,7 @@ class Solution {
                 end--;
             }
             
-            // Swap the vowels
+            
             char temp = word[start];
             word[start] = word[end];
             word[end] = temp;
