@@ -21,7 +21,7 @@ class Solution {
             word[start] = word[end];
             word[end] = temp;
             
-            // Move the pointers towards each other
+            
             start++;
             end--;
         }
