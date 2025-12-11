@@ -11,7 +11,7 @@ class Solution {
                 start++;
             }
             
-            // Move end pointer until it points to a vowel
+            
             while (start < end && vowels.indexOf(word[end]) == -1) {
                 end--;
             }
