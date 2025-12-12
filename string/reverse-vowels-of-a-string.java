@@ -3,7 +3,7 @@ class Solution {
 
         char[] word = s.toCharArray();
         int start = 0;
-        
+
         int end = s.length() - 1;
         String vowels = "aeiouAEIOU";
         
@@ -18,7 +18,6 @@ class Solution {
             char temp = word[start];
             word[start] = word[end];
             word[end] = temp;
-            
             start++;
             end--;
         }
