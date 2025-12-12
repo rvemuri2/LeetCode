@@ -15,6 +15,7 @@ class Solution {
             while (start < end && vowels.indexOf(word[end]) == -1) {
                 end--;
             }
+            
             char temp = word[start];
             word[start] = word[end];
             word[end] = temp;
