@@ -6,7 +6,6 @@ public:
         int end = s.length() - 1;
         string vowels = "aeiouAEIOU";
         
-        
         while (start < end) {
             // Move the start pointer towards the end until it points to a vowel.
             while (start < end && vowels.find(word[start]) == string::npos) {
