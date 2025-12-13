@@ -15,7 +15,7 @@ public:
                 end--;
             }
             
-            // Swap the vowels found at the start and end positions.
+            
             swap(word[start], word[end]);
             
             // Move the pointers towards each other for the next iteration.
