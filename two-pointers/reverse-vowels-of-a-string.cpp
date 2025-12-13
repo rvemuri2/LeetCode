@@ -7,7 +7,6 @@ public:
         string vowels = "aeiouAEIOU";
         
         while (start < end) {
-            
             while (start < end && vowels.find(word[start]) == string::npos) {
                 start++;
             }
