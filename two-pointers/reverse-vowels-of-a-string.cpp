@@ -11,7 +11,7 @@ public:
                 start++;
             }
             
-            // Move the end pointer towards the start until it points to a vowel.
+            
             while (start < end && vowels.find(word[end]) == string::npos) {
                 end--;
             }
