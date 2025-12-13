@@ -17,7 +17,7 @@ public:
             
             swap(word[start], word[end]);
             
-            // Move the pointers towards each other for the next iteration.
+            
             start++;
             end--;
         }
