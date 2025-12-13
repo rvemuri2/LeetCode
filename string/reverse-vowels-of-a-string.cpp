@@ -1,7 +1,7 @@
 class Solution {
 public:
     string reverseVowels(string s) {
-        // Convert the input string to a character array.
+        
         string word = s;
         int start = 0;
         int end = s.length() - 1;
