@@ -11,7 +11,6 @@ public:
                 start++;
             }
             
-            
             while (start < end && vowels.find(word[end]) == string::npos) {
                 end--;
             }
