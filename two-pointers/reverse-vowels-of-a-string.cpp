@@ -21,7 +21,7 @@ public:
             end--;
         }
         
-        // Return the modified string.
+        
         return word;
     }
 };
