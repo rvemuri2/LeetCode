@@ -1,6 +1,7 @@
 class Solution {
-    
+
 public:
+
     string reverseVowels(string s) {
         string word = s;
         int start = 0;
