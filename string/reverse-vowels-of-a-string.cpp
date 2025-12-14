@@ -21,7 +21,6 @@ public:
             end--;
         }
         
-        
         return word;
     }
 };
