@@ -17,7 +17,6 @@ public:
             }
             
             swap(word[start], word[end]);
-            
             start++;
             end--;
         }
