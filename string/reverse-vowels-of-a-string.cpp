@@ -14,7 +14,6 @@ public:
             while (start < end && vowels.find(word[end]) == string::npos) {
                 end--;
             }
-            
             swap(word[start], word[end]);
             start++;
             end--;
