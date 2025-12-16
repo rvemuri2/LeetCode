@@ -12,7 +12,6 @@ public:
             }
             letters[idx]--;
         }
-
         return true;
     }
 };
