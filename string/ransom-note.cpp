@@ -5,7 +5,6 @@ public:
         for (auto c : magazine) {
             letters[c - 'a']++;
         }
-
         for (auto c : ransomNote) {
             int idx = c - 'a';
             if (letters[idx] == 0) {
