@@ -1,14 +1,20 @@
 class Solution {
 public:
-    bool canConstruct(std::string ransomNote, std::string magazine) {
-        std::vector<int> alphabet(26, 0);
-        for (char c : ransomNote) {
-            size_t i = magazine.find(c, alphabet[c - 'a']);
-            if (i == std::string::npos) {
+    bool canConstruct(string ransomNote, string magazine) {
+        vector<int> letters(26);
+
+        for (auto c : magazine) {
+            letters[c - 'a']++;
+        }
+
+        for (auto c : ransomNote) {
+            int idx = c - 'a';
+            if (letters[idx] == 0) {
                 return false;
             }
-            alphabet[c - 'a'] = i + 1;
+            letters[idx]--;
         }
+
         return true;
     }
 };
