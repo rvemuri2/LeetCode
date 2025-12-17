@@ -5,7 +5,6 @@
  *     ListNode *next;
  *     ListNode() : val(0), next(nullptr) {}
  *     ListNode(int x) : val(x), next(nullptr) {}
-
  */
 class Solution {
 public:
