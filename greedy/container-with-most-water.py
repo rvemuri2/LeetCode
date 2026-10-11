@@ -14,6 +14,6 @@ class Solution:
                 start += 1
             else:
                 area = max(area, height[end] * width)
-                start += 1
+                end -= 1
         
         return area
