@@ -6,12 +6,14 @@ class Solution:
 
         while(start < end):
             width = end - start
-            area = max(area, min(height[start], height[end]) * width)
             if(height[start] > height[end]):
+                area = max(area, height[end] * width)
                 end -= 1
             elif(height[start] < height[end]):
+                area = max(area, height[start] * width)
                 start += 1
             else:
+                area = max(area, height[end] * width)
                 end -= 1
                 start += 1
         
